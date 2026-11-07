@@ -1,0 +1,68 @@
+/* Additions to the original editorial CSS; same palette, type and breakpoints. */
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.source-note { font-size:var(--text-xs); color:var(--text-muted); margin-top:2rem; }
+.reading-subtitle { font-size:var(--text-xl); margin:2.25rem 0 1rem; max-width:42ch; }
+.prose + .prose { margin-top:1.25rem; }
+.prose ul.plain-list { margin:.5rem 0; }
+.prose ul.plain-list li { margin:.4rem 0; }
+.essay-photo { max-width:760px; margin-top:2.5rem; }
+.local-photo { position:relative; display:block; width:100%; cursor:zoom-in; text-align:left; }
+.local-photo img { width:100%; height:auto; object-fit:contain; }
+.photo-frame.local-photo { aspect-ratio:auto; }
+.media-gallery { align-items:start; }
+.media-gallery figure { min-width:0; }
+.figure-label { flex-wrap:wrap; }
+.figure-label span:last-child { text-align:left; }
+.artwork-card .catalog-img-box, .artwork-card:nth-child(5n+2) .catalog-img-box { aspect-ratio:4/3; padding:.6rem; }
+.artwork-card .catalog-img-box img { object-fit:contain; }
+.artwork-card:hover .catalog-img-box img { transform:none; }
+.artwork-card .museum-label-box { font-size:.85rem; }
+.reflection-details { border-top:1px solid var(--border-subtle); margin-top:1rem; padding-top:.8rem; }
+summary { cursor:pointer; font-weight:500; }
+summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px; }
+.reflection-details summary { font-size:.88rem; color:var(--forest-green); }
+.reflection-details .prose { margin-top:1rem; font-size:.94rem; }
+.document-details { border-block-end:1px solid var(--border-strong); padding:1rem 0; margin-top:1rem; }
+.document-details > summary { font-family:var(--font-serif); font-size:var(--text-xl); }
+.document-details > .prose { margin-top:1.5rem; }
+.collage-figure { max-width:360px; margin-top:1.5rem; }
+.species-grid .spec-card { min-width:0; }
+.species-grid .catalog-title { margin:.6rem 0 1rem; }
+.species-grid .prose { font-size:.95rem; }
+.photo-disclaimer { margin-top:1.5rem; max-width:85ch; }
+.video-gallery { align-items:start; }
+.video-gallery video { width:100%; max-height:75vh; aspect-ratio:3/4; object-fit:contain; background:var(--bg-alt); }
+.bibliography { max-width:75ch; padding-left:1.4rem; list-style:decimal; }
+.bibliography li { padding-left:.7rem; margin:1.5rem 0; }
+.bibliography a { text-decoration:underline; text-underline-offset:3px; overflow-wrap:anywhere; }
+.editorial-placeholder { height:100%; display:flex; flex-direction:column; justify-content:center; padding:2rem; font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,5rem); line-height:1; color:var(--theme-accent); background:var(--bg-alt); }
+.editorial-placeholder em { color:var(--terracotta); }
+.proposal-jump button { min-width:0; }
+.spec-card .catalog-index, .catalog-index, .pagination-dir { color:#8D4E33; }
+.nav-link:hover, .nav-link.active, .mobile-nav-link.active { color:#8D4E33; }
+.eyebrow, .chapter-label, .micro-kicker { color:#59634F; }
+.lightbox-dialog { display:block; }
+.lightbox-media { min-height:0; }
+.lightbox-media img { width:100%; height:auto; max-height:70dvh; object-fit:contain; }
+.lightbox-details { min-width:0; }
+.lightbox-close { position:fixed; top:1rem; right:1rem; width:44px; height:44px; color:var(--text-main); }
+.lightbox-details .prose { font-size:.95rem; }
+#lightbox-desc { white-space:normal; }
+.image-unavailable { min-height:140px; padding:1rem; }
+/* Disclosure state is driven by its button so aria-expanded matches visibility. */
+.nav-item:hover .dropdown-menu, .nav-item:focus-within .dropdown-menu { visibility:hidden; opacity:0; }
+.nav-item.open .dropdown-menu { visibility:visible; opacity:1; transform:translateY(0); }
+.nav-item:hover .dropdown-toggle-btn { transform:none; }
+.nav-item.open .dropdown-toggle-btn { transform:rotate(180deg); }
+@media (min-width:820px) {
+  .lightbox-dialog { display:grid; grid-template-columns:1.15fr .85fr; overflow:hidden; }
+  .lightbox-media { align-self:stretch; }
+  .lightbox-media img { max-height:85dvh; }
+  .lightbox-details { max-height:85dvh; overflow-y:auto; }
+}
+@media (max-width:767px) {
+  .hero-img-wrapper img { object-position:center 38%; }
+  .figure-label { gap:.35rem; }
+  .proposal-jump { display:grid; grid-template-columns:1fr; }
+  .document-details > summary { line-height:1.35; }
+}

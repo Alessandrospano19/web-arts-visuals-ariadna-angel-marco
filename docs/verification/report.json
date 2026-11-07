@@ -1,0 +1,29 @@
+{
+  "routes": 17,
+  "viewports": [
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "routeChecks": 102,
+  "localAssets": 57,
+  "artworks": 10,
+  "species": 10,
+  "videosPlayed": 5,
+  "documentaryText": true,
+  "keyboardAndFocus": true,
+  "fileProtocol": true,
+  "consoleErrors": [],
+  "failedRequests": [],
+  "screenshots": [
+    "deu-obres-1440.png",
+    "galeria-390.png",
+    "lightbox-390.png",
+    "original-1440.png",
+    "portada-1440.png",
+    "portada-390.png"
+  ]
+}

@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafoli d'Educacio de les Arts Visuals I, 2026-2027. Ariadna Angel Marco.">
+  <meta name="description" content="Portafoli d'Educació de les Arts Visuals I, 2026-2027. Ariadna Angel Marco.">
   <meta name="theme-color" content="#F7F5EF">
   <title>Educació de les Arts Visuals I — Ariadna Angel Marco</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/fonts.css">
   <style>
 /* Estils originals recuperats del prototip HTML interromput. */
  
@@ -2768,6 +2767,7 @@ html { overflow-x: clip; }
 
   </style>
 
+  <link rel="stylesheet" href="styles/integration.css">
 </head>
 <body>
 <a href="#main-content" class="skip-link">Salta al contingut principal</a>
@@ -2789,6 +2789,7 @@ html { overflow-x: clip; }
           <a href="#/bloc-ii/p1-formes-dapropar-se-a-la-natura" class="dropdown-link" data-route="bloc-ii/p1-formes-dapropar-se-a-la-natura">P1. Formes d'apropar-se a la natura</a>
           <a href="#/bloc-ii/p2-visita-museu-i-jardi" class="dropdown-link" data-route="bloc-ii/p2-visita-museu-i-jardi">P2. Visita museu i jardí</a>
           <a href="#/bloc-ii/p3-descripcio-del-jardi" class="dropdown-link" data-route="bloc-ii/p3-descripcio-del-jardi">P3. Descripció del jardí</a>
+          <a href="#/bloc-ii/p4-experimentem-amb-tintes-vives" class="dropdown-link" data-route="bloc-ii/p4-experimentem-amb-tintes-vives">P4. Experimentem amb tintes vives</a>
         </div>
       </div>
       <div class="nav-item" data-dropdown>
@@ -2796,7 +2797,7 @@ html { overflow-x: clip; }
         <button class="dropdown-toggle-btn" aria-expanded="false" aria-label="Desplega Bloc III" aria-controls="desktop-sub-b3" type="button">⌄</button>
         <div id="desktop-sub-b3" class="dropdown-menu">
           <a href="#/bloc-iii" class="dropdown-link dropdown-header-link" data-route="bloc-iii">Bloc III — Cos i creació</a>
-          <a href="#/bloc-iii/p1-llenguatge-del-cos-i-el-teixit" class="dropdown-link" data-route="bloc-iii/p1-llenguatge-del-cos-i-el-teixit">P1. Llenguatge del cos i el teixit</a>
+          <a href="#/bloc-iii/p1-llenguatge-del-cos-i-el-teixit" class="dropdown-link" data-route="bloc-iii/p1-llenguatge-del-cos-i-el-teixit">P1. Llenguatges del cos i el teixit</a>
           <a href="#/bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters" class="dropdown-link" data-route="bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters">P2. El cos vestit i Mater Matters</a>
           <a href="#/bloc-iii/p3-bioteixits-du-da" class="dropdown-link" data-route="bloc-iii/p3-bioteixits-du-da">P3. Bioteixits_DU-DA</a>
           <a href="#/bloc-iii/p4-la-passarella-espai-de-creacio" class="dropdown-link" data-route="bloc-iii/p4-la-passarella-espai-de-creacio">P4. La passarel·la: espai de creació</a>
@@ -2819,17 +2820,18 @@ html { overflow-x: clip; }
       <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/introduccio" class="mobile-nav-link" data-route="introduccio">Introducció</a></div></li>
       <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/bloc-i" class="mobile-nav-link" data-route="bloc-i">Bloc I — Art i educació</a></div></li>
       <li class="mobile-nav-item">
-        <div class="mobile-nav-row"><a href="#/bloc-ii" class="mobile-nav-link" data-route="bloc-ii">Bloc II — Art i natura</a><button type="button" class="mobile-submenu-btn" data-submenu-target="mob-sub-b2" aria-expanded="false" aria-label="Desplega subpàgines de Bloc II">+</button></div>
+        <div class="mobile-nav-row"><a href="#/bloc-ii" class="mobile-nav-link" data-route="bloc-ii">Bloc II — Art i natura</a><button type="button" class="mobile-submenu-btn" data-submenu-target="mob-sub-b2" aria-controls="mob-sub-b2" aria-expanded="false" aria-label="Desplega subpàgines de Bloc II">+</button></div>
         <div id="mob-sub-b2" class="mobile-submenu" inert>
           <a href="#/bloc-ii/p1-formes-dapropar-se-a-la-natura" class="mobile-sublink" data-route="bloc-ii/p1-formes-dapropar-se-a-la-natura">P1. Formes d'apropar-se a la natura</a>
           <a href="#/bloc-ii/p2-visita-museu-i-jardi" class="mobile-sublink" data-route="bloc-ii/p2-visita-museu-i-jardi">P2. Visita museu i jardí</a>
           <a href="#/bloc-ii/p3-descripcio-del-jardi" class="mobile-sublink" data-route="bloc-ii/p3-descripcio-del-jardi">P3. Descripció del jardí</a>
+          <a href="#/bloc-ii/p4-experimentem-amb-tintes-vives" class="mobile-sublink" data-route="bloc-ii/p4-experimentem-amb-tintes-vives">P4. Experimentem amb tintes vives</a>
         </div>
       </li>
       <li class="mobile-nav-item">
-        <div class="mobile-nav-row"><a href="#/bloc-iii" class="mobile-nav-link" data-route="bloc-iii">Bloc III — Cos i creació</a><button type="button" class="mobile-submenu-btn" data-submenu-target="mob-sub-b3" aria-expanded="false" aria-label="Desplega subpàgines de Bloc III">+</button></div>
+        <div class="mobile-nav-row"><a href="#/bloc-iii" class="mobile-nav-link" data-route="bloc-iii">Bloc III — Cos i creació</a><button type="button" class="mobile-submenu-btn" data-submenu-target="mob-sub-b3" aria-controls="mob-sub-b3" aria-expanded="false" aria-label="Desplega subpàgines de Bloc III">+</button></div>
         <div id="mob-sub-b3" class="mobile-submenu" inert>
-          <a href="#/bloc-iii/p1-llenguatge-del-cos-i-el-teixit" class="mobile-sublink" data-route="bloc-iii/p1-llenguatge-del-cos-i-el-teixit">P1. Llenguatge del cos i el teixit</a>
+          <a href="#/bloc-iii/p1-llenguatge-del-cos-i-el-teixit" class="mobile-sublink" data-route="bloc-iii/p1-llenguatge-del-cos-i-el-teixit">P1. Llenguatges del cos i el teixit</a>
           <a href="#/bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters" class="mobile-sublink" data-route="bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters">P2. Exposició: El cos vestit i Mater Matters</a>
           <a href="#/bloc-iii/p3-bioteixits-du-da" class="mobile-sublink" data-route="bloc-iii/p3-bioteixits-du-da">P3. Bioteixits_DU-DA</a>
           <a href="#/bloc-iii/p4-la-passarella-espai-de-creacio" class="mobile-sublink" data-route="bloc-iii/p4-la-passarella-espai-de-creacio">P4. La passarel·la: espai de creació</a>
@@ -2850,10 +2852,10 @@ html { overflow-x: clip; }
       <div><span class="eyebrow" style="color:#EAE6DC">Exploració</span><ul class="footer-nav-list"><li><a href="#/bloc-i">Art i educació</a></li><li><a href="#/bloc-ii">Art i natura</a></li><li><a href="#/bloc-iii">Cos, teixit i creació</a></li></ul></div>
       <div><span class="eyebrow" style="color:#EAE6DC">El projecte</span><ul class="footer-nav-list"><li><a href="#/introduccio">Introducció</a></li><li><a href="#/conclusions">Conclusions</a></li><li><a href="#/referencies-bibliografiques">Referències</a></li></ul></div>
     </div>
-    <div class="footer-bottom"><span>© 2026–2027 · Ariadna Angel Marco · Prototip acadèmic</span><span>Fotografies ambientals de demostració · Unsplash · Crèdits i autoritzacions específiques pendents de revisar</span></div>
+    <div class="footer-bottom"><span>© 2026–2027 · Ariadna Angel Marco · Portafoli acadèmic</span><span>Fotografies aportades per Ariadna · Obres extretes del seu document</span></div>
   </div>
 </footer>
-<div class="lightbox-overlay" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Imatge ampliada" aria-hidden="true" inert>
+<div class="lightbox-overlay" id="lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true" inert>
   <div class="lightbox-dialog" role="document">
     <div class="lightbox-media"><img id="lightbox-img" alt=""></div>
     <div class="lightbox-details">
@@ -2862,280 +2864,12 @@ html { overflow-x: clip; }
       <h2 class="serif-title" id="lightbox-title" style="font-size:2.3rem"></h2>
       <p id="lightbox-subtitle" class="catalog-subtitle"></p>
       <div id="lightbox-meta" class="museum-label-box"></div>
-      <p id="lightbox-desc" style="font-size:.93rem;line-height:1.65"></p>
+      <div id="lightbox-desc" style="font-size:.93rem;line-height:1.65"></div>
     </div>
   </div>
 </div>
 <noscript><div class="container" style="padding:3rem">Per navegar pel portafoli, activa JavaScript en el navegador.</div></noscript>
-<script>
-'use strict';
-/* Portafoli d'Ariadna. 16 vistes, rutes hash i continguts separats de la maquetacio. */
-const PHOTO = {
-  portada:'photo-1518531933037-91b2f5f229cc', jardi:'photo-1466692476868-aef1dfb1e735',
-  arbre:'photo-1501004318641-b39e6451bec6', fulles:'photo-1509316975850-ff9c5deb0cd9',
-  vegetacio:'photo-1502082553048-f009c37129b9', herbes:'photo-1459411552884-841db9b3cc2a',
-  taller:'photo-1513364776144-60967b0f800f', pintura:'photo-1460661419201-fd4cecdf8a8b',
-  quadre:'photo-1579783902614-a3fb3927b675', quadre2:'photo-1578301978693-85fa9c0320b9',
-  quadre3:'photo-1579783900882-c0d3dad7b119', art:'photo-1541961017774-22349e4a1262',
-  art2:'photo-1577083552431-6e5fd01aa342', art3:'photo-1579783928621-7a13d66a62d1',
-  art4:'photo-1549490349-8643362247b5', museu:'photo-1561214115-f2f134cc4912',
-  exposicio:'photo-1531058020387-3be344556be6', teixit:'photo-1558769132-cb1aea458c5e',
-  teixit2:'photo-1523381210434-271e8be1f52b', tela:'photo-1490481651871-ab68de25d43d',
-  textura:'photo-1518709268805-4e9042af9f23', jardi2:'photo-1585320806297-9794b3e4eeae',
-  verd:'photo-1515543237350-b3eea1ec8082', bosc:'photo-1448375240586-882707db888b',
-  pins:'photo-1542273917363-3b1817f69a2d', flor:'photo-1468327768560-75b778cbb551',
-  plantes:'photo-1518709268805-4e9042af9f23', suculenta:'photo-1509423350716-97f9360b4e09',
-  natura:'photo-1518531933037-91b2f5f229cc', colors:'photo-1578926288207-a90a5366759d'
-};
-const photo = (name,w=1200) => `https://images.unsplash.com/${PHOTO[name]||PHOTO.portada}?auto=format&fit=crop&w=${w}&q=82`;
-const ROUTES = [
- ['inici','Inici'],['introduccio','Introducció'],['bloc-i','Bloc I — Art i educació'],
- ['bloc-ii','Bloc II — Art i natura'],
- ['bloc-ii/p1-formes-dapropar-se-a-la-natura',"P1. Formes d'apropar-se a la natura"],
- ['bloc-ii/p2-visita-museu-i-jardi','P2. Visita museu i jardí'],
- ['bloc-ii/p3-descripcio-del-jardi','P3. Descripció del jardí'],
- ['bloc-iii','Bloc III — Cos, moda i artivisme'],
- ['bloc-iii/p1-llenguatge-del-cos-i-el-teixit','P1. Llenguatge del cos i el teixit'],
- ['bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters','P2. Exposició: El cos vestit i Mater Matters'],
- ['bloc-iii/p3-bioteixits-du-da','P3. Bioteixits_DU-DA'],
- ['bloc-iii/p4-la-passarella-espai-de-creacio','P4. La passarel·la: espai de creació'],
- ['conclusions','Conclusions'],['reflexio-personal','Reflexió personal'],
- ['per-saber-ne-mes','Per saber-ne més...'],['referencies-bibliografiques','Referències bibliogràfiques']
-];
-const pathFor = x => '#/'+x;
-const esc = v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-const MEDIA = Object.create(null);
-const ellipsis = (s,n=100)=>s.length>n?s.slice(0,n-1)+'…':s;
-const formatIndex = n=>String(n).padStart(2,'0');
-function escapeSvg(s){return esc(s).replace(/\n/g,' ')}
-function svgFallback(name='ART / NATURA',dark=false){
- const bg=dark?'#282824':'#E4E4D8', c=dark?'#D7D1BF':'#425842', accent='#B87B60';
- 
- const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720"><rect width="960" height="720" fill="${bg}"/><g fill="none" stroke="${c}" opacity=".64" stroke-width="3"><path d="M480 630Q385 390 490 105"/><path d="M465 495Q220 454 150 240"/><path d="M486 390Q750 310 830 120"/><path d="M480 500Q690 600 765 520"/></g><g fill="${c}" fill-opacity=".36"><ellipse cx="325" cy="315" rx="70" ry="170" transform="rotate(-48 325 315)"/><ellipse cx="630" cy="255" rx="68" ry="180" transform="rotate(55 630 255)"/><ellipse cx="615" cy="555" rx="50" ry="125" transform="rotate(65 615 555)"/></g><circle cx="478" cy="128" r="38" fill="${accent}" opacity=".55"/><path d="M65 654H895" stroke="${c}" opacity=".55"/></svg>`;
- return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
-}
-function img(name,alt,cls='',w=1200){return `<img class="${esc(cls)}" src="${photo(name,w)}" alt="${esc(alt)}" loading="lazy" decoding="async" data-fallback="${esc(alt)}">`}
-function note(title='Pendent d’incorporar',text='Aquest apartat està preparat per incorporar la documentació i la reflexió d’Ariadna.'){
- return `<div class="pending-note"><strong>${esc(title)}</strong><p>${esc(text)}</p></div>`;
-}
-function photoFigure(name,alt,caption='Imatge d’ambient · demostració',shape='wide'){
- return `<figure><div class="photo-frame ${shape}">${img(name,alt)}</div><figcaption class="figure-label"><span>${esc(caption)}</span><span>Arxiu visual provisional</span></figcaption></figure>`;
-}
-function details(items){return `<div class="detail-grid cols-4">${items.map(([label,text])=>`<div class="detail-item"><h3>${esc(label)}</h3><p>${esc(text)}</p></div>`).join('')}</div>`}
-const genericDetails=()=>details([
- ['Objectius','Formular els objectius específics i la vinculació amb l’educació infantil.'],
- ['Desenvolupament i resultats','Descriure la sessió, documentar-ne el procés i incorporar els resultats reals.'],
- ['Estratègies metodològiques','Explicar les decisions pedagògiques i les formes d’acompanyament.'],
- ['Materials','Relacionar els recursos emprats, amb les fotografies pròpies que corresponguin.']
-]);
-function breadcrumbs(path){
- const route=ROUTES.find(([p])=>p===path), chunks=[['inici','Inici']];
- const parent=path.startsWith('bloc-ii/')?'bloc-ii':path.startsWith('bloc-iii/')?'bloc-iii':null;
- if(parent) chunks.push(ROUTES.find(([p])=>p===parent));
- if(path!=='inici') chunks.push(route);
- return `<div class="breadcrumb-bar"><div class="container"><ol class="breadcrumb-list">${chunks.map(([p,l],i)=>i===chunks.length-1?`<li aria-current="page">${esc(l)}</li>`:`<li><a href="${pathFor(p)}">${esc(l)}</a><span aria-hidden="true"> / </span></li>`).join('')}</ol></div></div>`;
-}
-function pagination(path){
- const i=ROUTES.findIndex(([p])=>p===path), left=ROUTES[i-1],right=ROUTES[i+1];
- return `<nav class="page-pagination" aria-label="Navegació entre capítols">${left?`<a href="${pathFor(left[0])}" class="pagination-link"><span class="pagination-dir">← Anterior</span><span class="pagination-name">${esc(left[1])}</span></a>`:'<div></div>'}${right?`<a href="${pathFor(right[0])}" class="pagination-link"><span class="pagination-dir">Següent →</span><span class="pagination-name">${esc(right[1])}</span></a>`:''}</nav>`;
-}
-function page(path,kicker,title,subtitle,body,headerImage){
- return `<article class="page-view">${breadcrumbs(path)}<header class="page-hero"><div class="container"><span class="eyebrow">${esc(kicker)}</span><h1 class="page-title">${esc(title)}</h1><p class="page-subtitle">${esc(subtitle)}</p>${headerImage?`<div class="banner-visual">${img(headerImage,title)}</div><p class="figure-label"><span>Imatge d’ambient per al prototip</span><span>Documentació pròpia pendent</span></p>`:''}</div></header>${body}<section class="section-pad"><div class="container">${pagination(path)}</div></section></article>`;
-}
-function section(kicker,title,body,alt=false){return `<section class="section-pad ${alt?'bg-alt-section':''}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;}
-function chapterLinks(items){return `<div class="chapter-list">${items.map((item,i)=>`<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(i+1)}.</span><div><span class="micro-kicker">Capítol ${formatIndex(i+1)}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub||'')}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`}
-function archiveCard(id,title,subtitle,photoName,index,altPrefix='Imatge de demostració'){
- MEDIA[id]={src:photo(photoName,1400),title,subtitle,meta:'Fotografia visual de demostració. No és una obra ni una activitat documentada d’Ariadna.',desc:'La fitxa real, les fotografies pròpies i les dades de catalogació estan pendents d’incorporar.'};
- return `<article class="catalog-card archive-card"><button class="catalog-img-box" type="button" data-lightbox="${esc(id)}" aria-label="Amplia la imatge: ${esc(title)}">${img(photoName,`${altPrefix}: ${title}`,'',700)}<span class="zoom-pill">Amplia ↗</span></button><div class="catalog-body"><span class="catalog-index">${formatIndex(index)} / Fitxa d’arxiu</span><h3 class="catalog-title">${esc(title)}</h3><p class="catalog-subtitle">${esc(subtitle)}</p><span class="status-tag">Pendent de documentar</span></div></article>`;
-}
-function magazineCard(n,title,subtitle,photoName,route){return `<article class="exploration-entry"><a class="exploration-media" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${img(photoName,title)}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span><h3 class="exploration-title serif-title">${esc(title)}</h3><p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`}
-const B2=[
- {path:ROUTES[4][0],title:"Formes d'apropar-se a la natura",sub:'Exploració sensorial i experimentació amb materials orgànics.'},
- {path:ROUTES[5][0],title:'Visita museu i jardí',sub:'MNAC · Diàleg amb el jardí · Educar a través de les arts.'},
- {path:ROUTES[6][0],title:'Descripció del jardí',sub:'Dibuix, estampació, frottage i llibre d’artista.'}
-];
-const B3=[
- {path:ROUTES[8][0],title:'Llenguatge del cos i el teixit',sub:'Cos, fibres i materialitat.'},
- {path:ROUTES[9][0],title:'Exposició: El cos vestit i Mater Matters',sub:'Observació i anàlisi d’exposicions.'},
- {path:ROUTES[10][0],title:'Bioteixits_DU-DA',sub:'Materials, experimentació i processos de transformació.'},
- {path:ROUTES[11][0],title:'La passarel·la: espai de creació',sub:'Acció col·lectiva, disseny i performativitat.'}
-];
-
-/* -- PAGINES -- */
-function home(){return `<article class="page-view">
-<section class="hero-editorial"><div class="container hero-grid"><div>
-<span class="hero-kicker">Art, natura i infància · Portafoli d’investigació</span>
-<h1 class="hero-title">Educació<br><em>de les Arts</em><br>Visuals I</h1>
-<p class="hero-subtitle">Un recorregut per l’art, la natura i l’expressió creativa a l’educació infantil.</p>
-<div class="hero-meta-grid"><div><span class="meta-label">Autora</span><span class="meta-value">Ariadna Angel Marco</span></div><div><span class="meta-label">Curs acadèmic</span><span class="meta-value">2026 — 2027</span></div><div><span class="meta-label">Estudis</span><span class="meta-value">Grau en Educació Infantil</span></div><div><span class="meta-label">Projecte</span><span class="meta-value">Quadern d’artista i docència</span></div></div>
-</div><div class="hero-visual-frame"><div class="hero-img-wrapper">${img('portada','Frondes verdes i llum natural')}</div><div class="hero-caption"><span>Fig. 01 — Poètica de la natura</span><span>Catàleg digital · 2026/27</span></div></div></div></section>
-<section class="section-pad"><div class="container split-editorial"><div><span class="eyebrow">01 · Pòrtic</span><h2 class="chapter-heading">Benvinguts i benvingudes</h2><p class="micro-foot">Una porta d’entrada a la mirada artística durant la formació docent.</p></div><div class="prose"><p class="editorial-lead dropcap">Benvinguts i benvingudes a aquesta pàgina web, concebuda per una futura mestra d’Educació Infantil com a recurs didàctic i espai per documentar els aprenentatges de l’assignatura <em>Educació de les Arts Visuals I</em>.</p><p>Aquest portafoli s’ha estructurat com un quadern de recerca visual. Les pàgines presenten els diferents blocs de treball i reserven espais per a les imatges, les activitats i les reflexions que es vagin incorporant al llarg del curs.</p></div></div></section>
-<section class="section-pad bg-alt-section"><div class="container split-editorial reverse"><div class="prose"><span class="eyebrow">02 · Presentació</span><h2 class="chapter-heading">Sobre aquest projecte</h2><p>El recorregut s’organitza entorn de tres eixos: l’art com a experiència educativa, el jardí com a espai de descoberta i l’exploració del cos, els teixits i la creació contemporània.</p><p>Els apartats estaran oberts a la incorporació de fotografies, referències, processos i valoracions de les activitats de l’assignatura.</p>${note('Presentació personal pendent','Ariadna podrà incorporar-hi la seva presentació, una fotografia pròpia i els motius del seu interès per l’educació artística.')}</div><div>${photoFigure('taller','Materials artístics sobre una taula de treball','Imatge referencial de taller · futura fotografia de l’autora','tall')}</div></div></section>
-<section class="section-pad"><div class="container"><span class="eyebrow">03 · Índex visual</span><h2 class="chapter-heading">Tres maneres d’apropar-se a les arts</h2><div class="exploration-list">${magazineCard(1,'Art i educació','Fonaments de l’educació visual: imatge, pigment, expressió i processos de descoberta.','pintura','bloc-i')}${magazineCard(2,'Art i natura','El jardí, la visita al museu, el caminar i la creació d’un llibre d’artista.','jardi','bloc-ii')}${magazineCard(3,'Cos, teixit i creació','Moda, artivisme, bioteixits i pràctiques performatives vinculades a l’art.','teixit','bloc-iii')}</div>${pagination('inici')}</div></section></article>`;}
-function intro(){return page('introduccio','01 · Inici del recorregut','Art i natura a l’Educació Infantil','Una aproximació a l’observació, la cultura visual i les possibilitats educatives de l’experiència artística.',
-section('01 · Marc introductori','Aprendre a mirar',`<div class="split-editorial"><div class="prose"><p class="editorial-lead dropcap">L’educació artística amplia les maneres d’interpretar el món. A la infància, la curiositat pels materials, les imatges, el cos i els espais facilita l’expressió de vivències i la construcció de significats.</p><p>La relació entre art i natura permet elaborar propostes que parteixen de l’experimentació sensorial, la percepció de les textures i la transformació creativa dels materials.</p></div><div>${photoFigure('arbre','Plantes il·luminades per la llum del dia','Referència visual · observació de formes naturals','tall')}</div></div>`,false)+
-section('02 · Orientacions','Objectius del recorregut',`<p class="chapter-lead">Una estructura orientativa per relacionar observació, experimentació, reflexió i aplicació docent.</p>${details([['Observar','Desenvolupar l’atenció als llenguatges visuals, les textures i les composicions.'],['Experimentar','Explorar processos artístics amb materials de naturalesa diversa.'],['Documentar','Registrar les activitats i explicar les decisions del procés creatiu.'],['Reflexionar','Relacionar l’experiència artística amb el context d’Educació Infantil.']])}`,true)+
-section('03 · Conferència','«Un árbol pinta una nube»',`<div class="reading-grid"><div class="prose"><p>L’esquema de treball preveu un apartat dedicat a aquesta conferència. Quan Ariadna disposi de les notes i els materials, s’hi incorporarà una síntesi de les idees més rellevants.</p>${note('Reflexió en preparació','Anàlisi de la conferència i de la seva relació amb l’educació artística i la natura.')}</div><div>${photoFigure('fulles','Detalls de fulles en un entorn natural','Fotografia evocativa · no documenta la conferència','wide')}</div></div>`,false));}
-function blocI(){return page('bloc-i','Bloc I · Fonaments','Bloc I — Art i educació','El procés creatiu, el llenguatge visual i la mirada pedagògica.',
-section('01 · Presentació','Educació a través de les arts',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">El primer bloc obre un espai per explorar el valor de la producció artística i el paper dels processos creatius en l’educació infantil.</p><p>La pàgina està preparada per recollir el text de treball, els conceptes centrals i el diàleg que Ariadna n’estableixi amb la pràctica educativa.</p>${details([['Proposta','Anàlisi del text i treball a partir de les idees de la lectura.'],['Objectiu','Reflexionar sobre la funció pedagògica de les arts visuals.']])}</div><div>${photoFigure('pintura','Colors i composicions pictòriques','Experimentació pictòrica · imatge de demostració','tall')}</div></div>`)+
-section('02 · Lectura','Reflexió sobre el text',`<div class="reading-grid"><div class="draft-spread"><span class="eyebrow">Quadern de lectura</span><h3 class="serif-title">Anàlisi i pensament crític</h3>${note('Text d’Ariadna pendent','Cal incorporar la lectura de referència i la reflexió personal. El contingut no s’ha generat de manera fictícia.')}</div><div class="prose"><p>El comentari pot ordenar-se a partir de les idees clau de la lectura, les preguntes que planteja i la seva aplicació a l’Educació Infantil.</p><div class="essay-guide"><span><b>01.</b>Idees centrals</span><span><b>02.</b>Qüestions i contrastos</span><span><b>03.</b>Connexions amb l’aula</span><span><b>04.</b>Reflexió pròpia</span></div></div></div>`,true));}
-function blocII(){return page('bloc-ii','Bloc II · Art i natura','La formació en la pràctica de l’art','El jardí com a agent pedagògic.',
-section('00 · Presentació','Una exposició en tres capítols',`<p class="chapter-lead">El segon bloc articula propostes de descoberta de la natura, observació del patrimoni artístic i elaboració d’un llibre d’artista.</p>${chapterLinks(B2)}`)+
-section('01 · Visita al quadern','Un recorregut entre el museu i el jardí',`<div class="split-editorial"><div>${photoFigure('jardi2','Jardí i espai de cultiu botànic','Imatge ambiental · natura i aprenentatge','wide')}</div><div class="prose"><p>La relació entre imatges, formes orgàniques i llenguatges visuals ofereix una base per dissenyar experiències d’aprenentatge a partir de l’entorn.</p>${note('Documentació real pendent','Cal incorporar les activitats efectuades, les dates, els materials i les reflexions d’Ariadna.')}</div></div>`,true),'jardi');}
-function b2p1(){return page(ROUTES[4][0],'Bloc II · Proposta 01',"Formes d'apropar-se a la natura",'Observació de l’entorn i experimentació sensorial amb materials naturals.',
-section('01 · Sentir i observar','La natura com a material de treball',`<div class="split-editorial reverse"><div class="prose"><p class="editorial-lead">Les fulles, les ombres, les superfícies, els pigments i les formes orgàniques permeten desenvolupar experiències que combinen percepció i expressió.</p><p>El recorregut proposat situa el contacte amb l’entorn en el centre de l’experimentació visual i tàctil.</p>${genericDetails()}</div><div>${photoFigure('fulles','Vegetació de referència per a una activitat sensorial','Referència d’ambient · activitat encara no documentada','tall')}</div></div>`)+
-section('02 · Quadern de camp','Registre de la sessió',`<div class="catalog-grid cols-3">${['flor','arbre','bosc'].map((key,i)=>`${photoFigure(key,'Imatge de vegetació i textura','Imatge d’ambient '+formatIndex(i+1),'square')}`).join('')}</div>${note('Fotografies de l’activitat pendents','Substituir les imatges de mostra per les fotografies originals del procés, els materials i el resultat.')}<div class="draft-spread"><span class="eyebrow">03 · Reflexió personal</span><h3 class="serif-title">Què he descobert?</h3>${note('Reflexió en preparació','Valoració personal del procés i de les possibilitats de traslladar l’activitat a una aula infantil.')}</div>`,true),'fulles');}
-// A diferencia del fragment incomplet, les fitxes del MNAC no atribueixen obres que no s'han comprovat.
-const ART_IMAGES=['quadre','quadre2','art','quadre3','art2','art3','pintura','art4','quadre','quadre2'];
-const PLANT_IMAGES=['fulles','flor','jardi','arbre','herbes','pins','bosc','verd','plantes','suculenta'];
-const artItems=Array.from({length:10},(_,i)=>({num:i+1,title:`Obra ${formatIndex(i+1)} · fitxa pendent`,sub:'Artista, títol, data i cartel·la per completar a partir del MNAC.',name:ART_IMAGES[i]}));
-const plantItems=Array.from({length:10},(_,i)=>({num:i+1,title:`Espècie ${formatIndex(i+1)} · per identificar`,sub:'Nom i identificació botànica pendents de verificació.',name:PLANT_IMAGES[i]}));
-function b2p2(){return page(ROUTES[5][0],'Bloc II · Proposta 02','Visita museu i jardí','Tres aproximacions complementàries: museu, recorregut botànic i proposta interdisciplinària.',
-`<section class="section-pad"><div class="container"><p class="chapter-lead">La pàgina s’articula com una exposició d’arxius de la sortida: obres observades, formes de la natura i una proposta per a l’aula.</p><div class="proposal-jump" aria-label="Salta a una proposta"><button type="button" data-scroll-to="proposta-mnac">01 · MNAC</button><button type="button" data-scroll-to="proposta-jardi">02 · Diàleg amb el jardí</button><button type="button" data-scroll-to="proposta-arts">03 · Educar a través de les arts</button></div></div></section>`+
-section('Proposta 01 · MNAC','Deu mirades sobre les obres',`<div id="proposta-mnac" class="section-anchor"></div><div class="prose"><p>Espai per a deu fitxes d’obres seleccionades durant la visita al Museu Nacional d’Art de Catalunya. Cada fitxa està preparada per incorporar fotografia, artista, títol, cartel·la, informació i comentari propi.</p><p class="photo-disclaimer">Les fotografies actuals són ambientals i no representen cap obra concreta del MNAC. Les atribucions només es mostraran quan hagin estat verificades.</p></div><div class="catalog-grid cols-3">${artItems.map(x=>archiveCard('mnac-'+x.num,x.title,x.sub,x.name,x.num,'Referència visual per a la galeria del museu')).join('')}</div>${genericDetails()}${note('Material del MNAC pendent','Deu fotografies de les obres, les cartel·les reals i les valoracions d’Ariadna.')}`)+
-section('Proposta 02 · Jardí','L’art de caminar',`<div id="proposta-jardi" class="section-anchor"></div><div class="split-editorial"><div class="prose"><p class="editorial-lead">Caminar pel jardí permet reconèixer textures, estructures i relacions que sovint passen desapercebudes en una primera observació.</p><p>La galeria està preparada per classificar deu espècies observades durant el recorregut. La identificació botànica requereix fotografies pròpies o fonts fiables.</p></div><div>${photoFigure('jardi','Vegetació botànica al jardí','Imatge ambiental · recorregut de descoberta','wide')}</div></div><div class="catalog-grid cols-3">${plantItems.map(x=>archiveCard('planta-'+x.num,x.title,x.sub,x.name,x.num,'Fotografia general de plantes; espècie no identificada')).join('')}</div>${genericDetails()}<div class="reading-grid" style="margin-top:2rem"><div>${note('Observacions i reflexió pendents','Substituir les fotografies ambientals per les deu espècies fotografiades i identificades.')}</div><div class="video-placeholder" aria-label="Espai per al vídeo de la sortida"><div class="video-play" aria-hidden="true">▷</div><strong>Vídeo de la sortida</strong><small>Espai reservat per incorporar un vídeo · durada màxima prevista: 2 minuts</small></div></div>`,true)+
-section('Proposta 03 · Aula','Educar a través de les arts',`<div id="proposta-arts" class="section-anchor"></div><p class="chapter-lead">Un diàleg entre art, natura, ciències i educació infantil per construir una proposta interdisciplinària.</p><div class="interdisciplinary-matrix"><div class="pillar-box"><span class="pillar-num">01</span><h3>Art</h3><p>Mirada estètica i expressió</p></div><div class="pillar-box"><span class="pillar-num">02</span><h3>Natura</h3><p>Observació de l’entorn</p></div><div class="pillar-box"><span class="pillar-num">03</span><h3>Ciències</h3><p>Preguntes i experimentació</p></div><div class="pillar-box"><span class="pillar-num">04</span><h3>Infància</h3><p>Context docent</p></div></div>${genericDetails()}${note('Proposta interdisciplinària pendent','A partir d’una artista o obra del museu, incorporar el disseny d’una activitat real per a infants.')}`)+
-section('Sortida · Síntesi','Conclusions de la sortida',`<div class="reading-grid"><div class="draft-spread"><span class="eyebrow">Quadern de conclusions</span><h3 class="serif-title">Observació i transformació de la mirada</h3>${note('Reflexió personal pendent','Quina relació s’estableix amb la natura? Què aporta la pràctica artística? Com podria traslladar-se aquesta mirada a l’aula?')}</div><div>${photoFigure('arbre','Natura i textures verdes','Imatge visual de suport · síntesi','tall')}</div></div>`,true),'museu');}
-function b2p3(){return page(ROUTES[6][0],'Bloc II · Proposta 03','Què és un jardí?','Descripció artística de l’entorn i creació d’un llibre d’artista.',
-section('01 · Observar per crear','Del jardí al paper',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">Un jardí és també un conjunt de signes visuals: ritmes, textures, formes, línies i tonalitats que poden ser interpretats artísticament.</p><p>Aquesta pàgina recull el guió d’una proposta de creació basada en l’observació, l’estampació i la composició de pàgines.</p>${genericDetails()}</div><div>${photoFigure('jardi2','Un jardí cultivat amb vegetació','Espai de referència · imatge de demostració','tall')}</div></div>`)+
-section('02 · Tècniques','Cinc maneres de registrar el jardí',`<div class="material-timeline">${[['Dibuix','Línies i contorns.'],['Pintura','Color i atmosfera.'],['Estampació','Empremtes i formes.'],['Frottage','Textures per fregament.'],['Enquadernació','Construcció d’un relat visual.']].map(([t,d],i)=>`<div class="material-step"><span class="step-num">${formatIndex(i+1)}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>`,true)+
-section('03 · Llibre d’artista','El meu llibre d’artista',`<p class="chapter-lead">Una seqüència de pàgines pensada per mostrar el procés, la materialitat i el resultat final de la creació.</p><div class="artist-book-spread"><div class="book-page-left">${img('fulles','Fulles com a inspiració del llibre d’artista')}<span>Quadern / imatge de referència</span></div><div class="book-page-right">${img('pintura','Composició de pintura de demostració')}<span>Pàgines reals d’Ariadna pendents</span></div></div>${note('Llibre original pendent','Cal incorporar fotografies de la portada, les pàgines interiors i el procés d’enquadernació. Les imatges actuals són de demostració.')}`,false));}
-function blocIII(){return page('bloc-iii','Bloc III · Cos, teixit i artivisme','Moda, artivisme i performativitat en les arts i l’educació','El cos, la matèria i la creació col·lectiva com a llenguatges visuals.',
-section('00 · Presentació','La matèria com a llenguatge',`<div class="split-editorial reverse"><div class="prose"><p class="editorial-lead">Aquest bloc obre l’exploració artística cap als teixits, el cos i la relació entre els objectes, les identitats i les accions.</p><p>L’índex reuneix quatre propostes: llenguatges corporals, observació d’exposicions, experimentació amb bioteixits i creació d’una passarel·la.</p>${note('Activitats pendents de documentar','Les pàgines recullen l’estructura de treball prevista; les imatges i les reflexions específiques s’incorporaran quan estiguin disponibles.')}</div><div>${photoFigure('teixit','Peces de roba disposades en un espai','Imatge ambiental · materialitat tèxtil','tall')}</div></div>${chapterLinks(B3)}`)+
-section('01 · Materials','Cos, fibres i possibilitats',`<div class="catalog-grid cols-3">${['tela','teixit','teixit2'].map((key,i)=>`${photoFigure(key,'Superfícies de teixit i moda','Estudi visual '+formatIndex(i+1),'square')}`).join('')}</div>`,true),'teixit');}
-function b3p1(){return page(ROUTES[8][0],'Bloc III · Proposta 01','Llenguatge del cos i el teixit','Una recerca visual sobre la comunicació corporal i les qualitats dels materials.',
-section('01 · Plantejament','Habitar la matèria',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">Les formes tèxtils, els gestos, els plecs i les tensions dels materials ofereixen una via per pensar la relació entre el cos i la creació visual.</p><p>Aquest espai es reserva per a la descripció de la proposta real de l’assignatura i les observacions de la seva pràctica.</p>${genericDetails()}</div><div>${photoFigure('tela','Material tèxtil de referència','Imatge de mostra · no documenta l’activitat','tall')}</div></div>`)+
-section('02 · Documentació','Fragments del procés',`<div class="catalog-grid cols-3">${['teixit','tela','teixit2'].map((name,i)=>archiveCard('cos-'+i,`Registre visual ${formatIndex(i+1)}`,'Fotografia de procés pendent de substituir.',name,i+1,'Imatge tèxtil de demostració')).join('')}</div>${note('Registre del procés pendent','Afegir les fotografies pròpies, la seqüència de treball i els materials utilitzats.')}`,true)+
-section('03 · Reflexió','Què expressa el cos?',`<div class="draft-spread"><span class="eyebrow">Reflexió de la proposta</span><h3>Cos, expressió i educació</h3>${note('Reflexió en preparació','Incloure el comentari d’Ariadna sobre les relacions entre experimentació tèxtil, expressió corporal i aprenentatge.')}</div>`));}
-function b3p2(){return page(ROUTES[9][0],'Bloc III · Proposta 02','El cos vestit i Mater Matters','Espai de registre i reflexió sobre les dues exposicions previstes a l’esquema.',
-section('01 · Exposicions','Dues mirades a la matèria',`<div class="reading-grid"><article><div class="magazine-visual">${img('teixit','Teixits i roba artística')}<span class="image-overlay">El cos vestit</span></div><div class="prose" style="margin-top:1.2rem"><h3 class="serif-title" style="font-size:1.7rem">El cos vestit</h3><p>Espai preparat per recollir dades verificades, obres observades i notes de la visita.</p>${note('Visita i fotografies pendents','No s’han incorporat dates, obres ni dades de l’exposició sense documentació.')}</div></article><article><div class="magazine-visual">${img('art2','Textura artística de demostració')}<span class="image-overlay">Mater Matters</span></div><div class="prose" style="margin-top:1.2rem"><h3 class="serif-title" style="font-size:1.7rem">Mater Matters</h3><p>Espai preparat per a la informació de la mostra, la selecció de peces i les observacions personals.</p>${note('Visita i fotografies pendents','Identificar les peces i incorporar els crèdits i permisos de reproducció pertinents.')}</div></article></div>`)+
-section('02 · Galeria','Detalls, superfícies i trobades',`<p class="photo-disclaimer">Galeria visual de demostració. Aquestes fotografies no corresponen a les exposicions i s’han de substituir per les fotografies realment autoritzades.</p><div class="catalog-grid cols-3">${['tela','quadre3','teixit2','art','teixit','art2'].map((key,i)=>archiveCard('exposicio-'+i,`Detall ${formatIndex(i+1)}`,'Imatge d’ambient; informació real pendent.',key,i+1,'Imatge editorial, no procedent de les exposicions')).join('')}</div>`,true)+
-section('03 · Notes','Observacions i reflexió',`<div class="reading-grid"><div>${note('Observacions pendents','Quins materials, llenguatges i recursos visuals destaquen a les exposicions?')}</div><div>${note('Reflexió en preparació','Quines connexions es poden establir amb el cos, la identitat i l’educació visual en la infància?')}</div></div>`),'teixit2');}
-function b3p3(){return page(ROUTES[10][0],'Bloc III · Proposta 03','Bioteixits_DU-DA','Experimentació i documentació de la transformació progressiva dels materials.',
-section('01 · Procés','Un material en transformació',`<p class="chapter-lead">La pàgina organitza la documentació en cinc moments, amb espai per a imatges i notes de cada fase.</p><div class="material-timeline">${[['Materials','Inventari real de components i estris.'],['Experimentació','Assajos, condicions i decisions.'],['Procés de creació','Registre de les transformacions.'],['Resultats','Fotografies i característiques observades.'],['Reflexió','Valoració final i relació amb l’aula.']].map(([t,d],i)=>`<div class="material-step"><span class="step-num">${formatIndex(i+1)}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>`)+
-section('02 · Arxiu visual','La pell del material',`<div class="catalog-grid cols-3">${['art2','pintura','tela','fulles','teixit2'].map((k,i)=>archiveCard('bioteixit-'+i,`Fase ${formatIndex(i+1)}`,'Imatge de demostració; procés d’Ariadna pendent.',k,i+1,'Textura de referència; no és un bioteixit documentat')).join('')}</div>${note('Resultats reals pendents','Substituir els exemples visuals per imatges del material utilitzat, les fases de fabricació i els resultats finals.')}`,true)+
-section('03 · Valoració','Què ens explica la matèria?',`<div class="draft-spread"><span class="eyebrow">Reflexió personal</span><h3>Aprenentatge i experimentació</h3>${note('Text propi pendent','Descriure les observacions del procés, les dificultats i les possibilitats artístiques i educatives dels bioteixits.')}</div>`),'art2');}
-function b3p4(){return page(ROUTES[11][0],'Bloc III · Proposta 04','La passarel·la: espai de creació','Disseny, acció compartida i presentació artística del resultat.',
-section('01 · Proposta','La passarel·la com a exposició',`<div class="split-editorial reverse"><div class="prose"><p class="editorial-lead">La passarel·la pot transformar-se en un espai de comunicació visual on convergeixen materials, moviment i decisions creatives.</p><p>La pàgina està preparada per documentar la planificació, el procés de creació, la presentació i el comentari final de l’activitat.</p>${genericDetails()}</div><div>${photoFigure('teixit','Textura i vestimenta de demostració','Referència visual · no és el resultat de l’activitat','tall')}</div></div>`)+
-section('02 · Registre','De la idea a la posada en escena',`<div class="stage-grid">${[['01','Idea i referents'],['02','Materials i proves'],['03','Creació'],['04','Presentació final']].map(([n,t])=>`<div class="stage-card"><span>${n}</span><p>${t}</p></div>`).join('')}</div><div class="catalog-grid cols-3">${['teixit2','tela','teixit'].map((key,i)=>archiveCard('passarella-'+i,`Moment ${formatIndex(i+1)}`,'Fotografia pròpia pendent.',key,i+1,'Referència de moda i teixit')).join('')}</div>`,true)+
-section('03 · Tancament','Reflexió final',`<div class="draft-spread"><span class="eyebrow">Quadern de procés</span><h3>Com s’ha construït el resultat?</h3>${note('Reflexió i registre pendents','Aportar la documentació audiovisual autoritzada, les fotografies de la passarel·la i la valoració final.')}</div>`),'teixit');}
-function conclusions(){return page('conclusions','Tancament · Aprenentatges','Conclusions generals de l’assignatura','Una síntesi oberta dels coneixements i de les experiències incorporades al portafoli.',
-section('01 · Balanç','Què m’emporto del recorregut?',`<div class="split-editorial"><div><p class="quote-editorial">Un quadern per recollir tot allò que encara queda per descobrir.</p><p class="micro-foot" style="margin-top:1.5rem">Text editorial provisional, no atribuït com a reflexió personal.</p></div><div class="prose"><p>La pàgina de conclusions està preparada per a la síntesi final d’Ariadna, que s’ha d’elaborar un cop desenvolupades les activitats de l’assignatura.</p>${note('Conclusions d’Ariadna pendents','No s’han generat aprenentatges ni resultats personals que no constin documentats.')}</div></div>`)+
-section('02 · Eixos de reflexió','Quatre perspectives',`${details([['Aprenentatges','Quines idees i habilitats han estat significatives?'],['Coneixements','Quins conceptes i recursos visuals s’han treballat?'],['Evolució artística','Com ha canviat la manera d’observar i crear?'],['Pràctica docent','Com es podrien aplicar les propostes a l’Educació Infantil?']])}`,true));}
-function reflexio(){return page('reflexio-personal','Apunts finals · Quadern íntim','Reflexió personal','Una pàgina reservada a la veu pròpia, l’autocrítica i la projecció docent.',
-section('01 · Mirada interior','Punts forts i punts febles',`<div class="reading-grid"><div class="draft-spread"><span class="eyebrow">01 · Punts forts</span><h3>Allò que ha funcionat</h3>${note('Text pendent','Ariadna podrà incorporar aquí els aspectes que consideri més satisfactoris del seu procés.')}</div><div class="draft-spread"><span class="eyebrow">02 · Punts febles</span><h3>Allò que es pot revisar</h3>${note('Text pendent','Espai per reconèixer els reptes, les dificultats i els aspectes de millora.')}</div></div>`,true)+
-section('02 · Continuïtat','Una reflexió per continuar',`<div class="split-editorial"><div>${photoFigure('fulles','Composició de fulles i ombres naturals','Imatge de tancament · demostració','tall')}</div><div class="prose"><p>La reflexió pot connectar les experiències del curs amb el tipus d’acompanyament artístic que es vol oferir als infants en el futur.</p>${note('Valoració personal en preparació','Redacció final d’Ariadna Angel Marco pendent d’incorporar.')}</div></div>`));}
-function saberMes(){return page('per-saber-ne-mes','Arxiu obert · Continuar investigant','Per saber-ne més...','Un índex de recursos per ampliar les relacions entre art, museu, natura i educació.',
-section('01 · Arxiu de consulta','Recursos per explorar',`<p class="chapter-lead">Apartat reservat per incorporar els recursos que Ariadna realment hagi consultat o decideixi recomanar.</p><div>${[['01','Recursos educatius','Materials didàctics i propostes de treball.'],['02','Museus i centres d’art','Col·leccions, programes educatius i exposicions.'],['03','Artistes','Referents vinculats als blocs de l’assignatura.'],['04','Enllaços relacionats','Recursos digitals verificats i pertinents.'],['05','Publicacions','Lectures, catàlegs i articles acadèmics.']].map(([n,t,d])=>`<div class="resource-row"><span class="section-number">${n}</span><div><h3>${t}</h3><p>${d}</p></div><span class="status-tag">Pendent</span></div>`).join('')}</div>${note('Recursos per incorporar','Aquest prototip evita enllaços genèrics o ficticis; els recursos s’afegiran amb l’URL verificada.')}`), 'arbre');}
-function bibliografia(){return page('referencies-bibliografiques','Documentació acadèmica · Fonts','Referències bibliogràfiques','Espai de registre de les fonts utilitzades en el treball.',
-section('01 · Criteri acadèmic','Bibliografia documentada',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">Les fonts bibliogràfiques són una part essencial del portafoli: permeten relacionar la pràctica artística amb els textos, les obres i les propostes educatives consultades.</p><p>Les referències s’han d’incorporar amb autoria, data, títol, editorial o URL, segons el sistema de citació requerit per l’assignatura.</p></div><div class="draft-spread"><span class="eyebrow">Llista de referències</span>${note('Bibliografia pendent','No s’han inventat llibres, articles, autores ni URL. Quan es disposi de les fonts, s’introduiran en aquest apartat.')}</div></div>`));}
-const VIEWS={
- 'inici':home,'introduccio':intro,'bloc-i':blocI,'bloc-ii':blocII,
- [ROUTES[4][0]]:b2p1,[ROUTES[5][0]]:b2p2,[ROUTES[6][0]]:b2p3,
- 'bloc-iii':blocIII,[ROUTES[8][0]]:b3p1,[ROUTES[9][0]]:b3p2,
- [ROUTES[10][0]]:b3p3,[ROUTES[11][0]]:b3p4,
- 'conclusions':conclusions,'reflexio-personal':reflexio,
- 'per-saber-ne-mes':saberMes,'referencies-bibliografiques':bibliografia
-};
-
-/* -- NAVEGACIO, ACCIONS I ACCESSIBILITAT -- */
-const main=document.getElementById('main-content');
-const mobileBtn=document.getElementById('mobile-menu-toggle');
-const mobileDrawer=document.getElementById('mobile-drawer');
-const modal=document.getElementById('lightbox-modal');
-let previousFocus=null;
-function setMobile(open){
- mobileBtn.setAttribute('aria-expanded',String(open));
- mobileDrawer.classList.toggle('is-open',open);
- mobileDrawer.inert=!open;
- document.body.classList.toggle('menu-open',open);
- if(open) mobileDrawer.querySelector('a[href]')?.focus();
-}
-function setSubmenu(btn,open){
- const el=document.getElementById(btn.dataset.submenuTarget);
- if(!el)return;
- btn.setAttribute('aria-expanded',String(open));
- btn.textContent=open?'−':'+';
- el.classList.toggle('is-open',open);
- el.inert=!open;
-}
-function updateNav(path){
- document.querySelectorAll('[data-route]').forEach(a=>{
-  const route=a.dataset.route;
-  const active=route===path||(route==='bloc-ii'&&path.startsWith('bloc-ii/'))||(route==='bloc-iii'&&path.startsWith('bloc-iii/'));
-  a.classList.toggle('active',active);
-  if(route===path)a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
- });
-}
-function renderRoute(){
- const raw=location.hash.startsWith('#/')?location.hash.slice(2):'inici';
- let path; try{path=decodeURIComponent(raw).replace(/^\/+|\/+$/g,'')}catch{path='inici'}
- if(!path)path='inici';
- const func=VIEWS[path];
- if(!func){main.innerHTML=`<section class="section-pad"><div class="container"><span class="eyebrow">Pàgina no trobada</span><h1 class="page-title">Aquesta ruta no existeix.</h1><a class="editorial-cta" href="#/inici">Torna a l’inici →</a></div></section>`;document.title='Pàgina no trobada — Arts Visuals I';}
- else {main.innerHTML=func();document.title=`${ROUTES.find(r=>r[0]===path)?.[1]} — Educació de les Arts Visuals I`}
- document.body.setAttribute('data-Section-theme',path.startsWith('bloc-iii')?'bloc-iii':'default');
- updateNav(path);
- setMobile(false);
- document.querySelectorAll('[data-dropdown]').forEach(g=>{g.classList.remove('open');g.querySelector('button')?.setAttribute('aria-expanded','false')});
- window.scrollTo({top:0,left:0,behavior:'instant'});
-}
-function openLightbox(id,opener){
- const item=MEDIA[id]; if(!item)return;
- previousFocus=opener;
- const picture=document.getElementById('lightbox-img');
- picture.src=item.src;picture.alt=item.title;
- picture.onerror=()=>{picture.onerror=null;picture.src=svgFallback(item.title)};
- document.getElementById('lightbox-title').textContent=item.title;
- document.getElementById('lightbox-subtitle').textContent=item.subtitle;
- document.getElementById('lightbox-meta').textContent=item.meta;
- document.getElementById('lightbox-desc').textContent=item.desc;
- modal.inert=false;modal.classList.add('is-active');modal.setAttribute('aria-hidden','false');
- document.body.classList.add('modal-open');
- document.getElementById('lightbox-close-btn').focus();
-}
-function closeLightbox(){
- if(!modal.classList.contains('is-active'))return;
- modal.classList.remove('is-active');modal.setAttribute('aria-hidden','true');modal.inert=true;
- document.body.classList.remove('modal-open');previousFocus?.focus();previousFocus=null;
-}
-mobileBtn.addEventListener('click',()=>setMobile(mobileBtn.getAttribute('aria-expanded')!=='true'));
-window.addEventListener('hashchange',()=>{closeLightbox();renderRoute()});
-document.addEventListener('click',event=>{
- const t=event.target;
- if(!(t instanceof Element))return;
- if(t.closest('.skip-link')){event.preventDefault();main.focus();return}
- const submenu=t.closest('.mobile-submenu-btn');
- if(submenu){setSubmenu(submenu,submenu.getAttribute('aria-expanded')!=='true');return}
- const drop=t.closest('.dropdown-toggle-btn');
- if(drop){const item=drop.closest('[data-dropdown]'),opening=!item.classList.contains('open');
-  document.querySelectorAll('[data-dropdown]').forEach(x=>{x.classList.remove('open');x.querySelector('button').setAttribute('aria-expanded','false')});
-  item.classList.toggle('open',opening);drop.setAttribute('aria-expanded',String(opening));return}
- const media=t.closest('[data-lightbox]');
- if(media){openLightbox(media.dataset.lightbox,media);return}
- const jump=t.closest('[data-scroll-to]');
- if(jump){document.getElementById(jump.dataset.scrollTo)?.scrollIntoView({behavior:'smooth',block:'start'});return}
- if(t.closest('#lightbox-close-btn')||(t===modal)){closeLightbox();return}
- const navLink=t.closest('#mobile-drawer a[href]');
- if(navLink){setMobile(false);if(location.hash===navLink.getAttribute('href'))renderRoute();return}
- if(!t.closest('[data-dropdown]'))document.querySelectorAll('[data-dropdown]').forEach(x=>{x.classList.remove('open');x.querySelector('button')?.setAttribute('aria-expanded','false')});
-});
-document.addEventListener('error',e=>{
- if(!(e.target instanceof HTMLImageElement))return;
- const image=e.target;
- if(image.dataset.isFallback)return;
- image.dataset.isFallback='true'; image.src=svgFallback(image.dataset.fallback||'Art i natura',document.body.getAttribute('data-Section-theme')==='bloc-iii');
-},true);
-document.addEventListener('keydown',e=>{
- if(e.key==='Escape'){closeLightbox();if(mobileBtn.getAttribute('aria-expanded')==='true'){setMobile(false);mobileBtn.focus()}}
- if(e.key==='Tab'&&modal.classList.contains('is-active')){
-  const close=document.getElementById('lightbox-close-btn');
-  if(!modal.contains(document.activeElement)){e.preventDefault();close.focus()}
- }
-});
-window.addEventListener('resize',()=>{if(innerWidth>=1300&&mobileBtn.getAttribute('aria-expanded')==='true')setMobile(false)});
-renderRoute();
-
-</script>
+<script src="scripts/content.js" defer></script>
+<script src="scripts/app.js" defer></script>
 </body>
 </html>
