@@ -1,5 +1,7 @@
 # Integració documental del portafoli
 
+> Informe de la primera iteració. Per a l’estat actual de la presentació editorial i de la verificació, consulteu `REFINAMENT_VISUAL.md`.
+
 ## Auditoria inicial
 
 El repositori estava net. El commit `81ff424` conserva el prototip inicial. `index.html` contenia el CSS editorial, 16 vistes, el router hash, els dos submenús, les galeries i el lightbox. Les imatges eren d’Unsplash i les fitxes de les obres, les espècies, les lectures i la bibliografia encara eren de demostració o estaven pendents. No hi havia obres ni identificacions verificades carregades al navegador.

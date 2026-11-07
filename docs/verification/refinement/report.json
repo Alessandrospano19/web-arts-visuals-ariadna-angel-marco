@@ -1,0 +1,148 @@
+{
+  "routes": 17,
+  "viewports": [
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "routeChecks": 102,
+  "panelChecks": 24,
+  "localAssets": 57,
+  "artworks": 10,
+  "species": 10,
+  "videosPlayed": 5,
+  "fullOriginalText": true,
+  "technicalLabelsRemoved": true,
+  "keyboardAndFocus": true,
+  "expandableGallery": true,
+  "fileProtocol": true,
+  "consoleErrors": [],
+  "failedRequests": [],
+  "metrics": [
+    {
+      "width": 390,
+      "route": "inici",
+      "height": 4749,
+      "visibleWords": 275
+    },
+    {
+      "width": 390,
+      "route": "introduccio",
+      "height": 5889,
+      "visibleWords": 640
+    },
+    {
+      "width": 390,
+      "route": "bloc-i",
+      "height": 3905,
+      "visibleWords": 396
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "height": 3322,
+      "visibleWords": 300
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "height": 7289,
+      "visibleWords": 384
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "height": 3879,
+      "visibleWords": 145
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p4-experimentem-amb-tintes-vives",
+      "height": 3221,
+      "visibleWords": 83
+    },
+    {
+      "width": 390,
+      "route": "bloc-iii",
+      "height": 1429,
+      "visibleWords": 95
+    },
+    {
+      "width": 1440,
+      "route": "inici",
+      "height": 4121,
+      "visibleWords": 275
+    },
+    {
+      "width": 1440,
+      "route": "introduccio",
+      "height": 5351,
+      "visibleWords": 645
+    },
+    {
+      "width": 1440,
+      "route": "bloc-i",
+      "height": 3643,
+      "visibleWords": 397
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "height": 3339,
+      "visibleWords": 302
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "height": 4259,
+      "visibleWords": 384
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "height": 3977,
+      "visibleWords": 145
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p4-experimentem-amb-tintes-vives",
+      "height": 2523,
+      "visibleWords": 83
+    },
+    {
+      "width": 1440,
+      "route": "bloc-iii",
+      "height": 1668,
+      "visibleWords": 95
+    }
+  ],
+  "screenshots": [
+    "inici-390.png",
+    "inici-lectures-390.png",
+    "introduccio-390.png",
+    "bloc-i-390.png",
+    "bloc-ii-p1-390.png",
+    "visita-obres-390.png",
+    "visita-jardi-390.png",
+    "visita-arts-390.png",
+    "visita-conclusions-390.png",
+    "bloc-iii-390.png",
+    "bloc-ii-p3-390.png",
+    "bloc-ii-p4-390.png",
+    "inici-1440.png",
+    "inici-lectures-1440.png",
+    "introduccio-1440.png",
+    "bloc-i-1440.png",
+    "bloc-ii-p1-1440.png",
+    "visita-obres-1440.png",
+    "visita-jardi-1440.png",
+    "visita-arts-1440.png",
+    "visita-conclusions-1440.png",
+    "bloc-iii-1440.png",
+    "bloc-ii-p3-1440.png",
+    "bloc-ii-p4-1440.png"
+  ]
+}

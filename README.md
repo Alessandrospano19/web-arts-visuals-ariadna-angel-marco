@@ -5,8 +5,10 @@ Portafoli acadèmic estàtic. Curs 2026–2027. Contingut documental integrat so
 Aquesta carpeta integra:
 
 - `index.html`: estructura, menús i **CSS original d’Argon conservat íntegrament**. La versió inicial és recuperable al commit `81ff424`.
-- `scripts/app.js`: components editorials, 17 vistes, navegació hash i lightbox.
+- `scripts/app.js`: components compartits, portada, navegació hash i lightbox.
+- `scripts/views.js`: vistes editorials, quatre panells de la visita i galeria ampliable.
 - `scripts/content.js`: dades generades a partir dels Markdown i del manifest; sense `fetch` ni backend.
+- `content/EDITORIAL.json` i `scripts/editorial.js`: síntesis i cites per a la lectura breu, separades de les reflexions íntegres. El JavaScript es genera automàticament.
 - `styles/integration.css`: ajustos per integrar el contingut i millorar l’accessibilitat.
 - `styles/fonts.css` i `assets/fonts/`: Cormorant Garamond i DM Sans originals, servides localment amb les llicències SIL OFL.
 - `source/*.pdf`: PDF original de 34 pàgines.
@@ -38,7 +40,7 @@ python scripts/build_content.py
 python scripts/verify_content.py
 ```
 
-No editis manualment `scripts/content.js`: és un fitxer generat. El generador conserva el text personal, normalitza els salts de línia i uneix les continuacions de pàgina. Si canvia l’estructura dels Markdown, revisa també els delimitadors a `scripts/build_content.py`. No hi ha CMS.
+No editis manualment `scripts/content.js` ni `scripts/editorial.js`: són fitxers generats. El generador conserva el text personal, normalitza els salts de línia i uneix les continuacions de pàgina. Les síntesis s’editen exclusivament a `content/EDITORIAL.json`; les cites s’han de mantenir literals. Si canvia l’estructura dels Markdown, revisa també els delimitadors a `scripts/build_content.py`. No hi ha CMS.
 
 ## Verificació de navegador
 
@@ -50,7 +52,7 @@ node scripts/verify_browser.cjs
 
 A Windows utilitza Microsoft Edge; en altres sistemes, Chromium de Playwright. `ARI_PLAYWRIGHT_MODULE` permet indicar el camí a una instal·lació existent de Playwright; `ARI_PREVIEW_URL` permet canviar l’URL del servidor. L’aplicació no necessita Node ni Playwright per funcionar.
 
-Resultat verificat: **17 rutes × 6 amplades = 102 comprovacions**, 57 recursos multimèdia, 10 obres, 10 espècies i 5 vídeos reproduïts. Sense errors de consola ni recursos locals absents; navegació amb teclat, focus i `file://` comprovats. Informe i captures a `docs/verification/`.
+Resultat verificat: **17 rutes × 6 amplades = 102 comprovacions**, més els quatre panells a les sis amplades, 57 recursos multimèdia, 10 obres, 10 espècies i 5 vídeos reproduïts. Es comproven les reflexions íntegres, les cites literals, els desplegables, les pestanyes amb teclat, el focus, la galeria ampliable i `file://`. Sense errors de consola ni recursos locals absents. L’informe i les 24 captures de la segona iteració són a `docs/verification/refinement/`; les captures de la primera es conserven al directori superior.
 
 ## Allotjament estàtic
 
@@ -58,4 +60,4 @@ Compatible amb Cloudflare Pages: arrel del repositori com a directori de publica
 
 ## Contingut pendent
 
-Consulta `docs/INTEGRACIO.md`: inclou l’auditoria, les incorporacions i la llista concreta de textos i correspondències que ha de completar o confirmar Ariadna.
+Consulta `docs/REFINAMENT_VISUAL.md` per a les decisions editorials i els pendents actuals. `docs/INTEGRACIO.md` conserva l’auditoria de la primera integració.

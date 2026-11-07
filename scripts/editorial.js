@@ -1,0 +1,99 @@
+// Generated from content/EDITORIAL.json; editorial summaries, separate from original prose.
+const EDITORIAL = {
+  "intro": [
+    {
+      "title": "Art i natura: una mateixa mirada",
+      "summary": "La conferència d’El Majuelo connecta l’art, la infància i la natura. Observar un arbre pot esdevenir una experiència sensorial, emocional i estètica: tocar-ne l’escorça, descobrir-ne els colors o escoltar el vent. La reflexió situa l’aprenentatge en aquesta disponibilitat per explorar i sorprendre’s, deixant espai perquè les descobertes neixin de l’experiència i de la curiositat dels infants.",
+      "image": "img_5030",
+      "caption": "La conferència"
+    },
+    {
+      "title": "La veu pròpia dels infants",
+      "summary": "Una mateixa proposta pot donar lloc a respostes molt diferents. Els models que cal copiar, els colors imposats i la recerca de resultats iguals poden limitar aquesta diversitat. Acompanyar la creativitat significa escoltar què intenta expressar cada infant i valorar les seves decisions, els descobriments i les emocions que hi ha darrere d’una creació, sense substituir la seva mirada per la de l’adult.",
+      "quote": "Educar artísticament també significa aprendre a no imposar la nostra mirada sobre la mirada infantil."
+    },
+    {
+      "title": "El procés per damunt del resultat",
+      "summary": "Barrejar colors, pressionar l’argila o descobrir la textura d’una fulla són accions plenes d’aprenentatges. La reflexió desplaça l’atenció de l’objecte acabat cap a les preguntes, els materials i les decisions del procés. Provar, equivocar-se i tornar-ho a intentar permet desenvolupar la percepció, la coordinació i la imaginació, i converteix l’error en una oportunitat per descobrir possibilitats noves."
+    },
+    {
+      "title": "La bellesa de la imperfecció",
+      "summary": "Una fulla seca, una pedra irregular o una taca de fang poden despertar una mirada estètica. Davant dels ideals de perfecció i uniformitat, la referència al wabi-sabi convida a apreciar la senzillesa, el canvi i allò efímer. Educar la mirada també implica aturar-se en els elements que passen desapercebuts i descobrir les petites diferències de l’entorn quotidià.",
+      "image": "img_4790",
+      "caption": "Formes i textures · imatge de natura"
+    },
+    {
+      "title": "Natura, vincle i joc",
+      "summary": "El contacte amb la natura implica tot el cos: córrer, grimpar, tocar la terra o construir refugis. El joc lliure afavoreix l’autonomia i la relació amb els altres i amb l’entorn. La reflexió proposa acostaments respectuosos, que tinguin en compte les pors i els límits de cada infant, i recorda que nosaltres també formem part dels cicles i de les relacions de la vida."
+    },
+    {
+      "title": "Materials que conviden a explorar",
+      "summary": "El frottage fa visibles les textures; els monotips obren espai a l’imprevist; el collage pot superar el rectangle del paper. L’argila conserva els gestos de qui la manipula. Aquests materials i procediments permeten relacionar tacte, vista, moviment i emoció. La llibertat per barrejar colors i imaginar associacions amplia les maneres d’expressar allò que cada infant percep i sent."
+    },
+    {
+      "title": "Observar, escoltar i acompanyar",
+      "summary": "La futura mestra ha d’aprendre a observar abans d’intervenir i a distingir quan una proposta adulta enriqueix una experiència o la limita. Una fulla trobada pot donar lloc a preguntes i descobertes no previstes. Estar disponible per escoltar aquests interessos permet construir aprenentatges des de la vida quotidiana i ajuda cada infant a confiar en el valor de la seva pròpia veu.",
+      "quote": "Nosaltres també som naturalesa."
+    }
+  ],
+  "reading": [
+    {
+      "title": "La capacitat de meravellar-se",
+      "summary": "Carson convida a cuidar la curiositat dels infants i a recuperar una mirada atenta als petits detalls. Abans d’explicar noms i conceptes, cal oferir temps per observar, fer preguntes i establir relacions. L’emoció i la sorpresa són un punt de partida per construir interès i estima per la natura."
+    },
+    {
+      "title": "Aprendre amb tots els sentits",
+      "summary": "Escoltar les onades, sentir el vent o descobrir les textures permet conèixer l’entorn d’una manera global. La reflexió destaca el valor de l’experiència directa i de les coses petites. Una lupa o una observació pausada poden revelar detalls que habitualment passen desapercebuts i obrir noves preguntes."
+    },
+    {
+      "title": "El bosc com a espai educatiu",
+      "summary": "Les experiències que presenta Heike Freire situen la natura en la vida quotidiana de l’escola. Jugar, moure’s i explorar a l’aire lliure ofereix possibilitats físiques, emocionals, socials i creatives. El bosc esdevé un espai d’aprenentatge habitual, amb temps per descobrir i prendre iniciatives pròpies."
+    },
+    {
+      "title": "Observar per crear",
+      "summary": "L’observació també pot transformar-se en expressió artística. Formes, colors, textures i moviments permeten donar una resposta personal a les experiències viscudes. Una branca, una pedra o un tronc poden adquirir significats diferents segons el joc i la imaginació de cada infant, sense haver de seguir un model únic."
+    },
+    {
+      "title": "Acompanyar sense dirigir-ho tot",
+      "summary": "L’educadora prepara entorns segurs i enriquidors, observa les necessitats i intervé quan cal. Respectar els temps i les iniciatives dels infants també implica permetre que experimentin i aprenguin a gestionar dificultats. La reflexió reivindica una escola on tocar, escoltar, imaginar i crear formin part del dia a dia.",
+      "quote": "No es tracta només d’ensenyar als infants a conèixer el món, sinó d’acompanyar-los perquè aprenguin a mirar-lo, interpretar-lo, expressar-lo i sentir-se part d’ell."
+    }
+  ],
+  "block": [
+    {
+      "title": "Formem part de la natura",
+      "summary": "La primera sessió qüestiona la separació entre el cos i l’entorn. L’obra de Fina Miralles, amb el cos cobert de palla, convida a pensar aquesta relació i a reconèixer la dependència de l’aigua, la terra, l’aire i els altres éssers vius.",
+      "image": "img_4784",
+      "caption": "Mirar l’entorn · imatge de natura"
+    },
+    {
+      "title": "Mirar allò quotidià",
+      "summary": "Pedres, fulles o palla poden adquirir nous significats quan ens aturem a observar-los. A partir de Stones, de Herman de Vries, la reflexió destaca com el color, la forma i la textura d’una pedra poden convertir-la en el centre d’una composició."
+    },
+    {
+      "title": "Valorar i cuidar",
+      "summary": "La mirada artística també pot transformar la relació amb els materials. Comprendre’n l’origen i el valor porta a actuar amb respecte, en un context de crisi climàtica i pèrdua de biodiversitat. Aprendre a mirar es vincula, així, amb aprendre a cuidar l’entorn.",
+      "image": "img_4790",
+      "caption": "Textures vegetals · imatge de natura"
+    },
+    {
+      "title": "Obrir possibilitats a l’aula",
+      "summary": "Oferir pedres, fulles, branques o fang permet que els infants investiguin què poden fer amb aquests elements. La proposta educativa parteix de l’exploració i la curiositat, deixant lloc a respostes diverses i a processos que no necessiten un resultat predeterminat.",
+      "quote": "La creativitat no depèn de disposar materials elaborats, depèn de la nostra capacitat de mirar allò quotidià amb curiositat i descobrir-hi noves possibilitats."
+    }
+  ],
+  "outing": [
+    {
+      "title": "El vincle amb la natura",
+      "summary": "Aturar-se, mirar, escoltar i tocar transforma la relació amb l’entorn. La passejada connecta formes i textures amb emocions i records, i ajuda a comprendre que la natura també és un espai de relació personal. La visita als museus amplia les maneres de percebre i interpretar aquest vincle."
+    },
+    {
+      "title": "La pràctica artística",
+      "summary": "Observar amb deteniment, explorar materials diversos i donar valor a la mirada personal amplia les possibilitats creatives. Les visites mostren que crear també pot ser interpretar i transformar. Documentar, escollint un enquadrament o un detall, esdevé una manera de construir significats i d’expressar sensacions."
+    },
+    {
+      "title": "La futura pràctica docent",
+      "summary": "Acompanyar l’observació, apropar referents diversos i oferir llenguatges d’expressió són aprenentatges per a la futura aula. La reflexió posa el procés creatiu al centre i proposa preparar entorns estimulants on els infants puguin investigar, prendre decisions, imaginar i trobar les seves pròpies maneres d’expressar-se."
+    }
+  ]
+};

@@ -39,6 +39,18 @@ for sp, original in zip(data['species'], re.split(r'\n## ', species_md)[1:], str
     assert original.split('\n')[0].endswith(sp['name'])
 assert len(data['bibliography']) == 2
 assert len(data['artworks']) == len(data['species']) == 10
+editorial = json.loads((ROOT / 'content/EDITORIAL.json').read_text(encoding='utf-8'))
+assert 5 <= len(editorial['intro']) <= 7
+assert len(editorial['reading']) in (4, 5)
+assert len(editorial['block']) in (3, 4)
+for group, items in editorial.items():
+    source = data['outing'] if group == 'outing' else data[group]['reflection']
+    for item in items:
+        if item.get('quote'):
+            assert flat(item['quote']) in flat(source), f"Non-literal quote: {item['title']}"
+        assert len(item['summary'].split()) <= 90, item['title']
+        if group == 'intro':
+            assert len(item['summary'].split()) >= 50, item['title']
 paths = set()
 for m in data['media']:
     paths.add(m['output'])

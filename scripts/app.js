@@ -21,20 +21,24 @@ const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;', '<':'&
 const formatIndex = n => String(n).padStart(2, '0');
 const MEDIA = Object.create(null);
 const group = name => PORTFOLIO.media.filter(m => m.group === name);
-const B2 = ROUTES.filter(([p]) => p.startsWith('bloc-ii/')).map(([path, label]) => ({path, title:label.slice(4), sub:path.includes('/p4-') ? 'Secció provisional · documentació multimèdia' : ''}));
-const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label]) => ({path, title:label.slice(4), sub:'Pendent d’incorporar'}));
+const B2 = ROUTES.filter(([p]) => p.startsWith('bloc-ii/')).map(([path, label]) => ({path, title:label.slice(4), sub:''}));
+const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label]) => ({path, title:label.slice(4), sub:''}));
 
-function note(text = 'La redacció d’aquest apartat està pendent d’incorporar.') {
-  return `<div class="pending-note"><strong>Pendent d’incorporar</strong><p>${esc(text)}</p></div>`;
+function note() {
+  return '<p class="pending-note"><span aria-hidden="true">○</span> Pendent d’incorporar</p>';
 }
 function prose(text, cls = '') {
-  // Source text is escaped, never interpreted as arbitrary Markdown or HTML.
-  return `<div class="prose ${cls}">${text.split(/\n\s*\n/).map(p => {
-    if (p.startsWith('- ')) return `<ul class="plain-list"><li>${esc(p.slice(2))}</li></ul>`;
-    return `<p>${esc(p)}</p>`;
-  }).join('')}</div>`;
+  const paragraphs = text.split(/\n\s*\n/);
+  const html = [];
+  let list = [];
+  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${esc(p.slice(2))}</li>`).join('')}</ul>`); list = []; } };
+  for (const p of paragraphs) {
+    if (p.startsWith('- ')) list.push(p);
+    else { flush(); html.push(`<p>${esc(p)}</p>`); }
+  }
+  flush();
+  return `<div class="prose ${cls}">${html.join('')}</div>`;
 }
-function source(pages) { return `<p class="source-note">Text original d’Ariadna · document, p. ${esc(pages)}</p>`; }
 function breadcrumbs(path) {
   const route = ROUTES.find(([p]) => p === path), chunks = [['inici','Inici']];
   const parent = path.startsWith('bloc-ii/') ? 'bloc-ii' : path.startsWith('bloc-iii/') ? 'bloc-iii' : null;
@@ -59,17 +63,12 @@ function picture(media, alt, eager = false) {
   const [w,h] = media.dimensions;
   return `<img src="${esc(media.output)}" width="${w}" height="${h}" alt="${esc(alt)}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async">`;
 }
-function credit(media) {
-  if (media.group === 'bloc-i') return 'Imatge de la lectura aportada per Ariadna';
-  if (media.output.endsWith('img_2226.webp')) return 'Cartell aportat per Ariadna';
-  return 'Fotografia pròpia d’Ariadna';
-}
 const mediaDescriptions = {
   img_2227:'Coberta d’El sentido del asombro, de Rachel Carson',
   img_2228:'La escuela es el bosque, de Heike Freire',
   img_2226:'Cartell de la conferència «Un árbol pinta una nube»',
   img_5030:'Sala de la conferència amb una projecció',
-  'c1e64692-2a9e-48a7-8751-6184236d6423':'Retrat entre la vegetació aportat per Ariadna',
+  'c1e64692-2a9e-48a7-8751-6184236d6423':'Retrat entre la vegetació',
   img_4784:'Flors i vegetació il·luminades pel sol',
   img_4785:'Una mà sosté una flor de color rosa',
   img_4790:'Fulles verdes amb nervis visibles',
@@ -105,20 +104,23 @@ function mediaTitle(m, i = 0) {
   if (m.group === 'jardi') return 'Composició fotogràfica de la passejada';
   return `Registre visual ${formatIndex(i+1)}`;
 }
-function photoFigure(m, title = mediaTitle(m), shape = 'wide', eager = false) {
-  const id = m.output;
-  MEDIA[id] = {src:m.output, title, subtitle:'Arxiu visual d’Ariadna', meta:credit(m), desc:''};
-  return `<figure><button class="photo-frame ${shape} local-photo" type="button" data-lightbox="${esc(id)}" aria-label="Amplia: ${esc(title)}">${picture(m,title,eager)}<span class="zoom-pill">Amplia ↗</span></button><figcaption class="figure-label"><span>${esc(title)}</span><span>${esc(credit(m))}</span></figcaption></figure>`;
+function photoFigure(m, caption = '', shape = 'wide', eager = false) {
+  const id = m.output, title = mediaTitle(m);
+  MEDIA[id] = {src:m.output, title, subtitle:'', meta:'', desc:''};
+  return `<figure><button class="photo-frame ${shape} local-photo" type="button" data-lightbox="${esc(id)}" aria-label="Amplia: ${esc(title)}">${picture(m,title,eager)}<span class="zoom-pill">Amplia ↗</span></button>${caption ? `<figcaption class="figure-label">${esc(caption)}</figcaption>` : ''}</figure>`;
 }
-function gallery(name, images = group(name)) {
-  return `<div class="catalog-grid cols-3 media-gallery">${images.filter(m => m.type === 'image').map(m => photoFigure(m)).join('')}</div>`;
+function gallery(name, images = group(name), cls = '') {
+  return `<div class="catalog-grid cols-3 media-gallery ${cls}">${images.filter(m => m.type === 'image').map(m => photoFigure(m)).join('')}</div>`;
 }
 function videos(name) {
-  return `<div class="catalog-grid video-gallery">${group(name).filter(m => m.type === 'video').map((m,i) => `<figure><video controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label"><span>Vídeo ${formatIndex(i+1)} · ${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'}</span><span>Vídeo aportat per Ariadna</span></figcaption></figure>`).join('')}</div>`;
+  return `<div class="catalog-grid video-gallery ${name === 'tintes' ? 'three-videos' : ''}">${group(name).filter(m => m.type === 'video').map((m,i) => `<figure><video controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label">${name === 'tintes' ? 'Tintes vives' : 'Llibre d’artista'} · ${formatIndex(i+1)}</figcaption></figure>`).join('')}</div>`;
+}
+function readingVisual() {
+  return `<div class="reading-visual">${group('bloc-i').map(m=>`<div>${picture(m,mediaTitle(m))}</div>`).join('')}</div>`;
 }
 function magazineCard(n,title,subtitle,media,route) {
-  const visual = media ? picture(media,mediaTitle(media)) : '<div class="editorial-placeholder" aria-hidden="true">Cos<br><em>i matèria</em></div>';
-  return `<article class="exploration-entry"><a class="exploration-media" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${visual}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span><h3 class="exploration-title serif-title">${esc(title)}</h3><p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`;
+  const visual = n === 1 ? readingVisual() : media ? picture(media,mediaTitle(media)) : '<div class="editorial-placeholder" aria-hidden="true">Cos<br><em>i matèria</em></div>';
+  return `<article class="exploration-entry"><a class="exploration-media ${n === 1 ? 'reading-entry' : ''}" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${visual}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span><h3 class="exploration-title serif-title">${esc(title)}</h3><p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`;
 }
 
 function home(){return `<article class="page-view">
@@ -127,114 +129,10 @@ function home(){return `<article class="page-view">
 <h1 class="hero-title">Educació<br><em>de les Arts</em><br>Visuals I</h1>
 <p class="hero-subtitle">Un recorregut per l’art, la natura i l’expressió creativa a l’educació infantil.</p>
 <div class="hero-meta-grid"><div><span class="meta-label">Autora</span><span class="meta-value">Ariadna Angel Marco</span></div><div><span class="meta-label">Curs acadèmic</span><span class="meta-value">2026 — 2027</span></div><div><span class="meta-label">Estudis</span><span class="meta-value">Grau en Educació Infantil</span></div><div><span class="meta-label">Projecte</span><span class="meta-value">Quadern d’artista i docència</span></div></div>
-</div><div class="hero-visual-frame"><div class="hero-img-wrapper">${picture(group('inici')[0],mediaTitle(group('inici')[0]),true)}</div><div class="hero-caption"><span>Fig. 01 — Entre art i natura</span><span>Fotografia pròpia d’Ariadna</span></div></div></div></section>
+</div><div class="hero-visual-frame"><div class="hero-img-wrapper">${picture(group('inici')[0],mediaTitle(group('inici')[0]),true)}</div><div class="hero-caption"><span>Fig. 01 — Entre art i natura</span></div></div></div></section>
 <section class="section-pad"><div class="container split-editorial"><div><span class="eyebrow">01 · Pòrtic</span><h2 class="chapter-heading">Benvinguts i benvingudes</h2><p class="micro-foot">Una porta d’entrada a la mirada artística durant la formació docent.</p></div><div class="prose"><p class="editorial-lead dropcap">Benvinguts i benvingudes a aquesta pàgina web, concebuda per una futura mestra d’Educació Infantil com a recurs didàctic i espai per documentar els aprenentatges de l’assignatura <em>Educació de les Arts Visuals I</em>.</p><p>Aquest portafoli s’ha estructurat com un quadern de recerca visual. Les pàgines recullen els blocs de treball, les fotografies, els processos i les reflexions escrites durant el curs.</p></div></div></section>
-<section class="section-pad bg-alt-section"><div class="container split-editorial reverse"><div class="prose"><span class="eyebrow">02 · Presentació</span><h2 class="chapter-heading">Sobre aquest projecte</h2><p>El recorregut s’organitza entorn de tres eixos: l’art com a experiència educativa, el jardí com a espai de descoberta i l’exploració del cos, els teixits i la creació contemporània.</p><p>El recorregut incorpora les reflexions documentades, deu referents artístics i l’arxiu visual de les activitats. Els apartats sense redacció es mantenen oberts per completar-los.</p>${note('La presentació personal d’Ariadna està pendent d’incorporar.')}</div><div>${photoFigure(group('descripcio').find(m=>m.output.endsWith('img_5107.webp')))}</div></div></section>
+<section class="section-pad bg-alt-section"><div class="container split-editorial reverse"><div class="prose"><span class="eyebrow">02 · Presentació</span><h2 class="chapter-heading">Sobre aquest projecte</h2><p>El recorregut s’organitza entorn de tres eixos: l’art com a experiència educativa, el jardí com a espai de descoberta i l’exploració del cos, els teixits i la creació contemporània.</p><p>El recorregut incorpora les reflexions documentades, deu referents artístics i l’arxiu visual de les activitats. Els apartats sense redacció es mantenen oberts per completar-los.</p>${note()}</div><div>${photoFigure(group('descripcio').find(m=>m.output.endsWith('img_5107.webp')),'Llibre d’artista')}</div></div></section>
 <section class="section-pad"><div class="container"><span class="eyebrow">03 · Índex visual</span><h2 class="chapter-heading">Tres maneres d’apropar-se a les arts</h2><div class="exploration-list">${magazineCard(1,'Art i educació','Fonaments de l’educació visual: imatge, pigment, expressió i processos de descoberta.',group('bloc-i')[0],'bloc-i')}${magazineCard(2,'Art i natura','El jardí, la visita al museu, el caminar i la creació d’un llibre d’artista.',group('jardi')[0],'bloc-ii')}${magazineCard(3,'Cos, teixit i creació','Moda, artivisme, bioteixits i pràctiques performatives vinculades a l’art.',null,'bloc-iii')}</div>${pagination('inici')}</div></section></article>`;}
-
-// Subtitles organize the original essay; paragraphs remain verbatim.
-function essayParts(text, headings) {
-  const paragraphs = text.split(/\n\s*\n/), parts = [];
-  let current;
-  for (const p of paragraphs) {
-    const heading = headings.find(([start]) => p.startsWith(start));
-    if (heading || !current) {
-      current = {title:heading?.[1] || 'Reflexió personal', text:[]};
-      parts.push(current);
-    }
-    current.text.push(p);
-  }
-  return parts;
-}
-function intro() {
-  const d = PORTFOLIO.intro;
-  const parts = essayParts(d.reflection, [
-    ['Dijous passat','«Un árbol pinta una nube»'],
-    ["L'objectiu de l'educació artística",'La veu pròpia de cada infant'],
-    ['Per això, considero fonamental','El procés i la bellesa del que canvia'],
-    ['En relació amb aquesta idea, em va semblar molt important','El vincle amb la vida i el joc'],
-    ['Aquesta idea connecta amb la reflexió de Bertrand Russell','Nosaltres també som naturalesa'],
-    ["També considero que l'argila",'Materials, colors i sensibilitat'],
-    ["Aquesta manera d'entendre l'educació també",'Observar, escoltar i acompanyar']
-  ]);
-  return page('introduccio','01 · Inici del recorregut','Art i natura a l’Educació Infantil','Reflexió sobre la conferència «Un árbol pinta una nube».',
-    section('01 · Proposta','Art i natura a la infància',`<div class="split-editorial"><div>${prose(d.proposal)}<h3 class="reading-subtitle">Objectiu</h3>${prose(d.objective)}</div><div>${photoFigure(group('introduccio')[0])}</div></div>`)+
-    parts.map((p,i) => section(`Reflexió · ${formatIndex(i+1)}`,p.title,prose(p.text.join('\n\n'),'original-reflection') + (i === 0 ? `<div class="essay-photo">${photoFigure(group('introduccio')[1])}</div>` : '') + (i === parts.length-1 ? source('1–7') : ''),i%2 === 0)).join(''));
-}
-function blocI() {
-  const d = PORTFOLIO.reading;
-  return page('bloc-i','Bloc I · Fonaments','Bloc I — Art i educació','Rachel Carson i Heike Freire: observació, creació artística i natura.',
-    section('01 · Proposta','Lectures per aprendre a mirar',prose(d.proposal)+`<h3 class="reading-subtitle">Objectius</h3>`+prose(d.objectives)+gallery('bloc-i'))+
-    section('02 · Quadern de lectura','La importància de l’observació de la realitat, la creació artística i la natura com a espai d’ensenyament i aprenentatge a educació infantil',prose(d.reflection,'original-reflection')+source('8–10'),true));
-}
-function blocII() {
-  return page('bloc-ii','Bloc II · Art i natura','La formació en la pràctica de l’art','El jardí com a agent pedagògic.',
-    section('00 · Presentació','Un recorregut en quatre capítols',prose(PORTFOLIO.block.framing)+chapterLinks(B2))+
-    section('01 · Entre el museu i el jardí','Observar, experimentar i crear',`<div class="split-editorial"><div>${photoFigure(group('jardi')[0])}</div><div class="prose"><p>Les reflexions de la primera sessió es recullen a «Formes d’apropar-se a la natura». La visita reuneix deu obres, el diàleg amb el jardí i les conclusions de la sortida.</p><a href="${pathFor(B2[0].path)}" class="editorial-cta">Llegeix la reflexió →</a></div></div>`,true));
-}
-function b2p1() {
-  return page(B2[0].path,'Bloc II · Proposta 01',"Formes d'apropar-se a la natura",'Art, natura i educació: «Educar artísticament és també educar la mirada».',
-    section('01 · Primera sessió','Educar artísticament és també educar la mirada',prose(PORTFOLIO.block.reflection,'original-reflection')+source('11–12')));
-}
-function artworkCard(art,i) {
-  const id = `obra-${i+1}`;
-  MEDIA[id] = {src:art.src, title:art.title, subtitle:art.artist, meta:`Tècnica (segons el document): ${art.technique}\nImatge extreta del document d’Ariadna · p. ${art.page}`, desc:art.reflection};
-  return `<article class="catalog-card archive-card artwork-card" id="${id}"><button class="catalog-img-box" type="button" data-lightbox="${id}" aria-label="Amplia l’obra: ${esc(art.title)}">${picture({output:art.src,dimensions:art.dimensions},`${art.title} — ${art.artist}`)}<span class="zoom-pill">Amplia ↗</span></button><div class="catalog-body"><span class="catalog-index">${formatIndex(i+1)} / Referent artístic</span><h3 class="catalog-title">${esc(art.title)}</h3><p class="catalog-subtitle">${esc(art.artist)}</p><p class="museum-label-box">Tècnica (segons el document): ${esc(art.technique)}</p><p class="micro-foot">Imatge extreta del document d’Ariadna · p. ${art.page}</p><details class="reflection-details"><summary>Reflexió i proposta educativa<span class="sr-only">: ${esc(art.title)}</span></summary>${prose(art.reflection,'original-reflection')}</details></div></article>`;
-}
-function b2p2() {
-  const m = PORTFOLIO.museum, g = PORTFOLIO.garden;
-  const conclusions = essayParts(PORTFOLIO.outing,[
-    ['Aquesta passejada','Entre el museu i el jardí'],
-    ['1. Què penso','El meu vincle amb la natura'],
-    ['2. Què penso','La meva pràctica artística'],
-    ['3. Què penso','La meva futura pràctica docent']
-  ]);
-  return page(B2[1].path,'Bloc II · Proposta 02','Visita museu i jardí','Referents artístics, diàleg amb el jardí i reflexions de la sortida.',
-    `<section class="section-pad"><div class="container">${prose(m.introduction)}<nav class="proposal-jump" aria-label="Apartats de la sortida">${[['proposta-mnac','01 · Obres i museus'],['proposta-jardi','02 · Diàleg amb el jardí'],['proposta-arts','03 · Educar a través de les arts'],['conclusions-sortida','Conclusions de la sortida']].map(([id,t])=>`<button type="button" data-scroll-to="${id}">${t}</button>`).join('')}</nav></div></section>`+
-    section('Proposta 01 · MNAC i Museu Mater','Deu mirades sobre les obres',prose(m.proposal)+`<h3 class="reading-subtitle">Objectius de la proposta</h3>`+prose(m.objectives)+`<p class="photo-disclaimer">«Verd de coure» s’emmarca a l’exposició «Color, pigment i origen» del Museu Mater, segons el document. Les dades i les tècniques de les fitxes es transcriuen de la documentació d’Ariadna.</p><div class="catalog-grid cols-3">${PORTFOLIO.artworks.map(artworkCard).join('')}</div><h3 class="reading-subtitle">Documentació de la visita</h3>`+gallery('mnac'),false,'proposta-mnac')+
-    section('Proposta 01 · Quadern de visita','Desenvolupament, metodologia i conclusions',`<h3 class="reading-subtitle">Conclusió de la proposta</h3>${prose(m.conclusion,'original-reflection')}<details class="document-details" open><summary>Estratègies metodològiques</summary>${prose(m.methodology)}</details><details class="document-details"><summary>Materials</summary>${prose(m.materials)}</details>${source('22–23')}`,true)+
-    section('Proposta 02 · Jardí','Diàleg amb el jardí',prose(g.proposal)+`<h3 class="reading-subtitle">Objectius de la proposta</h3>`+prose(g.objectives)+`<h3 class="reading-subtitle">Desenvolupament i resultats</h3>`+prose(g.development)+`<div class="catalog-grid species-grid">${PORTFOLIO.species.map((s,i)=>`<article class="spec-card"><span class="catalog-index">${formatIndex(i+1)} / Observació</span><h3 class="catalog-title">${esc(s.name)}</h3>${prose(s.observation,'original-reflection')}</article>`).join('')}</div>${source('24–26')}<p class="photo-disclaimer">Els noms es mantenen tal com apareixen al document. Les grafies botàniques i la correspondència entre espècies i fotografies estan pendents de confirmar amb Ariadna.</p><h3 class="reading-subtitle">Arxiu fotogràfic de la passejada</h3><p class="micro-foot">Fotografies de la sortida, sense assignació individual a les espècies.</p>${gallery('jardi')}${collageFigure()}`,false,'proposta-jardi')+
-    section('Proposta 02 · Quadern de camp','Observar i documentar',`<details class="document-details" open><summary>Estratègies metodològiques</summary>${prose(g.methodology)}</details><details class="document-details"><summary>Materials</summary>${prose(g.materials)}</details><h3 class="reading-subtitle">Reflexions i conclusions</h3>${prose(g.reflection,'original-reflection')}${source('26–28')}`,true)+
-    section('Proposta 03 · Aula','Educar a través de les arts',`<div class="interdisciplinary-matrix">${['Art','Natura','Ciències','Infància'].map((t,i)=>`<div class="pillar-box"><span class="pillar-num">${formatIndex(i+1)}</span><h3>${t}</h3></div>`).join('')}</div><div class="prose"><p>Les deu fitxes d’obres recullen les propostes educatives escrites per Ariadna. Es poden llegir desplegant «Reflexió i proposta educativa» a cada obra.</p><button class="editorial-cta" type="button" data-scroll-to="proposta-mnac">Torna a les deu obres ↑</button></div>${note('El document no inclou una fitxa autònoma desenvolupada de la proposta 3. Les activitats suggerides es conserven en les reflexions de cada obra.')}`,false,'proposta-arts')+
-    section('Sortida · Síntesi','Conclusions de la sortida',conclusions.map(c=>`<h3 class="reading-subtitle">${esc(c.title)}</h3>${prose(c.text.join('\n\n'),'original-reflection')}`).join('')+source('28–31'),true,'conclusions-sortida'));
-}
-function collageFigure() {
-  const c = PORTFOLIO.collage, id = 'collage-document';
-  MEDIA[id] = {src:c.web_asset,title:c.title,subtitle:'Composició del document original',meta:'Imatge extreta del document d’Ariadna · p. 23',desc:''};
-  return `<details class="document-details"><summary>Composició de les deu espècies al document</summary><figure class="collage-figure"><button class="local-photo" data-lightbox="${id}" type="button" aria-label="Amplia la composició de les espècies">${picture({output:c.web_asset,dimensions:c.dims},c.title)}</button><figcaption class="figure-label">Imatge extreta del document d’Ariadna · p. 23</figcaption></figure></details>`;
-}
-function b2p3() {
-  return page(B2[2].path,'Bloc II · Proposta 03','Què és un jardí?','Descripció visual i llibre d’artista.',
-    section('01 · Proposta','Del jardí al paper',prose(PORTFOLIO.book.proposal)+`<h3 class="reading-subtitle">Objectius de la proposta</h3>`+prose(PORTFOLIO.book.objectives)+source('31–32'))+
-    section('02 · Documentació','Procés i llibre d’artista',gallery('descripcio')+videos('descripcio'),true)+
-    section('03 · Quadern de procés','Desenvolupament i reflexió',`<div class="reading-grid">${['Desenvolupament i resultats','Estratègies metodològiques','Materials','Reflexió personal'].map(t=>`<div class="draft-spread"><h3>${t}</h3>${note('Les imatges i els vídeos estan incorporats. Falta la redacció d’Ariadna que expliqui el procés i els materials emprats.')}</div>`).join('')}</div>`));
-}
-function b2p4() {
-  return page(B2[3].path,'Bloc II · Proposta 04 · Secció provisional','Experimentem amb tintes vives','Arxiu de fotografies i vídeos aportats per Ariadna.',
-    section('01 · Documentació','Materials i experimentació',note('Secció provisional pendent de validar amb Ariadna. El document no conté el desenvolupament escrit d’aquesta activitat.')+gallery('tintes')+videos('tintes'))+
-    section('02 · Quadern de procés','La veu d’Ariadna',note('Objectius, desenvolupament, materials, estratègies metodològiques i reflexió personal pendents d’incorporar.'),true));
-}
-function blocIII() {
-  return page('bloc-iii','Bloc III · Cos, teixit i artivisme','Moda, artivisme i performativitat en les arts i l’educació','La formació en la pràctica de l’art.',
-    section('00 · Presentació','La matèria com a llenguatge',note('Al document, p. 33, només consten els títols de les quatre activitats. Les pràctiques i les reflexions estan pendents d’incorporar.')+chapterLinks(B3)));
-}
-function b3proposal(item) {
-  return page(item.path,'Bloc III · Quadern de procés',item.title,'Cos, teixit i creació.',
-    section('01 · Proposta','Documentació de l’activitat',note('El document, p. 33, només conté el títol. Falten el plantejament, els objectius i les fotografies de l’activitat.'))+
-    section('02 · Procés i reflexió','Quadern d’Ariadna',`<div class="reading-grid">${['Desenvolupament i resultats','Estratègies metodològiques i materials','Reflexió personal'].map(t=>`<div class="draft-spread"><h3>${t}</h3>${note()}</div>`).join('')}</div>`,true));
-}
-function conclusions() {
-  return page('conclusions','Tancament · Aprenentatges','Conclusions generals de l’assignatura','Síntesi dels aprenentatges del curs.',section('01 · Objectiu','Què m’emporto del recorregut?',prose("Ressaltar aquells aprenentatges (coneixements) que s'han realitzat durant l'assignatura.")+note('Les conclusions generals estan pendents de redactar. Les conclusions de la sortida al museu i al jardí ja es poden llegir a la proposta 2 del Bloc II.')+`<a href="${pathFor(B2[1].path)}" class="editorial-cta">Visita museu i jardí →</a>`));
-}
-function reflexio() {
-  return page('reflexio-personal','Apunts finals · Quadern íntim','Reflexió personal','Punts forts i punts febles.',section('01 · Mirada interior','La veu d’Ariadna',`<div class="reading-grid">${['Punts forts','Punts febles'].map(t=>`<div class="draft-spread"><h3>${t}</h3>${note()}</div>`).join('')}</div>`,true));
-}
-function saberMes() {
-  return page('per-saber-ne-mes','Arxiu obert · Continuar investigant','Per saber-ne més...','Recursos per ampliar el recorregut.',section('01 · Arxiu de consulta','Recursos per explorar',note('Al document, p. 33, només consta el títol d’aquest apartat. Els recursos seleccionats per Ariadna estan pendents d’incorporar.')));
-}
-function bibliografia() {
-  return page('referencies-bibliografiques','Documentació acadèmica · Fonts','Referències bibliogràfiques','Fonts recollides al document original, p. 34.',section('01 · Lectures','Bibliografia documentada',`<ol class="bibliography">${PORTFOLIO.bibliography.map(ref=>`<li>${esc(ref).replace(/(https:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" rel="noopener noreferrer">$1<span class="sr-only"> (s’obre en una pestanya nova)</span></a>')}</li>`).join('')}</ol>`));
-}
 
 const VIEWS = {
   inici:home, introduccio:intro, 'bloc-i':blocI, 'bloc-ii':blocII,
@@ -305,7 +203,9 @@ function openLightbox(id,opener) {
   document.getElementById('lightbox-title').textContent = item.title;
   document.getElementById('lightbox-subtitle').textContent = item.subtitle;
   document.getElementById('lightbox-meta').textContent = item.meta;
-  document.getElementById('lightbox-desc').innerHTML = item.desc ? prose(item.desc) : '';
+  document.getElementById('lightbox-meta').hidden = !item.meta;
+  document.getElementById('lightbox-subtitle').hidden = !item.subtitle;
+  document.getElementById('lightbox-desc').innerHTML = item.desc ? fullReading('Llegir la reflexió i proposta educativa',item.desc,'obra-completa') : '';
   modal.querySelector('.lightbox-details').scrollTop = 0;
   modal.querySelector('.lightbox-dialog').scrollTop = 0;
   modal.inert = false; modal.classList.add('is-active'); modal.setAttribute('aria-hidden','false');
