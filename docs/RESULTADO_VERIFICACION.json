@@ -1,0 +1,23 @@
+{
+  "PDF_pages": 34,
+  "PDF_embedded_images": 11,
+  "PDF_artworks": 10,
+  "photo_assets": 36,
+  "video_assets": 5,
+  "media_groups": {
+    "bloc-i": 2,
+    "mnac": 3,
+    "jardi": 3,
+    "descripcio": 23,
+    "tintes": 7,
+    "introduccio": 2,
+    "inici": 1
+  },
+  "optimized_media_bytes": 16312767,
+  "source_media_bytes": 105924663,
+  "missing_paths": [],
+  "video_errors": [],
+  "html_sha256": "d51856575b74461537eae89e8da9922aacf4228a3de6bac3d29f2233f437ed4f",
+  "species": 10,
+  "file_count": 80
+}

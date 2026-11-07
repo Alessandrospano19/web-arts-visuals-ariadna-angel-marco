@@ -1,0 +1,690 @@
+{
+  "media_original_zip": [
+    {
+      "source": "BLOC 1. ART I EDUCACIO/PROPOSTA 1. MAR MORÓN-20261107T123013Z-1-001/PROPOSTA 1. MAR MORÓN/IMG_2227.PNG",
+      "group": "bloc-i",
+      "route": "#/bloc-i",
+      "type": "image",
+      "output": "assets/bloc-i/mar-moron/img_2227.webp",
+      "dimensions": [
+        647,
+        1047
+      ],
+      "original_size": 491439,
+      "optimized_size": 108320
+    },
+    {
+      "source": "BLOC 1. ART I EDUCACIO/PROPOSTA 1. MAR MORÓN-20261107T123013Z-1-001/PROPOSTA 1. MAR MORÓN/IMG_2228.PNG",
+      "group": "bloc-i",
+      "route": "#/bloc-i",
+      "type": "image",
+      "output": "assets/bloc-i/mar-moron/img_2228.webp",
+      "dimensions": [
+        1014,
+        911
+      ],
+      "original_size": 921804,
+      "optimized_size": 177320
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 2. EXPOSICIÓ_ MNAC-20261107T123502Z-1-001/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/1.JPG",
+      "group": "mnac",
+      "route": "#/bloc-ii/p2-visita-museu-i-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/mnac-visita/1.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3662084,
+      "optimized_size": 530256
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 2. EXPOSICIÓ_ MNAC-20261107T123502Z-1-001/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/2.JPG",
+      "group": "mnac",
+      "route": "#/bloc-ii/p2-visita-museu-i-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/mnac-visita/2.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 1322976,
+      "optimized_size": 221178
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 2. EXPOSICIÓ_ MNAC-20261107T123502Z-1-001/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/3.JPG",
+      "group": "mnac",
+      "route": "#/bloc-ii/p2-visita-museu-i-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/mnac-visita/3.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "original_size": 242768,
+      "optimized_size": 132428
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 2. EXPOSICIÓ_ MNAC-20261107T123502Z-1-001/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/1.jpg",
+      "group": "jardi",
+      "route": "#/bloc-ii/p2-visita-museu-i-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/dialeg-jardi/1.webp",
+      "dimensions": [
+        1800,
+        1800
+      ],
+      "original_size": 4102116,
+      "optimized_size": 452202
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 2. EXPOSICIÓ_ MNAC-20261107T123502Z-1-001/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/IMG_4749.HEIC",
+      "group": "jardi",
+      "route": "#/bloc-ii/p2-visita-museu-i-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/dialeg-jardi/img_4749.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 2665840,
+      "optimized_size": 408840
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 2. EXPOSICIÓ_ MNAC-20261107T123502Z-1-001/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/IMG_4758.HEIC",
+      "group": "jardi",
+      "route": "#/bloc-ii/p2-visita-museu-i-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/dialeg-jardi/img_4758.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3090850,
+      "optimized_size": 464782
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/28e874c3-6344-401c-be7a-a2aaf73cd671.JPG",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/28e874c3-6344-401c-be7a-a2aaf73cd671.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "original_size": 678552,
+      "optimized_size": 559244
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/5ce71397-3e74-443c-8313-fc2ce5eb1355.JPG",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/5ce71397-3e74-443c-8313-fc2ce5eb1355.webp",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "original_size": 361164,
+      "optimized_size": 202958
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4784.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4784.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3104371,
+      "optimized_size": 453652
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4785.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4785.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 1574283,
+      "optimized_size": 136356
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4790.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4790.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3702230,
+      "optimized_size": 591312
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4791.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4791.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3794897,
+      "optimized_size": 627008
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4795.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4795.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 4189711,
+      "optimized_size": 679504
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4798.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4798.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 1578575,
+      "optimized_size": 200206
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4799.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_4799.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3915250,
+      "optimized_size": 615024
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5040.JPG",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5040.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 674112,
+      "optimized_size": 489430
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5041.JPG",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5041.webp",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "original_size": 377256,
+      "optimized_size": 236242
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5100.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5100.webp",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "original_size": 2196422,
+      "optimized_size": 212798
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5101.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5101.webp",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "original_size": 2430522,
+      "optimized_size": 204192
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5103.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5103.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 1536512,
+      "optimized_size": 265618
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5105.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5105.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 1629692,
+      "optimized_size": 315880
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5106.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5106.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 2357864,
+      "optimized_size": 200676
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5107.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5107.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 1894555,
+      "optimized_size": 336754
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5125.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5125.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 3027078,
+      "optimized_size": 250932
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5126.MOV",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "video",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5126.mp4",
+      "poster": "assets/bloc-ii/descripcio-jardi/img_5126-poster.webp",
+      "original_size": 7308578,
+      "optimized_size": 1091609
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5127.HEIC",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5127.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 2923554,
+      "optimized_size": 245798
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5128.MOV",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "video",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5128.mp4",
+      "poster": "assets/bloc-ii/descripcio-jardi/img_5128-poster.webp",
+      "original_size": 9086982,
+      "optimized_size": 1566288
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/e460a8c2-0871-4d36-a45d-411a1d306f33.JPG",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/e460a8c2-0871-4d36-a45d-411a1d306f33.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "original_size": 402992,
+      "optimized_size": 283116
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 3. DESCRIPCIÓ DEL JARDÍ-20261107T123104Z-1-001/PART 3. DESCRIPCIÓ DEL JARDÍ/f3703c50-3c7e-44cf-89bd-cdd442c6522d.JPG",
+      "group": "descripcio",
+      "route": "#/bloc-ii/p3-descripcio-del-jardi",
+      "type": "image",
+      "output": "assets/bloc-ii/descripcio-jardi/f3703c50-3c7e-44cf-89bd-cdd442c6522d.webp",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "original_size": 1213699,
+      "optimized_size": 791048
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5187.HEIC",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "image",
+      "output": "assets/bloc-ii/tintes-vives/img_5187.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 2418628,
+      "optimized_size": 166596
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5189.HEIC",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "image",
+      "output": "assets/bloc-ii/tintes-vives/img_5189.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 799038,
+      "optimized_size": 151102
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5191.MOV",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "video",
+      "output": "assets/bloc-ii/tintes-vives/img_5191.mp4",
+      "poster": "assets/bloc-ii/tintes-vives/img_5191-poster.webp",
+      "original_size": 5626128,
+      "optimized_size": 758424
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5192.HEIC",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "image",
+      "output": "assets/bloc-ii/tintes-vives/img_5192.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 2655763,
+      "optimized_size": 257598
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5193.MOV",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "video",
+      "output": "assets/bloc-ii/tintes-vives/img_5193.mp4",
+      "poster": "assets/bloc-ii/tintes-vives/img_5193-poster.webp",
+      "original_size": 3704484,
+      "optimized_size": 336584
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5194.HEIC",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "image",
+      "output": "assets/bloc-ii/tintes-vives/img_5194.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 2383668,
+      "optimized_size": 142100
+    },
+    {
+      "source": "BLOC 2. Formacio en la practica de arte, jardin/PART 4. EXPERIMENTEM AMB TINTES VIVES-20261107T123105Z-1-001/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5195.MOV",
+      "group": "tintes",
+      "route": "#/bloc-ii/p4-experimentem-amb-tintes-vives",
+      "type": "video",
+      "output": "assets/bloc-ii/tintes-vives/img_5195.mp4",
+      "poster": "assets/bloc-ii/tintes-vives/img_5195-poster.webp",
+      "original_size": 7697117,
+      "optimized_size": 570438
+    },
+    {
+      "source": "Introduccion. Arte i natura a educacio infantil/Imagenes/IMG_2226.PNG",
+      "group": "introduccio",
+      "route": "#/introduccio",
+      "type": "image",
+      "output": "assets/introduccio/img_2226.webp",
+      "dimensions": [
+        1067,
+        731
+      ],
+      "original_size": 877072,
+      "optimized_size": 138572
+    },
+    {
+      "source": "Introduccion. Arte i natura a educacio infantil/Imagenes/IMG_5030.HEIC",
+      "group": "introduccio",
+      "route": "#/introduccio",
+      "type": "image",
+      "output": "assets/introduccio/img_5030.webp",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "original_size": 2642526,
+      "optimized_size": 262836
+    },
+    {
+      "source": "inicio web/Imagenes/c1e64692-2a9e-48a7-8751-6184236d6423.jpg",
+      "group": "inici",
+      "route": "#/inici",
+      "type": "image",
+      "output": "assets/inici/c1e64692-2a9e-48a7-8751-6184236d6423.webp",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "original_size": 661511,
+      "optimized_size": 477546
+    }
+  ],
+  "images_from_pdf": [
+    {
+      "page": 13,
+      "slug": "obra-01-verd-de-coure",
+      "title": "Verd de coure",
+      "artist": "Solé Duc",
+      "technique": "trepant i tenyit de verd de coure a partir de pigments minerals i alquímics",
+      "kind": "artwork",
+      "pdf_xref": 34,
+      "original_asset": "assets/pdf-originals/obra-01-verd-de-coure.jpeg",
+      "web_asset": "assets/pdf-obres/obra-01-verd-de-coure.webp",
+      "dims": [
+        1350,
+        1800
+      ]
+    },
+    {
+      "page": 15,
+      "slug": "obra-02-el-mateix-de-sempre",
+      "title": "El mateix de sempre!",
+      "artist": "Modest Urgell",
+      "technique": "oli sobre tela",
+      "kind": "artwork",
+      "pdf_xref": 40,
+      "original_asset": "assets/pdf-originals/obra-02-el-mateix-de-sempre.jpeg",
+      "web_asset": "assets/pdf-obres/obra-02-el-mateix-de-sempre.webp",
+      "dims": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "page": 15,
+      "slug": "obra-03-la-sega",
+      "title": "La sega",
+      "artist": "Joaquim Vayreda",
+      "technique": "oli sobre tela",
+      "kind": "artwork",
+      "pdf_xref": 41,
+      "original_asset": "assets/pdf-originals/obra-03-la-sega.jpeg",
+      "web_asset": "assets/pdf-obres/obra-03-la-sega.webp",
+      "dims": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "page": 16,
+      "slug": "obra-04-composicio-tres-obres",
+      "title": "Composició de 3 obres interrelacionades",
+      "artist": "Alexandre de Riquer",
+      "technique": "Tremp sobre paper",
+      "kind": "artwork",
+      "pdf_xref": 45,
+      "original_asset": "assets/pdf-originals/obra-04-composicio-tres-obres.jpeg",
+      "web_asset": "assets/pdf-obres/obra-04-composicio-tres-obres.webp",
+      "dims": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "page": 17,
+      "slug": "obra-05-paravent-dels-nenufars",
+      "title": "Paravent dels nenúfars",
+      "artist": "Frederic Vidal",
+      "technique": "fusta i vitrall cloisonné",
+      "kind": "artwork",
+      "pdf_xref": 48,
+      "original_asset": "assets/pdf-originals/obra-05-paravent-dels-nenufars.jpeg",
+      "web_asset": "assets/pdf-obres/obra-05-paravent-dels-nenufars.webp",
+      "dims": [
+        1350,
+        1800
+      ]
+    },
+    {
+      "page": 17,
+      "slug": "obra-06-paisatge",
+      "title": "Paisatge",
+      "artist": "Josep Maria Casals i Ariet",
+      "technique": "Bromoli transportat sobre paper",
+      "kind": "artwork",
+      "pdf_xref": 49,
+      "original_asset": "assets/pdf-originals/obra-06-paisatge.jpeg",
+      "web_asset": "assets/pdf-obres/obra-06-paisatge.webp",
+      "dims": [
+        1350,
+        1800
+      ]
+    },
+    {
+      "page": 18,
+      "slug": "obra-07-sense-titol",
+      "title": "Sense títol",
+      "artist": "Joan Furriols",
+      "technique": "tela metàl·lica i pigments",
+      "kind": "artwork",
+      "pdf_xref": 52,
+      "original_asset": "assets/pdf-originals/obra-07-sense-titol.jpeg",
+      "web_asset": "assets/pdf-obres/obra-07-sense-titol.webp",
+      "dims": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "page": 19,
+      "slug": "obra-08-terrers-montgat",
+      "title": "Terrers (Montgat)",
+      "artist": "Nicolau Raurich i Petre",
+      "technique": "oli sobre tela",
+      "kind": "artwork",
+      "pdf_xref": 55,
+      "original_asset": "assets/pdf-originals/obra-08-terrers-montgat.jpeg",
+      "web_asset": "assets/pdf-obres/obra-08-terrers-montgat.webp",
+      "dims": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "page": 20,
+      "slug": "obra-09-gerro-amb-flors",
+      "title": "Gerro amb flors",
+      "artist": "Francesc Lacoma Fontanet",
+      "technique": "oli sobre tela",
+      "kind": "artwork",
+      "pdf_xref": 58,
+      "original_asset": "assets/pdf-originals/obra-09-gerro-amb-flors.jpeg",
+      "web_asset": "assets/pdf-obres/obra-09-gerro-amb-flors.webp",
+      "dims": [
+        1350,
+        1800
+      ]
+    },
+    {
+      "page": 21,
+      "slug": "obra-10-el-roc-de-lestany",
+      "title": "El roc de l’estany",
+      "artist": "Joaquim Mir",
+      "technique": "oli sobre tela",
+      "kind": "artwork",
+      "pdf_xref": 61,
+      "original_asset": "assets/pdf-originals/obra-10-el-roc-de-lestany.jpeg",
+      "web_asset": "assets/pdf-obres/obra-10-el-roc-de-lestany.webp",
+      "dims": [
+        1800,
+        1350
+      ]
+    },
+    {
+      "page": 23,
+      "slug": "collage-10-especies-montjuic",
+      "title": "10 espècies vegetals pels jardins del Parc de Montjuïc",
+      "artist": null,
+      "technique": null,
+      "kind": "collage",
+      "pdf_xref": 66,
+      "original_asset": "assets/pdf-originals/collage-10-especies-montjuic.jpeg",
+      "web_asset": "assets/pdf-obres/collage-10-especies-montjuic.webp",
+      "dims": [
+        923,
+        1640
+      ]
+    }
+  ],
+  "unconverted_video_errors": []
+}
