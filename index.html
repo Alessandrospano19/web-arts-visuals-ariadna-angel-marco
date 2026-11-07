@@ -1,0 +1,3141 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafoli d'Educacio de les Arts Visuals I, 2026-2027. Ariadna Angel Marco.">
+  <meta name="theme-color" content="#F7F5EF">
+  <title>Educació de les Arts Visuals I — Ariadna Angel Marco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+/* Estils originals recuperats del prototip HTML interromput. */
+ 
+
+     /* ========================================================================== 
+
+        1. TOKENS DE DISSENY I IDENTITAT VISUAL 
+
+        ========================================================================== */ 
+
+     :root { 
+
+       /* Paleta cromàtica oficial */ 
+
+       --bg-primary: #F7F5EF; 
+
+       --bg-alt: #EAE6DC; 
+
+       --forest-green: #374A3C; 
+
+       --olive-green: #78816A; 
+
+       --terracotta: #B87B60; 
+
+       --text-main: #282824; 
+
+       --text-muted: #5A5952; 
+
+       --white: #FFFFFF; 
+
+       --border-subtle: rgba(40, 40, 36, 0.12); 
+
+       --border-strong: rgba(55, 74, 60, 0.28); 
+
+
+
+       /* Tokens dinàmics segons el bloc actiu (canvien al Bloc III per donar identitat experimental) */ 
+
+       --theme-accent: var(--forest-green); 
+
+       --theme-secondary: var(--olive-green); 
+
+       --theme-highlight: var(--terracotta); 
+
+       --theme-surface: var(--bg-alt); 
+
+
+
+       /* Tipografia */ 
+
+       --font-serif: 'Cormorant Garamond', Georgia, serif; 
+
+       --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; 
+
+
+
+       /* Escala fluida Mobile-First (dissenyat des de 375px/390px fins a 1440px) */ 
+
+       --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.84rem); 
+
+       --text-sm: clamp(0.875rem, 0.84rem + 0.18vw, 0.95rem); 
+
+       --text-base: clamp(1rem, 0.96rem + 0.22vw, 1.125rem); 
+
+       --text-lg: clamp(1.18rem, 1.1rem + 0.4vw, 1.38rem); 
+
+       --text-xl: clamp(1.45rem, 1.3rem + 0.75vw, 1.95rem); 
+
+       --text-2xl: clamp(1.85rem, 1.55rem + 1.4vw, 2.75rem); 
+
+       --text-3xl: clamp(2.25rem, 1.8rem + 2.2vw, 3.85rem); 
+
+       --text-hero: clamp(2.55rem, 1.95rem + 3.1vw, 4.9rem); 
+
+
+
+       /* Espaiat i estructura */ 
+
+       --container-max: 1320px; 
+
+       --reading-max: 68ch; 
+
+       --header-height: 76px; 
+
+       --radius-sm: 2px; 
+
+       --radius-md: 4px; 
+
+       --transition-smooth: 0.28s cubic-bezier(0.22, 1, 0.36, 1); 
+
+     } 
+
+
+
+     /* Identitat visual diferenciada per al Bloc III (Cos, Moda i Artivisme) */ 
+
+     body[data-Section-theme="bloc-iii"] { 
+
+       --bg-primary: #F4F1EC; 
+
+       --bg-alt: #E5DFD7; 
+
+       --theme-accent: #282824; 
+
+       --theme-secondary: #8C5843; 
+
+       --theme-highlight: #B87B60; 
+
+       --border-subtle: rgba(40, 40, 36, 0.16); 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        2. RESET I BASE EDITORIAL 
+
+        ========================================================================== */ 
+
+     *, *::before, *::after { 
+
+       box-sizing: border-box; 
+
+       margin: 0; 
+
+       padding: 0; 
+
+     } 
+
+
+
+     html { 
+
+       scroll-behavior: smooth; 
+
+       -webkit-text-size-adjust: 100%; 
+
+       background-color: var(--bg-primary); 
+
+       color: var(--text-main); 
+
+       font-family: var(--font-sans); 
+
+       font-size: 16px; 
+
+       line-height: 1.65; 
+
+     } 
+
+
+
+     body { 
+
+       min-height: 100vh; 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       background-color: var(--bg-primary); 
+
+       color: var(--text-main); 
+
+       overflow-x: hidden; 
+
+       transition: background-color 0.35s ease; 
+
+     } 
+
+
+
+     img, video { 
+
+       max-width: 100%; 
+
+       height: auto; 
+
+       display: block; 
+
+     } 
+
+
+
+     a { 
+
+       color: inherit; 
+
+       text-decoration: none; 
+
+       transition: color var(--transition-smooth), opacity var(--transition-smooth); 
+
+     } 
+
+
+
+     button { 
+
+       font: inherit; 
+
+       color: inherit; 
+
+       background: none; 
+
+       border: none; 
+
+       cursor: pointer; 
+
+     } 
+
+
+
+     ul, ol { 
+
+       list-style: none; 
+
+     } 
+
+
+
+     /* Accessibilitat per teclat */ 
+
+     :focus-visible { 
+
+       outline: 2px solid var(--terracotta); 
+
+       outline-offset: 3px; 
+
+     } 
+
+
+
+     .skip-link { 
+
+       position: absolute; 
+
+       top: -100px; 
+
+       left: 1rem; 
+
+       background: var(--forest-green); 
+
+       color: var(--white); 
+
+       padding: 0.75rem 1.25rem; 
+
+       z-index: 9999; 
+
+       font-size: var(--text-sm); 
+
+       border-radius: var(--radius-sm); 
+
+     } 
+
+     .skip-link:focus { 
+
+       top: 1rem; 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        3. TIPOGRAFIA I UTILITATS EDITORIALS 
+
+        ========================================================================== */ 
+
+     h1, h2, h3, h4, .serif-title { 
+
+       font-family: var(--font-serif); 
+
+       font-weight: 500; 
+
+       line-height: 1.12; 
+
+       letter-spacing: -0.01em; 
+
+       overflow-wrap: break-word; 
+
+       word-break: normal; 
+
+       hyphens: none; 
+
+     } 
+
+
+
+     .eyebrow { 
+
+       font-family: var(--font-sans); 
+
+       font-size: var(--text-xs); 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.16em; 
+
+       color: var(--theme-secondary); 
+
+       font-weight: 600; 
+
+       display: inline-block; 
+
+       margin-bottom: 0.75rem; 
+
+     } 
+
+
+
+     .editorial-lead { 
+
+       font-family: var(--font-serif); 
+
+       font-size: var(--text-xl); 
+
+       line-height: 1.38; 
+
+       color: var(--text-main); 
+
+       font-weight: 400; 
+
+     } 
+
+
+
+     .prose { 
+
+       max-width: var(--reading-max); 
+
+       font-size: var(--text-base); 
+
+       color: var(--text-main); 
+
+     } 
+
+
+
+     .prose p + p { 
+
+       margin-top: 1.25rem; 
+
+     } 
+
+
+
+     .dropcap::first-letter { 
+
+       font-family: var(--font-serif); 
+
+       float: left; 
+
+       font-size: 3.7rem; 
+
+       line-height: 0.82; 
+
+       padding-top: 4px; 
+
+       padding-right: 12px; 
+
+       padding-bottom: 4px; 
+
+       color: var(--theme-accent); 
+
+       font-weight: 600; 
+
+     } 
+
+
+
+     .container { 
+
+       width: 100%; 
+
+       max-width: var(--container-max); 
+
+       margin: 0 auto; 
+
+       padding: 0 1.25rem; 
+
+     } 
+
+
+
+     @media (min-width: 768px) { 
+
+       .container { 
+
+         padding: 0 2.5rem; 
+
+       } 
+
+     } 
+
+
+
+     /* Marcador estètic per a contingut pendent d'incorporar */ 
+
+     .pending-box { 
+
+       background-color: rgba(234, 230, 220, 0.65); 
+
+       border: 1px dashed var(--olive-green); 
+
+       border-left: 3px solid var(--terracotta); 
+
+       padding: 1.25rem 1.5rem; 
+
+       margin: 1.25rem 0; 
+
+       border-radius: var(--radius-sm); 
+
+     } 
+
+
+
+     .pending-badge { 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       gap: 0.45rem; 
+
+       font-size: var(--text-xs); 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.12em; 
+
+       color: var(--terracotta); 
+
+       font-weight: 600; 
+
+       margin-bottom: 0.4rem; 
+
+     } 
+
+
+
+     .pending-badge::before { 
+
+       content: ""; 
+
+       width: 7px; 
+
+       height: 7px; 
+
+       border-radius: 50%; 
+
+       background-color: var(--terracotta); 
+
+       display: inline-block; 
+
+     } 
+
+
+
+     .pending-text { 
+
+       font-family: var(--font-serif); 
+
+       font-style: italic; 
+
+       font-size: var(--text-lg); 
+
+       color: var(--text-muted); 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        4. CABECERA I NAVEGACIÓ MULTIPÀGINA (MOBILE FIRST) 
+
+        ========================================================================== */ 
+
+     .site-header { 
+
+       position: sticky; 
+
+       top: 0; 
+
+       z-index: 1000; 
+
+       height: var(--header-height); 
+
+       background-color: rgba(247, 245, 239, 0.95); 
+
+       backdrop-filter: blur(8px); 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+       transition: background-color 0.3s ease; 
+
+     } 
+
+
+
+     body[data-Section-theme="bloc-iii"] .site-header { 
+
+       background-color: rgba(244, 241, 236, 0.95); 
+
+     } 
+
+
+
+     .header-inner { 
+
+       height: 100%; 
+
+       display: flex; 
+
+       align-items: center; 
+
+       justify-content: space-between; 
+
+       gap: 1rem; 
+
+     } 
+
+
+
+     .brand-logo { 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       line-height: 1.05; 
+
+       padding: 0.35rem 0; 
+
+     } 
+
+
+
+     .brand-logo-main { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 1.25rem; 
+
+       font-weight: 600; 
+
+       letter-spacing: 0.12em; 
+
+       color: var(--text-main); 
+
+     } 
+
+
+
+     .brand-logo-main span { 
+
+       color: var(--terracotta); 
+
+       font-style: italic; 
+
+       font-weight: 400; 
+
+     } 
+
+
+
+     .brand-logo-sub { 
+
+       font-size: 0.68rem; 
+
+       letter-spacing: 0.14em; 
+
+       text-transform: uppercase; 
+
+       color: var(--text-muted); 
+
+       margin-top: 2px; 
+
+     } 
+
+
+
+     /* Navegació d'escriptori */ 
+
+     .desktop-nav { 
+
+       display: none; 
+
+     } 
+
+
+
+     @media (min-width: 1120px) { 
+
+       .desktop-nav { 
+
+         display: flex; 
+
+         align-items: center; 
+
+         gap: 0.2rem; 
+
+       } 
+
+     } 
+
+
+
+     .nav-item { 
+
+       position: relative; 
+
+     } 
+
+
+
+     .nav-link { 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       gap: 0.3rem; 
+
+       padding: 0.55rem 0.68rem; 
+
+       font-size: 0.82rem; 
+
+       font-weight: 500; 
+
+       letter-spacing: 0.03em; 
+
+       color: var(--text-main); 
+
+       border-radius: var(--radius-sm); 
+
+       white-space: nowrap; 
+
+     } 
+
+
+
+     .nav-link:hover, 
+
+     .nav-link.active { 
+
+       color: var(--terracotta); 
+
+     } 
+
+
+
+     .nav-link.active { 
+
+       font-weight: 600; 
+
+       text-decoration: underline; 
+
+       text-underline-offset: 6px; 
+
+       text-decoration-thickness: 1.5px; 
+
+     } 
+
+
+
+     .dropdown-toggle-btn { 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       width: 22px; 
+
+       height: 22px; 
+
+       margin-left: -4px; 
+
+       color: var(--text-muted); 
+
+       transition: transform 0.2s ease; 
+
+     } 
+
+
+
+     .nav-item:hover .dropdown-toggle-btn, 
+
+     .nav-item.open .dropdown-toggle-btn { 
+
+       transform: rotate(180deg); 
+
+       color: var(--terracotta); 
+
+     } 
+
+
+
+     .dropdown-menu { 
+
+       position: absolute; 
+
+       top: calc(100% + 2px); 
+
+       left: 0; 
+
+       min-width: 290px; 
+
+       background-color: var(--bg-primary); 
+
+       border: 1px solid var(--border-strong); 
+
+       box-shadow: 0 14px 32px rgba(40, 40, 36, 0.09); 
+
+       padding: 0.6rem 0; 
+
+       opacity: 0; 
+
+       visibility: hidden; 
+
+       transform: translateY(6px); 
+
+       transition: all 0.22s ease; 
+
+       z-index: 1100; 
+
+     } 
+
+
+
+     .nav-item:hover .dropdown-menu, 
+
+     .nav-item:focus-within .dropdown-menu, 
+
+     .nav-item.open .dropdown-menu { 
+
+       opacity: 1; 
+
+       visibility: visible; 
+
+       transform: translateY(0); 
+
+     } 
+
+
+
+     .dropdown-link { 
+
+       display: block; 
+
+       padding: 0.6rem 1.15rem; 
+
+       font-size: 0.84rem; 
+
+       color: var(--text-main); 
+
+       border-left: 2px solid transparent; 
+
+       transition: all 0.18s ease; 
+
+     } 
+
+
+
+     .dropdown-link:hover, 
+
+     .dropdown-link.active { 
+
+       background-color: var(--bg-alt); 
+
+       color: var(--forest-green); 
+
+       border-left-color: var(--terracotta); 
+
+       padding-left: 1.35rem; 
+
+     } 
+
+
+
+     .dropdown-header-link { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 0.95rem; 
+
+       font-weight: 600; 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+       margin-bottom: 0.3rem; 
+
+       padding-bottom: 0.6rem; 
+
+     } 
+
+
+
+     /* Botó Hamburguesa Mòbil */ 
+
+     .mobile-menu-btn { 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       gap: 0.55rem; 
+
+       min-height: 44px; 
+
+       padding: 0.5rem 0.75rem; 
+
+       border: 1px solid var(--border-subtle); 
+
+       border-radius: var(--radius-sm); 
+
+       font-size: 0.78rem; 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.12em; 
+
+       font-weight: 500; 
+
+     } 
+
+
+
+     @media (min-width: 1120px) { 
+
+       .mobile-menu-btn { 
+
+         display: none; 
+
+       } 
+
+     } 
+
+
+
+     .hamburger-bars { 
+
+       width: 18px; 
+
+       height: 12px; 
+
+       position: relative; 
+
+       display: inline-block; 
+
+     } 
+
+
+
+     .hamburger-bars span { 
+
+       position: absolute; 
+
+       left: 0; 
+
+       width: 100%; 
+
+       height: 1.5px; 
+
+       background-color: var(--text-main); 
+
+       transition: transform 0.25s ease, opacity 0.25s ease, top 0.25s ease; 
+
+     } 
+
+
+
+     .hamburger-bars span:nth-child(1) { top: 0; } 
+
+     .hamburger-bars span:nth-child(2) { top: 5px; } 
+
+     .hamburger-bars span:nth-child(3) { top: 10px; } 
+
+
+
+     .mobile-menu-btn[aria-expanded="true"] .hamburger-bars span:nth-child(1) { 
+
+       top: 5px; 
+
+       transform: rotate(45deg); 
+
+     } 
+
+     .mobile-menu-btn[aria-expanded="true"] .hamburger-bars span:nth-child(2) { 
+
+       opacity: 0; 
+
+     } 
+
+     .mobile-menu-btn[aria-expanded="true"] .hamburger-bars span:nth-child(3) { 
+
+       top: 5px; 
+
+       transform: rotate(-45deg); 
+
+     } 
+
+
+
+     /* Drawer de navegació mòbil */ 
+
+     .mobile-nav-drawer { 
+
+       position: fixed; 
+
+       top: var(--header-height); 
+
+       left: 0; 
+
+       right: 0; 
+
+       bottom: 0; 
+
+       background-color: var(--bg-primary); 
+
+       z-index: 999; 
+
+       overflow-y: auto; 
+
+       padding: 1.5rem 1.25rem 3rem; 
+
+       transform: translateX(100%); 
+
+       visibility: hidden; 
+
+       transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.32s; 
+
+       border-top: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     .mobile-nav-drawer.is-open { 
+
+       transform: translateX(0); 
+
+       visibility: visible; 
+
+     } 
+
+
+
+     .mobile-nav-list { 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       border-top: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     .mobile-nav-item { 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     .mobile-nav-row { 
+
+       display: flex; 
+
+       align-items: center; 
+
+       justify-content: space-between; 
+
+       min-height: 52px; 
+
+     } 
+
+
+
+     .mobile-nav-link { 
+
+       flex: 1; 
+
+       padding: 0.85rem 0.25rem; 
+
+       font-family: var(--font-serif); 
+
+       font-size: 1.35rem; 
+
+       font-weight: 500; 
+
+       color: var(--text-main); 
+
+     } 
+
+
+
+     .mobile-nav-link.active { 
+
+       color: var(--terracotta); 
+
+       font-style: italic; 
+
+     } 
+
+
+
+     .mobile-submenu-btn { 
+
+       width: 48px; 
+
+       height: 48px; 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       border-left: 1px solid var(--border-subtle); 
+
+       color: var(--text-muted); 
+
+     } 
+
+
+
+     .mobile-submenu { 
+
+       display: none; 
+
+       background-color: var(--bg-alt); 
+
+       padding: 0.5rem 0 0.75rem 1rem; 
+
+       border-top: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     .mobile-submenu.is-open { 
+
+       display: block; 
+
+     } 
+
+
+
+     .mobile-sublink { 
+
+       display: block; 
+
+       padding: 0.65rem 0.75rem; 
+
+       font-size: 0.95rem; 
+
+       color: var(--text-main); 
+
+       border-left: 2px solid var(--border-strong); 
+
+       margin: 0.25rem 0; 
+
+     } 
+
+
+
+     .mobile-sublink.active { 
+
+       border-left-color: var(--terracotta); 
+
+       color: var(--forest-green); 
+
+       font-weight: 600; 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        5. LAYOUTS EDITORIALS I SECCIONS 
+
+        ========================================================================== */ 
+
+     main { 
+
+       flex: 1; 
+
+     } 
+
+
+
+     .page-view { 
+
+       animation: fadeView 0.35s ease; 
+
+     } 
+
+
+
+     @keyframes fadeView { 
+
+       from { opacity: 0; transform: translateY(6px); } 
+
+       to { opacity: 1; transform: translateY(0); } 
+
+     } 
+
+
+
+     .section-pad { 
+
+       padding: 3.5rem 0; 
+
+     } 
+
+
+
+     @media (min-width: 768px) { 
+
+       .section-pad { 
+
+         padding: 5.5rem 0; 
+
+       } 
+
+     } 
+
+
+
+     .bg-alt-section { 
+
+       background-color: var(--bg-alt); 
+
+       border-top: 1px solid var(--border-subtle); 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     /* Breadcrumb / Cinta d'ubicació */ 
+
+     .breadcrumb-bar { 
+
+       padding: 1rem 0; 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+       font-size: var(--text-xs); 
+
+       letter-spacing: 0.08em; 
+
+       text-transform: uppercase; 
+
+       color: var(--text-muted); 
+
+     } 
+
+
+
+     .breadcrumb-list { 
+
+       display: flex; 
+
+       flex-wrap: wrap; 
+
+       align-items: center; 
+
+       gap: 0.45rem; 
+
+     } 
+
+
+
+     .breadcrumb-list a:hover { 
+
+       color: var(--terracotta); 
+
+       text-decoration: underline; 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        6. PORTADA / INICI (HERO DE GRAN FORMAT I COMPOSICIONS) 
+
+        ========================================================================== */ 
+
+     .hero-editorial { 
+
+       padding: 2.25rem 0 4rem; 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     @media (min-width: 960px) { 
+
+       .hero-editorial { 
+
+         padding: 4rem 0 5.5rem; 
+
+       } 
+
+     } 
+
+
+
+     .hero-grid { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 2.25rem; 
+
+       align-items: end; 
+
+     } 
+
+
+
+     @media (min-width: 960px) { 
+
+       .hero-grid { 
+
+         grid-template-columns: 1.08fr 0.92fr; 
+
+         gap: 3.5rem; 
+
+       } 
+
+     } 
+
+
+
+     .hero-kicker { 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       gap: 0.75rem; 
+
+       font-size: var(--text-xs); 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.18em; 
+
+       color: var(--forest-green); 
+
+       margin-bottom: 1.25rem; 
+
+       font-weight: 600; 
+
+     } 
+
+
+
+     .hero-kicker::before { 
+
+       content: ""; 
+
+       width: 28px; 
+
+       height: 1px; 
+
+       background-color: var(--terracotta); 
+
+     } 
+
+
+
+     .hero-title { 
+
+       font-size: var(--text-hero); 
+
+       line-height: 0.98; 
+
+       color: var(--text-main); 
+
+       margin-bottom: 1.5rem; 
+
+       font-weight: 500; 
+
+     } 
+
+
+
+     .hero-title em { 
+
+       font-style: italic; 
+
+       font-weight: 400; 
+
+       color: var(--forest-green); 
+
+     } 
+
+
+
+     .hero-subtitle { 
+
+       font-family: var(--font-serif); 
+
+       font-size: var(--text-xl); 
+
+       line-height: 1.35; 
+
+       color: var(--text-muted); 
+
+       max-width: 34ch; 
+
+       margin-bottom: 2rem; 
+
+     } 
+
+
+
+     .hero-meta-grid { 
+
+       display: grid; 
+
+       grid-template-columns: repeat(2, 1fr); 
+
+       gap: 1rem; 
+
+       padding-top: 1.5rem; 
+
+       border-top: 1px solid var(--border-strong); 
+
+       max-width: 460px; 
+
+     } 
+
+
+
+     .meta-label { 
+
+       font-size: 0.7rem; 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.14em; 
+
+       color: var(--text-muted); 
+
+       display: block; 
+
+       margin-bottom: 0.2rem; 
+
+     } 
+
+
+
+     .meta-value { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 1.15rem; 
+
+       font-weight: 600; 
+
+       color: var(--text-main); 
+
+     } 
+
+
+
+     .hero-visual-frame { 
+
+       position: relative; 
+
+     } 
+
+
+
+     .hero-img-wrapper { 
+
+       position: relative; 
+
+       overflow: hidden; 
+
+       background-color: var(--bg-alt); 
+
+       border: 1px solid var(--border-subtle); 
+
+       aspect-ratio: 4 / 5; 
+
+     } 
+
+
+
+     .hero-img-wrapper img { 
+
+       width: 100%; 
+
+       height: 100%; 
+
+       object-fit: cover; 
+
+       transition: transform 0.8s ease; 
+
+     } 
+
+
+
+     .hero-caption { 
+
+       display: flex; 
+
+       justify-content: space-between; 
+
+       align-items: baseline; 
+
+       gap: 1rem; 
+
+       padding-top: 0.75rem; 
+
+       font-size: var(--text-xs); 
+
+       color: var(--text-muted); 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+       padding-bottom: 0.65rem; 
+
+     } 
+
+
+
+     /* Secció de Benvinguda i Presentació */ 
+
+     .split-editorial { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 2.5rem; 
+
+       align-items: start; 
+
+     } 
+
+
+
+     @media (min-width: 860px) { 
+
+       .split-editorial { 
+
+         grid-template-columns: 0.85fr 1.15fr; 
+
+         gap: 4rem; 
+
+       } 
+
+       .split-editorial.reverse { 
+
+         grid-template-columns: 1.15fr 0.85fr; 
+
+       } 
+
+     } 
+
+
+
+     .author-portrait-frame { 
+
+       background-color: var(--bg-primary); 
+
+       padding: 1rem; 
+
+       border: 1px solid var(--border-strong); 
+
+     } 
+
+
+
+     .author-portrait-img { 
+
+       aspect-ratio: 4 / 5; 
+
+       width: 100%; 
+
+       object-fit: cover; 
+
+       margin-bottom: 0.85rem; 
+
+     } 
+
+
+
+     /* Entrades visuals d'exploració (01, 02, 03) */ 
+
+     .exploration-list { 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       gap: 3.5rem; 
+
+       margin-top: 2.5rem; 
+
+     } 
+
+
+
+     .exploration-entry { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 1.5rem; 
+
+       align-items: center; 
+
+       padding-bottom: 3.5rem; 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     .exploration-entry:last-child { 
+
+       border-bottom: none; 
+
+       padding-bottom: 0; 
+
+     } 
+
+
+
+     @media (min-width: 860px) { 
+
+       .exploration-entry { 
+
+         grid-template-columns: 1.15fr 0.85fr; 
+
+         gap: 3.5rem; 
+
+       } 
+
+       .exploration-entry:nth-child(even) .exploration-media { 
+
+         order: 2; 
+
+       } 
+
+       .exploration-entry:nth-child(even) .exploration-content { 
+
+         order: 1; 
+
+       } 
+
+     } 
+
+
+
+     .exploration-media { 
+
+       position: relative; 
+
+       overflow: hidden; 
+
+       aspect-ratio: 16 / 10; 
+
+       background-color: var(--bg-alt); 
+
+       border: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     .exploration-media img { 
+
+       width: 100%; 
+
+       height: 100%; 
+
+       object-fit: cover; 
+
+       transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1); 
+
+     } 
+
+
+
+     .exploration-entry:hover .exploration-media img { 
+
+       transform: scale(1.03); 
+
+     } 
+
+
+
+     .exploration-number { 
+
+       font-family: var(--font-serif); 
+
+       font-size: clamp(2.8rem, 4vw, 4.5rem); 
+
+       line-height: 0.9; 
+
+       color: var(--terracotta); 
+
+       font-style: italic; 
+
+       display: block; 
+
+       margin-bottom: 0.5rem; 
+
+     } 
+
+
+
+     .exploration-title { 
+
+       font-size: var(--text-2xl); 
+
+       margin-bottom: 0.85rem; 
+
+       color: var(--text-main); 
+
+     } 
+
+
+
+     .editorial-cta { 
+
+       display: inline-flex; 
+
+       align-items: center; 
+
+       gap: 0.65rem; 
+
+       margin-top: 1.35rem; 
+
+       padding: 0.75rem 1.35rem; 
+
+       border: 1px solid var(--theme-accent); 
+
+       color: var(--theme-accent); 
+
+       font-size: var(--text-xs); 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.14em; 
+
+       font-weight: 600; 
+
+       transition: all 0.22s ease; 
+
+     } 
+
+
+
+     .editorial-cta:hover { 
+
+       background-color: var(--theme-accent); 
+
+       color: var(--white); 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        7. CAPÇALERES DE PÀGINA I CAPÍTOLS D'EXPOSICIÓ 
+
+        ========================================================================== */ 
+
+     .page-hero { 
+
+       padding: 3rem 0 2.75rem; 
+
+       border-bottom: 1px solid var(--border-subtle); 
+
+     } 
+
+
+
+     @media (min-width: 768px) { 
+
+       .page-hero { 
+
+         padding: 4.5rem 0 3.75rem; 
+
+       } 
+
+     } 
+
+
+
+     .page-title { 
+
+       font-size: var(--text-3xl); 
+
+       max-width: 24ch; 
+
+       margin-bottom: 1rem; 
+
+     } 
+
+
+
+     .page-subtitle { 
+
+       font-family: var(--font-serif); 
+
+       font-size: var(--text-xl); 
+
+       font-style: italic; 
+
+       color: var(--text-muted); 
+
+       max-width: 52ch; 
+
+     } 
+
+
+
+     .banner-visual { 
+
+       margin-top: 2.25rem; 
+
+       aspect-ratio: 21 / 9; 
+
+       min-height: 240px; 
+
+       max-height: 500px; 
+
+       width: 100%; 
+
+       overflow: hidden; 
+
+       border: 1px solid var(--border-subtle); 
+
+       background-color: var(--bg-alt); 
+
+     } 
+
+
+
+     .banner-visual img { 
+
+       width: 100%; 
+
+       height: 100%; 
+
+       object-fit: cover; 
+
+     } 
+
+
+
+     /* Fitxes d'apartats acadèmics (Objectius, Desenvolupament, Metodologia, Materials) */ 
+
+     .academic-specs-grid { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 1.25rem; 
+
+       margin: 2.25rem 0; 
+
+     } 
+
+
+
+     @media (min-width: 768px) { 
+
+       .academic-specs-grid { 
+
+         grid-template-columns: repeat(2, 1fr); 
+
+         gap: 1.5rem; 
+
+       } 
+
+     } 
+
+
+
+     .spec-card { 
+
+       background-color: var(--bg-primary); 
+
+       border: 1px solid var(--border-subtle); 
+
+       border-top: 2px solid var(--theme-accent); 
+
+       padding: 1.5rem; 
+
+     } 
+
+
+
+     .spec-card h4 { 
+
+       font-size: 1.35rem; 
+
+       margin-bottom: 0.65rem; 
+
+       color: var(--theme-accent); 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        8. GALERIES (MNAC 10 ARTISTES, HERBARI 10 ESPÈCIES, LLIBRE D'ARTISTA) 
+
+        ========================================================================== */ 
+
+     .catalog-grid { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 2rem; 
+
+       margin-top: 2rem; 
+
+     } 
+
+
+
+     @media (min-width: 640px) { 
+
+       .catalog-grid { 
+
+         grid-template-columns: repeat(2, 1fr); 
+
+       } 
+
+     } 
+
+
+
+     @media (min-width: 1024px) { 
+
+       .catalog-grid.cols-3 { 
+
+         grid-template-columns: repeat(3, 1fr); 
+
+       } 
+
+     } 
+
+
+
+     .catalog-card { 
+
+       background-color: var(--white); 
+
+       border: 1px solid var(--border-subtle); 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       transition: transform 0.25s ease, box-shadow 0.25s ease; 
+
+     } 
+
+
+
+     .catalog-card:hover { 
+
+       transform: translateY(-3px); 
+
+       box-shadow: 0 12px 26px rgba(40, 40, 36, 0.06); 
+
+     } 
+
+
+
+     .catalog-img-box { 
+
+       position: relative; 
+
+       aspect-ratio: 4 / 3; 
+
+       background-color: var(--bg-alt); 
+
+       overflow: hidden; 
+
+       cursor: pointer; 
+
+     } 
+
+
+
+     .catalog-img-box img { 
+
+       width: 100%; 
+
+       height: 100%; 
+
+       object-fit: cover; 
+
+       transition: transform 0.5s ease; 
+
+     } 
+
+
+
+     .catalog-card:hover .catalog-img-box img { 
+
+       transform: scale(1.04); 
+
+     } 
+
+
+
+     .zoom-pill { 
+
+       position: absolute; 
+
+       bottom: 0.65rem; 
+
+       right: 0.65rem; 
+
+       background: rgba(40, 40, 36, 0.82); 
+
+       color: var(--white); 
+
+       padding: 0.3rem 0.65rem; 
+
+       font-size: 0.72rem; 
+
+       letter-spacing: 0.08em; 
+
+       text-transform: uppercase; 
+
+       border-radius: var(--radius-sm); 
+
+     } 
+
+
+
+     .catalog-body { 
+
+       padding: 1.35rem; 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       gap: 0.6rem; 
+
+       flex: 1; 
+
+     } 
+
+
+
+     .catalog-index { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 0.95rem; 
+
+       color: var(--terracotta); 
+
+       font-weight: 600; 
+
+     } 
+
+
+
+     .catalog-title { 
+
+       font-size: 1.4rem; 
+
+       color: var(--text-main); 
+
+     } 
+
+
+
+     .catalog-subtitle { 
+
+       font-family: var(--font-serif); 
+
+       font-style: italic; 
+
+       font-size: 1.1rem; 
+
+       color: var(--forest-green); 
+
+     } 
+
+
+
+     .museum-label-box { 
+
+       background-color: var(--bg-primary); 
+
+       border-left: 2px solid var(--olive-green); 
+
+       padding: 0.75rem 0.9rem; 
+
+       font-size: 0.84rem; 
+
+       margin-top: 0.35rem; 
+
+     } 
+
+
+
+     /* Diagrama interdisciplinari (Art, Natura, Ciències, Educació Infantil) */ 
+
+     .interdisciplinary-matrix { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 1.25rem; 
+
+       margin: 2rem 0; 
+
+     } 
+
+
+
+     @media (min-width: 640px) { 
+
+       .interdisciplinary-matrix { 
+
+         grid-template-columns: repeat(2, 1fr); 
+
+       } 
+
+     } 
+
+
+
+     @media (min-width: 1024px) { 
+
+       .interdisciplinary-matrix { 
+
+         grid-template-columns: repeat(4, 1fr); 
+
+       } 
+
+     } 
+
+
+
+     .pillar-box { 
+
+       background-color: var(--bg-primary); 
+
+       border: 1px solid var(--border-strong); 
+
+       padding: 1.65rem 1.35rem; 
+
+       position: relative; 
+
+     } 
+
+
+
+     .pillar-num { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 2.2rem; 
+
+       color: var(--terracotta); 
+
+       line-height: 1; 
+
+       margin-bottom: 0.6rem; 
+
+       display: block; 
+
+     } 
+
+
+
+     /* Llibre d'artista obert */ 
+
+     .artist-book-spread { 
+
+       background-color: var(--white); 
+
+       border: 1px solid var(--border-strong); 
+
+       box-shadow: 0 18px 40px rgba(40, 40, 36, 0.08); 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       margin: 2rem 0; 
+
+     } 
+
+
+
+     @media (min-width: 860px) { 
+
+       .artist-book-spread { 
+
+         grid-template-columns: 1fr 1fr; 
+
+       } 
+
+     } 
+
+
+
+     .book-page-left, 
+
+     .book-page-right { 
+
+       padding: 1.75rem; 
+
+     } 
+
+
+
+     @media (min-width: 860px) { 
+
+       .book-page-left { 
+
+         border-right: 1px solid var(--border-subtle); 
+
+         background: linear-gradient(to right, #FFFFFF 94%, #F2EFE9 100%); 
+
+       } 
+
+       .book-page-right { 
+
+         background: linear-gradient(to left, #FFFFFF 94%, #F2EFE9 100%); 
+
+       } 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        9. LIGHTBOX MODAL ACCESSIBLE 
+
+        ========================================================================== */ 
+
+     .lightbox-overlay { 
+
+       position: fixed; 
+
+       inset: 0; 
+
+       background-color: rgba(24, 24, 21, 0.92); 
+
+       z-index: 2000; 
+
+       display: none; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       padding: 1.25rem; 
+
+     } 
+
+
+
+     .lightbox-overlay.is-active { 
+
+       display: flex; 
+
+     } 
+
+
+
+     .lightbox-dialog { 
+
+       background-color: var(--bg-primary); 
+
+       max-width: 1020px; 
+
+       width: 100%; 
+
+       max-height: 90vh; 
+
+       overflow-y: auto; 
+
+       border: 1px solid var(--border-strong); 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       position: relative; 
+
+     } 
+
+
+
+     @media (min-width: 820px) { 
+
+       .lightbox-dialog { 
+
+         grid-template-columns: 1.15fr 0.85fr; 
+
+       } 
+
+     } 
+
+
+
+     .lightbox-close { 
+
+       position: sticky; 
+
+       top: 0.75rem; 
+
+       right: 0.75rem; 
+
+       margin-left: auto; 
+
+       z-index: 10; 
+
+       background-color: var(--text-main); 
+
+       color: var(--white); 
+
+       width: 40px; 
+
+       height: 40px; 
+
+       display: flex; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       font-size: 1.2rem; 
+
+     } 
+
+
+
+     .lightbox-media { 
+
+       background-color: #181815; 
+
+       display: flex; 
+
+       align-items: center; 
+
+       justify-content: center; 
+
+       min-height: 280px; 
+
+     } 
+
+
+
+     .lightbox-media img { 
+
+       max-height: 80vh; 
+
+       width: auto; 
+
+       object-fit: contain; 
+
+     } 
+
+
+
+     .lightbox-details { 
+
+       padding: 1.75rem; 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       gap: 0.9rem; 
+
+     } 
+
+
+
+     /* ========================================================================== 
+
+        10. PEU DE PÀGINA EDITORIAL 
+
+        ========================================================================== */ 
+
+     .site-footer { 
+
+       background-color: var(--forest-green); 
+
+       color: var(--bg-primary); 
+
+       padding: 4rem 0 2.5rem; 
+
+       margin-top: 4rem; 
+
+     } 
+
+
+
+     body[data-Section-theme="bloc-iii"] .site-footer { 
+
+       background-color: #20201D; 
+
+     } 
+
+
+
+     .footer-grid { 
+
+       display: grid; 
+
+       grid-template-columns: 1fr; 
+
+       gap: 2.5rem; 
+
+       padding-bottom: 2.5rem; 
+
+       border-bottom: 1px solid rgba(247, 245, 239, 0.16); 
+
+     } 
+
+
+
+     @media (min-width: 768px) { 
+
+       .footer-grid { 
+
+         grid-template-columns: 1.3fr 1fr 1fr; 
+
+       } 
+
+     } 
+
+
+
+     .footer-title { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 1.85rem; 
+
+       color: var(--white); 
+
+       margin-bottom: 0.5rem; 
+
+     } 
+
+
+
+     .footer-nav-list { 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       gap: 0.45rem; 
+
+       font-size: 0.9rem; 
+
+     } 
+
+
+
+     .footer-nav-list a { 
+
+       color: rgba(247, 245, 239, 0.82); 
+
+     } 
+
+
+
+     .footer-nav-list a:hover { 
+
+       color: var(--white); 
+
+       text-decoration: underline; 
+
+     } 
+
+
+
+     .footer-bottom { 
+
+       padding-top: 1.75rem; 
+
+       display: flex; 
+
+       flex-wrap: wrap; 
+
+       justify-content: space-between; 
+
+       gap: 1rem; 
+
+       font-size: 0.8rem; 
+
+       color: rgba(247, 245, 239, 0.7); 
+
+     } 
+
+
+
+     /* Navegació seqüencial entre pàgines */ 
+
+     .page-pagination { 
+
+       display: flex; 
+
+       flex-wrap: wrap; 
+
+       justify-content: space-between; 
+
+       gap: 1rem; 
+
+       margin-top: 3.5rem; 
+
+       padding-top: 2rem; 
+
+       border-top: 1px solid var(--border-strong); 
+
+     } 
+
+
+
+     .pagination-link { 
+
+       display: flex; 
+
+       flex-direction: column; 
+
+       padding: 1rem 1.25rem; 
+
+       border: 1px solid var(--border-subtle); 
+
+       background-color: var(--bg-primary); 
+
+       min-width: 220px; 
+
+       flex: 1; 
+
+       max-width: 420px; 
+
+     } 
+
+
+
+     .pagination-link:hover { 
+
+       border-color: var(--terracotta); 
+
+       background-color: var(--bg-alt); 
+
+     } 
+
+
+
+     .pagination-dir { 
+
+       font-size: 0.72rem; 
+
+       text-transform: uppercase; 
+
+       letter-spacing: 0.14em; 
+
+       color: var(--terracotta); 
+
+       margin-bottom: 0.25rem; 
+
+     } 
+
+
+
+     .pagination-name { 
+
+       font-family: var(--font-serif); 
+
+       font-size: 1.25rem; 
+
+       font-weight: 600; 
+
+     } 
+
+
+
+     /* Pestanyes internes per a P2 (Visita museu i jardí) */ 
+
+     .proposal-tabs { 
+
+       display: flex; 
+
+       flex-wrap: wrap; 
+
+       gap: 0.5rem; 
+
+       margin: 2rem 0; 
+
+       border-bottom: 1px solid var(--border-strong); 
+
+       padding-bottom: 1rem; 
+
+     } 
+
+
+
+     .proposal-tab-link { 
+
+       padding: 0.6rem 1.1rem; 
+
+       background-color: var(--bg-alt); 
+
+       border: 1px solid var(--border-subtle); 
+
+       font-size: 0.82rem; 
+
+       font-weight: 500; 
+
+       letter-spacing: 0.04em; 
+
+     } 
+
+
+
+     .proposal-tab-link:hover { 
+
+       background-color: var(--forest-green); 
+
+       color: var(--white); 
+
+     } 
+
+   
+/* Continuacio 2026-10-16: ajustos de detall, accessibilitat i nous components */
+:root { --shadow-soft: 0 22px 55px rgba(22,35,28,.085); }
+html { scroll-padding-top: 98px; }
+body { overflow-wrap: anywhere; }
+body.modal-open, body.menu-open { overflow: hidden; }
+main { flex: 1; min-height: 55vh; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline-offset: 4px; }
+.site-header { isolation: isolate; }
+.header-inner { gap: 1rem; }
+.desktop-nav { gap: 0; }
+.desktop-nav .nav-item { display: flex; align-items: center; }
+.desktop-nav .nav-link { padding: .55rem .42rem; font-size: .79rem; }
+.dropdown-toggle-btn { margin-left: -0.25rem; min-width: 31px; min-height: 39px; width: 31px; height: 39px; }
+.dropdown-toggle-btn:focus-visible { outline: 2px solid var(--terracotta); }
+.dropdown-menu { left: 0; top: 100%; }
+.nav-item.open > .dropdown-menu { display: block; }
+.mobile-nav-drawer { overscroll-behavior: contain; }
+.mobile-nav-row { gap: .25rem; }
+.mobile-nav-link { min-width: 0; }
+.mobile-submenu-btn { flex-shrink: 0; }
+.mobile-sublink { line-height: 1.35; }
+.mobile-nav-list { padding-bottom: 5rem; }
+@media (max-width: 1299px) {
+ .desktop-nav { display: none !important; }
+ .mobile-menu-btn { display: inline-flex !important; }
+}
+@media (min-width: 1300px) {
+ .desktop-nav { display: flex !important; }
+ .mobile-menu-btn { display: none !important; }
+}
+.hero-grid > *, .split-editorial > *, .exploration-entry > *, .catalog-grid > * { min-width: 0; }
+.hero-title { max-width: 15ch; }
+.hero-title em { display: inline; }
+.hero-caption { gap: 1rem; flex-wrap: wrap; }
+.hero-img-wrapper { background: #D5DACC; }
+.hero-img-wrapper img { filter: saturate(.86); }
+.hero-img-wrapper::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(140deg, transparent 55%, rgba(18,43,30,.17)); }
+.eyebrow { line-height: 1.5; }
+.page-hero .eyebrow, .hero-editorial .hero-kicker { font-weight: 600; }
+.page-hero { position: relative; }
+.page-title { overflow-wrap: normal; word-break: normal; max-width: 23ch; }
+.page-subtitle { max-width: 56ch; }
+.section-pad { position: relative; }
+.banner-visual { min-height: 180px; }
+.banner-visual img { object-position: center; }
+.prose { max-width: 68ch; overflow-wrap: break-word; }
+.prose ul.plain-list { list-style: none; padding-left: 0; }
+.prose ul.plain-list li { position: relative; padding-left: 1.2rem; margin: .7rem 0; }
+.prose ul.plain-list li:before { content: '—'; position: absolute; left: 0; color: var(--theme-secondary); }
+.figure-label { display:flex; justify-content:space-between; align-items:baseline; gap:1rem; font-size:.74rem; letter-spacing:.025em; line-height:1.5; color:var(--text-muted); margin:.55rem 0 0; }
+.figure-label span:last-child { text-align: right; }
+.catalog-img-box { display: block; width: 100%; border: 0; padding: 0; text-align: left; cursor: zoom-in; }
+.catalog-img-box img { width:100%; height:100%; }
+.catalog-body { gap: .4rem; }
+.catalog-title { line-height: 1.1; overflow-wrap:normal; }
+.catalog-subtitle { line-height: 1.6; }
+.catalog-card button.catalog-img-box:focus-visible { outline:3px solid var(--terracotta); outline-offset:4px; }
+.archive-card .catalog-img-box { aspect-ratio: 4 / 3; }
+.archive-card:nth-child(5n+2) .catalog-img-box { aspect-ratio: 5 / 4; }
+.archive-card .catalog-body { padding: 1.15rem 1.1rem 1.35rem; }
+.archive-card .catalog-title { font-size:1.4rem; }
+.archive-card .catalog-index { text-transform: uppercase; font-size: .72rem; letter-spacing:.13em; }
+.archive-card .catalog-subtitle { font-size: .88rem; }
+.photo-disclaimer { font-size:.78rem; font-style:italic; color:var(--text-muted); }
+.section-number { font-family:var(--font-serif); font-style:italic; font-size:2.3rem; color:var(--theme-secondary); }
+.section-intro { display:flex; justify-content:space-between; gap:2rem; align-items:flex-end; margin-bottom:2rem; padding-bottom:1.35rem; border-bottom:1px solid var(--border-strong); }
+.section-intro > * { min-width:0; }
+.section-intro h2 { font-size:var(--text-2xl); max-width:23ch; }
+.section-intro p { max-width:36ch; color:var(--text-muted); font-size:.92rem; }
+.editorial-rule { border:0; height:1px; background:var(--border-strong); margin:2rem 0; }
+.chapter-label { display:inline-flex; align-items:center; gap:.75rem; color:var(--theme-secondary); font-weight:700; letter-spacing:.17em; text-transform:uppercase; font-size:.68rem; margin-bottom:1rem; }
+.chapter-label:before { content:''; display:block; width:26px; height:1px; background:currentColor; }
+.chapter-heading { font-family:var(--font-serif); font-size:var(--text-2xl); line-height:1.08; margin-bottom:1.1rem; }
+.chapter-lead { font-family:var(--font-serif); font-size:var(--text-xl); line-height:1.33; max-width:49ch; }
+.detail-grid { display:grid; gap:1.25rem; grid-template-columns:1fr; margin-top:2.25rem; }
+.detail-item { border-top:1px solid var(--border-strong); padding-top:.8rem; }
+.detail-item h3 { font-family:var(--font-sans); font-size:.74rem; text-transform:uppercase; letter-spacing:.11em; font-weight:700; margin-bottom:.65rem; color:var(--theme-accent); }
+.detail-item p { font-size:.9rem; line-height:1.65; color:var(--text-muted); }
+.pending-note { border-left:2px solid var(--terracotta); background:rgba(234,230,220,.52); margin:1rem 0; padding:1rem 1.15rem; }
+.pending-note strong { font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; color:#8D4E33; display:block; margin-bottom:.32rem; }
+.pending-note p { font-size:.9rem; line-height:1.65; color:var(--text-muted); }
+.draft-spread { background:rgba(255,255,255,.67); border:1px solid var(--border-subtle); padding:clamp(1.4rem,4vw,3.5rem); box-shadow:var(--shadow-soft); }
+.draft-spread .pending-note { background:transparent; }
+.draft-spread > h3 { font-size:var(--text-xl); margin-bottom:1.2rem; }
+.essay-guide { display:grid; grid-template-columns:1fr; gap:.65rem; margin-top:1.3rem; }
+.essay-guide span { padding:.6rem 0; border-bottom:1px solid var(--border-subtle); font-size:.87rem; color:var(--text-muted); }
+.essay-guide span b { color:var(--theme-secondary); margin-right:.8rem; font-weight:500; }
+.image-column { display:grid; gap:.85rem; }
+.image-column .photo-frame { aspect-ratio:4/5; }
+.photo-frame { background:var(--bg-alt); overflow:hidden; }
+.photo-frame img { display:block; width:100%; height:100%; object-fit:cover; }
+.photo-frame.tall { aspect-ratio: 4/5; }
+.photo-frame.wide { aspect-ratio:16/10; }
+.photo-frame.square { aspect-ratio:1/1; }
+.magazine-visual { position:relative; overflow:hidden; background:var(--theme-surface); aspect-ratio:4/5; }
+.magazine-visual img { width:100%; height:100%; object-fit:cover; }
+.magazine-visual .image-overlay { position:absolute; inset:auto 0 0; color:#fff; background:linear-gradient(transparent,rgba(16,21,17,.73)); padding:3rem 1.5rem 1.4rem; font-family:var(--font-serif); font-size:1.9rem; }
+.chapter-list { margin-top:2.5rem; border-top:1px solid var(--border-strong); }
+.chapter-link { display:grid; grid-template-columns:2.75rem 1fr auto; gap:1rem; align-items:center; border-bottom:1px solid var(--border-strong); min-height:112px; padding:1.1rem 0; }
+.chapter-link .ch-num { font-family:var(--font-serif); font-size:2rem; font-style:italic; color:var(--theme-secondary); }
+.chapter-link h3 { font-family:var(--font-serif); font-size:clamp(1.35rem,2.4vw,2rem); }
+.chapter-link p { font-size:.83rem; color:var(--text-muted); }
+.chapter-link .ch-arrow { font-size:1.4rem; transition:transform .25s; }
+.chapter-link:hover .ch-arrow { transform:translateX(6px); }
+.chapter-link:hover h3 { color:var(--theme-secondary); }
+.micro-kicker { font-size:.69rem; color:var(--theme-secondary); letter-spacing:.12em; text-transform:uppercase; font-weight:700; }
+.reading-grid { display:grid; grid-template-columns:1fr; gap:2.6rem; }
+.proposal-jump { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.6rem 0 0; }
+.proposal-jump button { border:1px solid var(--border-strong); padding:.8rem 1rem; text-align:left; font-size:.78rem; background:var(--white); min-height:44px; }
+.proposal-jump button:hover { background:var(--theme-surface); }
+.section-anchor { scroll-margin-top: 96px; }
+.proposal-block { border-top:1px solid var(--border-strong); padding-top:2.3rem; margin-top:2.3rem; }
+.proposal-block h3 { font-size:var(--text-2xl); margin-bottom:.55rem; }
+.proposal-block .micro-kicker { margin-bottom:.7rem; display:block; }
+.proposal-block .prose { margin-top:1.2rem; }
+.stage-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.7rem; }
+.stage-card { border:1px solid var(--border-subtle); background:var(--white); padding:1rem; min-height:130px; }
+.stage-card span { display:block; color:var(--theme-secondary); font-family:var(--font-serif); font-size:2rem; font-style:italic; }
+.stage-card p { font-size:.83rem; margin-top:.4rem; }
+.video-placeholder { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:230px; gap:1rem; background:linear-gradient(135deg,#3D4E3C,#78816A); color:#F7F5EF; text-align:center; padding:2rem; }
+.video-play { width:65px; height:65px; border:1px solid rgba(255,255,255,.75); border-radius:50%; display:grid; place-items:center; font-size:1.35rem; padding-left:.2rem; }
+.video-placeholder small { color:rgba(255,255,255,.8); }
+.archive-label { border:1px solid var(--border-strong); background:var(--white); padding:1rem; font-size:.85rem; color:var(--text-muted); }
+.material-timeline { display:grid; grid-template-columns:1fr; gap:1px; background:var(--border-strong); margin-top:2rem; border:1px solid var(--border-strong); }
+.material-step { background:var(--bg-primary); padding:1.4rem; }
+.material-step .step-num { font-family:var(--font-serif); font-size:3rem; font-style:italic; color:var(--theme-secondary); line-height:1; }
+.material-step h3 { font-family:var(--font-serif); margin-top:.6rem; font-size:1.4rem; }
+.material-step p { font-size:.85rem; margin-top:.5rem; color:var(--text-muted); }
+.resource-row { display:grid; grid-template-columns:2.3rem 1fr auto; gap:1rem; padding:1.3rem 0; border-bottom:1px solid var(--border-strong); align-items:baseline; }
+.resource-row h3 { font-family:var(--font-serif); font-size:1.55rem; }
+.resource-row p { font-size:.86rem; color:var(--text-muted); }
+.quote-editorial { font-family:var(--font-serif); font-size:clamp(2rem,4.5vw,4.6rem); line-height:1.14; font-style:italic; font-weight:400; max-width:24ch; }
+.quote-editorial:before { content:'“'; color:var(--terracotta); }
+.quote-editorial:after { content:'”'; color:var(--terracotta); }
+.micro-foot { font-size:.78rem; color:var(--text-muted); }
+.status-tag { color:#8D4E33; font-size:.7rem; text-transform:uppercase; letter-spacing:.1em; font-weight:700; }
+.lightbox-overlay { z-index: 4000; }
+.lightbox-dialog { max-height: min(92vh, 900px); }
+.lightbox-details { position:relative; }
+.lightbox-close { z-index:3; background:var(--bg-primary); border:1px solid var(--border-subtle); border-radius:50%; width:42px; height:42px; }
+.lightbox-close:focus-visible { outline-offset:2px; }
+.lightbox-media { background:var(--bg-alt); }
+.lightbox-media img { width:100%; height:100%; object-fit:contain; }
+#lightbox-meta { white-space:pre-line; font-size:.88rem; }
+.breadcrumb-list { flex-wrap: wrap; overflow-wrap:anywhere; }
+.site-footer { margin-top:auto; }
+@media (min-width:680px) { .detail-grid {grid-template-columns:repeat(2,minmax(0,1fr));} .material-timeline {grid-template-columns:repeat(3,1fr);} .reading-grid { grid-template-columns:1fr 1fr; } }
+@media (min-width:1024px) { .detail-grid.cols-4 {grid-template-columns:repeat(4,minmax(0,1fr));} }
+@media (max-width:767px) {
+ :root { --header-height:70px; }
+ .brand-logo-main { font-size: 1.12rem; }
+ .brand-logo-sub { font-size: .61rem; }
+ .hero-editorial { padding-top: 2rem; }
+ .hero-title { font-size:clamp(2.65rem, 10.5vw, 4.5rem); }
+ .hero-img-wrapper { aspect-ratio: 5 / 4; }
+ .hero-visual-frame { margin-top:.25rem; }
+ .hero-caption { align-items:flex-start; }
+ .hero-meta-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:.6rem; }
+ .hero-meta-grid > div { min-width:0; }
+ .hero-meta-grid .meta-value { font-size:.78rem; }
+ .section-intro { display:block; }
+ .section-intro p { margin-top:1rem; }
+ .page-hero { padding-top:2.1rem; padding-bottom:2rem; }
+ .page-title { font-size:clamp(2.4rem,9.2vw,3.6rem); }
+ .banner-visual { aspect-ratio: 4/3; min-height:0; margin-top:1.6rem; }
+ .section-pad { padding:3rem 0; }
+ .chapter-link { grid-template-columns:1.9rem 1fr 1.4rem; gap:.65rem; }
+ .chapter-link .ch-num { font-size:1.55rem; }
+ .chapter-link h3 { font-size:1.45rem; }
+ .chapter-link p { font-size:.74rem; }
+ .page-pagination { display:grid; grid-template-columns:1fr; }
+ .pagination-link { max-width:none; min-width:0; }
+ .lightbox-overlay { padding:.5rem; }
+ .lightbox-dialog { max-height:96dvh; }
+ .lightbox-details { padding:1.2rem; }
+ .footer-grid { gap:2rem; }
+}
+@media (max-width:390px) { .hero-title { font-size:2.56rem; } .brand-logo-sub { display:none; } .stage-grid {grid-template-columns:1fr;} }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior:auto!important; animation-duration:0.01ms!important; transition-duration:0.01ms!important; } }
+/* El calaix fora de pantalla del primer prototip duplicava el scrollWidth. */
+html { overflow-x: clip; }
+.mobile-nav-drawer { display:none; transform:none; visibility:visible; opacity:1; }
+.mobile-nav-drawer.is-open { display:block; transform:none; visibility:visible; }
+/* backdrop-filter a la capcalera creava un contenidor de posicio per al menu fixed. */
+.site-header { backdrop-filter: none; -webkit-backdrop-filter: none; }
+.mobile-nav-drawer { height: calc(100dvh - var(--header-height)); bottom: auto; }
+
+  </style>
+
+</head>
+<body>
+<a href="#main-content" class="skip-link">Salta al contingut principal</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a href="#/inici" class="brand-logo" aria-label="Portafoli d'Arts Visuals, inici">
+      <span class="brand-logo-main">ARTS VISUALS <span>/ I</span></span>
+      <span class="brand-logo-sub">Ariadna Angel Marco · 2026–2027</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegació principal">
+      <div class="nav-item"><a href="#/inici" class="nav-link" data-route="inici">Inici</a></div>
+      <div class="nav-item"><a href="#/introduccio" class="nav-link" data-route="introduccio">Introducció</a></div>
+      <div class="nav-item"><a href="#/bloc-i" class="nav-link" data-route="bloc-i">Bloc I</a></div>
+      <div class="nav-item" data-dropdown>
+        <a href="#/bloc-ii" class="nav-link" data-route="bloc-ii">Bloc II</a>
+        <button class="dropdown-toggle-btn" aria-expanded="false" aria-label="Desplega Bloc II" aria-controls="desktop-sub-b2" type="button">⌄</button>
+        <div id="desktop-sub-b2" class="dropdown-menu">
+          <a href="#/bloc-ii" class="dropdown-link dropdown-header-link" data-route="bloc-ii">Bloc II — Art i natura</a>
+          <a href="#/bloc-ii/p1-formes-dapropar-se-a-la-natura" class="dropdown-link" data-route="bloc-ii/p1-formes-dapropar-se-a-la-natura">P1. Formes d'apropar-se a la natura</a>
+          <a href="#/bloc-ii/p2-visita-museu-i-jardi" class="dropdown-link" data-route="bloc-ii/p2-visita-museu-i-jardi">P2. Visita museu i jardí</a>
+          <a href="#/bloc-ii/p3-descripcio-del-jardi" class="dropdown-link" data-route="bloc-ii/p3-descripcio-del-jardi">P3. Descripció del jardí</a>
+        </div>
+      </div>
+      <div class="nav-item" data-dropdown>
+        <a href="#/bloc-iii" class="nav-link" data-route="bloc-iii">Bloc III</a>
+        <button class="dropdown-toggle-btn" aria-expanded="false" aria-label="Desplega Bloc III" aria-controls="desktop-sub-b3" type="button">⌄</button>
+        <div id="desktop-sub-b3" class="dropdown-menu">
+          <a href="#/bloc-iii" class="dropdown-link dropdown-header-link" data-route="bloc-iii">Bloc III — Cos i creació</a>
+          <a href="#/bloc-iii/p1-llenguatge-del-cos-i-el-teixit" class="dropdown-link" data-route="bloc-iii/p1-llenguatge-del-cos-i-el-teixit">P1. Llenguatge del cos i el teixit</a>
+          <a href="#/bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters" class="dropdown-link" data-route="bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters">P2. El cos vestit i Mater Matters</a>
+          <a href="#/bloc-iii/p3-bioteixits-du-da" class="dropdown-link" data-route="bloc-iii/p3-bioteixits-du-da">P3. Bioteixits_DU-DA</a>
+          <a href="#/bloc-iii/p4-la-passarella-espai-de-creacio" class="dropdown-link" data-route="bloc-iii/p4-la-passarella-espai-de-creacio">P4. La passarel·la: espai de creació</a>
+        </div>
+      </div>
+      <div class="nav-item"><a href="#/conclusions" class="nav-link" data-route="conclusions">Conclusions</a></div>
+      <div class="nav-item"><a href="#/reflexio-personal" class="nav-link" data-route="reflexio-personal">Reflexió</a></div>
+      <div class="nav-item"><a href="#/per-saber-ne-mes" class="nav-link" data-route="per-saber-ne-mes">Per saber-ne més...</a></div>
+      <div class="nav-item"><a href="#/referencies-bibliografiques" class="nav-link" data-route="referencies-bibliografiques">Bibliografia</a></div>
+    </nav>
+    <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-controls="mobile-drawer" aria-expanded="false">
+      <span>Índex</span>
+      <span class="hamburger-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+  </div>
+  <nav id="mobile-drawer" class="mobile-nav-drawer" aria-label="Índex del portafoli" inert>
+    <span class="eyebrow">Quadern d'artista · Índex general</span>
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/inici" class="mobile-nav-link" data-route="inici">Inici</a></div></li>
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/introduccio" class="mobile-nav-link" data-route="introduccio">Introducció</a></div></li>
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/bloc-i" class="mobile-nav-link" data-route="bloc-i">Bloc I — Art i educació</a></div></li>
+      <li class="mobile-nav-item">
+        <div class="mobile-nav-row"><a href="#/bloc-ii" class="mobile-nav-link" data-route="bloc-ii">Bloc II — Art i natura</a><button type="button" class="mobile-submenu-btn" data-submenu-target="mob-sub-b2" aria-expanded="false" aria-label="Desplega subpàgines de Bloc II">+</button></div>
+        <div id="mob-sub-b2" class="mobile-submenu" inert>
+          <a href="#/bloc-ii/p1-formes-dapropar-se-a-la-natura" class="mobile-sublink" data-route="bloc-ii/p1-formes-dapropar-se-a-la-natura">P1. Formes d'apropar-se a la natura</a>
+          <a href="#/bloc-ii/p2-visita-museu-i-jardi" class="mobile-sublink" data-route="bloc-ii/p2-visita-museu-i-jardi">P2. Visita museu i jardí</a>
+          <a href="#/bloc-ii/p3-descripcio-del-jardi" class="mobile-sublink" data-route="bloc-ii/p3-descripcio-del-jardi">P3. Descripció del jardí</a>
+        </div>
+      </li>
+      <li class="mobile-nav-item">
+        <div class="mobile-nav-row"><a href="#/bloc-iii" class="mobile-nav-link" data-route="bloc-iii">Bloc III — Cos i creació</a><button type="button" class="mobile-submenu-btn" data-submenu-target="mob-sub-b3" aria-expanded="false" aria-label="Desplega subpàgines de Bloc III">+</button></div>
+        <div id="mob-sub-b3" class="mobile-submenu" inert>
+          <a href="#/bloc-iii/p1-llenguatge-del-cos-i-el-teixit" class="mobile-sublink" data-route="bloc-iii/p1-llenguatge-del-cos-i-el-teixit">P1. Llenguatge del cos i el teixit</a>
+          <a href="#/bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters" class="mobile-sublink" data-route="bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters">P2. Exposició: El cos vestit i Mater Matters</a>
+          <a href="#/bloc-iii/p3-bioteixits-du-da" class="mobile-sublink" data-route="bloc-iii/p3-bioteixits-du-da">P3. Bioteixits_DU-DA</a>
+          <a href="#/bloc-iii/p4-la-passarella-espai-de-creacio" class="mobile-sublink" data-route="bloc-iii/p4-la-passarella-espai-de-creacio">P4. La passarel·la: espai de creació</a>
+        </div>
+      </li>
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/conclusions" class="mobile-nav-link" data-route="conclusions">Conclusions</a></div></li>
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/reflexio-personal" class="mobile-nav-link" data-route="reflexio-personal">Reflexió personal</a></div></li>
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/per-saber-ne-mes" class="mobile-nav-link" data-route="per-saber-ne-mes">Per saber-ne més...</a></div></li>
+      <li class="mobile-nav-item"><div class="mobile-nav-row"><a href="#/referencies-bibliografiques" class="mobile-nav-link" data-route="referencies-bibliografiques">Referències bibliogràfiques</a></div></li>
+    </ul>
+  </nav>
+</header>
+<main id="main-content" tabindex="-1" aria-live="polite"></main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div><span class="eyebrow" style="color:#EAE6DC">ART · NATURA · INFÀNCIA</span><h2 class="footer-title">Educació de les Arts Visuals I</h2><p style="font-size:.93rem;max-width:42ch;color:rgba(247,245,239,.78);margin-top:.7rem">Portafoli acadèmic i artístic d'Ariadna Angel Marco, Grau en Educació Infantil. Curs 2026–2027.</p></div>
+      <div><span class="eyebrow" style="color:#EAE6DC">Exploració</span><ul class="footer-nav-list"><li><a href="#/bloc-i">Art i educació</a></li><li><a href="#/bloc-ii">Art i natura</a></li><li><a href="#/bloc-iii">Cos, teixit i creació</a></li></ul></div>
+      <div><span class="eyebrow" style="color:#EAE6DC">El projecte</span><ul class="footer-nav-list"><li><a href="#/introduccio">Introducció</a></li><li><a href="#/conclusions">Conclusions</a></li><li><a href="#/referencies-bibliografiques">Referències</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026–2027 · Ariadna Angel Marco · Prototip acadèmic</span><span>Fotografies ambientals de demostració · Unsplash · Crèdits i autoritzacions específiques pendents de revisar</span></div>
+  </div>
+</footer>
+<div class="lightbox-overlay" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Imatge ampliada" aria-hidden="true" inert>
+  <div class="lightbox-dialog" role="document">
+    <div class="lightbox-media"><img id="lightbox-img" alt=""></div>
+    <div class="lightbox-details">
+      <button type="button" id="lightbox-close-btn" class="lightbox-close" aria-label="Tanca la imatge">✕</button>
+      <span class="eyebrow" id="lightbox-kicker">Arxiu visual</span>
+      <h2 class="serif-title" id="lightbox-title" style="font-size:2.3rem"></h2>
+      <p id="lightbox-subtitle" class="catalog-subtitle"></p>
+      <div id="lightbox-meta" class="museum-label-box"></div>
+      <p id="lightbox-desc" style="font-size:.93rem;line-height:1.65"></p>
+    </div>
+  </div>
+</div>
+<noscript><div class="container" style="padding:3rem">Per navegar pel portafoli, activa JavaScript en el navegador.</div></noscript>
+<script>
+'use strict';
+/* Portafoli d'Ariadna. 16 vistes, rutes hash i continguts separats de la maquetacio. */
+const PHOTO = {
+  portada:'photo-1518531933037-91b2f5f229cc', jardi:'photo-1466692476868-aef1dfb1e735',
+  arbre:'photo-1501004318641-b39e6451bec6', fulles:'photo-1509316975850-ff9c5deb0cd9',
+  vegetacio:'photo-1502082553048-f009c37129b9', herbes:'photo-1459411552884-841db9b3cc2a',
+  taller:'photo-1513364776144-60967b0f800f', pintura:'photo-1460661419201-fd4cecdf8a8b',
+  quadre:'photo-1579783902614-a3fb3927b675', quadre2:'photo-1578301978693-85fa9c0320b9',
+  quadre3:'photo-1579783900882-c0d3dad7b119', art:'photo-1541961017774-22349e4a1262',
+  art2:'photo-1577083552431-6e5fd01aa342', art3:'photo-1579783928621-7a13d66a62d1',
+  art4:'photo-1549490349-8643362247b5', museu:'photo-1561214115-f2f134cc4912',
+  exposicio:'photo-1531058020387-3be344556be6', teixit:'photo-1558769132-cb1aea458c5e',
+  teixit2:'photo-1523381210434-271e8be1f52b', tela:'photo-1490481651871-ab68de25d43d',
+  textura:'photo-1518709268805-4e9042af9f23', jardi2:'photo-1585320806297-9794b3e4eeae',
+  verd:'photo-1515543237350-b3eea1ec8082', bosc:'photo-1448375240586-882707db888b',
+  pins:'photo-1542273917363-3b1817f69a2d', flor:'photo-1468327768560-75b778cbb551',
+  plantes:'photo-1518709268805-4e9042af9f23', suculenta:'photo-1509423350716-97f9360b4e09',
+  natura:'photo-1518531933037-91b2f5f229cc', colors:'photo-1578926288207-a90a5366759d'
+};
+const photo = (name,w=1200) => `https://images.unsplash.com/${PHOTO[name]||PHOTO.portada}?auto=format&fit=crop&w=${w}&q=82`;
+const ROUTES = [
+ ['inici','Inici'],['introduccio','Introducció'],['bloc-i','Bloc I — Art i educació'],
+ ['bloc-ii','Bloc II — Art i natura'],
+ ['bloc-ii/p1-formes-dapropar-se-a-la-natura',"P1. Formes d'apropar-se a la natura"],
+ ['bloc-ii/p2-visita-museu-i-jardi','P2. Visita museu i jardí'],
+ ['bloc-ii/p3-descripcio-del-jardi','P3. Descripció del jardí'],
+ ['bloc-iii','Bloc III — Cos, moda i artivisme'],
+ ['bloc-iii/p1-llenguatge-del-cos-i-el-teixit','P1. Llenguatge del cos i el teixit'],
+ ['bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters','P2. Exposició: El cos vestit i Mater Matters'],
+ ['bloc-iii/p3-bioteixits-du-da','P3. Bioteixits_DU-DA'],
+ ['bloc-iii/p4-la-passarella-espai-de-creacio','P4. La passarel·la: espai de creació'],
+ ['conclusions','Conclusions'],['reflexio-personal','Reflexió personal'],
+ ['per-saber-ne-mes','Per saber-ne més...'],['referencies-bibliografiques','Referències bibliogràfiques']
+];
+const pathFor = x => '#/'+x;
+const esc = v=>String(v??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const MEDIA = Object.create(null);
+const ellipsis = (s,n=100)=>s.length>n?s.slice(0,n-1)+'…':s;
+const formatIndex = n=>String(n).padStart(2,'0');
+function escapeSvg(s){return esc(s).replace(/\n/g,' ')}
+function svgFallback(name='ART / NATURA',dark=false){
+ const bg=dark?'#282824':'#E4E4D8', c=dark?'#D7D1BF':'#425842', accent='#B87B60';
+ 
+ const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720"><rect width="960" height="720" fill="${bg}"/><g fill="none" stroke="${c}" opacity=".64" stroke-width="3"><path d="M480 630Q385 390 490 105"/><path d="M465 495Q220 454 150 240"/><path d="M486 390Q750 310 830 120"/><path d="M480 500Q690 600 765 520"/></g><g fill="${c}" fill-opacity=".36"><ellipse cx="325" cy="315" rx="70" ry="170" transform="rotate(-48 325 315)"/><ellipse cx="630" cy="255" rx="68" ry="180" transform="rotate(55 630 255)"/><ellipse cx="615" cy="555" rx="50" ry="125" transform="rotate(65 615 555)"/></g><circle cx="478" cy="128" r="38" fill="${accent}" opacity=".55"/><path d="M65 654H895" stroke="${c}" opacity=".55"/></svg>`;
+ return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+}
+function img(name,alt,cls='',w=1200){return `<img class="${esc(cls)}" src="${photo(name,w)}" alt="${esc(alt)}" loading="lazy" decoding="async" data-fallback="${esc(alt)}">`}
+function note(title='Pendent d’incorporar',text='Aquest apartat està preparat per incorporar la documentació i la reflexió d’Ariadna.'){
+ return `<div class="pending-note"><strong>${esc(title)}</strong><p>${esc(text)}</p></div>`;
+}
+function photoFigure(name,alt,caption='Imatge d’ambient · demostració',shape='wide'){
+ return `<figure><div class="photo-frame ${shape}">${img(name,alt)}</div><figcaption class="figure-label"><span>${esc(caption)}</span><span>Arxiu visual provisional</span></figcaption></figure>`;
+}
+function details(items){return `<div class="detail-grid cols-4">${items.map(([label,text])=>`<div class="detail-item"><h3>${esc(label)}</h3><p>${esc(text)}</p></div>`).join('')}</div>`}
+const genericDetails=()=>details([
+ ['Objectius','Formular els objectius específics i la vinculació amb l’educació infantil.'],
+ ['Desenvolupament i resultats','Descriure la sessió, documentar-ne el procés i incorporar els resultats reals.'],
+ ['Estratègies metodològiques','Explicar les decisions pedagògiques i les formes d’acompanyament.'],
+ ['Materials','Relacionar els recursos emprats, amb les fotografies pròpies que corresponguin.']
+]);
+function breadcrumbs(path){
+ const route=ROUTES.find(([p])=>p===path), chunks=[['inici','Inici']];
+ const parent=path.startsWith('bloc-ii/')?'bloc-ii':path.startsWith('bloc-iii/')?'bloc-iii':null;
+ if(parent) chunks.push(ROUTES.find(([p])=>p===parent));
+ if(path!=='inici') chunks.push(route);
+ return `<div class="breadcrumb-bar"><div class="container"><ol class="breadcrumb-list">${chunks.map(([p,l],i)=>i===chunks.length-1?`<li aria-current="page">${esc(l)}</li>`:`<li><a href="${pathFor(p)}">${esc(l)}</a><span aria-hidden="true"> / </span></li>`).join('')}</ol></div></div>`;
+}
+function pagination(path){
+ const i=ROUTES.findIndex(([p])=>p===path), left=ROUTES[i-1],right=ROUTES[i+1];
+ return `<nav class="page-pagination" aria-label="Navegació entre capítols">${left?`<a href="${pathFor(left[0])}" class="pagination-link"><span class="pagination-dir">← Anterior</span><span class="pagination-name">${esc(left[1])}</span></a>`:'<div></div>'}${right?`<a href="${pathFor(right[0])}" class="pagination-link"><span class="pagination-dir">Següent →</span><span class="pagination-name">${esc(right[1])}</span></a>`:''}</nav>`;
+}
+function page(path,kicker,title,subtitle,body,headerImage){
+ return `<article class="page-view">${breadcrumbs(path)}<header class="page-hero"><div class="container"><span class="eyebrow">${esc(kicker)}</span><h1 class="page-title">${esc(title)}</h1><p class="page-subtitle">${esc(subtitle)}</p>${headerImage?`<div class="banner-visual">${img(headerImage,title)}</div><p class="figure-label"><span>Imatge d’ambient per al prototip</span><span>Documentació pròpia pendent</span></p>`:''}</div></header>${body}<section class="section-pad"><div class="container">${pagination(path)}</div></section></article>`;
+}
+function section(kicker,title,body,alt=false){return `<section class="section-pad ${alt?'bg-alt-section':''}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;}
+function chapterLinks(items){return `<div class="chapter-list">${items.map((item,i)=>`<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(i+1)}.</span><div><span class="micro-kicker">Capítol ${formatIndex(i+1)}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub||'')}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`}
+function archiveCard(id,title,subtitle,photoName,index,altPrefix='Imatge de demostració'){
+ MEDIA[id]={src:photo(photoName,1400),title,subtitle,meta:'Fotografia visual de demostració. No és una obra ni una activitat documentada d’Ariadna.',desc:'La fitxa real, les fotografies pròpies i les dades de catalogació estan pendents d’incorporar.'};
+ return `<article class="catalog-card archive-card"><button class="catalog-img-box" type="button" data-lightbox="${esc(id)}" aria-label="Amplia la imatge: ${esc(title)}">${img(photoName,`${altPrefix}: ${title}`,'',700)}<span class="zoom-pill">Amplia ↗</span></button><div class="catalog-body"><span class="catalog-index">${formatIndex(index)} / Fitxa d’arxiu</span><h3 class="catalog-title">${esc(title)}</h3><p class="catalog-subtitle">${esc(subtitle)}</p><span class="status-tag">Pendent de documentar</span></div></article>`;
+}
+function magazineCard(n,title,subtitle,photoName,route){return `<article class="exploration-entry"><a class="exploration-media" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${img(photoName,title)}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span><h3 class="exploration-title serif-title">${esc(title)}</h3><p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`}
+const B2=[
+ {path:ROUTES[4][0],title:"Formes d'apropar-se a la natura",sub:'Exploració sensorial i experimentació amb materials orgànics.'},
+ {path:ROUTES[5][0],title:'Visita museu i jardí',sub:'MNAC · Diàleg amb el jardí · Educar a través de les arts.'},
+ {path:ROUTES[6][0],title:'Descripció del jardí',sub:'Dibuix, estampació, frottage i llibre d’artista.'}
+];
+const B3=[
+ {path:ROUTES[8][0],title:'Llenguatge del cos i el teixit',sub:'Cos, fibres i materialitat.'},
+ {path:ROUTES[9][0],title:'Exposició: El cos vestit i Mater Matters',sub:'Observació i anàlisi d’exposicions.'},
+ {path:ROUTES[10][0],title:'Bioteixits_DU-DA',sub:'Materials, experimentació i processos de transformació.'},
+ {path:ROUTES[11][0],title:'La passarel·la: espai de creació',sub:'Acció col·lectiva, disseny i performativitat.'}
+];
+
+/* -- PAGINES -- */
+function home(){return `<article class="page-view">
+<section class="hero-editorial"><div class="container hero-grid"><div>
+<span class="hero-kicker">Art, natura i infància · Portafoli d’investigació</span>
+<h1 class="hero-title">Educació<br><em>de les Arts</em><br>Visuals I</h1>
+<p class="hero-subtitle">Un recorregut per l’art, la natura i l’expressió creativa a l’educació infantil.</p>
+<div class="hero-meta-grid"><div><span class="meta-label">Autora</span><span class="meta-value">Ariadna Angel Marco</span></div><div><span class="meta-label">Curs acadèmic</span><span class="meta-value">2026 — 2027</span></div><div><span class="meta-label">Estudis</span><span class="meta-value">Grau en Educació Infantil</span></div><div><span class="meta-label">Projecte</span><span class="meta-value">Quadern d’artista i docència</span></div></div>
+</div><div class="hero-visual-frame"><div class="hero-img-wrapper">${img('portada','Frondes verdes i llum natural')}</div><div class="hero-caption"><span>Fig. 01 — Poètica de la natura</span><span>Catàleg digital · 2026/27</span></div></div></div></section>
+<section class="section-pad"><div class="container split-editorial"><div><span class="eyebrow">01 · Pòrtic</span><h2 class="chapter-heading">Benvinguts i benvingudes</h2><p class="micro-foot">Una porta d’entrada a la mirada artística durant la formació docent.</p></div><div class="prose"><p class="editorial-lead dropcap">Benvinguts i benvingudes a aquesta pàgina web, concebuda per una futura mestra d’Educació Infantil com a recurs didàctic i espai per documentar els aprenentatges de l’assignatura <em>Educació de les Arts Visuals I</em>.</p><p>Aquest portafoli s’ha estructurat com un quadern de recerca visual. Les pàgines presenten els diferents blocs de treball i reserven espais per a les imatges, les activitats i les reflexions que es vagin incorporant al llarg del curs.</p></div></div></section>
+<section class="section-pad bg-alt-section"><div class="container split-editorial reverse"><div class="prose"><span class="eyebrow">02 · Presentació</span><h2 class="chapter-heading">Sobre aquest projecte</h2><p>El recorregut s’organitza entorn de tres eixos: l’art com a experiència educativa, el jardí com a espai de descoberta i l’exploració del cos, els teixits i la creació contemporània.</p><p>Els apartats estaran oberts a la incorporació de fotografies, referències, processos i valoracions de les activitats de l’assignatura.</p>${note('Presentació personal pendent','Ariadna podrà incorporar-hi la seva presentació, una fotografia pròpia i els motius del seu interès per l’educació artística.')}</div><div>${photoFigure('taller','Materials artístics sobre una taula de treball','Imatge referencial de taller · futura fotografia de l’autora','tall')}</div></div></section>
+<section class="section-pad"><div class="container"><span class="eyebrow">03 · Índex visual</span><h2 class="chapter-heading">Tres maneres d’apropar-se a les arts</h2><div class="exploration-list">${magazineCard(1,'Art i educació','Fonaments de l’educació visual: imatge, pigment, expressió i processos de descoberta.','pintura','bloc-i')}${magazineCard(2,'Art i natura','El jardí, la visita al museu, el caminar i la creació d’un llibre d’artista.','jardi','bloc-ii')}${magazineCard(3,'Cos, teixit i creació','Moda, artivisme, bioteixits i pràctiques performatives vinculades a l’art.','teixit','bloc-iii')}</div>${pagination('inici')}</div></section></article>`;}
+function intro(){return page('introduccio','01 · Inici del recorregut','Art i natura a l’Educació Infantil','Una aproximació a l’observació, la cultura visual i les possibilitats educatives de l’experiència artística.',
+section('01 · Marc introductori','Aprendre a mirar',`<div class="split-editorial"><div class="prose"><p class="editorial-lead dropcap">L’educació artística amplia les maneres d’interpretar el món. A la infància, la curiositat pels materials, les imatges, el cos i els espais facilita l’expressió de vivències i la construcció de significats.</p><p>La relació entre art i natura permet elaborar propostes que parteixen de l’experimentació sensorial, la percepció de les textures i la transformació creativa dels materials.</p></div><div>${photoFigure('arbre','Plantes il·luminades per la llum del dia','Referència visual · observació de formes naturals','tall')}</div></div>`,false)+
+section('02 · Orientacions','Objectius del recorregut',`<p class="chapter-lead">Una estructura orientativa per relacionar observació, experimentació, reflexió i aplicació docent.</p>${details([['Observar','Desenvolupar l’atenció als llenguatges visuals, les textures i les composicions.'],['Experimentar','Explorar processos artístics amb materials de naturalesa diversa.'],['Documentar','Registrar les activitats i explicar les decisions del procés creatiu.'],['Reflexionar','Relacionar l’experiència artística amb el context d’Educació Infantil.']])}`,true)+
+section('03 · Conferència','«Un árbol pinta una nube»',`<div class="reading-grid"><div class="prose"><p>L’esquema de treball preveu un apartat dedicat a aquesta conferència. Quan Ariadna disposi de les notes i els materials, s’hi incorporarà una síntesi de les idees més rellevants.</p>${note('Reflexió en preparació','Anàlisi de la conferència i de la seva relació amb l’educació artística i la natura.')}</div><div>${photoFigure('fulles','Detalls de fulles en un entorn natural','Fotografia evocativa · no documenta la conferència','wide')}</div></div>`,false));}
+function blocI(){return page('bloc-i','Bloc I · Fonaments','Bloc I — Art i educació','El procés creatiu, el llenguatge visual i la mirada pedagògica.',
+section('01 · Presentació','Educació a través de les arts',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">El primer bloc obre un espai per explorar el valor de la producció artística i el paper dels processos creatius en l’educació infantil.</p><p>La pàgina està preparada per recollir el text de treball, els conceptes centrals i el diàleg que Ariadna n’estableixi amb la pràctica educativa.</p>${details([['Proposta','Anàlisi del text i treball a partir de les idees de la lectura.'],['Objectiu','Reflexionar sobre la funció pedagògica de les arts visuals.']])}</div><div>${photoFigure('pintura','Colors i composicions pictòriques','Experimentació pictòrica · imatge de demostració','tall')}</div></div>`)+
+section('02 · Lectura','Reflexió sobre el text',`<div class="reading-grid"><div class="draft-spread"><span class="eyebrow">Quadern de lectura</span><h3 class="serif-title">Anàlisi i pensament crític</h3>${note('Text d’Ariadna pendent','Cal incorporar la lectura de referència i la reflexió personal. El contingut no s’ha generat de manera fictícia.')}</div><div class="prose"><p>El comentari pot ordenar-se a partir de les idees clau de la lectura, les preguntes que planteja i la seva aplicació a l’Educació Infantil.</p><div class="essay-guide"><span><b>01.</b>Idees centrals</span><span><b>02.</b>Qüestions i contrastos</span><span><b>03.</b>Connexions amb l’aula</span><span><b>04.</b>Reflexió pròpia</span></div></div></div>`,true));}
+function blocII(){return page('bloc-ii','Bloc II · Art i natura','La formació en la pràctica de l’art','El jardí com a agent pedagògic.',
+section('00 · Presentació','Una exposició en tres capítols',`<p class="chapter-lead">El segon bloc articula propostes de descoberta de la natura, observació del patrimoni artístic i elaboració d’un llibre d’artista.</p>${chapterLinks(B2)}`)+
+section('01 · Visita al quadern','Un recorregut entre el museu i el jardí',`<div class="split-editorial"><div>${photoFigure('jardi2','Jardí i espai de cultiu botànic','Imatge ambiental · natura i aprenentatge','wide')}</div><div class="prose"><p>La relació entre imatges, formes orgàniques i llenguatges visuals ofereix una base per dissenyar experiències d’aprenentatge a partir de l’entorn.</p>${note('Documentació real pendent','Cal incorporar les activitats efectuades, les dates, els materials i les reflexions d’Ariadna.')}</div></div>`,true),'jardi');}
+function b2p1(){return page(ROUTES[4][0],'Bloc II · Proposta 01',"Formes d'apropar-se a la natura",'Observació de l’entorn i experimentació sensorial amb materials naturals.',
+section('01 · Sentir i observar','La natura com a material de treball',`<div class="split-editorial reverse"><div class="prose"><p class="editorial-lead">Les fulles, les ombres, les superfícies, els pigments i les formes orgàniques permeten desenvolupar experiències que combinen percepció i expressió.</p><p>El recorregut proposat situa el contacte amb l’entorn en el centre de l’experimentació visual i tàctil.</p>${genericDetails()}</div><div>${photoFigure('fulles','Vegetació de referència per a una activitat sensorial','Referència d’ambient · activitat encara no documentada','tall')}</div></div>`)+
+section('02 · Quadern de camp','Registre de la sessió',`<div class="catalog-grid cols-3">${['flor','arbre','bosc'].map((key,i)=>`${photoFigure(key,'Imatge de vegetació i textura','Imatge d’ambient '+formatIndex(i+1),'square')}`).join('')}</div>${note('Fotografies de l’activitat pendents','Substituir les imatges de mostra per les fotografies originals del procés, els materials i el resultat.')}<div class="draft-spread"><span class="eyebrow">03 · Reflexió personal</span><h3 class="serif-title">Què he descobert?</h3>${note('Reflexió en preparació','Valoració personal del procés i de les possibilitats de traslladar l’activitat a una aula infantil.')}</div>`,true),'fulles');}
+// A diferencia del fragment incomplet, les fitxes del MNAC no atribueixen obres que no s'han comprovat.
+const ART_IMAGES=['quadre','quadre2','art','quadre3','art2','art3','pintura','art4','quadre','quadre2'];
+const PLANT_IMAGES=['fulles','flor','jardi','arbre','herbes','pins','bosc','verd','plantes','suculenta'];
+const artItems=Array.from({length:10},(_,i)=>({num:i+1,title:`Obra ${formatIndex(i+1)} · fitxa pendent`,sub:'Artista, títol, data i cartel·la per completar a partir del MNAC.',name:ART_IMAGES[i]}));
+const plantItems=Array.from({length:10},(_,i)=>({num:i+1,title:`Espècie ${formatIndex(i+1)} · per identificar`,sub:'Nom i identificació botànica pendents de verificació.',name:PLANT_IMAGES[i]}));
+function b2p2(){return page(ROUTES[5][0],'Bloc II · Proposta 02','Visita museu i jardí','Tres aproximacions complementàries: museu, recorregut botànic i proposta interdisciplinària.',
+`<section class="section-pad"><div class="container"><p class="chapter-lead">La pàgina s’articula com una exposició d’arxius de la sortida: obres observades, formes de la natura i una proposta per a l’aula.</p><div class="proposal-jump" aria-label="Salta a una proposta"><button type="button" data-scroll-to="proposta-mnac">01 · MNAC</button><button type="button" data-scroll-to="proposta-jardi">02 · Diàleg amb el jardí</button><button type="button" data-scroll-to="proposta-arts">03 · Educar a través de les arts</button></div></div></section>`+
+section('Proposta 01 · MNAC','Deu mirades sobre les obres',`<div id="proposta-mnac" class="section-anchor"></div><div class="prose"><p>Espai per a deu fitxes d’obres seleccionades durant la visita al Museu Nacional d’Art de Catalunya. Cada fitxa està preparada per incorporar fotografia, artista, títol, cartel·la, informació i comentari propi.</p><p class="photo-disclaimer">Les fotografies actuals són ambientals i no representen cap obra concreta del MNAC. Les atribucions només es mostraran quan hagin estat verificades.</p></div><div class="catalog-grid cols-3">${artItems.map(x=>archiveCard('mnac-'+x.num,x.title,x.sub,x.name,x.num,'Referència visual per a la galeria del museu')).join('')}</div>${genericDetails()}${note('Material del MNAC pendent','Deu fotografies de les obres, les cartel·les reals i les valoracions d’Ariadna.')}`)+
+section('Proposta 02 · Jardí','L’art de caminar',`<div id="proposta-jardi" class="section-anchor"></div><div class="split-editorial"><div class="prose"><p class="editorial-lead">Caminar pel jardí permet reconèixer textures, estructures i relacions que sovint passen desapercebudes en una primera observació.</p><p>La galeria està preparada per classificar deu espècies observades durant el recorregut. La identificació botànica requereix fotografies pròpies o fonts fiables.</p></div><div>${photoFigure('jardi','Vegetació botànica al jardí','Imatge ambiental · recorregut de descoberta','wide')}</div></div><div class="catalog-grid cols-3">${plantItems.map(x=>archiveCard('planta-'+x.num,x.title,x.sub,x.name,x.num,'Fotografia general de plantes; espècie no identificada')).join('')}</div>${genericDetails()}<div class="reading-grid" style="margin-top:2rem"><div>${note('Observacions i reflexió pendents','Substituir les fotografies ambientals per les deu espècies fotografiades i identificades.')}</div><div class="video-placeholder" aria-label="Espai per al vídeo de la sortida"><div class="video-play" aria-hidden="true">▷</div><strong>Vídeo de la sortida</strong><small>Espai reservat per incorporar un vídeo · durada màxima prevista: 2 minuts</small></div></div>`,true)+
+section('Proposta 03 · Aula','Educar a través de les arts',`<div id="proposta-arts" class="section-anchor"></div><p class="chapter-lead">Un diàleg entre art, natura, ciències i educació infantil per construir una proposta interdisciplinària.</p><div class="interdisciplinary-matrix"><div class="pillar-box"><span class="pillar-num">01</span><h3>Art</h3><p>Mirada estètica i expressió</p></div><div class="pillar-box"><span class="pillar-num">02</span><h3>Natura</h3><p>Observació de l’entorn</p></div><div class="pillar-box"><span class="pillar-num">03</span><h3>Ciències</h3><p>Preguntes i experimentació</p></div><div class="pillar-box"><span class="pillar-num">04</span><h3>Infància</h3><p>Context docent</p></div></div>${genericDetails()}${note('Proposta interdisciplinària pendent','A partir d’una artista o obra del museu, incorporar el disseny d’una activitat real per a infants.')}`)+
+section('Sortida · Síntesi','Conclusions de la sortida',`<div class="reading-grid"><div class="draft-spread"><span class="eyebrow">Quadern de conclusions</span><h3 class="serif-title">Observació i transformació de la mirada</h3>${note('Reflexió personal pendent','Quina relació s’estableix amb la natura? Què aporta la pràctica artística? Com podria traslladar-se aquesta mirada a l’aula?')}</div><div>${photoFigure('arbre','Natura i textures verdes','Imatge visual de suport · síntesi','tall')}</div></div>`,true),'museu');}
+function b2p3(){return page(ROUTES[6][0],'Bloc II · Proposta 03','Què és un jardí?','Descripció artística de l’entorn i creació d’un llibre d’artista.',
+section('01 · Observar per crear','Del jardí al paper',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">Un jardí és també un conjunt de signes visuals: ritmes, textures, formes, línies i tonalitats que poden ser interpretats artísticament.</p><p>Aquesta pàgina recull el guió d’una proposta de creació basada en l’observació, l’estampació i la composició de pàgines.</p>${genericDetails()}</div><div>${photoFigure('jardi2','Un jardí cultivat amb vegetació','Espai de referència · imatge de demostració','tall')}</div></div>`)+
+section('02 · Tècniques','Cinc maneres de registrar el jardí',`<div class="material-timeline">${[['Dibuix','Línies i contorns.'],['Pintura','Color i atmosfera.'],['Estampació','Empremtes i formes.'],['Frottage','Textures per fregament.'],['Enquadernació','Construcció d’un relat visual.']].map(([t,d],i)=>`<div class="material-step"><span class="step-num">${formatIndex(i+1)}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>`,true)+
+section('03 · Llibre d’artista','El meu llibre d’artista',`<p class="chapter-lead">Una seqüència de pàgines pensada per mostrar el procés, la materialitat i el resultat final de la creació.</p><div class="artist-book-spread"><div class="book-page-left">${img('fulles','Fulles com a inspiració del llibre d’artista')}<span>Quadern / imatge de referència</span></div><div class="book-page-right">${img('pintura','Composició de pintura de demostració')}<span>Pàgines reals d’Ariadna pendents</span></div></div>${note('Llibre original pendent','Cal incorporar fotografies de la portada, les pàgines interiors i el procés d’enquadernació. Les imatges actuals són de demostració.')}`,false));}
+function blocIII(){return page('bloc-iii','Bloc III · Cos, teixit i artivisme','Moda, artivisme i performativitat en les arts i l’educació','El cos, la matèria i la creació col·lectiva com a llenguatges visuals.',
+section('00 · Presentació','La matèria com a llenguatge',`<div class="split-editorial reverse"><div class="prose"><p class="editorial-lead">Aquest bloc obre l’exploració artística cap als teixits, el cos i la relació entre els objectes, les identitats i les accions.</p><p>L’índex reuneix quatre propostes: llenguatges corporals, observació d’exposicions, experimentació amb bioteixits i creació d’una passarel·la.</p>${note('Activitats pendents de documentar','Les pàgines recullen l’estructura de treball prevista; les imatges i les reflexions específiques s’incorporaran quan estiguin disponibles.')}</div><div>${photoFigure('teixit','Peces de roba disposades en un espai','Imatge ambiental · materialitat tèxtil','tall')}</div></div>${chapterLinks(B3)}`)+
+section('01 · Materials','Cos, fibres i possibilitats',`<div class="catalog-grid cols-3">${['tela','teixit','teixit2'].map((key,i)=>`${photoFigure(key,'Superfícies de teixit i moda','Estudi visual '+formatIndex(i+1),'square')}`).join('')}</div>`,true),'teixit');}
+function b3p1(){return page(ROUTES[8][0],'Bloc III · Proposta 01','Llenguatge del cos i el teixit','Una recerca visual sobre la comunicació corporal i les qualitats dels materials.',
+section('01 · Plantejament','Habitar la matèria',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">Les formes tèxtils, els gestos, els plecs i les tensions dels materials ofereixen una via per pensar la relació entre el cos i la creació visual.</p><p>Aquest espai es reserva per a la descripció de la proposta real de l’assignatura i les observacions de la seva pràctica.</p>${genericDetails()}</div><div>${photoFigure('tela','Material tèxtil de referència','Imatge de mostra · no documenta l’activitat','tall')}</div></div>`)+
+section('02 · Documentació','Fragments del procés',`<div class="catalog-grid cols-3">${['teixit','tela','teixit2'].map((name,i)=>archiveCard('cos-'+i,`Registre visual ${formatIndex(i+1)}`,'Fotografia de procés pendent de substituir.',name,i+1,'Imatge tèxtil de demostració')).join('')}</div>${note('Registre del procés pendent','Afegir les fotografies pròpies, la seqüència de treball i els materials utilitzats.')}`,true)+
+section('03 · Reflexió','Què expressa el cos?',`<div class="draft-spread"><span class="eyebrow">Reflexió de la proposta</span><h3>Cos, expressió i educació</h3>${note('Reflexió en preparació','Incloure el comentari d’Ariadna sobre les relacions entre experimentació tèxtil, expressió corporal i aprenentatge.')}</div>`));}
+function b3p2(){return page(ROUTES[9][0],'Bloc III · Proposta 02','El cos vestit i Mater Matters','Espai de registre i reflexió sobre les dues exposicions previstes a l’esquema.',
+section('01 · Exposicions','Dues mirades a la matèria',`<div class="reading-grid"><article><div class="magazine-visual">${img('teixit','Teixits i roba artística')}<span class="image-overlay">El cos vestit</span></div><div class="prose" style="margin-top:1.2rem"><h3 class="serif-title" style="font-size:1.7rem">El cos vestit</h3><p>Espai preparat per recollir dades verificades, obres observades i notes de la visita.</p>${note('Visita i fotografies pendents','No s’han incorporat dates, obres ni dades de l’exposició sense documentació.')}</div></article><article><div class="magazine-visual">${img('art2','Textura artística de demostració')}<span class="image-overlay">Mater Matters</span></div><div class="prose" style="margin-top:1.2rem"><h3 class="serif-title" style="font-size:1.7rem">Mater Matters</h3><p>Espai preparat per a la informació de la mostra, la selecció de peces i les observacions personals.</p>${note('Visita i fotografies pendents','Identificar les peces i incorporar els crèdits i permisos de reproducció pertinents.')}</div></article></div>`)+
+section('02 · Galeria','Detalls, superfícies i trobades',`<p class="photo-disclaimer">Galeria visual de demostració. Aquestes fotografies no corresponen a les exposicions i s’han de substituir per les fotografies realment autoritzades.</p><div class="catalog-grid cols-3">${['tela','quadre3','teixit2','art','teixit','art2'].map((key,i)=>archiveCard('exposicio-'+i,`Detall ${formatIndex(i+1)}`,'Imatge d’ambient; informació real pendent.',key,i+1,'Imatge editorial, no procedent de les exposicions')).join('')}</div>`,true)+
+section('03 · Notes','Observacions i reflexió',`<div class="reading-grid"><div>${note('Observacions pendents','Quins materials, llenguatges i recursos visuals destaquen a les exposicions?')}</div><div>${note('Reflexió en preparació','Quines connexions es poden establir amb el cos, la identitat i l’educació visual en la infància?')}</div></div>`),'teixit2');}
+function b3p3(){return page(ROUTES[10][0],'Bloc III · Proposta 03','Bioteixits_DU-DA','Experimentació i documentació de la transformació progressiva dels materials.',
+section('01 · Procés','Un material en transformació',`<p class="chapter-lead">La pàgina organitza la documentació en cinc moments, amb espai per a imatges i notes de cada fase.</p><div class="material-timeline">${[['Materials','Inventari real de components i estris.'],['Experimentació','Assajos, condicions i decisions.'],['Procés de creació','Registre de les transformacions.'],['Resultats','Fotografies i característiques observades.'],['Reflexió','Valoració final i relació amb l’aula.']].map(([t,d],i)=>`<div class="material-step"><span class="step-num">${formatIndex(i+1)}</span><h3>${t}</h3><p>${d}</p></div>`).join('')}</div>`)+
+section('02 · Arxiu visual','La pell del material',`<div class="catalog-grid cols-3">${['art2','pintura','tela','fulles','teixit2'].map((k,i)=>archiveCard('bioteixit-'+i,`Fase ${formatIndex(i+1)}`,'Imatge de demostració; procés d’Ariadna pendent.',k,i+1,'Textura de referència; no és un bioteixit documentat')).join('')}</div>${note('Resultats reals pendents','Substituir els exemples visuals per imatges del material utilitzat, les fases de fabricació i els resultats finals.')}`,true)+
+section('03 · Valoració','Què ens explica la matèria?',`<div class="draft-spread"><span class="eyebrow">Reflexió personal</span><h3>Aprenentatge i experimentació</h3>${note('Text propi pendent','Descriure les observacions del procés, les dificultats i les possibilitats artístiques i educatives dels bioteixits.')}</div>`),'art2');}
+function b3p4(){return page(ROUTES[11][0],'Bloc III · Proposta 04','La passarel·la: espai de creació','Disseny, acció compartida i presentació artística del resultat.',
+section('01 · Proposta','La passarel·la com a exposició',`<div class="split-editorial reverse"><div class="prose"><p class="editorial-lead">La passarel·la pot transformar-se en un espai de comunicació visual on convergeixen materials, moviment i decisions creatives.</p><p>La pàgina està preparada per documentar la planificació, el procés de creació, la presentació i el comentari final de l’activitat.</p>${genericDetails()}</div><div>${photoFigure('teixit','Textura i vestimenta de demostració','Referència visual · no és el resultat de l’activitat','tall')}</div></div>`)+
+section('02 · Registre','De la idea a la posada en escena',`<div class="stage-grid">${[['01','Idea i referents'],['02','Materials i proves'],['03','Creació'],['04','Presentació final']].map(([n,t])=>`<div class="stage-card"><span>${n}</span><p>${t}</p></div>`).join('')}</div><div class="catalog-grid cols-3">${['teixit2','tela','teixit'].map((key,i)=>archiveCard('passarella-'+i,`Moment ${formatIndex(i+1)}`,'Fotografia pròpia pendent.',key,i+1,'Referència de moda i teixit')).join('')}</div>`,true)+
+section('03 · Tancament','Reflexió final',`<div class="draft-spread"><span class="eyebrow">Quadern de procés</span><h3>Com s’ha construït el resultat?</h3>${note('Reflexió i registre pendents','Aportar la documentació audiovisual autoritzada, les fotografies de la passarel·la i la valoració final.')}</div>`),'teixit');}
+function conclusions(){return page('conclusions','Tancament · Aprenentatges','Conclusions generals de l’assignatura','Una síntesi oberta dels coneixements i de les experiències incorporades al portafoli.',
+section('01 · Balanç','Què m’emporto del recorregut?',`<div class="split-editorial"><div><p class="quote-editorial">Un quadern per recollir tot allò que encara queda per descobrir.</p><p class="micro-foot" style="margin-top:1.5rem">Text editorial provisional, no atribuït com a reflexió personal.</p></div><div class="prose"><p>La pàgina de conclusions està preparada per a la síntesi final d’Ariadna, que s’ha d’elaborar un cop desenvolupades les activitats de l’assignatura.</p>${note('Conclusions d’Ariadna pendents','No s’han generat aprenentatges ni resultats personals que no constin documentats.')}</div></div>`)+
+section('02 · Eixos de reflexió','Quatre perspectives',`${details([['Aprenentatges','Quines idees i habilitats han estat significatives?'],['Coneixements','Quins conceptes i recursos visuals s’han treballat?'],['Evolució artística','Com ha canviat la manera d’observar i crear?'],['Pràctica docent','Com es podrien aplicar les propostes a l’Educació Infantil?']])}`,true));}
+function reflexio(){return page('reflexio-personal','Apunts finals · Quadern íntim','Reflexió personal','Una pàgina reservada a la veu pròpia, l’autocrítica i la projecció docent.',
+section('01 · Mirada interior','Punts forts i punts febles',`<div class="reading-grid"><div class="draft-spread"><span class="eyebrow">01 · Punts forts</span><h3>Allò que ha funcionat</h3>${note('Text pendent','Ariadna podrà incorporar aquí els aspectes que consideri més satisfactoris del seu procés.')}</div><div class="draft-spread"><span class="eyebrow">02 · Punts febles</span><h3>Allò que es pot revisar</h3>${note('Text pendent','Espai per reconèixer els reptes, les dificultats i els aspectes de millora.')}</div></div>`,true)+
+section('02 · Continuïtat','Una reflexió per continuar',`<div class="split-editorial"><div>${photoFigure('fulles','Composició de fulles i ombres naturals','Imatge de tancament · demostració','tall')}</div><div class="prose"><p>La reflexió pot connectar les experiències del curs amb el tipus d’acompanyament artístic que es vol oferir als infants en el futur.</p>${note('Valoració personal en preparació','Redacció final d’Ariadna Angel Marco pendent d’incorporar.')}</div></div>`));}
+function saberMes(){return page('per-saber-ne-mes','Arxiu obert · Continuar investigant','Per saber-ne més...','Un índex de recursos per ampliar les relacions entre art, museu, natura i educació.',
+section('01 · Arxiu de consulta','Recursos per explorar',`<p class="chapter-lead">Apartat reservat per incorporar els recursos que Ariadna realment hagi consultat o decideixi recomanar.</p><div>${[['01','Recursos educatius','Materials didàctics i propostes de treball.'],['02','Museus i centres d’art','Col·leccions, programes educatius i exposicions.'],['03','Artistes','Referents vinculats als blocs de l’assignatura.'],['04','Enllaços relacionats','Recursos digitals verificats i pertinents.'],['05','Publicacions','Lectures, catàlegs i articles acadèmics.']].map(([n,t,d])=>`<div class="resource-row"><span class="section-number">${n}</span><div><h3>${t}</h3><p>${d}</p></div><span class="status-tag">Pendent</span></div>`).join('')}</div>${note('Recursos per incorporar','Aquest prototip evita enllaços genèrics o ficticis; els recursos s’afegiran amb l’URL verificada.')}`), 'arbre');}
+function bibliografia(){return page('referencies-bibliografiques','Documentació acadèmica · Fonts','Referències bibliogràfiques','Espai de registre de les fonts utilitzades en el treball.',
+section('01 · Criteri acadèmic','Bibliografia documentada',`<div class="split-editorial"><div class="prose"><p class="editorial-lead">Les fonts bibliogràfiques són una part essencial del portafoli: permeten relacionar la pràctica artística amb els textos, les obres i les propostes educatives consultades.</p><p>Les referències s’han d’incorporar amb autoria, data, títol, editorial o URL, segons el sistema de citació requerit per l’assignatura.</p></div><div class="draft-spread"><span class="eyebrow">Llista de referències</span>${note('Bibliografia pendent','No s’han inventat llibres, articles, autores ni URL. Quan es disposi de les fonts, s’introduiran en aquest apartat.')}</div></div>`));}
+const VIEWS={
+ 'inici':home,'introduccio':intro,'bloc-i':blocI,'bloc-ii':blocII,
+ [ROUTES[4][0]]:b2p1,[ROUTES[5][0]]:b2p2,[ROUTES[6][0]]:b2p3,
+ 'bloc-iii':blocIII,[ROUTES[8][0]]:b3p1,[ROUTES[9][0]]:b3p2,
+ [ROUTES[10][0]]:b3p3,[ROUTES[11][0]]:b3p4,
+ 'conclusions':conclusions,'reflexio-personal':reflexio,
+ 'per-saber-ne-mes':saberMes,'referencies-bibliografiques':bibliografia
+};
+
+/* -- NAVEGACIO, ACCIONS I ACCESSIBILITAT -- */
+const main=document.getElementById('main-content');
+const mobileBtn=document.getElementById('mobile-menu-toggle');
+const mobileDrawer=document.getElementById('mobile-drawer');
+const modal=document.getElementById('lightbox-modal');
+let previousFocus=null;
+function setMobile(open){
+ mobileBtn.setAttribute('aria-expanded',String(open));
+ mobileDrawer.classList.toggle('is-open',open);
+ mobileDrawer.inert=!open;
+ document.body.classList.toggle('menu-open',open);
+ if(open) mobileDrawer.querySelector('a[href]')?.focus();
+}
+function setSubmenu(btn,open){
+ const el=document.getElementById(btn.dataset.submenuTarget);
+ if(!el)return;
+ btn.setAttribute('aria-expanded',String(open));
+ btn.textContent=open?'−':'+';
+ el.classList.toggle('is-open',open);
+ el.inert=!open;
+}
+function updateNav(path){
+ document.querySelectorAll('[data-route]').forEach(a=>{
+  const route=a.dataset.route;
+  const active=route===path||(route==='bloc-ii'&&path.startsWith('bloc-ii/'))||(route==='bloc-iii'&&path.startsWith('bloc-iii/'));
+  a.classList.toggle('active',active);
+  if(route===path)a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+ });
+}
+function renderRoute(){
+ const raw=location.hash.startsWith('#/')?location.hash.slice(2):'inici';
+ let path; try{path=decodeURIComponent(raw).replace(/^\/+|\/+$/g,'')}catch{path='inici'}
+ if(!path)path='inici';
+ const func=VIEWS[path];
+ if(!func){main.innerHTML=`<section class="section-pad"><div class="container"><span class="eyebrow">Pàgina no trobada</span><h1 class="page-title">Aquesta ruta no existeix.</h1><a class="editorial-cta" href="#/inici">Torna a l’inici →</a></div></section>`;document.title='Pàgina no trobada — Arts Visuals I';}
+ else {main.innerHTML=func();document.title=`${ROUTES.find(r=>r[0]===path)?.[1]} — Educació de les Arts Visuals I`}
+ document.body.setAttribute('data-Section-theme',path.startsWith('bloc-iii')?'bloc-iii':'default');
+ updateNav(path);
+ setMobile(false);
+ document.querySelectorAll('[data-dropdown]').forEach(g=>{g.classList.remove('open');g.querySelector('button')?.setAttribute('aria-expanded','false')});
+ window.scrollTo({top:0,left:0,behavior:'instant'});
+}
+function openLightbox(id,opener){
+ const item=MEDIA[id]; if(!item)return;
+ previousFocus=opener;
+ const picture=document.getElementById('lightbox-img');
+ picture.src=item.src;picture.alt=item.title;
+ picture.onerror=()=>{picture.onerror=null;picture.src=svgFallback(item.title)};
+ document.getElementById('lightbox-title').textContent=item.title;
+ document.getElementById('lightbox-subtitle').textContent=item.subtitle;
+ document.getElementById('lightbox-meta').textContent=item.meta;
+ document.getElementById('lightbox-desc').textContent=item.desc;
+ modal.inert=false;modal.classList.add('is-active');modal.setAttribute('aria-hidden','false');
+ document.body.classList.add('modal-open');
+ document.getElementById('lightbox-close-btn').focus();
+}
+function closeLightbox(){
+ if(!modal.classList.contains('is-active'))return;
+ modal.classList.remove('is-active');modal.setAttribute('aria-hidden','true');modal.inert=true;
+ document.body.classList.remove('modal-open');previousFocus?.focus();previousFocus=null;
+}
+mobileBtn.addEventListener('click',()=>setMobile(mobileBtn.getAttribute('aria-expanded')!=='true'));
+window.addEventListener('hashchange',()=>{closeLightbox();renderRoute()});
+document.addEventListener('click',event=>{
+ const t=event.target;
+ if(!(t instanceof Element))return;
+ if(t.closest('.skip-link')){event.preventDefault();main.focus();return}
+ const submenu=t.closest('.mobile-submenu-btn');
+ if(submenu){setSubmenu(submenu,submenu.getAttribute('aria-expanded')!=='true');return}
+ const drop=t.closest('.dropdown-toggle-btn');
+ if(drop){const item=drop.closest('[data-dropdown]'),opening=!item.classList.contains('open');
+  document.querySelectorAll('[data-dropdown]').forEach(x=>{x.classList.remove('open');x.querySelector('button').setAttribute('aria-expanded','false')});
+  item.classList.toggle('open',opening);drop.setAttribute('aria-expanded',String(opening));return}
+ const media=t.closest('[data-lightbox]');
+ if(media){openLightbox(media.dataset.lightbox,media);return}
+ const jump=t.closest('[data-scroll-to]');
+ if(jump){document.getElementById(jump.dataset.scrollTo)?.scrollIntoView({behavior:'smooth',block:'start'});return}
+ if(t.closest('#lightbox-close-btn')||(t===modal)){closeLightbox();return}
+ const navLink=t.closest('#mobile-drawer a[href]');
+ if(navLink){setMobile(false);if(location.hash===navLink.getAttribute('href'))renderRoute();return}
+ if(!t.closest('[data-dropdown]'))document.querySelectorAll('[data-dropdown]').forEach(x=>{x.classList.remove('open');x.querySelector('button')?.setAttribute('aria-expanded','false')});
+});
+document.addEventListener('error',e=>{
+ if(!(e.target instanceof HTMLImageElement))return;
+ const image=e.target;
+ if(image.dataset.isFallback)return;
+ image.dataset.isFallback='true'; image.src=svgFallback(image.dataset.fallback||'Art i natura',document.body.getAttribute('data-Section-theme')==='bloc-iii');
+},true);
+document.addEventListener('keydown',e=>{
+ if(e.key==='Escape'){closeLightbox();if(mobileBtn.getAttribute('aria-expanded')==='true'){setMobile(false);mobileBtn.focus()}}
+ if(e.key==='Tab'&&modal.classList.contains('is-active')){
+  const close=document.getElementById('lightbox-close-btn');
+  if(!modal.contains(document.activeElement)){e.preventDefault();close.focus()}
+ }
+});
+window.addEventListener('resize',()=>{if(innerWidth>=1300&&mobileBtn.getAttribute('aria-expanded')==='true')setMobile(false)});
+renderRoute();
+
+</script>
+</body>
+</html>
