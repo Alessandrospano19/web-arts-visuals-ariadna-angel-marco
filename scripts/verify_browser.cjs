@@ -4,16 +4,16 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const base = process.env.ARI_PREVIEW_URL || 'http://127.0.0.1:8000';
-const output = path.resolve(__dirname,'../docs/verification/novembre-2026');
+const output = path.resolve(process.env.ARI_VERIFICATION_OUTPUT||path.join(__dirname,'../docs/verification/quarta-iteracio/final'));
 fs.mkdirSync(output,{recursive:true});
 const flat = text => text.replace(/\s+/g,' ').trim();
-const sourceFlat = text => flat(text.replace(/^\s*- /gm,''));
+const sourceFlat = text => flat(text.replace(/^\s*[-●] /gm,'').replace(/●\s*/g,'').replace(/\*\*/g,''));
 const forbidden = /Fotografia (?:pròpia|aportada) d[’']Ariadna|(?:Imatge|Obres?) extret[ae]s? del document|Text original d[’']Ariadna|segons el document|document,? p\.|Secció provisional|Composició del document original|les dades es transcriuen|correspondències.*pendents de confirmar/i;
 let browser;
 (async()=>{
   browser = await chromium.launch(process.platform === 'win32' ? {channel:'msedge'} : {});
   const page = await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
-  const errors=[],failedRequests=[],metrics=[],checks=[],assets=new Set();
+  const errors=[],failedRequests=[],metrics=[],checks=[],assets=new Set(),contrast=[];
   page.on('pageerror',e=>errors.push(e.message));
   page.on('console',m=>{if(m.type()==='error')errors.push({text:m.text(),location:m.location()});});
   page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)failedRequests.push([r.status(),r.url()]);});
@@ -29,6 +29,21 @@ let browser;
     assert.ok(s.width<=s.viewport&&s.bodyWidth<=s.viewport,label+' scroll width');
     assert.deepEqual(s.overflow,[],label+' element overflow');await clean();
   }
+  async function readingContrast(route) {
+    const values=await page.evaluate(()=>{
+      const rgb=s=>s.match(/[\d.]+/g).map(Number);
+      const lum=c=>c.slice(0,3).map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4;}).reduce((v,x,i)=>v+x*[.2126,.7152,.0722][i],0);
+      return [...document.querySelectorAll('main .prose p, main .prose strong, main .editorial-summary, main .chapter-label, main .figure-label, main .exploration-content p')].filter(el=>el.checkVisibility()).map(el=>{
+        let bg=[255,255,255],node=el;
+        while(node){const c=rgb(getComputedStyle(node).backgroundColor);if(c.length===3||c[3]===1){bg=c;break;}node=node.parentElement;}
+        const fg=rgb(getComputedStyle(el).color),alpha=fg[3]??1;
+        const color=fg.slice(0,3).map((x,i)=>x*alpha+bg[i]*(1-alpha));
+        const a=lum(color),b=lum(bg);return {element:el.tagName+'.'+el.className,ratio:(Math.max(a,b)+.05)/(Math.min(a,b)+.05)};
+      });
+    });
+    values.forEach(v=>assert.ok(v.ratio>=4.5,`${route} ${v.element} contrast ${v.ratio.toFixed(2)}`));
+    contrast.push({route,samples:values.length,minimum:Math.min(...values.map(v=>v.ratio))});
+  }
   await go('inici');
   const routes=await page.evaluate(()=>ROUTES),data=await page.evaluate(()=>PORTFOLIO);
   assert.equal(routes.length,17);
@@ -41,6 +56,7 @@ let browser;
       assert.equal(await page.locator('main h1').count(),1);
       assert.equal(await page.locator('main').evaluate(el=>el.inert),false);
       await geometry(`${width} ${route}`);
+      if(width===1440)await readingContrast(route);
       const links=await page.locator('a[href^="#/"]').evaluateAll(els=>els.map(el=>el.getAttribute('href').slice(2)));
       links.forEach(link=>assert.ok(routes.some(r=>r[0]===link),link));
       if(['inici','introduccio','bloc-i','bloc-ii/p1-formes-dapropar-se-a-la-natura',p2,'bloc-ii/p3-descripcio-del-jardi','bloc-ii/p4-experimentem-amb-tintes-vives','bloc-iii'].includes(route)&&[390,1440].includes(width)){
@@ -55,10 +71,11 @@ let browser;
           assert.equal(await page.locator('[role=tab][aria-selected=true]').count(),1);
           assert.equal(await page.locator('[role=tab][tabindex="0"]').count(),1);
           await geometry(`${width} panel ${id}`);assert.equal(new URL(page.url()).hash,'#/'+p2);
+          if(width===1440)await readingContrast(p2+' · '+id);
         }
       }
       if(route==='bloc-ii/p3-descripcio-del-jardi'){
-        assert.ok(await page.locator('.media-gallery img').count() >= 20);
+        assert.ok(await page.locator('main img').count() >= 20);
         assert.equal(await page.locator('.pending-note').count(),0);
         assert.ok((await page.locator('main').innerText()).includes('Natura viva'));
       }
@@ -78,7 +95,18 @@ let browser;
     await page.keyboard.press('Space');assert.equal(await disclosure.getAttribute('open'),null);
   }
   await go(p2);assert.equal(await page.locator('.artwork-card').count(),10);
-  assert.equal(await page.locator('.artwork-card .original-reflection').count(),0);
+  assert.equal(await page.locator('.artwork-card .original-reflection').count(),10);
+  for(let i=0;i<10;i++){
+    const detail=page.locator('#obra-reflexio-'+(i+1));
+    assert.equal(await detail.getAttribute('open'),null);
+    assert.equal(await original('#obra-reflexio-'+(i+1)),sourceFlat(data.artworks[i].reflection));
+    await detail.locator('summary').focus();await page.keyboard.press('Enter');
+    assert.equal(await detail.getAttribute('open'),'');
+    await geometry('expanded artwork '+(i+1));await readingContrast('artwork '+(i+1));
+    await page.keyboard.press('Space');assert.equal(await detail.getAttribute('open'),null);
+  }
+  assert.equal(await page.locator('#obra-reflexio-4 li').count(),3);
+  assert.ok(await page.locator('#obra-reflexio-4 p').count()>=3);
   for(const [id,text]of [['museu-proposta',data.museum.introduction+'\n\n'+data.museum.proposal+'\n\n'+data.museum.objectives],['museu-metodologia',data.museum.methodology],['museu-materials',data.museum.materials],['conclusio-museu',data.museum.conclusion]])assert.equal(await original('#'+id),sourceFlat(text));
   assert.equal(await page.locator('#museu-metodologia ul').count(),1);assert.equal(await page.locator('#museu-metodologia li').count(),6);
   for(let i=0;i<10;i++){
@@ -87,7 +115,7 @@ let browser;
     assert.equal(await page.locator('#lightbox-title').innerText(),data.artworks[i].title);
     assert.equal(await page.locator('#lightbox-subtitle').innerText(),data.artworks[i].artist);
     assert.equal(await page.locator('#lightbox-meta').innerText(),data.artworks[i].technique);
-    assert.equal(await original('#obra-completa'),flat(data.artworks[i].reflection));
+    assert.equal(await original('#obra-completa'),sourceFlat(data.artworks[i].reflection));
     assert.equal(await page.locator('#obra-completa').getAttribute('open'),null);
     await page.locator('#obra-completa summary').click();await clean();
     await page.keyboard.press('Tab');assert.ok(await page.locator('#lightbox-modal').evaluate(el=>el.contains(document.activeElement)));
@@ -122,6 +150,20 @@ let browser;
     assert.equal(await page.locator('.pending-note:visible').count(),0);
   }
   assert.equal(played,5);
+  await go('bloc-ii/p3-descripcio-del-jardi');
+  assert.equal(await original('.book-development'),sourceFlat(data.book.development));
+  await page.waitForFunction(()=>[...document.querySelectorAll('video')].every(el=>el.videoHeight>0));
+  const videoBounds=await page.locator('video').evaluateAll(els=>els.map(el=>{const r=el.getBoundingClientRect();return {top:r.top,left:r.left,width:r.width,height:r.height,fit:getComputedStyle(el).objectFit,ratio:el.videoWidth/el.videoHeight};}));
+  assert.ok(Math.abs(videoBounds[0].top-videoBounds[1].top)<1);assert.ok(videoBounds[1].left>videoBounds[0].left);
+  videoBounds.forEach(v=>{assert.equal(v.fit,'contain');assert.ok(v.ratio<1);assert.ok(Math.abs(v.width/v.height-v.ratio)<.01);});
+  await go('bloc-ii/p4-experimentem-amb-tintes-vives');
+  const dyeHeadings=await page.evaluate(()=>WEB.narrativa.tintes_apartats);
+  for(let i=0;i<dyeHeadings.length;i++){
+    const source=data.dyes.slice(data.dyes.indexOf(dyeHeadings[i])+dyeHeadings[i].length,i+1<dyeHeadings.length?data.dyes.indexOf(dyeHeadings[i+1]):data.dyes.length).trim();
+    const section=page.locator('.editorial-section').nth(i);
+    const text=i===10?await section.locator('table').innerText():(await section.locator('.original-reflection p,.original-reflection li').allTextContents()).join(' ');
+    assert.equal(flat(text),sourceFlat(source),'Complete dyes phase '+i);
+  }
   await page.setViewportSize({width:390,height:844});await go('inici');await page.locator('#mobile-menu-toggle').click();
   for(const id of ['b2','b3']){const btn=page.locator(`[data-submenu-target="mob-sub-${id}"]`);await btn.click();assert.equal(await btn.getAttribute('aria-expanded'),'true');}
   await page.locator('#mobile-drawer a').last().focus();await page.keyboard.press('Tab');assert.ok(await page.locator('header').evaluate(el=>el.contains(document.activeElement)));
@@ -135,7 +177,7 @@ let browser;
   await page.waitForSelector('#reflexio-completa');assert.equal(await original('#reflexio-completa'),flat(data.intro.reflection));
   async function loadVisible(){
     for(const img of await page.locator('main img:visible').all()){await img.scrollIntoViewIfNeeded();await img.evaluate(el=>el.decode());}
-    for(const video of await page.locator('video:visible').all())await video.evaluate(async el=>{el.muted=true;await el.play();el.pause();el.currentTime=0;});
+    for(const video of await page.locator('video:visible').all())await video.evaluate(async el=>{el.muted=true;await el.play();await new Promise(resolve=>el.requestVideoFrameCallback(resolve));el.pause();});
     await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await page.evaluate(()=>document.fonts.ready);
   }
   const shots=[];
@@ -161,7 +203,7 @@ let browser;
     console.log('Captured all requested views at '+width+'px');
   }
   assert.deepEqual(errors,[]);assert.deepEqual(failedRequests,[]);
-  const report={routes:17,viewports:[375,390,430,768,1024,1440],routeChecks:checks.length,panelChecks:18,localAssets:assets.size,artworks:10,species:10,videosPlayed:played,fullOriginalText:true,technicalLabelsRemoved:true,keyboardAndFocus:true,developedParts:true,fileProtocol:true,consoleErrors:errors,failedRequests,metrics,screenshots:shots};
+  const report={routes:17,viewports:[375,390,430,768,1024,1440],routeChecks:checks.length,panelChecks:18,localAssets:assets.size,artworks:10,species:10,videosPlayed:played,fullOriginalText:true,technicalLabelsRemoved:true,keyboardAndFocus:true,developedParts:true,fileProtocol:true,readingContrast:contrast,consoleErrors:errors,failedRequests,metrics,screenshots:shots};
   fs.writeFileSync(path.join(output,'report.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify({...report,metrics:undefined,screenshots:shots.length},null,2));
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{if(browser)await browser.close();});

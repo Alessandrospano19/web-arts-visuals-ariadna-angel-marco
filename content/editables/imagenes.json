@@ -1,0 +1,479 @@
+{
+  "part1_finamiralls": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-1/finamiralls.webp",
+    "alt": "",
+    "grupo": "part1",
+    "ancho": 722,
+    "alto": 1024
+  },
+  "descripcio_2": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "part1_stones": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-1/stones.webp",
+    "alt": "",
+    "grupo": "part1",
+    "ancho": 818,
+    "alto": 543
+  },
+  "bloc-i_img_2228": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-i/img_2228.webp",
+    "alt": "",
+    "grupo": "bloc-i",
+    "ancho": 1014,
+    "alto": 911
+  },
+  "bloc-i_img_2227": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-i/img_2227.webp",
+    "alt": "",
+    "grupo": "bloc-i",
+    "ancho": 647,
+    "alto": 1047
+  },
+  "descripcio_img_5103": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5103.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 3024,
+    "alto": 4032
+  },
+  "descripcio_4": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/4.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "tintes_img_5189": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5189.webp",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 3024,
+    "alto": 4032
+  },
+  "descripcio_img_5041": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5041.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 2048,
+    "alto": 1536
+  },
+  "introduccio_img_2226": {
+    "imagen": "assets/actualizacion-2026-11-08/introduccio/img_2226.webp",
+    "alt": "",
+    "grupo": "introduccio",
+    "ancho": 1067,
+    "alto": 731
+  },
+  "descripcio_img_5107": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5107.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 3024,
+    "alto": 4032
+  },
+  "plantes_3": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/3.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "tintes_img_5194": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5194.webp",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_1": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/1.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 2048,
+    "alto": 1536
+  },
+  "descripcio_img_4798": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4798.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_5106": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5106.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_3": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/3.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 2048,
+    "alto": 1536
+  },
+  "descripcio_img_4799": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4799.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "conclusions_img_4655": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4655.webp",
+    "alt": "",
+    "grupo": "conclusions",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_5127": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_4791": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4791.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "mnac_3": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-mnac/3.webp",
+    "alt": "",
+    "grupo": "mnac",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "conclusions_img_4724": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4724.webp",
+    "alt": "",
+    "grupo": "conclusions",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_5100": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5100.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 5712,
+    "alto": 4284
+  },
+  "descripcio_img_5125": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "plantes_4": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/4.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "descripcio_img_4785": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4785.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_5040": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5040.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 1536,
+    "alto": 2048
+  },
+  "plantes_1": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/1.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "plantes_5": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/5.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "inici_c1e64692-2a9e-48a7-8751-6184236d6423": {
+    "imagen": "assets/actualizacion-2026-11-08/inici/c1e64692-2a9e-48a7-8751-6184236d6423.webp",
+    "alt": "",
+    "grupo": "inici",
+    "ancho": 1536,
+    "alto": 2048
+  },
+  "conclusions_img_4981": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4981.webp",
+    "alt": "",
+    "grupo": "conclusions",
+    "ancho": 2316,
+    "alto": 3088
+  },
+  "tintes_img_5192": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5192.webp",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "plantes_img_4773": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4773.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "mnac_2": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-mnac/2.webp",
+    "alt": "",
+    "grupo": "mnac",
+    "ancho": 3024,
+    "alto": 4032
+  },
+  "mnac_1": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-mnac/1.webp",
+    "alt": "",
+    "grupo": "mnac",
+    "ancho": 3840,
+    "alto": 5120
+  },
+  "plantes_img_4964": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4964.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "tintes_img_5187": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5187.webp",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_5101": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5101.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 5712,
+    "alto": 4284
+  },
+  "introduccio_img_5030": {
+    "imagen": "assets/actualizacion-2026-11-08/introduccio/img_5030.webp",
+    "alt": "",
+    "grupo": "introduccio",
+    "ancho": 5712,
+    "alto": 4284
+  },
+  "descripcio_img_5105": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5105.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 3024,
+    "alto": 4032
+  },
+  "jardi_img_4758": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4758.webp",
+    "alt": "",
+    "grupo": "jardi",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "plantes_img_4979": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4979.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_4784": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4784.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_4790": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4790.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "plantes_img_4968": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4968.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "plantes_img_4985": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4985.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "jardi_img_4749": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4749.webp",
+    "alt": "",
+    "grupo": "jardi",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "tintes_img_5193": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5193.mp4",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 1920,
+    "alto": 1080
+  },
+  "descripcio_img_4795": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4795.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "descripcio_img_5126": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5126.mp4",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 1080,
+    "alto": 1920
+  },
+  "tintes_img_5195": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5195.mp4",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 1920,
+    "alto": 1080
+  },
+  "tintes_img_5191": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5191.mp4",
+    "alt": "",
+    "grupo": "tintes",
+    "ancho": 1080,
+    "alto": 1920
+  },
+  "jardi_1": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/1.webp",
+    "alt": "",
+    "grupo": "jardi",
+    "ancho": 4000,
+    "alto": 4000
+  },
+  "descripcio_img_5128": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5128.mp4",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 1080,
+    "alto": 1920
+  },
+  "plantes_2": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/2.webp",
+    "alt": "",
+    "grupo": "plantes",
+    "ancho": 1200,
+    "alto": 1600
+  },
+  "obra_01": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4614.webp",
+    "alt": "Verd de coure sobre tela reciclada — Solé Duc",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "obra_02": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2174.webp",
+    "alt": "El mateix de sempre! — Modest Urgell",
+    "ancho": 4032,
+    "alto": 3024
+  },
+  "obra_03": {
+    "imagen": "assets/pdf-obres/obra-03-la-sega.webp",
+    "alt": "La sega — Joaquim Vayreda",
+    "ancho": 1800,
+    "alto": 1350
+  },
+  "obra_04": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2192.webp",
+    "alt": "Composició de 3 obres interrelacionades — Alexandre de Riquer",
+    "ancho": 4032,
+    "alto": 3024
+  },
+  "obra_05": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2165.webp",
+    "alt": "Paravent dels nenúfars — Frederic Vidal",
+    "ancho": 3024,
+    "alto": 4032
+  },
+  "obra_06": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4680.webp",
+    "alt": "Paisatge — Josep Maria Casals i Ariet",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "obra_07": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4719.webp",
+    "alt": "Sense títol — Joan Furriols",
+    "ancho": 5712,
+    "alto": 4284
+  },
+  "obra_08": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4687.webp",
+    "alt": "Terrers (Montgat) — Nicolau Raurich i Petre",
+    "ancho": 5712,
+    "alto": 4284
+  },
+  "obra_09": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4674.webp",
+    "alt": "Gerro amb flors — Francesc Lacoma Fontanet",
+    "ancho": 4284,
+    "alto": 5712
+  },
+  "obra_10": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4685.webp",
+    "alt": "El roc de l’estany — Joaquim Mir",
+    "ancho": 5712,
+    "alto": 4284
+  },
+  "bloc_ii_portada": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5041.webp",
+    "alt": "",
+    "grupo": "descripcio",
+    "ancho": 2048,
+    "alto": 1536
+  },
+  "portada_retrat": {
+    "imagen": "assets/actualizacion-2026-11-08/inici/c1e64692-2a9e-48a7-8751-6184236d6423.webp",
+    "alt": "",
+    "grupo": "inici",
+    "ancho": 1536,
+    "alto": 2048
+  },
+  "universitat_logo": {
+    "imagen": "",
+    "alt": ""
+  },
+  "bloc_ii_detall": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4758.webp",
+    "alt": "",
+    "grupo": "jardi",
+    "ancho": 4284,
+    "alto": 5712
+  }
+}

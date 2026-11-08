@@ -1,0 +1,1 @@
+‘’En aquest bloc us proposem una immersió en la matèria des d’una mirada artística, sensorial, ecològica i experimental. A través de diverses propostes, explorarem com la matèria es transforma, com parla i com ens convida a crear fent ús dels elements que ens envolten en la nostra quotidianitat’’.

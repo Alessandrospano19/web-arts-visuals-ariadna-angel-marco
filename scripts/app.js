@@ -2,20 +2,37 @@
 
 // Original hash routes, editorial components and home composition retained.
 const ROUTES = [
-  ['inici', 'Inici'], ['introduccio', "INTRODUCCIÓ. ART I NATURA A EDUCACIÓ INFANTIL"], ['bloc-i', "BLOC I. ART I EDUCACIÓ"],
-  ['bloc-ii', "BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC."],
-  ['bloc-ii/p1-formes-dapropar-se-a-la-natura', "PART 1. INTRODUCCIÓ- FORMES D’APROPAR-SE A LA NATURA"],
-  ['bloc-ii/p2-visita-museu-i-jardi', "PART 2. Visita al MNAC i passejada pels jardins de Montjuïc"],
-  ['bloc-ii/p3-descripcio-del-jardi', "PART 3. DESCRIPCIÓ DEL JARDÍ"],
-  ['bloc-ii/p4-experimentem-amb-tintes-vives', "PART 4. EXPERIMENTEM AMB TINTES VIVES"],
-  ['bloc-iii', "BLOC III. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. MODA, ARTIVISME I PERFORMATIVITAT EN LES ARTS I L’EDUCACIÓ."],
-  ['bloc-iii/p1-llenguatge-del-cos-i-el-teixit', "PART 1. LLENGUATGES DEL COS I EL TEIXIT"],
-  ['bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters', "PART 2. EXPOSICIÓ: EL COS VESTIT + MATER MATTERS"],
-  ['bloc-iii/p3-bioteixits-du-da', "PART 3. BIOTEIXITS_DU-DA"],
-  ['bloc-iii/p4-la-passarella-espai-de-creacio', "PART 4. LA PASSAREL·LA: ESPAI DE CREACIÓ"],
-  ['conclusions', "CONCLUSIONS GENERALS DE L’ASSIGNATURA"], ['reflexio-personal', "REFLEXIONS PERSONALS"],
-  ['per-saber-ne-mes', "PER SABER-NE MÉS…"], ['referencies-bibliografiques', "REFERÈNCIES BIBLIOGRÀFIQUES"]
-];
+  "inici",
+  "introduccio",
+  "bloc-i",
+  "bloc-ii",
+  "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+  "bloc-ii/p2-visita-museu-i-jardi",
+  "bloc-ii/p3-descripcio-del-jardi",
+  "bloc-ii/p4-experimentem-amb-tintes-vives",
+  "bloc-iii",
+  "bloc-iii/p1-llenguatge-del-cos-i-el-teixit",
+  "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters",
+  "bloc-iii/p3-bioteixits-du-da",
+  "bloc-iii/p4-la-passarella-espai-de-creacio",
+  "conclusions",
+  "reflexio-personal",
+  "per-saber-ne-mes",
+  "referencies-bibliografiques"
+].map(path=>{
+  const part=path.match(/\/p(\d)-/);
+  return [path,path==='inici'?'Inici':(part?'PART '+part[1]+'. ':'')+WEB.titulos.academicos[path]];
+});
+function webText(id) { return WEB['textos-generales'][id] ?? id; }
+function mediaSource(media) { return media.originalOutput || media.output; }
+function editableImage(id) { const m=WEB.imagenes[id]; if(!m || !m.output) return null; return m; }
+function renderInline(text, budget = {left:2}) {
+ const concepts=WEB.destacados.conceptos;
+ const candidates=concepts.map(t=>({text:t,index:text.toLocaleLowerCase('ca').indexOf(t.toLocaleLowerCase('ca'))})).filter(x=>x.index>=0).sort((a,b)=>a.index-b.index).slice(0,budget.left);
+ let out='',cursor=0;
+ for(const hit of candidates){if(hit.index<cursor)continue;out+=esc(text.slice(cursor,hit.index))+'<strong>'+esc(text.slice(hit.index,hit.index+hit.text.length))+'</strong>';cursor=hit.index+hit.text.length;budget.left--;}
+ return (out+esc(text.slice(cursor))).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+}
 const pathFor = x => '#/' + x;
 const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[ch]));
 const formatIndex = n => String(n).padStart(2, '0');
@@ -28,16 +45,18 @@ function note() {
   return '<p class="pending-note"><span aria-hidden="true">○</span> Pendent d’incorporar</p>';
 }
 function prose(text, cls = '') {
+  text=text.replace(/●\s*/g,'\n\n● ').replace(/(● [^.\n:]{1,25}\.) (?=[A-ZÀ-Ú])/g,'$1\n\n').replace(/(Com a futura mestra d’infantil|A partir de l’obra proposaria|Les tres obres que formen aquesta composició són:)/g,'\n\n$1');
   const paragraphs = text.split(/\n\s*\n/).flatMap(p => p.length > 1000 ? p.split(/(?<=[.!?]) (?=[A-ZÀ-Ú])/).reduce((a,t)=>{if(a.length && a.at(-1).length<650)a[a.length-1]+=' '+t;else a.push(t);return a;},[]) : [p]);
   const html = [];
+  const budget={left:2};
   let list = [];
-  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${esc(p.slice(2))}</li>`).join('')}</ul>`); list = []; } };
+  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${renderInline(p.slice(2),budget)}</li>`).join('')}</ul>`); list = []; } };
   for (const p of paragraphs) {
     if (p.startsWith('- ') || p.startsWith('● ')) list.push(p);
-    else { flush(); html.push(`<p>${esc(p)}</p>`); }
+    else { flush(); html.push(`<p>${renderInline(p,budget)}</p>`); }
   }
   flush();
-  return `<div class="prose ${cls}" lang="ca">${html.join('').replace(/(mirada pròpia|materials naturals|procés creatiu|Natura viva|lliure expressió|observació directa)/gi,'<strong>$1</strong>')}</div>`;
+  return `<div class="prose ${cls}" lang="ca">${html.join('')}</div>`;
 }
 function breadcrumbs(path) {
   const route = ROUTES.find(([p]) => p === path), chunks = [['inici','Inici']];
@@ -48,12 +67,11 @@ function breadcrumbs(path) {
 }
 function pagination(path) {
   const i = ROUTES.findIndex(([p]) => p === path), left = ROUTES[i-1], right = ROUTES[i+1];
-  return `<nav class="page-pagination" aria-label="Navegació entre capítols">${left ? `<a href="${pathFor(left[0])}" class="pagination-link"><span class="pagination-dir">← Anterior</span><span class="pagination-name">${esc(left[1])}</span></a>` : '<div></div>'}${right ? `<a href="${pathFor(right[0])}" class="pagination-link"><span class="pagination-dir">Següent →</span><span class="pagination-name">${esc(right[1])}</span></a>` : ''}</nav>`;
+  return `<nav class="page-pagination" aria-label="Navegació entre capítols">${left ? `<a href="${pathFor(left[0])}" class="pagination-link"><span class="pagination-dir">${esc(webText('text_anterior'))}</span><span class="pagination-name">${esc(left[1])}</span></a>` : '<div></div>'}${right ? `<a href="${pathFor(right[0])}" class="pagination-link"><span class="pagination-dir">${esc(webText('text_seguent'))}</span><span class="pagination-name">${esc(right[1])}</span></a>` : ''}</nav>`;
 }
-function page(path, kicker, title, subtitle, body) {
-  title = ACADEMIC_TITLES[path] || title;
-  if(path.startsWith('bloc-ii/') || path.startsWith('bloc-iii/')) kicker = 'PART '+path.split('/p')[1][0];
-  return `<article class="page-view">${breadcrumbs(path)}<header class="page-hero"><div class="container"><span class="eyebrow">${esc(kicker)}</span><h1 class="page-title">${esc(title)}</h1><p class="page-subtitle">${esc(subtitle)}</p></div></header>${body}<section class="section-pad"><div class="container">${pagination(path)}</div></section></article>`;
+function page(path, body) {
+  const title=ACADEMIC_TITLES[path], {etiqueta:kicker,subtitulo:subtitle}=WEB.paginas[path];
+  return `<article class="page-view" data-page="${esc(path)}">${breadcrumbs(path)}<header class="page-hero"><div class="container"><span class="eyebrow">${esc(kicker)}</span><h1 class="page-title">${esc(title)}</h1><p class="page-subtitle">${esc(subtitle)}</p></div></header>${body}<section class="section-pad"><div class="container">${pagination(path)}</div></section></article>`;
 }
 function section(kicker, title, body, alt = false, id = '') {
   return `<section ${id ? `id="${esc(id)}"` : ''} class="section-pad section-anchor ${alt ? 'bg-alt-section' : ''}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;
@@ -65,42 +83,10 @@ function picture(media, alt, eager = false) {
   const [w,h] = media.dimensions;
   return `<img src="${esc(media.output)}" width="${w}" height="${h}" alt="${esc(alt)}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async">`;
 }
-const mediaDescriptions = {
-  img_2227:'Coberta d’El sentido del asombro, de Rachel Carson',
-  img_2228:'La escuela es el bosque, de Heike Freire',
-  img_2226:'Cartell de la conferència «Un árbol pinta una nube»',
-  img_5030:'Sala de la conferència amb una projecció',
-  'c1e64692-2a9e-48a7-8751-6184236d6423':'Retrat entre la vegetació',
-  img_4784:'Flors i vegetació il·luminades pel sol',
-  img_4785:'Una mà sosté una flor de color rosa',
-  img_4790:'Fulles verdes amb nervis visibles',
-  img_4791:'Fruits allargats entre les branques',
-  img_4795:'Treball en grup a l’exterior amb elements naturals',
-  img_4798:'Una mà sosté una flor de color taronja',
-  img_4799:'Recull de pètals de diferents colors',
-  img_5040:'Una carbassa a l’exterior',
-  img_5041:'Fotografia de grup amb carbasses',
-  img_5100:'Taula de treball amb papers i composicions de colors',
-  img_5101:'Treball amb materials artístics a l’aula',
-  img_5103:'Papers amb impressions i dibuixos de formes vegetals',
-  img_5105:'Composicions sobre paper disposades a la taula',
-  img_5106:'Selecció de papers durant el treball a l’aula',
-  img_5107:'Pàgines desplegades del llibre d’artista',
-  img_5125:'Llibre d’artista obert en ventall',
-  img_5127:'Una altra vista del llibre d’artista desplegat',
-  img_5187:'Suports de paper plegats sobre una taula',
-  img_5189:'Recipient amb líquid i un estri de treball',
-  img_5192:'Recipients i materials del taller de tintes',
-  img_5194:'Mostres de color sobre papers plegats',
-  img_4749:'Observació de la vegetació durant la passejada',
-  img_4758:'Observació d’una flor durant la passejada',
-  '28e874c3-6344-401c-be7a-a2aaf73cd671':'Treball artístic sobre paper en un entorn exterior',
-  '5ce71397-3e74-443c-8313-fc2ce5eb1355':'Exploració de carbasses i materials en una taula',
-  'e460a8c2-0871-4d36-a45d-411a1d306f33':'Mans amb pigments durant una activitat compartida',
-  'f3703c50-3c7e-44cf-89bd-cdd442c6522d':'Treball artístic en grup a l’exterior'
-};
+const mediaDescriptions = WEB['pies-de-foto'];
 function mediaTitle(m, i = 0) {
-  const stem = m.output.split('/').pop().replace(/\.[^.]+$/, '');
+  if(m.alt) return m.alt;
+  const stem = mediaSource(m).split('/').pop().replace(/\.[^.]+$/, '');
   if (mediaDescriptions[stem]) return mediaDescriptions[stem];
   if(m.group==='descripcio' && ['1','2','3','4'].includes(stem)) return {'1':'Experimentació artística a l’hort','2':'Treball plàstic a l’exterior','3':'Exploració de carbasses','4':'Experimentació amb pigments'}[stem];
   if (m.group === 'mnac') return ['Cúpula de l’interior del MNAC','Vista de Barcelona des de la sortida al museu','Edifici del MNAC al capvespre'][Number(stem)-1];
@@ -108,33 +94,32 @@ function mediaTitle(m, i = 0) {
   return `Registre visual ${formatIndex(i+1)}`;
 }
 function photoFigure(m, caption = '', shape = 'wide', eager = false) {
-  const id = m.output, title = mediaTitle(m);
+  caption = WEB['pies-de-foto'][m.id] ?? caption;
+  const id = m.id || m.output, title = mediaTitle(m);
   MEDIA[id] = {src:m.output, title, subtitle:'', meta:'', desc:''};
-  return `<figure><button class="photo-frame ${shape} local-photo" type="button" data-lightbox="${esc(id)}" aria-label="Amplia: ${esc(title)}">${picture(m,title,eager)}<span class="zoom-pill">Amplia ↗</span></button>${caption ? `<figcaption class="figure-label">${esc(caption)}</figcaption>` : ''}</figure>`;
+  return `<figure><button class="photo-frame ${shape} local-photo" type="button" data-lightbox="${esc(id)}" aria-label="Amplia: ${esc(title)}">${picture(m,title,eager)}<span class="zoom-pill">${esc(webText('text_amplia'))}</span></button>${caption ? `<figcaption class="figure-label">${esc(caption)}</figcaption>` : ''}</figure>`;
 }
 function gallery(name, images = group(name), cls = '') {
   return `<div class="catalog-grid cols-3 media-gallery ${cls}">${images.filter(m => m.type === 'image').map(m => photoFigure(m,name === 'descripcio' ? mediaTitle(m) : '')).join('')}</div>`;
 }
-function videos(name) {
-  return `<div class="catalog-grid video-gallery ${name === 'tintes' ? 'three-videos' : ''}">${group(name).filter(m => m.type === 'video').map((m,i) => `<figure><video controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label">${name === 'tintes' ? 'Tintes vives' : 'Llibre d’artista'} · ${formatIndex(i+1)}</figcaption></figure>`).join('')}</div>`;
+function videos(name, ids = null) {
+  return `<div class="catalog-grid video-gallery ${name === 'tintes' ? 'three-videos' : ''}">${group(name).filter(m => m.type === 'video' && (!ids || ids.includes(m.id))).map((m,i) => `<figure><video style="aspect-ratio:${m.dimensions[0]}/${m.dimensions[1]};--video-ratio:${m.dimensions[0]/m.dimensions[1]}" controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label">${esc(WEB['pies-de-foto'][m.id] || (name === 'tintes' ? 'Tintes vives' : 'Llibre d’artista')+' · '+formatIndex(i+1))}</figcaption></figure>`).join('')}</div>`;
 }
 function readingVisual() {
   return `<div class="reading-visual">${group('bloc-i').map(m=>`<div>${picture(m,mediaTitle(m))}</div>`).join('')}</div>`;
 }
 function magazineCard(n,title,subtitle,media,route) {
   const visual = n === 1 ? readingVisual() : media ? picture(media,mediaTitle(media)) : '<div class="editorial-placeholder" aria-hidden="true">Cos<br><em>i matèria</em></div>';
-  return `<article class="exploration-entry"><a class="exploration-media ${n === 1 ? 'reading-entry' : ''}" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${visual}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span>${n === 1 ? '' : `<h3 class="exploration-title serif-title">${esc(title)}</h3>`}<p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`;
+  return `<article class="exploration-entry"><div class="container exploration-band"><a class="exploration-media ${n === 1 ? 'reading-entry' : ''}" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${visual}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span>${n === 1 ? '' : `<h3 class="exploration-title serif-title">${esc(title)}</h3>`}<p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></div></article>`;
 }
 
-function home(){return `<article class="page-view">
+function home(){const h=WEB.portada;return `<article class="page-view home-page">
 <section class="hero-editorial"><div class="container hero-grid"><div>
-<span class="hero-kicker">Art, natura i infància · Portafoli d’investigació</span>
-<h1 class="hero-title">Educació<br><em>de les Arts</em><br>Visuals I</h1>
-<p class="hero-subtitle">Un recorregut per l’art, la natura i l’expressió creativa a l’educació infantil.</p>
-<div class="hero-meta-grid"><div><span class="meta-label">Autora</span><span class="meta-value">Ariadna Angel Marco</span></div><div><span class="meta-label">Curs acadèmic</span><span class="meta-value">2026 — 2027</span></div><div><span class="meta-label">Estudis</span><span class="meta-value">Grau en Educació Infantil</span></div><div><span class="meta-label">Projecte</span><span class="meta-value">Quadern d’artista i docència</span></div></div>
-</div><div class="hero-visual-frame"><div class="hero-img-wrapper">${picture(group('inici')[0],mediaTitle(group('inici')[0]),true)}</div><div class="hero-caption"><span>Fig. 01 — Entre art i natura</span></div></div></div></section>
-<section class="section-pad"><div class="container split-editorial"><div><span class="eyebrow">01 · Pòrtic</span><h2 class="chapter-heading">Benvinguts i benvingudes</h2><p class="micro-foot">Una porta d’entrada a la mirada artística durant la formació docent.</p></div><div class="prose"><p class="editorial-lead dropcap">Benvinguts i benvingudes a aquesta pàgina web, concebuda per una futura mestra d’Educació Infantil com a recurs didàctic i espai per documentar els aprenentatges de l’assignatura <em>Educació de les Arts Visuals I</em>.</p><p>Aquest portafoli s’ha estructurat com un quadern de recerca visual. Les pàgines recullen els blocs de treball, les fotografies, els processos i les reflexions escrites durant el curs.</p></div></div></section>
-<section class="section-pad"><div class="container"><h2 class="chapter-heading">Art i educació</h2><div class="exploration-list">${magazineCard(1,'Art i educació','Fonaments de l’educació visual: imatge, pigment, expressió i processos de descoberta.',group('bloc-i')[0],'bloc-i')}${magazineCard(2,'Art i natura','La visita al MNAC, la passejada sonora pels Jardins de Montjuïc, la creació d’un llibre d’artista i l’experiment amb les tintes naturals.',group('descripcio').find(m=>m.output.endsWith('/img_5041.webp')),'bloc-ii')}${magazineCard(3,'Cos, teixit i creació','Moda, artivisme, bioteixits i pràctiques performatives vinculades a l’art.',null,'bloc-iii')}</div>${pagination('inici')}</div></section></article>`;}
+<span class="hero-kicker">${esc(h.kicker)}</span><h1 class="hero-title">Educació<br><em>de les Arts</em><br>Visuals I</h1><p class="hero-subtitle">${esc(h.subtitulo)}</p>
+<div class="hero-meta-grid">${[['Autora',h.autora],['Curs acadèmic',h.curso],['Estudis',h.estudios],['Projecte',h.proyecto]].map(([a,b])=>`<div><span class="meta-label">${a}</span><span class="meta-value">${esc(b)}</span></div>`).join('')}</div>
+</div><div class="hero-visual-frame"><div class="hero-img-wrapper">${picture(editableImage('portada_retrat'),mediaTitle(editableImage('portada_retrat')),true)}</div><div class="hero-caption"><span>${esc(webText('text_fig_01_entre_art_i_natura'))}</span></div></div></div></section>
+<section class="section-pad home-welcome"><div class="container split-editorial"><div><span class="eyebrow">${esc(webText('text_01_portic'))}</span><h2 class="chapter-heading">${esc(h.bienvenida_titulo)}</h2><p class="micro-foot">${esc(h.bienvenida_nota)}</p></div><div class="prose"><p class="editorial-lead dropcap">${esc(h.bienvenida)}</p><p>${esc(h.descripcion)}</p></div></div></section>
+<section class="home-exploration"><div class="container"><h2 class="chapter-heading home-index-title">${esc(webText('text_art_i_educacio'))}</h2></div><div class="exploration-list">${magazineCard(1,'Art i educació',h.bloc_i,group('bloc-i')[0],'bloc-i')}${magazineCard(2,WEB.titulos.portada_bloc_ii,h.bloc_ii,editableImage('bloc_ii_portada'),'bloc-ii')}${magazineCard(3,WEB.titulos.portada_bloc_iii,h.bloc_iii,null,'bloc-iii')}</div><div class="container">${pagination('inici')}</div></section></article>`;}
 
 const VIEWS = {
   inici:home, introduccio:intro, 'bloc-i':blocI, 'bloc-ii':blocII,
@@ -149,6 +134,10 @@ const mobileDrawer = document.getElementById('mobile-drawer');
 const modal = document.getElementById('lightbox-modal');
 const header = document.querySelector('.site-header');
 const footer = document.querySelector('.site-footer');
+// Long navigation labels share the same editable academic titles.
+document.querySelectorAll('[data-route*="/p"]').forEach(link=>{link.textContent=ROUTES.find(([path])=>path===link.dataset.route)[1];});
+const universityLogo=editableImage('universitat_logo');
+if(universityLogo) document.querySelector('.brand-logo').insertAdjacentHTML('afterend',`<span class="university-mark">${picture(universityLogo,universityLogo.alt,true)}</span>`);
 let previousFocus = null;
 function setMobile(open, returnFocus = false) {
   mobileBtn.setAttribute('aria-expanded',String(open));
@@ -181,7 +170,7 @@ function renderRoute(focus = false) {
   setMobile(false);
   closeDropdowns();
   const view = Object.hasOwn(VIEWS,path) ? VIEWS[path] : null;
-  main.innerHTML = view ? view() : `<section class="section-pad"><div class="container"><span class="eyebrow">Pàgina no trobada</span><h1 class="page-title">Aquesta ruta no existeix.</h1><a class="editorial-cta" href="#/inici">Torna a l’inici →</a></div></section>`;
+  main.innerHTML = view ? view() : `<section class="section-pad"><div class="container"><span class="eyebrow">${esc(webText('text_pagina_no_trobada'))}</span><h1 class="page-title">Aquesta ruta no existeix.</h1><a class="editorial-cta" href="#/inici">Torna a l’inici →</a></div></section>`;
   document.title = `${view ? ROUTES.find(r=>r[0]===path)[1] : 'Pàgina no trobada'} — Educació de les Arts Visuals I`;
   document.body.setAttribute('data-Section-theme',path.startsWith('bloc-iii') ? 'bloc-iii' : 'default');
   document.querySelectorAll('[data-route]').forEach(a=>{
@@ -207,7 +196,7 @@ function openLightbox(id,opener) {
   document.getElementById('lightbox-meta').textContent = item.meta;
   document.getElementById('lightbox-meta').hidden = !item.meta;
   document.getElementById('lightbox-subtitle').hidden = !item.subtitle;
-  document.getElementById('lightbox-desc').innerHTML = item.desc ? fullReading('Llegir la reflexió i proposta educativa',item.desc,'obra-completa') : '';
+  document.getElementById('lightbox-desc').innerHTML = item.desc ? fullReading(webText('llegir_la_reflexio_i_proposta_educativa'),item.desc,'obra-completa') : '';
   modal.querySelector('.lightbox-details').scrollTop = 0;
   modal.querySelector('.lightbox-dialog').scrollTop = 0;
   modal.inert = false; modal.classList.add('is-active'); modal.setAttribute('aria-hidden','false');

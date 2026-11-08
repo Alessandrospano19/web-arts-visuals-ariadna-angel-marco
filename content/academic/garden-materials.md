@@ -1,0 +1,1 @@
+Per dur a terme aquesta proposta, he utilitzat una càmera fotogràfica per documentar les espècies vegetals que anava descobrint i una llibreta per anotar aquelles que em cridaven l’atenció i els motius pels quals m’havien despertat interès.

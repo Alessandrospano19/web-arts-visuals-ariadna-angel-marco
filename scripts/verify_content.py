@@ -6,7 +6,8 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 generated = (ROOT / 'scripts/content.js').read_text(encoding='utf-8')
-data = json.loads(generated.split('const PORTFOLIO = ', 1)[1].rstrip(';\n'))
+effective = json.loads(generated.split('const PORTFOLIO = ', 1)[1].rstrip(';\n'))
+data = json.loads((ROOT/'scripts/source-content.json').read_text(encoding='utf-8'))
 pdf = (ROOT / 'content/PDF_ACTUALITZAT_40P.md').read_text(encoding='utf-8-sig')
 
 
@@ -64,6 +65,17 @@ paths.update(a['src'] for a in data['artworks'])
 paths.add(data['collage']['web_asset'])
 for path in paths:
     assert (ROOT / path).is_file(), f'Missing asset: {path}'
+
+# Manual inputs are authoritative for the website and independent of the original.
+mapping=json.loads((ROOT/'content/editables/mapa-academic.json').read_text(encoding='utf-8'))
+for field,filename in mapping.items():
+    value=effective
+    for part in field.split('.'): value=value[part]
+    assert value==(ROOT/'content/academic'/filename).read_text(encoding='utf-8-sig').strip(),field
+for item in effective['media']:
+    assert (ROOT/item['output']).is_file(),item['id']
+for art in effective['artworks']:
+    assert (ROOT/art['src']).is_file(),art['title']
 
 # The entire original CSS block is preserved, byte for byte after newline normalization.
 original = subprocess.check_output(['git', 'show', '81ff424:index.html'], cwd=ROOT).decode('utf-8-sig')

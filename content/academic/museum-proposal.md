@@ -1,0 +1,1 @@
+Quan acabem la visita, us proposem que busqueu 10 artistes, que podran ser referents per a les vostres pràctiques educatives a educació infantil, que us hagin interpel·lat per alguna qüestió: temàtica, estil, tècnica, materials, composició,... Poseu a la web l'obra de l'artista i la informació de la cartel·la que hi ha al centre d'art, poden ser dues fotografies.

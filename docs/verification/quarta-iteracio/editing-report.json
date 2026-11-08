@@ -1,0 +1,11 @@
+{
+  "generations": 2,
+  "title": true,
+  "phrase": true,
+  "greenEmphasis": true,
+  "photo": true,
+  "caption": true,
+  "academicText": true,
+  "originalSourceUntouched": true,
+  "originalInputsRestored": true
+}

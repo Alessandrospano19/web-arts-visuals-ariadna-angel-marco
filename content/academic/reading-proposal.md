@@ -1,0 +1,1 @@
+Lectura del llibre de la Rachel Carson i de l'article de Heike Freire: Construir un text que respongui a: la importància de l'observació de la realitat, de la creació artística i d'utilitzar la natura com a espai d'ensenyament i aprenentatge a educació infantil a partir dels dos textos que us proposo

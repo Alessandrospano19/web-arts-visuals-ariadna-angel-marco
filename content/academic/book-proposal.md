@@ -1,0 +1,1 @@
+Fer la representació descriptiva d'un espai-jardí amb tècniques artístiques i materials del llenguatge visual i plàstic: dibuix, pintura, estampació, "frottage", ... Es presentarà com a llibre d’artista.

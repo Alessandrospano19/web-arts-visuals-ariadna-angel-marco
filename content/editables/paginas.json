@@ -1,0 +1,66 @@
+{
+  "introduccio": {
+    "etiqueta": "01 · Inici del recorregut",
+    "subtitulo": "Reflexió sobre la conferència «Un árbol pinta una nube»."
+  },
+  "bloc-i": {
+    "etiqueta": "Bloc I · Fonaments",
+    "subtitulo": "Rachel Carson i Heike Freire: observació, creació artística i natura."
+  },
+  "bloc-ii": {
+    "etiqueta": "BLOC II",
+    "subtitulo": "El jardí com a agent pedagògic."
+  },
+  "bloc-ii/p1-formes-dapropar-se-a-la-natura": {
+    "etiqueta": "PART 1",
+    "subtitulo": "Art, natura i educació."
+  },
+  "bloc-ii/p2-visita-museu-i-jardi": {
+    "etiqueta": "PART 2",
+    "subtitulo": "De les obres a les formes de la natura. Un recorregut per mirar, imaginar i aprendre."
+  },
+  "bloc-ii/p3-descripcio-del-jardi": {
+    "etiqueta": "PART 3",
+    "subtitulo": "Què és un jardí? Descripció visual"
+  },
+  "bloc-ii/p4-experimentem-amb-tintes-vives": {
+    "etiqueta": "PART 4",
+    "subtitulo": "Matèria, color i experimentació."
+  },
+  "bloc-iii": {
+    "etiqueta": "BLOC III",
+    "subtitulo": "La formació en la pràctica de l’art."
+  },
+  "bloc-iii/p1-llenguatge-del-cos-i-el-teixit": {
+    "etiqueta": "PART 1",
+    "subtitulo": "Cos, teixit i creació."
+  },
+  "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters": {
+    "etiqueta": "PART 2",
+    "subtitulo": "Cos, teixit i creació."
+  },
+  "bloc-iii/p3-bioteixits-du-da": {
+    "etiqueta": "PART 3",
+    "subtitulo": "Cos, teixit i creació."
+  },
+  "bloc-iii/p4-la-passarella-espai-de-creacio": {
+    "etiqueta": "PART 4",
+    "subtitulo": "Cos, teixit i creació."
+  },
+  "conclusions": {
+    "etiqueta": "Tancament · Aprenentatges",
+    "subtitulo": "Una mirada al camí recorregut."
+  },
+  "reflexio-personal": {
+    "etiqueta": "Apunts finals · Quadern íntim",
+    "subtitulo": "Una mirada al propi procés."
+  },
+  "per-saber-ne-mes": {
+    "etiqueta": "Arxiu obert · Continuar investigant",
+    "subtitulo": "Recursos per ampliar el recorregut."
+  },
+  "referencies-bibliografiques": {
+    "etiqueta": "Documentació acadèmica · Fonts",
+    "subtitulo": "Lectures que acompanyen el recorregut."
+  }
+}

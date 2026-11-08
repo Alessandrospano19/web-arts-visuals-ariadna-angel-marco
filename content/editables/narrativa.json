@@ -1,0 +1,102 @@
+{
+  "llibre": [
+    {
+      "titulo": "Observar el jardí",
+      "inicio": "",
+      "imagenes": [
+        "descripcio_img_4784",
+        "descripcio_img_4795"
+      ]
+    },
+    {
+      "titulo": "Experimentar amb materials i tècniques",
+      "inicio": "Durant el procés de creació",
+      "imagenes": [
+        "descripcio_img_5100",
+        "descripcio_img_5101"
+      ]
+    },
+    {
+      "titulo": "El visor i la selecció dels fragments",
+      "inicio": "Un cop realitzades",
+      "imagenes": [
+        "descripcio_img_5103",
+        "descripcio_img_5105"
+      ]
+    },
+    {
+      "titulo": "Muntatge i enquadernació",
+      "inicio": "Posteriorment, les vaig organitzar",
+      "imagenes": [
+        "descripcio_img_5106",
+        "descripcio_img_5107"
+      ]
+    },
+    {
+      "titulo": "El format de Natura viva",
+      "inicio": "- Justificació i reflexió",
+      "imagenes": [
+        "descripcio_img_5125",
+        "descripcio_img_5127"
+      ]
+    },
+    {
+      "titulo": "La reflexió final",
+      "inicio": "Elaborar aquest llibre d'artista",
+      "imagenes": [
+        "descripcio_img_4799"
+      ]
+    }
+  ],
+  "tintes": {
+    "3": {
+      "imagenes": [
+        "tintes_img_5189",
+        "tintes_img_5192"
+      ],
+      "videos": [
+        "tintes_img_5191",
+        "tintes_img_5193"
+      ]
+    },
+    "4": {
+      "imagenes": [],
+      "videos": [
+        "tintes_img_5195"
+      ]
+    },
+    "5": {
+      "imagenes": [
+        "tintes_img_5187"
+      ],
+      "videos": []
+    },
+    "8": {
+      "imagenes": [
+        "tintes_img_5194"
+      ],
+      "videos": []
+    }
+  },
+  "tintes_apartats": [
+    "Proposta:",
+    "Objectius:",
+    "Desenvolupament i resultats:",
+    "Primera fase. Preparació de les tintes naturals",
+    "Segona fase. Experimentació amb les tintes",
+    "Tercera fase. Aplicació artística sobre el paper",
+    "Tinta de remolatxa",
+    "Tinta de col llombarda",
+    "Comparació dels resultats",
+    "Estratègies metodològiques:",
+    "Materials:"
+  ],
+  "materials_categories": [
+    "Ingredients naturals",
+    "Preparació",
+    "Experimentació",
+    "Recipients",
+    "Aplicació artística",
+    "Documentació"
+  ]
+}

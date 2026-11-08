@@ -1,0 +1,1 @@
+A partir de la visita al MNAC i de la visita a l’exposició Color, pigment i origen, de Solé Duc, he seleccionat aquestes obres, són la recopilació d’aquelles que més em van cridar l’atenció per alguna qüestió.
