@@ -122,6 +122,7 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
 .idea-row p { max-width:64ch; }
 .visit-section { padding-top:1.6rem; }
 .visit-tabs { display:grid; grid-template-columns:1fr 1fr; gap:.4rem; padding-bottom:1.5rem; margin-bottom:2rem; border-bottom:1px solid var(--border-strong); }
+.visit-tabs { grid-template-columns:repeat(3,minmax(0,1fr)); }
 .visit-tabs [role=tab] { min-height:52px; padding:.7rem .75rem; border:1px solid var(--border-strong); background:transparent; text-align:left; font-size:.82rem; line-height:1.35; }
 .visit-tabs [aria-selected=true] { background:var(--forest-green); border-color:var(--forest-green); color:var(--bg-primary); }
 [role=tabpanel] { scroll-margin-top:96px; }
@@ -194,7 +195,7 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
   .reading-visual { padding:2rem; }
   .idea-row { grid-template-columns:5rem 1fr; padding:2.3rem 0; }
   .idea-number { font-size:3rem; }
-  .visit-tabs { grid-template-columns:repeat(4,minmax(0,1fr)); gap:.6rem; }
+  .visit-tabs { grid-template-columns:repeat(3,minmax(0,1fr)); gap:.6rem; }
   .visit-tabs [role=tab] { padding:1rem; font-size:.92rem; }
   .visit-heading { grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
   .museum-gallery { grid-template-columns:1.3fr 1fr 1fr; align-items:center; }
@@ -227,3 +228,25 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
   .museum-gallery figure:first-child img { max-height:310px; }
   .three-videos { gap:2rem; }
 }
+
+/* Academic reading, November 2026. */
+.original-reflection p { text-align:justify; hyphens:auto; line-height:1.85; }
+.prose strong { color:var(--forest-green); font-weight:700; }
+.prose li { text-align:left; }
+.conclusion-theme .original-reflection { font-size:1.1rem; margin-top:2rem; }
+.conclusion-theme figure { max-width:600px; margin:1.5rem 0; }
+.conclusion-theme figure img { max-height:340px; object-fit:contain; }
+.species-entry .local-photo { margin-bottom:1.2rem; }
+.species-entry .local-photo img { max-height:280px; object-fit:contain; }
+.page-title { max-width:34ch; }
+@media(max-width:600px) { .original-reflection p { text-align:left; } .visit-tabs [role=tab] { font-size:.7rem; padding:.65rem .4rem; } }
+
+.book-gallery .media-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+.book-gallery img { max-height:310px; object-fit:contain; }
+@media(min-width:768px){ .book-gallery .media-gallery { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+
+.exploration-entry:nth-child(2) .exploration-media img { object-fit:contain; }
+
+.materials-table { border-collapse:collapse; width:100%; max-width:76ch; font-size:1rem; text-align:left; }
+.materials-table th,.materials-table td { padding:1rem .6rem; border-bottom:1px solid var(--border-strong); vertical-align:top; }
+.materials-table th { color:var(--forest-green); }

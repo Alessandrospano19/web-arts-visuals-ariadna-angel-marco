@@ -63,12 +63,14 @@ const EDITORIAL = {
     {
       "title": "Formem part de la natura",
       "summary": "La primera sessió qüestiona la separació entre el cos i l’entorn. L’obra de Fina Miralles, amb el cos cobert de palla, convida a pensar aquesta relació i a reconèixer la dependència de l’aigua, la terra, l’aire i els altres éssers vius.",
-      "image": "img_4784",
-      "caption": "Mirar l’entorn · imatge de natura"
+      "image": "finamiralls",
+      "caption": "Fina Miralles · El cos cobert de palla"
     },
     {
       "title": "Mirar allò quotidià",
-      "summary": "Pedres, fulles o palla poden adquirir nous significats quan ens aturem a observar-los. A partir de Stones, de Herman de Vries, la reflexió destaca com el color, la forma i la textura d’una pedra poden convertir-la en el centre d’una composició."
+      "summary": "Pedres, fulles o palla poden adquirir nous significats quan ens aturem a observar-los. A partir de Stones, de Herman de Vries, la reflexió destaca com el color, la forma i la textura d’una pedra poden convertir-la en el centre d’una composició.",
+      "image": "stones",
+      "caption": "Herman de Vries · Stones"
     },
     {
       "title": "Valorar i cuidar",

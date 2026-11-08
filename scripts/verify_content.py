@@ -7,7 +7,7 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[1]
 generated = (ROOT / 'scripts/content.js').read_text(encoding='utf-8')
 data = json.loads(generated.split('const PORTFOLIO = ', 1)[1].rstrip(';\n'))
-pdf = (ROOT / 'content/PDF_COMPLET.md').read_text(encoding='utf-8-sig')
+pdf = (ROOT / 'content/PDF_ACTUALITZAT_40P.md').read_text(encoding='utf-8-sig')
 
 
 def flat(text):
@@ -16,14 +16,18 @@ def flat(text):
 
 # Reconstruct the continuous PDF text independently of the generator.
 body = re.sub(r'\n---\s*\n## Pàgina \d+ del PDF\s*\n', ' ', pdf)
+body = re.sub(r'!\[[^\]]*\]\([^\n]+\)', '', body)
 body = flat(body)
 for name in ['intro', 'reading', 'block']:
     assert flat(data[name]['reflection']) in body, f'Changed or missing {name} essay'
-for key in ['conclusion', 'methodology', 'materials']:
+for key in ['conclusion', 'materials']:
     assert flat(data['museum'][key]) in body, f'Changed museum {key}'
 for key in ['development', 'methodology', 'materials', 'reflection']:
     assert flat(data['garden'][key]) in body, f'Changed garden {key}'
 assert flat(data['outing']) in body, 'Changed outing conclusions'
+for key in ['development','materials']:
+    assert flat(data['book'][key]) in body
+assert 'Primera fase.' in data['dyes'] and 'Comparació dels resultats' in data['dyes']
 
 art_md = (ROOT / 'content/OBRES_I_REFLEXIONS.md').read_text(encoding='utf-8-sig')
 species_md = (ROOT / 'content/ESPECIES_MONTJUIC.md').read_text(encoding='utf-8-sig')

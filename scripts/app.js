@@ -2,42 +2,42 @@
 
 // Original hash routes, editorial components and home composition retained.
 const ROUTES = [
-  ['inici', 'Inici'], ['introduccio', 'Introducció'], ['bloc-i', 'Bloc I — Art i educació'],
-  ['bloc-ii', 'Bloc II — Art i natura'],
-  ['bloc-ii/p1-formes-dapropar-se-a-la-natura', "P1. Formes d'apropar-se a la natura"],
-  ['bloc-ii/p2-visita-museu-i-jardi', 'P2. Visita museu i jardí'],
-  ['bloc-ii/p3-descripcio-del-jardi', 'P3. Descripció del jardí'],
-  ['bloc-ii/p4-experimentem-amb-tintes-vives', 'P4. Experimentem amb tintes vives'],
-  ['bloc-iii', 'Bloc III — Cos, moda i artivisme'],
-  ['bloc-iii/p1-llenguatge-del-cos-i-el-teixit', 'P1. Llenguatges del cos i el teixit'],
-  ['bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters', 'P2. Exposició: El cos vestit i Mater Matters'],
-  ['bloc-iii/p3-bioteixits-du-da', 'P3. Bioteixits_DU-DA'],
-  ['bloc-iii/p4-la-passarella-espai-de-creacio', 'P4. La passarel·la: espai de creació'],
-  ['conclusions', 'Conclusions'], ['reflexio-personal', 'Reflexió personal'],
-  ['per-saber-ne-mes', 'Per saber-ne més...'], ['referencies-bibliografiques', 'Referències bibliogràfiques']
+  ['inici', 'Inici'], ['introduccio', "INTRODUCCIÓ. ART I NATURA A EDUCACIÓ INFANTIL"], ['bloc-i', "BLOC I. ART I EDUCACIÓ"],
+  ['bloc-ii', "BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC."],
+  ['bloc-ii/p1-formes-dapropar-se-a-la-natura', "PART 1. INTRODUCCIÓ- FORMES D’APROPAR-SE A LA NATURA"],
+  ['bloc-ii/p2-visita-museu-i-jardi', "PART 2. Visita al MNAC i passejada pels jardins de Montjuïc"],
+  ['bloc-ii/p3-descripcio-del-jardi', "PART 3. DESCRIPCIÓ DEL JARDÍ"],
+  ['bloc-ii/p4-experimentem-amb-tintes-vives', "PART 4. EXPERIMENTEM AMB TINTES VIVES"],
+  ['bloc-iii', "BLOC III. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. MODA, ARTIVISME I PERFORMATIVITAT EN LES ARTS I L’EDUCACIÓ."],
+  ['bloc-iii/p1-llenguatge-del-cos-i-el-teixit', "PART 1. LLENGUATGES DEL COS I EL TEIXIT"],
+  ['bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters', "PART 2. EXPOSICIÓ: EL COS VESTIT + MATER MATTERS"],
+  ['bloc-iii/p3-bioteixits-du-da', "PART 3. BIOTEIXITS_DU-DA"],
+  ['bloc-iii/p4-la-passarella-espai-de-creacio', "PART 4. LA PASSAREL·LA: ESPAI DE CREACIÓ"],
+  ['conclusions', "CONCLUSIONS GENERALS DE L’ASSIGNATURA"], ['reflexio-personal', "REFLEXIONS PERSONALS"],
+  ['per-saber-ne-mes', "PER SABER-NE MÉS…"], ['referencies-bibliografiques', "REFERÈNCIES BIBLIOGRÀFIQUES"]
 ];
 const pathFor = x => '#/' + x;
 const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[ch]));
 const formatIndex = n => String(n).padStart(2, '0');
 const MEDIA = Object.create(null);
 const group = name => PORTFOLIO.media.filter(m => m.group === name);
-const B2 = ROUTES.filter(([p]) => p.startsWith('bloc-ii/')).map(([path, label]) => ({path, title:label.slice(4), sub:''}));
-const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label]) => ({path, title:label.slice(4), sub:''}));
+const B2 = ROUTES.filter(([p]) => p.startsWith('bloc-ii/')).map(([path, label]) => ({path, title:label.replace(/^PART \d+\. /,''), sub:''}));
+const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label]) => ({path, title:label.replace(/^PART \d+\. /,''), sub:''}));
 
 function note() {
   return '<p class="pending-note"><span aria-hidden="true">○</span> Pendent d’incorporar</p>';
 }
 function prose(text, cls = '') {
-  const paragraphs = text.split(/\n\s*\n/);
+  const paragraphs = text.split(/\n\s*\n/).flatMap(p => p.length > 1000 ? p.split(/(?<=[.!?]) (?=[A-ZÀ-Ú])/).reduce((a,t)=>{if(a.length && a.at(-1).length<650)a[a.length-1]+=' '+t;else a.push(t);return a;},[]) : [p]);
   const html = [];
   let list = [];
   const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${esc(p.slice(2))}</li>`).join('')}</ul>`); list = []; } };
   for (const p of paragraphs) {
-    if (p.startsWith('- ')) list.push(p);
+    if (p.startsWith('- ') || p.startsWith('● ')) list.push(p);
     else { flush(); html.push(`<p>${esc(p)}</p>`); }
   }
   flush();
-  return `<div class="prose ${cls}">${html.join('')}</div>`;
+  return `<div class="prose ${cls}" lang="ca">${html.join('').replace(/(mirada pròpia|materials naturals|procés creatiu|Natura viva|lliure expressió|observació directa)/gi,'<strong>$1</strong>')}</div>`;
 }
 function breadcrumbs(path) {
   const route = ROUTES.find(([p]) => p === path), chunks = [['inici','Inici']];
@@ -51,13 +51,15 @@ function pagination(path) {
   return `<nav class="page-pagination" aria-label="Navegació entre capítols">${left ? `<a href="${pathFor(left[0])}" class="pagination-link"><span class="pagination-dir">← Anterior</span><span class="pagination-name">${esc(left[1])}</span></a>` : '<div></div>'}${right ? `<a href="${pathFor(right[0])}" class="pagination-link"><span class="pagination-dir">Següent →</span><span class="pagination-name">${esc(right[1])}</span></a>` : ''}</nav>`;
 }
 function page(path, kicker, title, subtitle, body) {
+  title = ACADEMIC_TITLES[path] || title;
+  if(path.startsWith('bloc-ii/') || path.startsWith('bloc-iii/')) kicker = 'PART '+path.split('/p')[1][0];
   return `<article class="page-view">${breadcrumbs(path)}<header class="page-hero"><div class="container"><span class="eyebrow">${esc(kicker)}</span><h1 class="page-title">${esc(title)}</h1><p class="page-subtitle">${esc(subtitle)}</p></div></header>${body}<section class="section-pad"><div class="container">${pagination(path)}</div></section></article>`;
 }
 function section(kicker, title, body, alt = false, id = '') {
   return `<section ${id ? `id="${esc(id)}"` : ''} class="section-pad section-anchor ${alt ? 'bg-alt-section' : ''}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;
 }
 function chapterLinks(items) {
-  return `<div class="chapter-list">${items.map((item,i) => `<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(i+1)}.</span><div><span class="micro-kicker">Capítol ${formatIndex(i+1)}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub)}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
+  return `<div class="chapter-list">${items.map((item,i) => `<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(i+1)}.</span><div><span class="micro-kicker">PART ${i+1}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub)}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
 }
 function picture(media, alt, eager = false) {
   const [w,h] = media.dimensions;
@@ -100,6 +102,7 @@ const mediaDescriptions = {
 function mediaTitle(m, i = 0) {
   const stem = m.output.split('/').pop().replace(/\.[^.]+$/, '');
   if (mediaDescriptions[stem]) return mediaDescriptions[stem];
+  if(m.group==='descripcio' && ['1','2','3','4'].includes(stem)) return {'1':'Experimentació artística a l’hort','2':'Treball plàstic a l’exterior','3':'Exploració de carbasses','4':'Experimentació amb pigments'}[stem];
   if (m.group === 'mnac') return ['Cúpula de l’interior del MNAC','Vista de Barcelona des de la sortida al museu','Edifici del MNAC al capvespre'][Number(stem)-1];
   if (m.group === 'jardi') return 'Composició fotogràfica de la passejada';
   return `Registre visual ${formatIndex(i+1)}`;
@@ -110,7 +113,7 @@ function photoFigure(m, caption = '', shape = 'wide', eager = false) {
   return `<figure><button class="photo-frame ${shape} local-photo" type="button" data-lightbox="${esc(id)}" aria-label="Amplia: ${esc(title)}">${picture(m,title,eager)}<span class="zoom-pill">Amplia ↗</span></button>${caption ? `<figcaption class="figure-label">${esc(caption)}</figcaption>` : ''}</figure>`;
 }
 function gallery(name, images = group(name), cls = '') {
-  return `<div class="catalog-grid cols-3 media-gallery ${cls}">${images.filter(m => m.type === 'image').map(m => photoFigure(m)).join('')}</div>`;
+  return `<div class="catalog-grid cols-3 media-gallery ${cls}">${images.filter(m => m.type === 'image').map(m => photoFigure(m,name === 'descripcio' ? mediaTitle(m) : '')).join('')}</div>`;
 }
 function videos(name) {
   return `<div class="catalog-grid video-gallery ${name === 'tintes' ? 'three-videos' : ''}">${group(name).filter(m => m.type === 'video').map((m,i) => `<figure><video controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label">${name === 'tintes' ? 'Tintes vives' : 'Llibre d’artista'} · ${formatIndex(i+1)}</figcaption></figure>`).join('')}</div>`;
@@ -120,7 +123,7 @@ function readingVisual() {
 }
 function magazineCard(n,title,subtitle,media,route) {
   const visual = n === 1 ? readingVisual() : media ? picture(media,mediaTitle(media)) : '<div class="editorial-placeholder" aria-hidden="true">Cos<br><em>i matèria</em></div>';
-  return `<article class="exploration-entry"><a class="exploration-media ${n === 1 ? 'reading-entry' : ''}" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${visual}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span><h3 class="exploration-title serif-title">${esc(title)}</h3><p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`;
+  return `<article class="exploration-entry"><a class="exploration-media ${n === 1 ? 'reading-entry' : ''}" href="${pathFor(route)}" aria-label="Explora ${esc(title)}">${visual}</a><div class="exploration-content"><span class="exploration-number">${formatIndex(n)}.</span><span class="eyebrow">Bloc ${['I','II','III'][n-1]}</span>${n === 1 ? '' : `<h3 class="exploration-title serif-title">${esc(title)}</h3>`}<p>${esc(subtitle)}</p><a href="${pathFor(route)}" class="editorial-cta">Explora el bloc →</a></div></article>`;
 }
 
 function home(){return `<article class="page-view">
@@ -131,8 +134,7 @@ function home(){return `<article class="page-view">
 <div class="hero-meta-grid"><div><span class="meta-label">Autora</span><span class="meta-value">Ariadna Angel Marco</span></div><div><span class="meta-label">Curs acadèmic</span><span class="meta-value">2026 — 2027</span></div><div><span class="meta-label">Estudis</span><span class="meta-value">Grau en Educació Infantil</span></div><div><span class="meta-label">Projecte</span><span class="meta-value">Quadern d’artista i docència</span></div></div>
 </div><div class="hero-visual-frame"><div class="hero-img-wrapper">${picture(group('inici')[0],mediaTitle(group('inici')[0]),true)}</div><div class="hero-caption"><span>Fig. 01 — Entre art i natura</span></div></div></div></section>
 <section class="section-pad"><div class="container split-editorial"><div><span class="eyebrow">01 · Pòrtic</span><h2 class="chapter-heading">Benvinguts i benvingudes</h2><p class="micro-foot">Una porta d’entrada a la mirada artística durant la formació docent.</p></div><div class="prose"><p class="editorial-lead dropcap">Benvinguts i benvingudes a aquesta pàgina web, concebuda per una futura mestra d’Educació Infantil com a recurs didàctic i espai per documentar els aprenentatges de l’assignatura <em>Educació de les Arts Visuals I</em>.</p><p>Aquest portafoli s’ha estructurat com un quadern de recerca visual. Les pàgines recullen els blocs de treball, les fotografies, els processos i les reflexions escrites durant el curs.</p></div></div></section>
-<section class="section-pad bg-alt-section"><div class="container split-editorial reverse"><div class="prose"><span class="eyebrow">02 · Presentació</span><h2 class="chapter-heading">Sobre aquest projecte</h2><p>El recorregut s’organitza entorn de tres eixos: l’art com a experiència educativa, el jardí com a espai de descoberta i l’exploració del cos, els teixits i la creació contemporània.</p><p>El recorregut incorpora les reflexions documentades, deu referents artístics i l’arxiu visual de les activitats. Els apartats sense redacció es mantenen oberts per completar-los.</p>${note()}</div><div>${photoFigure(group('descripcio').find(m=>m.output.endsWith('img_5107.webp')),'Llibre d’artista')}</div></div></section>
-<section class="section-pad"><div class="container"><span class="eyebrow">03 · Índex visual</span><h2 class="chapter-heading">Tres maneres d’apropar-se a les arts</h2><div class="exploration-list">${magazineCard(1,'Art i educació','Fonaments de l’educació visual: imatge, pigment, expressió i processos de descoberta.',group('bloc-i')[0],'bloc-i')}${magazineCard(2,'Art i natura','El jardí, la visita al museu, el caminar i la creació d’un llibre d’artista.',group('jardi')[0],'bloc-ii')}${magazineCard(3,'Cos, teixit i creació','Moda, artivisme, bioteixits i pràctiques performatives vinculades a l’art.',null,'bloc-iii')}</div>${pagination('inici')}</div></section></article>`;}
+<section class="section-pad"><div class="container"><h2 class="chapter-heading">Art i educació</h2><div class="exploration-list">${magazineCard(1,'Art i educació','Fonaments de l’educació visual: imatge, pigment, expressió i processos de descoberta.',group('bloc-i')[0],'bloc-i')}${magazineCard(2,'Art i natura','La visita al MNAC, la passejada sonora pels Jardins de Montjuïc, la creació d’un llibre d’artista i l’experiment amb les tintes naturals.',group('descripcio').find(m=>m.output.endsWith('/img_5041.webp')),'bloc-ii')}${magazineCard(3,'Cos, teixit i creació','Moda, artivisme, bioteixits i pràctiques performatives vinculades a l’art.',null,'bloc-iii')}</div>${pagination('inici')}</div></section></article>`;}
 
 const VIEWS = {
   inici:home, introduccio:intro, 'bloc-i':blocI, 'bloc-ii':blocII,

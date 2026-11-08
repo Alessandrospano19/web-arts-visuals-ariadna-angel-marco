@@ -1,5 +1,22 @@
 'use strict';
 
+const ACADEMIC_TITLES = {
+ 'introduccio':'INTRODUCCIÓ. ART I NATURA A EDUCACIÓ INFANTIL',
+ 'bloc-i':'BLOC I. ART I EDUCACIÓ',
+ 'bloc-ii':'BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC.',
+ 'bloc-ii/p1-formes-dapropar-se-a-la-natura':'INTRODUCCIÓ- FORMES D’APROPAR-SE A LA NATURA',
+ 'bloc-ii/p2-visita-museu-i-jardi':'Visita al MNAC i passejada pels jardins de Montjuïc',
+ 'bloc-ii/p3-descripcio-del-jardi':'DESCRIPCIÓ DEL JARDÍ',
+ 'bloc-ii/p4-experimentem-amb-tintes-vives':'EXPERIMENTEM AMB TINTES VIVES',
+ 'bloc-iii':'BLOC III. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. MODA, ARTIVISME I PERFORMATIVITAT EN LES ARTS I L’EDUCACIÓ.',
+ 'bloc-iii/p1-llenguatge-del-cos-i-el-teixit':'LLENGUATGES DEL COS I EL TEIXIT',
+ 'bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters':'EXPOSICIÓ: EL COS VESTIT + MATER MATTERS',
+ 'bloc-iii/p3-bioteixits-du-da':'BIOTEIXITS_DU-DA',
+ 'bloc-iii/p4-la-passarella-espai-de-creacio':'LA PASSAREL·LA: ESPAI DE CREACIÓ',
+ 'conclusions':'CONCLUSIONS GENERALS DE L’ASSIGNATURA','reflexio-personal':'REFLEXIONS PERSONALS',
+ 'per-saber-ne-mes':'PER SABER-NE MÉS…','referencies-bibliografiques':'REFERÈNCIES BIBLIOGRÀFIQUES'
+};
+
 // Reading layouts use editorial summaries; full source text stays in PORTFOLIO.
 function fullReading(label, text, id = '', cls = '') {
   return `<details class="document-details full-reading ${cls}" ${id ? `id="${id}"` : ''}><summary>${esc(label)}<span class="disclosure-mark" aria-hidden="true">+</span></summary>${prose(text,'original-reflection')}</details>`;
@@ -31,7 +48,7 @@ function blocI() {
 function blocII() {
   return page('bloc-ii','Bloc II · Art i natura','La formació en la pràctica de l’art','El jardí com a agent pedagògic.',
     section('00 · Presentació','Un recorregut en quatre capítols',prose(PORTFOLIO.block.framing)+chapterLinks(B2))+
-    readingSection('Entre el museu i el jardí','Observar, experimentar i crear',`<div class="split-editorial"><div>${photoFigure(group('jardi')[0])}</div><div><p class="chapter-lead">La mirada artística comença en les formes, les textures i les relacions del nostre entorn.</p><a href="${pathFor(B2[0].path)}" class="editorial-cta">Formes d’apropar-se a la natura →</a></div></div>`,'sage'));
+    readingSection('Entre el museu i el jardí','Observar, experimentar i crear',`<div class="split-editorial"><div>${photoFigure(group('descripcio').find(m=>m.output.endsWith('/img_5041.webp')),'A l’hort de les temptacions')}</div><div><p class="chapter-lead">La mirada artística comença en les formes, les textures i les relacions del nostre entorn.</p><a href="${pathFor(B2[0].path)}" class="editorial-cta">Formes d’apropar-se a la natura →</a></div></div>`,'sage'));
 }
 function b2p1() {
   return page(B2[0].path,'Bloc II · Proposta 01',"Formes d'apropar-se a la natura",'Art, natura i educació.',
@@ -44,8 +61,7 @@ function artworkCard(art,i) {
   return `<article class="catalog-card archive-card artwork-card" id="${id}"><button class="catalog-img-box" type="button" data-lightbox="${id}" aria-label="Amplia l’obra: ${esc(art.title)}">${picture({output:art.src,dimensions:art.dimensions},`${art.title} — ${art.artist}`)}<span class="zoom-pill">Amplia ↗</span></button><div class="catalog-body"><span class="catalog-index">${formatIndex(i+1)} / Referent artístic</span><h3 class="catalog-title">${esc(art.title)}</h3><p class="catalog-subtitle">${esc(art.artist)}</p><p class="artwork-technique">${esc(art.technique)}</p><button type="button" class="text-link" data-lightbox="${id}">Veure l’obra i la proposta educativa <span aria-hidden="true">↗</span></button></div></article>`;
 }
 const VISIT_PANELS = [
-  ['obres','Obres i museus'], ['jardi','Diàleg amb el jardí'],
-  ['arts','Educar a través de les arts'], ['conclusions','Conclusions de la sortida']
+  ['obres','PROPOSTA 1: VISITA MUSEU MNAC'], ['jardi','PROPOSTA 2: DIÀLEG AMB EL JARDÍ'], ['conclusions','CONCLUSIONS DE LA SORTIDA.']
 ];
 function visitPanel(id,body,i) {
   return `<div role="tabpanel" id="panel-${id}" aria-labelledby="tab-${id}" tabindex="0" ${i ? 'hidden' : ''}>${body}</div>`;
@@ -55,59 +71,57 @@ function visitHeading(kicker,title,text) {
 }
 function museumPanel() {
   const d = PORTFOLIO.museum;
-  return visitHeading('01 · MNAC i Museu Mater','Deu mirades sobre les obres','Color, matèria, paisatge i llum. Deu referents per imaginar possibilitats educatives a partir de l’art.')+
-    `<div class="catalog-grid cols-3 artworks-grid">${PORTFOLIO.artworks.map(artworkCard).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">El quadern de visita</h3><p class="editorial-summary">Mirar una mateixa obra des de perspectives diferents i descobrir les possibilitats dels materials quotidians i naturals.</p>${fullReading('Proposta i objectius',d.introduction+'\n\n'+d.proposal+'\n\n'+d.objectives,'museu-proposta')}${fullReading('Estratègies metodològiques',d.methodology,'museu-metodologia')}${fullReading('Materials',d.materials,'museu-materials')}${fullReading('Llegir la conclusió de la proposta',d.conclusion,'conclusio-museu')}</div><div class="visit-architecture"><h3 class="reading-subtitle">Espais de la visita</h3><div class="museum-gallery">${group('mnac').map((m,i)=>photoFigure(m,['Interior del MNAC','Vista des de Montjuïc','El MNAC al capvespre'][i])).join('')}</div></div>`;
+  return visitHeading('MNAC i Museu Mater','PROPOSTA 1: VISITA MUSEU MNAC','Color, matèria, paisatge i llum. Deu referents per imaginar possibilitats educatives a partir de l’art.')+
+    `<div class="catalog-grid cols-3 artworks-grid">${PORTFOLIO.artworks.map(artworkCard).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">El quadern de visita</h3><p class="editorial-summary">Mirar una mateixa obra des de perspectives diferents i descobrir les possibilitats dels materials quotidians i naturals.</p>${fullReading('Proposta i objectius',d.introduction+'\n\n'+d.proposal+'\n\n'+d.objectives,'museu-proposta')}${fullReading('Estratègies metodològiques',d.methodology,'museu-metodologia')}${fullReading('Materials',d.materials,'museu-materials')}${fullReading('Llegir la conclusió de la proposta',d.conclusion,'conclusio-museu')}</div><div class="visit-architecture"><h3 class="reading-subtitle">Espais de la visita</h3><div class="museum-gallery">${group('mnac').slice().sort((a,b)=>a.output.localeCompare(b.output)).map((m,i)=>photoFigure(m,['Interior del MNAC','Vista des de Montjuïc','El MNAC al capvespre'][i])).join('')}</div></div>`;
 }
 function collageFigure() {
   const c = PORTFOLIO.collage, id = 'collage-jardi';
   MEDIA[id] = {src:c.web_asset,title:'Deu espècies, moltes mirades',subtitle:'',meta:'',desc:''};
-  return `<figure class="collage-figure"><button class="local-photo" data-lightbox="${id}" type="button" aria-label="Amplia la composició vegetal">${picture(group('jardi')[0],'Composició fotogràfica de la passejada')}<span class="zoom-pill">Amplia ↗</span></button><figcaption class="figure-label">Colors i formes de Montjuïc</figcaption></figure>`;
+  return `<figure class="collage-figure"><button class="local-photo" data-lightbox="${id}" type="button" aria-label="Amplia la composició vegetal">${picture(group('jardi').find(m=>m.output.endsWith('/1.webp')),'Composició fotogràfica de la passejada')}<span class="zoom-pill">Amplia ↗</span></button><figcaption class="figure-label">Colors i formes de Montjuïc</figcaption></figure>`;
 }
 function firstSentence(text) { return text.split(/(?<=[.!?])\s/)[0]; }
 function gardenPanel() {
   const d = PORTFOLIO.garden;
-  return visitHeading('02 · L’art de caminar','Diàleg amb el jardí','Aturar-se en els detalls: formes, colors, olors i textures que conviden a mirar d’una altra manera.')+
-    `<div class="garden-visuals">${collageFigure()}<div class="garden-pair">${group('jardi').slice(1).map(m=>photoFigure(m)).join('')}</div></div><div class="species-list">${PORTFOLIO.species.map((s,i)=>`<article class="species-entry"><span class="catalog-index">${formatIndex(i+1)}</span><div><h3 class="catalog-title">${esc(s.name)}</h3><p class="observation-preview">${esc(firstSentence(s.observation))}</p>${fullReading('Llegir l’observació completa',s.observation,'especie-'+(i+1))}</div></article>`).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">El quadern de la passejada</h3><p class="editorial-summary">La manera de documentar també forma part de la creació: l’enquadrament, la perspectiva i els detalls escollits construeixen una mirada pròpia.</p>${fullReading('Proposta i objectius',d.proposal+'\n\n'+d.objectives,'jardi-proposta')}${fullReading('Desenvolupament i resultats',d.development,'jardi-desenvolupament')}${fullReading('Estratègies metodològiques i materials',d.methodology+'\n\n'+d.materials,'jardi-metodologia')}${fullReading('Llegir la reflexió completa',d.reflection,'reflexio-jardi')}</div>`;
-}
-function artsPanel() {
-  return visitHeading('03 · Possibilitats educatives','Educar a través de les arts','Observar, imaginar i experimentar: les obres com a punt de partida per crear a l’educació infantil.')+
-    `<div class="arts-connections"><span>Art</span><span>Natura</span><span>Ciències</span><span>Infància</span></div><div class="arts-invitation"><p class="chapter-lead">Deu obres, deu punts de partida.</p><p>Les propostes educatives es poden llegir obrint cada obra.</p><div class="art-proposal-links">${PORTFOLIO.artworks.map((a,i)=>`<button type="button" data-art-proposal="${i+1}"><span>${formatIndex(i+1)}</span>${esc(a.title)}<span aria-hidden="true">↗</span></button>`).join('')}</div><h3 class="reading-subtitle">Una proposta pròpia</h3>${note()}</div>`;
+  return visitHeading('L’art de caminar','PROPOSTA 2: DIÀLEG AMB EL JARDÍ','Aturar-se en els detalls: formes, colors, olors i textures que conviden a mirar d’una altra manera.')+
+    `<div class="garden-visuals">${collageFigure()}<div class="garden-pair">${group('jardi').filter(m=>!m.output.endsWith('/1.webp')).map(m=>photoFigure(m)).join('')}</div></div><div class="species-list">${PORTFOLIO.species.map((s,i)=>`<article class="species-entry"><span class="catalog-index">${formatIndex(i+1)}</span><div>${photoFigure(s.image)}<h3 class="catalog-title">${esc(s.name)}</h3><p class="observation-preview">${esc(firstSentence(s.observation))}</p>${fullReading('Llegir l’observació completa',s.observation,'especie-'+(i+1))}</div></article>`).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">El quadern de la passejada</h3><p class="editorial-summary">La manera de documentar també forma part de la creació: l’enquadrament, la perspectiva i els detalls escollits construeixen una mirada pròpia.</p>${fullReading('Proposta i objectius',d.proposal+'\n\n'+d.objectives,'jardi-proposta')}${fullReading('Desenvolupament i resultats',d.development,'jardi-desenvolupament')}${fullReading('Estratègies metodològiques i materials',d.methodology+'\n\n'+d.materials,'jardi-metodologia')}${fullReading('Llegir la reflexió completa',d.reflection,'reflexio-jardi')}</div>`;
 }
 function outingParts() {
-  const paragraphs = PORTFOLIO.outing.split(/\n\s*\n/), parts = [[],[],[]];
-  let current = 0;
-  for (const p of paragraphs) {
-    const heading = p.match(/^([123])\. Què penso/);
-    if (heading) current = Number(heading[1])-1;
-    parts[current].push(p);
-  }
-  return parts.map(p=>p.join('\n\n'));
+ const text=PORTFOLIO.outing;
+ const indexes=[...text.matchAll(/[123]\. Què penso que m'ha aportat aquesta visita/g)].map(m=>m.index);
+ if(indexes.length!==3) throw new Error('Expected three outing questions');
+ return [text.slice(0,indexes[1]).trim(),text.slice(indexes[1],indexes[2]).trim(),text.slice(indexes[2]).trim()];
 }
 function conclusionsPanel() {
-  const parts = outingParts();
-  return visitHeading('04 · Aprenentatges','Conclusions de la sortida','Tres perspectives que connecten la passejada, l’experiència artística i la futura pràctica docent.')+
-    `<div class="conclusion-themes">${EDITORIAL.outing.map((item,i)=>`<article class="conclusion-theme tone-${['sage','clay','sand'][i]}"><span class="section-number">${formatIndex(i+1)}</span><div><span class="micro-kicker">Idees de la reflexió</span><h3>${esc(item.title)}</h3><p class="editorial-summary">${esc(item.summary)}</p>${fullReading('Llegir la reflexió completa',parts[i],'conclusio-'+(i+1))}</div></article>`).join('')}</div>`;
+ const parts=outingParts(),photos=group('conclusions');
+ return visitHeading('La natura, l’art i la pràctica docent','CONCLUSIONS DE LA SORTIDA.',firstSentence(PORTFOLIO.outing))+
+ `<div class="conclusion-themes">${parts.map((text,i)=>`<article class="conclusion-theme tone-${['sage','clay','sand'][i]}"><span class="section-number">${formatIndex(i+1)}</span><div><h3>${esc(EDITORIAL.outing[i].title)}</h3>${photoFigure(photos.find(m=>m.output.endsWith('/'+['img_4655','img_4724','img_4981'][i]+'.webp')),['El contacte directe amb la terra','Una mirada al paisatge des de Montjuïc','L’observació propera d’una flor'][i])}${prose(text,'original-reflection')}</div></article>`).join('')}</div>`;
 }
 function b2p2() {
-  const bodies = [museumPanel(),gardenPanel(),artsPanel(),conclusionsPanel()];
+  const bodies = [museumPanel(),gardenPanel(),conclusionsPanel()];
   return page(B2[1].path,'Bloc II · Proposta 02','Visita museu i jardí','De les obres a les formes de la natura. Un recorregut per mirar, imaginar i aprendre.',
     `<section class="section-pad visit-section"><div class="container"><div class="visit-tabs" role="tablist" aria-label="Apartats de la sortida">${VISIT_PANELS.map(([id,label],i)=>`<button id="tab-${id}" type="button" role="tab" aria-selected="${i===0}" aria-controls="panel-${id}" tabindex="${i===0?0:-1}" data-visit-tab="${id}">${esc(label)}</button>`).join('')}</div>${VISIT_PANELS.map(([id],i)=>visitPanel(id,bodies[i],i)).join('')}</div></section>`);
 }
 function b2p3() {
-  const all = group('descripcio').filter(m=>m.type==='image');
-  const stems = ['img_4784','img_4790','28e874c3-6344-401c-be7a-a2aaf73cd671','5ce71397-3e74-443c-8313-fc2ce5eb1355','img_5100','img_5103','img_5107','img_5125'];
-  const selected = stems.map(editorialImage), other = all.filter(m=>!selected.includes(m));
-  return page(B2[2].path,'Bloc II · Proposta 03','Què és un jardí?','Descripció visual i llibre d’artista.',
-    readingSection('Del jardí al paper','Un espai, moltes empremtes',prose(PORTFOLIO.book.proposal)+fullReading('Objectius de la proposta',PORTFOLIO.book.objectives))+
-    readingSection('Quadern visual','Mirar, explorar, compondre',`<div class="process-gallery">${[['Observar',selected.slice(0,2)],['Explorar i crear',selected.slice(2,6)],['Llibre d’artista',selected.slice(6)]].map(([title,items])=>`<div class="process-group"><h3 class="reading-subtitle">${title}</h3>${gallery('descripcio',items)}</div>`).join('')}</div><button type="button" class="editorial-cta gallery-toggle" aria-expanded="false" aria-controls="galeria-completa" data-gallery-toggle>Veure tota la galeria <span aria-hidden="true">+</span></button><div id="galeria-completa" hidden>${gallery('descripcio',other)}</div>`,'sage')+
-    readingSection('El llibre en moviment','Desplegar el jardí',videos('descripcio'),'sand')+
-    readingSection('Quadern de procés','Desenvolupament i reflexió',`<p class="micro-foot">Desenvolupament · Metodologia · Materials · Reflexió personal</p>${note()}`));
+ const d=PORTFOLIO.book,stages=[['Observació i recollida',['img_4784','img_4785','img_4790','img_4791','img_4795','img_4798','img_4799','img_5040','1','2','3','4']],['Experimentació amb pigments i textures',['img_5100','img_5101','img_5103']],['Selecció i muntatge de les tires',['img_5105','img_5106']],['El llibre d’artista acabat',['img_5107','img_5125','img_5127']]];
+ return page(B2[2].path,'PART 3','DESCRIPCIÓ DEL JARDÍ','Què és un jardí? Descripció visual',
+ readingSection('Proposta','Què és un jardí? Descripció visual',prose(d.proposal)+fullReading('Objectius',d.objectives))+
+ readingSection('Natura viva','DESENVOLUPAMENT I RESULTATS',prose(d.development,'original-reflection'),'sage')+
+ stages.map(([title,stems],i)=>readingSection('Natura viva',title,gallery('descripcio',stems.map(stem=>group('descripcio').find(m=>m.output.endsWith('/'+stem+'.webp'))).filter(Boolean)),i%2?'sand':'','book-gallery')).join('')+
+ readingSection('Natura viva','El llibre d’artista en moviment',videos('descripcio'),'sand')+
+ readingSection('El procés','ESTRATÈGIES METODOLÒGIQUES',prose(d.methodology,'original-reflection'))+
+ readingSection('El taller','MATERIALS',prose(d.materials,'original-reflection'),'sage'));
 }
 function b2p4() {
-  return page(B2[3].path,'Bloc II · Proposta 04','Experimentem amb tintes vives','Matèria, color i experimentació.',
-    readingSection('El taller','Del pigment al paper',gallery('tintes',group('tintes'),'tintes-gallery'),'clay')+
-    readingSection('El procés en moviment','Explorar les tintes',videos('tintes'),'sand')+
-    readingSection('Quadern de procés','La reflexió',note()));
+ const headings=['Proposta:','Objectius:','Desenvolupament i resultats:','Primera fase. Preparació de les tintes naturals','Segona fase. Experimentació amb les tintes','Tercera fase. Aplicació artística sobre el paper','Tinta de remolatxa','Tinta de col llombarda','Comparació dels resultats','Estratègies metodològiques:','Materials:'];
+ const text=PORTFOLIO.dyes,images=group('tintes').filter(m=>m.type==='image');
+ return page(B2[3].path,'PART 4','EXPERIMENTEM AMB TINTES VIVES','Matèria, color i experimentació.',headings.map((h,i)=>{
+ const start=text.indexOf(h),end=i+1<headings.length?text.indexOf(headings[i+1]):text.length;
+ const body=text.slice(start+h.length,end).trim();
+ const materialRows=[['Ingredients naturals','Remolatxa, col llombarda i aigua'],['Preparació','Dues olles, ganivet, fogons i colador'],['Experimentació','Llimona, llevat, sabó, bicarbonat, sal i vinagre'],['Recipients','Pots o recipients petits per separar les diferents mostres'],['Aplicació artística','Cartolina blanca, pinzells i estris per aplicar les tintes'],['Documentació','Cartolina en fomat leporello i retolador per identificar les proves']];
+ const content=i===10?`<table class="materials-table"><thead><tr><th>Categoria</th><th>Materials</th></tr></thead><tbody>${materialRows.map(([a,b])=>`<tr><th scope="row">${esc(a)}</th><td>${esc(b)}</td></tr>`).join('')}</tbody></table>`:prose(body,'original-reflection');
+ const photos=i===3?images.filter(m=>/img_5189|img_5192/.test(m.output)):i===5?images.filter(m=>/img_5187|img_5194/.test(m.output)):[];
+ return readingSection('Tintes naturals',h.replace(/:$/,''),content+gallery('tintes',photos)+(i===3?videos('tintes'):''),['','sage','sand'][i%3]);
+ }).join(''));
 }
 function blocIII() {
   return page('bloc-iii','Bloc III · Cos, teixit i artivisme','Moda, artivisme i performativitat en les arts i l’educació','La formació en la pràctica de l’art.',
@@ -131,7 +145,7 @@ function saberMes() {
 }
 function bibliografia() {
   return page('referencies-bibliografiques','Documentació acadèmica · Fonts','Referències bibliogràfiques','Lectures que acompanyen el recorregut.',
-    section('01 · Lectures','Bibliografia',`<ol class="bibliography">${PORTFOLIO.bibliography.map(ref=>`<li>${esc(ref).replace(/(https:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" rel="noopener noreferrer">$1<span class="sr-only"> (s’obre en una pestanya nova)</span></a>')}</li>`).join('')}</ol>`));
+    section('01 · Lectures','Bibliografia',readingVisual()+`<ol class="bibliography">${PORTFOLIO.bibliography.map(ref=>`<li>${esc(ref).replace(/(https:\/\/[^\s<]+)/g,'<a href="$1" target="_blank" rel="noopener noreferrer">$1<span class="sr-only"> (s’obre en una pestanya nova)</span></a>')}</li>`).join('')}</ol>`));
 }
 
 function activateVisitTab(id,focus = false) {

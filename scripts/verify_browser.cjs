@@ -4,7 +4,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const base = process.env.ARI_PREVIEW_URL || 'http://127.0.0.1:8000';
-const output = path.resolve(__dirname,'../docs/verification/refinement');
+const output = path.resolve(__dirname,'../docs/verification/novembre-2026');
 fs.mkdirSync(output,{recursive:true});
 const flat = text => text.replace(/\s+/g,' ').trim();
 const sourceFlat = text => flat(text.replace(/^\s*- /gm,''));
@@ -48,7 +48,7 @@ let browser;
       }
       checks.push({width,route});
       if(route===p2){
-        for(const id of ['obres','jardi','arts','conclusions']){
+        for(const id of ['obres','jardi','conclusions']){
           await page.locator('#tab-'+id).click();
           assert.equal(await page.locator('[role=tabpanel]:visible').count(),1);
           assert.equal(await page.locator('#panel-'+id).isVisible(),true);
@@ -58,16 +58,13 @@ let browser;
         }
       }
       if(route==='bloc-ii/p3-descripcio-del-jardi'){
-        assert.equal(await page.locator('.process-gallery img:visible').count(),8);
-        const toggle=page.locator('[data-gallery-toggle]');
-        await toggle.focus();await page.keyboard.press('Enter');
-        assert.equal(await toggle.getAttribute('aria-expanded'),'true');
-        assert.equal(await page.locator('.process-gallery img:visible,#galeria-completa img:visible').count(),21);
-        await geometry(width+' expanded gallery');
-        await page.keyboard.press('Enter');assert.equal(await page.locator('#galeria-completa').isVisible(),false);
+        assert.ok(await page.locator('.media-gallery img').count() >= 20);
+        assert.equal(await page.locator('.pending-note').count(),0);
+        assert.ok((await page.locator('main').innerText()).includes('Natura viva'));
       }
+
     }
-    console.log(`Verified 17 routes, four panels and expanded gallery at ${width}px`);
+    console.log(`Verified 17 routes, three panels and developed parts at ${width}px`);
   }
   data.media.forEach(m=>{assets.add(m.output);if(m.poster)assets.add(m.poster);});
   data.artworks.forEach(a=>assets.add(a.src));assets.add(data.collage.web_asset);
@@ -107,15 +104,12 @@ let browser;
   await page.locator('#tab-jardi').click();assert.equal(await page.locator('.species-entry').count(),10);
   for(let i=0;i<10;i++){
     assert.equal(await original('#especie-'+(i+1)),flat(data.species[i].observation));
-    assert.equal(await page.locator('.species-entry').nth(i).locator('img').count(),0);
+    assert.equal(await page.locator('.species-entry').nth(i).locator('img').count(),1);
     await page.locator(`#especie-${i+1} summary`).click();await clean();await page.locator(`#especie-${i+1} summary`).click();
   }
   for(const [id,text]of [['jardi-proposta',data.garden.proposal+'\n\n'+data.garden.objectives],['jardi-desenvolupament',data.garden.development],['jardi-metodologia',data.garden.methodology+'\n\n'+data.garden.materials],['reflexio-jardi',data.garden.reflection]])assert.equal(await original('#'+id),sourceFlat(text));
-  await page.locator('#tab-arts').click();const artLink=page.locator('[data-art-proposal="1"]');
-  await artLink.click();await page.locator('#lightbox-close-btn').click();assert.ok(await artLink.evaluate(el=>el===document.activeElement));
-  assert.equal(await page.locator('#panel-arts').isVisible(),true);
   await page.locator('#tab-conclusions').click();assert.equal(await original('#panel-conclusions'),flat(data.outing));
-  for(const d of await page.locator('#panel-conclusions details').all()){await d.locator('summary').click();await clean();}
+  assert.ok((await page.locator('#panel-conclusions .original-reflection').allTextContents()).every(t=>t.length>1000));assert.equal(await page.locator('#panel-conclusions details').count(),0);assert.equal(await page.locator('#panel-conclusions img').count(),3);await clean();
   let played=0;
   for(const route of ['bloc-ii/p3-descripcio-del-jardi','bloc-ii/p4-experimentem-amb-tintes-vives']){
     await go(route);
@@ -125,7 +119,7 @@ let browser;
       assert.equal(await video.getAttribute('autoplay'),null);await video.evaluate(async el=>{el.muted=true;await el.play();el.pause();});
       assert.ok(await video.evaluate(el=>el.videoWidth>0&&!el.error));played++;
     }
-    assert.equal(await page.locator('.pending-note:visible').count(),1);
+    assert.equal(await page.locator('.pending-note:visible').count(),0);
   }
   assert.equal(played,5);
   await page.setViewportSize({width:390,height:844});await go('inici');await page.locator('#mobile-menu-toggle').click();
@@ -147,10 +141,10 @@ let browser;
   const shots=[];
   for(const width of [390,1440]){
     await page.setViewportSize({width,height:width===390?844:1000});
-    for(const [route,label]of [['inici','inici'],['introduccio','introduccio'],['bloc-i','bloc-i'],['bloc-ii/p1-formes-dapropar-se-a-la-natura','bloc-ii-p1'],[p2,'visita'],['bloc-iii','bloc-iii'],['bloc-ii/p3-descripcio-del-jardi','bloc-ii-p3'],['bloc-ii/p4-experimentem-amb-tintes-vives','bloc-ii-p4']]){
+    for(const [route,label]of [['inici','inici'],['introduccio','introduccio'],['bloc-i','bloc-i'],['bloc-ii','bloc-ii'],['bloc-ii/p1-formes-dapropar-se-a-la-natura','bloc-ii-p1'],[p2,'visita'],['bloc-iii','bloc-iii'],['bloc-ii/p3-descripcio-del-jardi','bloc-ii-p3'],['bloc-ii/p4-experimentem-amb-tintes-vives','bloc-ii-p4']]){
       await go(route);
       if(route===p2){
-        for(const id of ['obres','jardi','arts','conclusions']){
+        for(const id of ['obres','jardi','conclusions']){
           await page.locator('#tab-'+id).click();await loadVisible();
           const name=`visita-${id}-${width}.png`;await page.locator('main').screenshot({path:path.join(output,name)});shots.push(name);await geometry('capture '+name);
         }
@@ -167,7 +161,7 @@ let browser;
     console.log('Captured all requested views at '+width+'px');
   }
   assert.deepEqual(errors,[]);assert.deepEqual(failedRequests,[]);
-  const report={routes:17,viewports:[375,390,430,768,1024,1440],routeChecks:checks.length,panelChecks:24,localAssets:assets.size,artworks:10,species:10,videosPlayed:played,fullOriginalText:true,technicalLabelsRemoved:true,keyboardAndFocus:true,expandableGallery:true,fileProtocol:true,consoleErrors:errors,failedRequests,metrics,screenshots:shots};
+  const report={routes:17,viewports:[375,390,430,768,1024,1440],routeChecks:checks.length,panelChecks:18,localAssets:assets.size,artworks:10,species:10,videosPlayed:played,fullOriginalText:true,technicalLabelsRemoved:true,keyboardAndFocus:true,developedParts:true,fileProtocol:true,consoleErrors:errors,failedRequests,metrics,screenshots:shots};
   fs.writeFileSync(path.join(output,'report.json'),JSON.stringify(report,null,2)+'\n');
   console.log(JSON.stringify({...report,metrics:undefined,screenshots:shots.length},null,2));
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{if(browser)await browser.close();});

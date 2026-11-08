@@ -1,0 +1,893 @@
+{
+  "source_pdf": "source/ESTRUCTURA_ARIADNA_ACTUAL_40P.pdf",
+  "source_zip": "fotoswebart.zip",
+  "pdf_pages": 40,
+  "media": [
+    {
+      "id": 0,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 1. INTRODUCCIÓ. FORMES D’APROPAR-SE A LA NATURA/finamiralls.webp",
+      "original_filename": "finamiralls.webp",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-1/finamiralls.webp",
+      "category": "bloc-ii/part-1",
+      "type": "image",
+      "source_size_bytes": 237282,
+      "optimized_size_bytes": 245176,
+      "width": 722,
+      "height": 1024
+    },
+    {
+      "id": 1,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/2.JPG",
+      "original_filename": "2.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 678552,
+      "optimized_size_bytes": 559244,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 2,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 1. INTRODUCCIÓ. FORMES D’APROPAR-SE A LA NATURA/Stones.webp",
+      "original_filename": "Stones.webp",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-1/stones.webp",
+      "category": "bloc-ii/part-1",
+      "type": "image",
+      "source_size_bytes": 24234,
+      "optimized_size_bytes": 23038,
+      "width": 818,
+      "height": 543
+    },
+    {
+      "id": 3,
+      "original_zip_path": "FOTOS/BLOC 1. ART I EDUCACIÓ/PROPOSTA 1. MAR MORÓN/IMG_2228.PNG",
+      "original_filename": "IMG_2228.PNG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-i/img_2228.webp",
+      "category": "bloc-i",
+      "type": "image",
+      "source_size_bytes": 921804,
+      "optimized_size_bytes": 132924,
+      "width": 1014,
+      "height": 911
+    },
+    {
+      "id": 4,
+      "original_zip_path": "FOTOS/BLOC 1. ART I EDUCACIÓ/PROPOSTA 1. MAR MORÓN/IMG_2227.PNG",
+      "original_filename": "IMG_2227.PNG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-i/img_2227.webp",
+      "category": "bloc-i",
+      "type": "image",
+      "source_size_bytes": 491439,
+      "optimized_size_bytes": 84028,
+      "width": 647,
+      "height": 1047
+    },
+    {
+      "id": 5,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5103.HEIC",
+      "original_filename": "IMG_5103.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5103.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 274354,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": 6,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/4.JPG",
+      "original_filename": "4.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/4.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 402992,
+      "optimized_size_bytes": 283116,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 7,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5189.HEIC",
+      "original_filename": "IMG_5189.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5189.webp",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 156180,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": 8,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5041.JPG",
+      "original_filename": "IMG_5041.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5041.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 377256,
+      "optimized_size_bytes": 244632,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "id": 9,
+      "original_zip_path": "FOTOS/INTRODUCCIÓ. ART I NATURA A EDUCACIÓ INFANTIL/IMG_2226.PNG",
+      "original_filename": "IMG_2226.PNG",
+      "asset": "assets/actualizacion-2026-11-08/introduccio/img_2226.webp",
+      "category": "introduccio",
+      "type": "image",
+      "source_size_bytes": 877072,
+      "optimized_size_bytes": 103364,
+      "width": 1067,
+      "height": 731
+    },
+    {
+      "id": 10,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5107.HEIC",
+      "original_filename": "IMG_5107.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5107.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 351458,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": 11,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/3.JPG",
+      "original_filename": "3.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/3.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 292746,
+      "optimized_size_bytes": 152220,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 12,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5194.HEIC",
+      "original_filename": "IMG_5194.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5194.webp",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 148390,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 13,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/1.JPG",
+      "original_filename": "1.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/1.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 1213699,
+      "optimized_size_bytes": 832422,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "id": 14,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4798.HEIC",
+      "original_filename": "IMG_4798.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4798.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 211276,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 15,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5106.HEIC",
+      "original_filename": "IMG_5106.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5106.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 210108,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 16,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/3.JPG",
+      "original_filename": "3.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/3.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 361164,
+      "optimized_size_bytes": 209604,
+      "width": 2048,
+      "height": 1536
+    },
+    {
+      "id": 17,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4799.HEIC",
+      "original_filename": "IMG_4799.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4799.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 650950,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 18,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/CONCLUSIONS SORTIDA/IMG_4655.HEIC",
+      "original_filename": "IMG_4655.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4655.webp",
+      "category": "bloc-ii/part-2-conclusions",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 205620,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 19,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5127.HEIC",
+      "original_filename": "IMG_5127.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 260206,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 20,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4791.HEIC",
+      "original_filename": "IMG_4791.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4791.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 661874,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 21,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/3.JPG",
+      "original_filename": "3.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-mnac/3.webp",
+      "category": "bloc-ii/part-2-mnac",
+      "type": "image",
+      "source_size_bytes": 242768,
+      "optimized_size_bytes": 132428,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 22,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/CONCLUSIONS SORTIDA/IMG_4724.HEIC",
+      "original_filename": "IMG_4724.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4724.webp",
+      "category": "bloc-ii/part-2-conclusions",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 248910,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 23,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5100.HEIC",
+      "original_filename": "IMG_5100.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5100.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 222526,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": 24,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5125.HEIC",
+      "original_filename": "IMG_5125.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 264100,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 25,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/4.JPG",
+      "original_filename": "4.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/4.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 412786,
+      "optimized_size_bytes": 248292,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 26,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4785.HEIC",
+      "original_filename": "IMG_4785.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4785.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 143244,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 27,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5040.JPG",
+      "original_filename": "IMG_5040.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5040.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 674112,
+      "optimized_size_bytes": 500510,
+      "width": 1536,
+      "height": 2048
+    },
+    {
+      "id": 28,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/1.JPG",
+      "original_filename": "1.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/1.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 278507,
+      "optimized_size_bytes": 151224,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 29,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/5.JPG",
+      "original_filename": "5.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/5.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 347474,
+      "optimized_size_bytes": 203018,
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "id": 30,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_2192.HEIC",
+      "original_filename": "IMG_2192.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2192.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 262976,
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": 31,
+      "original_zip_path": "FOTOS/INICI WEB/c1e64692-2a9e-48a7-8751-6184236d6423.jpg",
+      "original_filename": "c1e64692-2a9e-48a7-8751-6184236d6423.jpg",
+      "asset": "assets/actualizacion-2026-11-08/inici/c1e64692-2a9e-48a7-8751-6184236d6423.webp",
+      "category": "inici",
+      "type": "image",
+      "source_size_bytes": 661511,
+      "optimized_size_bytes": 488718,
+      "width": 1536,
+      "height": 2048
+    },
+    {
+      "id": 32,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/CONCLUSIONS SORTIDA/IMG_4981.HEIC",
+      "original_filename": "IMG_4981.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4981.webp",
+      "category": "bloc-ii/part-2-conclusions",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 579364,
+      "width": 2316,
+      "height": 3088
+    },
+    {
+      "id": 33,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5192.HEIC",
+      "original_filename": "IMG_5192.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5192.webp",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 275062,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 34,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/IMG_4773.HEIC",
+      "original_filename": "IMG_4773.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4773.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 220706,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 35,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/2.JPG",
+      "original_filename": "2.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-mnac/2.webp",
+      "category": "bloc-ii/part-2-mnac",
+      "type": "image",
+      "source_size_bytes": 1322976,
+      "optimized_size_bytes": 232034,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": 36,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/1.JPG",
+      "original_filename": "1.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-mnac/1.webp",
+      "category": "bloc-ii/part-2-mnac",
+      "type": "image",
+      "source_size_bytes": 3662084,
+      "optimized_size_bytes": 550974,
+      "width": 3840,
+      "height": 5120
+    },
+    {
+      "id": 37,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/IMG_4964.HEIC",
+      "original_filename": "IMG_4964.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4964.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 161392,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 38,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5187.HEIC",
+      "original_filename": "IMG_5187.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5187.webp",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 174742,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 39,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_2165.HEIC",
+      "original_filename": "IMG_2165.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2165.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 291368,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": 40,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5101.HEIC",
+      "original_filename": "IMG_5101.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5101.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 213712,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": 41,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_2174.HEIC",
+      "original_filename": "IMG_2174.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2174.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 139792,
+      "width": 4032,
+      "height": 3024
+    },
+    {
+      "id": 42,
+      "original_zip_path": "FOTOS/INTRODUCCIÓ. ART I NATURA A EDUCACIÓ INFANTIL/IMG_5030.HEIC",
+      "original_filename": "IMG_5030.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/introduccio/img_5030.webp",
+      "category": "introduccio",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 276072,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": 43,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5105.HEIC",
+      "original_filename": "IMG_5105.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5105.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 326360,
+      "width": 3024,
+      "height": 4032
+    },
+    {
+      "id": 44,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_4680.HEIC",
+      "original_filename": "IMG_4680.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4680.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 243468,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 45,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/IMG_4758.HEIC",
+      "original_filename": "IMG_4758.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4758.webp",
+      "category": "bloc-ii/part-2-passejada",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 480228,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 46,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/IMG_4979.HEIC",
+      "original_filename": "IMG_4979.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4979.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 107392,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 47,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4784.HEIC",
+      "original_filename": "IMG_4784.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4784.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 475974,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 48,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_4719.HEIC",
+      "original_filename": "IMG_4719.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4719.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 352320,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": 49,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4790.HEIC",
+      "original_filename": "IMG_4790.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4790.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 601826,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 50,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/IMG_4968.HEIC",
+      "original_filename": "IMG_4968.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4968.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 167916,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 51,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/IMG_4985.HEIC",
+      "original_filename": "IMG_4985.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/img_4985.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 266178,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 52,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/IMG_4749.HEIC",
+      "original_filename": "IMG_4749.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4749.webp",
+      "category": "bloc-ii/part-2-passejada",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 426884,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 53,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5193.MOV",
+      "original_filename": "IMG_5193.MOV",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5193.mp4",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "video",
+      "source_size_bytes": 3704484,
+      "optimized_size_bytes": 336584,
+      "width": 1920,
+      "height": 1080,
+      "poster": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5193-poster.webp"
+    },
+    {
+      "id": 54,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_4795.HEIC",
+      "original_filename": "IMG_4795.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4795.webp",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 711990,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 55,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_4674.HEIC",
+      "original_filename": "IMG_4674.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4674.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 459896,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 56,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_4685.HEIC",
+      "original_filename": "IMG_4685.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4685.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 429220,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": 57,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5126.MOV",
+      "original_filename": "IMG_5126.MOV",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5126.mp4",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "video",
+      "source_size_bytes": 7308578,
+      "optimized_size_bytes": 1091609,
+      "width": 1080,
+      "height": 1920,
+      "poster": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5126-poster.webp"
+    },
+    {
+      "id": 58,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_4687.HEIC",
+      "original_filename": "IMG_4687.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4687.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 618732,
+      "width": 5712,
+      "height": 4284
+    },
+    {
+      "id": 59,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5195.MOV",
+      "original_filename": "IMG_5195.MOV",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5195.mp4",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "video",
+      "source_size_bytes": 7697117,
+      "optimized_size_bytes": 570438,
+      "width": 1920,
+      "height": 1080,
+      "poster": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5195-poster.webp"
+    },
+    {
+      "id": 60,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 4. EXPERIMENTEM AMB TINTES VIVES/IMG_5191.MOV",
+      "original_filename": "IMG_5191.MOV",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5191.mp4",
+      "category": "bloc-ii/part-4-tintes",
+      "type": "video",
+      "source_size_bytes": 5626128,
+      "optimized_size_bytes": 758424,
+      "width": 1080,
+      "height": 1920,
+      "poster": "assets/actualizacion-2026-11-08/bloc-ii/part-4-tintes/img_5191-poster.webp"
+    },
+    {
+      "id": 61,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/1.jpg",
+      "original_filename": "1.jpg",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/1.webp",
+      "category": "bloc-ii/part-2-passejada",
+      "type": "image",
+      "source_size_bytes": 4102116,
+      "optimized_size_bytes": 477532,
+      "width": 4000,
+      "height": 4000
+    },
+    {
+      "id": 62,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 1. VISITA AL MNAC/10 ARTISTES REFERENTS/IMG_4614.HEIC",
+      "original_filename": "IMG_4614.HEIC",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4614.webp",
+      "category": "bloc-ii/part-2-obres",
+      "type": "image",
+      "source_size_bytes": 0,
+      "optimized_size_bytes": 615660,
+      "width": 4284,
+      "height": 5712
+    },
+    {
+      "id": 63,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 3. DESCRIPCIÓ DEL JARDÍ/IMG_5128.MOV",
+      "original_filename": "IMG_5128.MOV",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5128.mp4",
+      "category": "bloc-ii/part-3-llibre",
+      "type": "video",
+      "source_size_bytes": 9086982,
+      "optimized_size_bytes": 1566288,
+      "width": 1080,
+      "height": 1920,
+      "poster": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5128-poster.webp"
+    },
+    {
+      "id": 64,
+      "original_zip_path": "FOTOS/BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC/PART 2. EXPOSICIÓ_ MNAC/PROPOSTA 2. DIÀLEG AMB EL JARDÍ/FOTOS PLANTAS/2.JPG",
+      "original_filename": "2.JPG",
+      "asset": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/2.webp",
+      "category": "bloc-ii/part-2-plantes",
+      "type": "image",
+      "source_size_bytes": 420959,
+      "optimized_size_bytes": 241742,
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "pdf_embedded_images": [
+    {
+      "page": 13,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-13-imagen-01.webp",
+      "size": [
+        1536,
+        2048
+      ]
+    },
+    {
+      "page": 15,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-15-imagen-01.webp",
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "page": 15,
+      "image_index": 2,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-15-imagen-02.webp",
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "page": 16,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-16-imagen-01.webp",
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "page": 17,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-17-imagen-01.webp",
+      "size": [
+        1536,
+        2048
+      ]
+    },
+    {
+      "page": 17,
+      "image_index": 2,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-17-imagen-02.webp",
+      "size": [
+        1536,
+        2048
+      ]
+    },
+    {
+      "page": 18,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-18-imagen-01.webp",
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "page": 19,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-19-imagen-01.webp",
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "page": 20,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-20-imagen-01.webp",
+      "size": [
+        1536,
+        2048
+      ]
+    },
+    {
+      "page": 21,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-21-imagen-01.webp",
+      "size": [
+        2048,
+        1536
+      ]
+    },
+    {
+      "page": 24,
+      "image_index": 1,
+      "file": "assets/actualizacion-2026-11-08/pdf-obres/pagina-24-imagen-01.webp",
+      "size": [
+        923,
+        1640
+      ]
+    }
+  ]
+}
