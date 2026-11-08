@@ -3,7 +3,7 @@ const {chromium}=require(process.env.ARI_PLAYWRIGHT_MODULE||'playwright');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const {execFileSync}=require('node:child_process');
 const root=path.resolve(__dirname,'..'),edit=path.join(root,'content/editables');
-const files=['titulos.json','textos-generales.json','destacados.json','imagenes.json','pies-de-foto.json'].map(f=>path.join(edit,f));
+const files=['titulos.json','textos-generales.json','lectura-academica.json','imagenes.json','pies-de-foto.json'].map(f=>path.join(edit,f));
 files.push(path.join(root,'content/academic/book-proposal.md'));
 const saved=new Map(files.map(f=>[f,fs.readFileSync(f)]));
 const source=fs.readFileSync(path.join(root,'content/PDF_ACTUALITZAT_40P.md'));
@@ -13,7 +13,7 @@ let browser;
 (async()=>{try{
  change('titulos.json',d=>d.portada_bloc_ii='Títol de prova editorial');
  change('textos-generales.json',d=>d.bloc_ii_entradilla='Frase de prova editorial del Bloc II.');
- change('destacados.json',d=>d.conceptos=['proposta']);
+ change('lectura-academica.json',d=>d.conceptos=['proposta']);
  change('imagenes.json',d=>d.bloc_ii_portada.imagen=d.descripcio_img_4795.imagen);
  change('pies-de-foto.json',d=>d.bloc_ii_portada='Peu de prova editorial.');
  fs.appendFileSync(files.at(-1),'\n\nText de prova acadèmica editable.\n');

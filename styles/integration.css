@@ -337,6 +337,14 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
   .video-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .video-gallery:has(figure:only-child) { max-width:340px; grid-template-columns:1fr; }
 }
+
+/* Fifth iteration: full academic reading only; existing page compositions stay intact. */
+.prose ul.plain-list { margin-block:1.25rem; }
+.prose ul.plain-list li { padding-left:1.35rem; margin-block:1rem; line-height:1.8; }
+.prose ul.plain-list li::before { content:''; width:.32rem; height:.32rem; border-radius:50%; background:var(--olive-green); top:.72em; left:.1rem; }
+.original-reflection .academic-quotation { font-style:italic; color:var(--forest-green); font-size:.98em; }
+.full-reading[open] > .prose { padding:1.1rem clamp(.35rem,1.5vw,1.1rem); border-left:1px solid var(--border-strong); }
+.full-reading .prose p + p { margin-top:1.5rem; }
 @media(min-width:860px) {
   .exploration-band { grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); gap:clamp(2rem,4vw,4rem); }
   .home-exploration .exploration-entry { padding-block:3.5rem; }

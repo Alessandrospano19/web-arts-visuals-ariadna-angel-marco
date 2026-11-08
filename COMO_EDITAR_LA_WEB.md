@@ -56,7 +56,7 @@ En un Markdown académico puedes escribir:
 La intenció era transmetre allò que podem trobar en un **jardí**.
 ```
 
-Se mostrará en negrita verde sin cambiar las palabras. Otra opción es añadir una expresión literal en `content/editables/destacados.json`, dentro de `conceptos`. El renderizador selecciona como máximo dos coincidencias por unidad de texto; no destaca automáticamente todas las frases entre comillas. Los resúmenes temáticos también admiten `**...**`.
+Se mostrará en negrita verde sin cambiar las palabras. Otra opción es añadir una expresión literal en `content/editables/destacados.json`, dentro de `conceptos`. El renderizador de los resúmenes selecciona como máximo dos coincidencias por unidad de texto; no destaca automáticamente todas las frases entre comillas. Los resúmenes temáticos también admiten `**...**`.
 
 ## Cambiar una fotografía
 
@@ -119,3 +119,9 @@ python scripts/verify_content.py
 ```
 
 La prueba `scripts/verify_editing.cjs` verifica con navegador cambios de título, frase, negrita, foto, pie y texto académico a través de dos generaciones; restaura los originales al finalizar. Las pruebas de navegador necesitan Playwright y Edge en el entorno de desarrollo, no en el alojamiento.
+
+## Refinamiento de los textos completos (quinta iteración)
+
+`content/editables/lectura-academica.json` controla los destacados de los párrafos académicos: `conceptos` contiene fragmentos literales por orden de prioridad y `citas_literales` contiene únicamente las citas revisadas, con sus comillas originales. No añadas títulos de obras ni actividades a esta última lista. Las referencias quedan fuera del formato de cita y se conservan.
+
+Este sistema selecciona hasta dos destacados por párrafo (uno en fragmentos breves), respeta palabras completas y evita superponer selecciones. No es obligatorio resaltar todos los párrafos. Los resúmenes editoriales siguen utilizando `destacados.json`, sin cambiar la presentación de la portada. Los Markdown siguen admitiendo negritas explícitas mediante `**...**`.

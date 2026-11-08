@@ -34,6 +34,35 @@ function renderInline(text, budget = {left:2}) {
  return (out+esc(text.slice(cursor))).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
 }
 const pathFor = x => '#/' + x;
+// Explicit editorial selections on source text; never transform arbitrary quotes
+// or re-match HTML already emitted by another formatter.
+function academicInline(text) {
+ const rules=WEB['lectura-academica'], ranges=[];
+ const lower=text.toLocaleLowerCase('ca');
+ const overlaps=(start,end)=>ranges.some(r=>start<r.end&&end>r.start);
+ for(const quote of rules.citas_literales){
+   const start=text.indexOf(quote);
+   if(start>=0&&!overlaps(start,start+quote.length))ranges.push({start,end:start+quote.length,quote:true});
+ }
+ const limit=text.length<220?1:2;
+ for(const term of rules.conceptos){
+   if(ranges.length>=limit)break;
+   const start=lower.indexOf(term.toLocaleLowerCase('ca')),end=start+term.length;
+   if(start<0||overlaps(start,end)||term.length>text.length*.4)continue;
+   const letter=char=>char&&char.toLocaleUpperCase('ca')!==char.toLocaleLowerCase('ca');
+   if(letter(text[start-1])||letter(text[end]))continue;
+   ranges.push({start,end,quote:false});
+ }
+ ranges.sort((a,b)=>a.start-b.start);
+ let cursor=0,html='';
+ for(const range of ranges){
+   html+=esc(text.slice(cursor,range.start));
+   const literal=esc(text.slice(range.start,range.end));
+   html+=range.quote?`<strong class="academic-quotation"><em>${literal}</em></strong>`:`<strong>${literal}</strong>`;
+   cursor=range.end;
+ }
+ return (html+esc(text.slice(cursor))).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+}
 const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[ch]));
 const formatIndex = n => String(n).padStart(2, '0');
 const MEDIA = Object.create(null);
@@ -48,12 +77,11 @@ function prose(text, cls = '') {
   text=text.replace(/●\s*/g,'\n\n● ').replace(/(● [^.\n:]{1,25}\.) (?=[A-ZÀ-Ú])/g,'$1\n\n').replace(/(Com a futura mestra d’infantil|A partir de l’obra proposaria|Les tres obres que formen aquesta composició són:)/g,'\n\n$1');
   const paragraphs = text.split(/\n\s*\n/).flatMap(p => p.length > 1000 ? p.split(/(?<=[.!?]) (?=[A-ZÀ-Ú])/).reduce((a,t)=>{if(a.length && a.at(-1).length<650)a[a.length-1]+=' '+t;else a.push(t);return a;},[]) : [p]);
   const html = [];
-  const budget={left:2};
   let list = [];
-  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${renderInline(p.slice(2),budget)}</li>`).join('')}</ul>`); list = []; } };
+  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${academicInline(p.slice(2))}</li>`).join('')}</ul>`); list = []; } };
   for (const p of paragraphs) {
     if (p.startsWith('- ') || p.startsWith('● ')) list.push(p);
-    else { flush(); html.push(`<p>${renderInline(p,budget)}</p>`); }
+    else { flush(); html.push(`<p>${academicInline(p)}</p>`); }
   }
   flush();
   return `<div class="prose ${cls}" lang="ca">${html.join('')}</div>`;
