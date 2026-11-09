@@ -300,6 +300,7 @@ const WEB = {
       "grupo": "descripcio",
       "ancho": 4284,
       "alto": 5712,
+      "rotation": 90,
       "dimensions": [
         4284,
         5712
@@ -370,6 +371,7 @@ const WEB = {
       "grupo": "descripcio",
       "ancho": 4284,
       "alto": 5712,
+      "rotation": 90,
       "dimensions": [
         4284,
         5712
@@ -987,10 +989,26 @@ const WEB = {
       "output": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4758.webp",
       "id": "bloc_ii_detall",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-2-passejada/img_4758.webp"
+    },
+    "reflexio_final_hort": {
+      "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp",
+      "alt": "Ariadna fent frottage amb fulles durant l’activitat a l’hort",
+      "ancho": 1200,
+      "alto": 1600,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp",
+      "id": "reflexio_final_hort",
+      "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp"
     }
   },
   "lectura-academica": {
     "conceptos": [
+      "A la dreta:",
+      "A l’esquerra:",
+      "Al centre:",
       "Solé Duc",
       "Modest Urgell",
       "Joaquim Vayreda",
@@ -1071,6 +1089,11 @@ const WEB = {
       "‘’la intensidad de sus juegos, la sensibilidad y creatividad de sus aprendizajes’’",
       "‘’Educar artísticament és també educar la mirada’’",
       "«el contrari del joc és la depressió»"
+    ],
+    "subrayados": [
+      "Nosaltres també som naturalesa.",
+      "posar el focus en el procés i en el progrés de cada infant",
+      "mirada pròpia"
     ]
   },
   "mapa-academic": {
@@ -1148,7 +1171,7 @@ const WEB = {
         "titulo": "La reflexió final",
         "inicio": "Elaborar aquest llibre d'artista",
         "imagenes": [
-          "descripcio_img_4799"
+          "reflexio_final_hort"
         ]
       }
     ],
@@ -1279,7 +1302,7 @@ const WEB = {
     "img_4784": "Flors i vegetació il·luminades pel sol",
     "img_4785": "Una mà sosté una flor de color rosa",
     "img_4790": "Fulles verdes amb nervis visibles",
-    "img_4791": "Fruits allargats entre les branques",
+    "img_4791": "Carbasses allargades",
     "img_4795": "Treball en grup a l’exterior amb elements naturals",
     "img_4798": "Una mà sosté una flor de color taronja",
     "img_4799": "Recull de pètals de diferents colors",
@@ -1311,7 +1334,8 @@ const WEB = {
     "tintes_img_5191": "Preparació de la tinta en una olla.",
     "tintes_img_5193": "Observació de la tinta amb una cullera.",
     "tintes_img_5195": "Experimentació amb substàncies quotidianes.",
-    "bloc_ii_detall": "Observació d’una flor durant la passejada."
+    "bloc_ii_detall": "Observació d’una flor durant la passejada.",
+    "reflexio_final_hort": "Ariadna experimentant amb el frottage de fulles a l’hort."
   },
   "portada": {
     "kicker": "Art, natura i infància · Portafoli d’investigació",
@@ -1348,7 +1372,7 @@ const WEB = {
     "lart_de_caminar": "L’art de caminar",
     "proposta_2_dialeg_amb_el_jardi": "PROPOSTA 2: DIÀLEG AMB EL JARDÍ",
     "la_natura_lart_i_la_practica_docent": "La natura, l’art i la pràctica docent",
-    "conclusions_de_la_sortida": "CONCLUSIONS DE LA SORTIDA.",
+    "conclusions_de_la_sortida": "CONCLUSIONS DE LA SORTIDA",
     "proposta": "Proposta",
     "que_es_un_jardi_descripcio_visual": "Què és un jardí? Descripció visual",
     "natura_viva": "Natura viva",
@@ -1400,7 +1424,12 @@ const WEB = {
     "text_la_manera_de_documentar_tambe_forma_part_de_la_creacio_lenquadram": "La manera de documentar també forma part de la creació: l’enquadrament, la perspectiva i els detalls escollits construeixen una mirada pròpia.",
     "text_punts_forts": "Punts forts",
     "text_punts_febles": "Punts febles",
-    "text_sobre_en_una_pestanya_nova": " (s’obre en una pestanya nova)"
+    "text_sobre_en_una_pestanya_nova": " (s’obre en una pestanya nova)",
+    "conclusions_apartats": [
+      "El meu vincle amb la natura",
+      "La meva pràctica artística",
+      "La meva futura pràctica docent"
+    ]
   },
   "titulos": {
     "academicos": {
@@ -1422,6 +1451,7 @@ const WEB = {
       "referencies-bibliografiques": "REFERÈNCIES BIBLIOGRÀFIQUES"
     },
     "portada_bloc_ii": "La formació en la pràctica de l’art. El jardí com agent pedagògic",
-    "portada_bloc_iii": "La formació en la pràctica de l’art. Moda, artivisme i performativitat en les arts i l’educació"
+    "portada_bloc_iii": "La formació en la pràctica de l’art. Moda, artivisme i performativitat en les arts i l’educació",
+    "navegacio_part_2": "PART 2. VISITA AL MNAC I PASSEJADA PELS JARDINS DE MONTJUÏC"
   }
 };

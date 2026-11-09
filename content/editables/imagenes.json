@@ -137,7 +137,8 @@
     "alt": "",
     "grupo": "descripcio",
     "ancho": 4284,
-    "alto": 5712
+    "alto": 5712,
+    "rotation": 90
   },
   "descripcio_img_4791": {
     "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4791.webp",
@@ -172,7 +173,8 @@
     "alt": "",
     "grupo": "descripcio",
     "ancho": 4284,
-    "alto": 5712
+    "alto": 5712,
+    "rotation": 90
   },
   "plantes_4": {
     "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/4.webp",
@@ -475,5 +477,11 @@
     "grupo": "jardi",
     "ancho": 4284,
     "alto": 5712
+  },
+  "reflexio_final_hort": {
+    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp",
+    "alt": "Ariadna fent frottage amb fulles durant l’activitat a l’hort",
+    "ancho": 1200,
+    "alto": 1600
   }
 }

@@ -18,7 +18,7 @@
   "lart_de_caminar": "L’art de caminar",
   "proposta_2_dialeg_amb_el_jardi": "PROPOSTA 2: DIÀLEG AMB EL JARDÍ",
   "la_natura_lart_i_la_practica_docent": "La natura, l’art i la pràctica docent",
-  "conclusions_de_la_sortida": "CONCLUSIONS DE LA SORTIDA.",
+  "conclusions_de_la_sortida": "CONCLUSIONS DE LA SORTIDA",
   "proposta": "Proposta",
   "que_es_un_jardi_descripcio_visual": "Què és un jardí? Descripció visual",
   "natura_viva": "Natura viva",
@@ -70,5 +70,10 @@
   "text_la_manera_de_documentar_tambe_forma_part_de_la_creacio_lenquadram": "La manera de documentar també forma part de la creació: l’enquadrament, la perspectiva i els detalls escollits construeixen una mirada pròpia.",
   "text_punts_forts": "Punts forts",
   "text_punts_febles": "Punts febles",
-  "text_sobre_en_una_pestanya_nova": " (s’obre en una pestanya nova)"
+  "text_sobre_en_una_pestanya_nova": " (s’obre en una pestanya nova)",
+  "conclusions_apartats": [
+    "El meu vincle amb la natura",
+    "La meva pràctica artística",
+    "La meva futura pràctica docent"
+  ]
 }

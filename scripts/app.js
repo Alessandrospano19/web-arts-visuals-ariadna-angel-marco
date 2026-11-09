@@ -45,20 +45,20 @@ function academicInline(text) {
    if(start>=0&&!overlaps(start,start+quote.length))ranges.push({start,end:start+quote.length,quote:true});
  }
  const limit=text.length<220?1:2;
- for(const term of rules.conceptos){
+ for(const term of [...(rules.subrayados||[]),...rules.conceptos]){
    if(ranges.length>=limit)break;
    const start=lower.indexOf(term.toLocaleLowerCase('ca')),end=start+term.length;
    if(start<0||overlaps(start,end)||term.length>text.length*.4)continue;
    const letter=char=>char&&char.toLocaleUpperCase('ca')!==char.toLocaleLowerCase('ca');
    if(letter(text[start-1])||letter(text[end]))continue;
-   ranges.push({start,end,quote:false});
+   ranges.push({start,end,quote:false,underline:(rules.subrayados||[]).includes(term)});
  }
  ranges.sort((a,b)=>a.start-b.start);
  let cursor=0,html='';
  for(const range of ranges){
    html+=esc(text.slice(cursor,range.start));
    const literal=esc(text.slice(range.start,range.end));
-   html+=range.quote?`<strong class="academic-quotation"><em>${literal}</em></strong>`:`<strong>${literal}</strong>`;
+   html+=range.quote?`<strong class="academic-quotation"><em>${literal}</em></strong>`:`<strong${range.underline?' class="academic-underline"':''}>${literal}</strong>`;
    cursor=range.end;
  }
  return (html+esc(text.slice(cursor))).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
@@ -109,7 +109,8 @@ function chapterLinks(items) {
 }
 function picture(media, alt, eager = false) {
   const [w,h] = media.dimensions;
-  return `<img src="${esc(media.output)}" width="${w}" height="${h}" alt="${esc(alt)}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async">`;
+  const markup=`<img src="${esc(media.output)}" width="${w}" height="${h}" alt="${esc(alt)}" loading="${eager ? 'eager' : 'lazy'}" ${eager ? 'fetchpriority="high"' : ''} decoding="async">`;
+  return media.rotation?`<span class="rotated-photo" style="aspect-ratio:${h}/${w};--rotation:${media.rotation}deg;--rotated-width:${100*w/h}%">${markup}</span>`:markup;
 }
 const mediaDescriptions = WEB['pies-de-foto'];
 function mediaTitle(m, i = 0) {
@@ -124,7 +125,7 @@ function mediaTitle(m, i = 0) {
 function photoFigure(m, caption = '', shape = 'wide', eager = false) {
   caption = WEB['pies-de-foto'][m.id] ?? caption;
   const id = m.id || m.output, title = mediaTitle(m);
-  MEDIA[id] = {src:m.output, title, subtitle:'', meta:'', desc:''};
+  MEDIA[id] = {src:m.output, title, subtitle:'', meta:'', desc:'',rotation:m.rotation||0,dimensions:m.dimensions};
   return `<figure><button class="photo-frame ${shape} local-photo" type="button" data-lightbox="${esc(id)}" aria-label="Amplia: ${esc(title)}">${picture(m,title,eager)}<span class="zoom-pill">${esc(webText('text_amplia'))}</span></button>${caption ? `<figcaption class="figure-label">${esc(caption)}</figcaption>` : ''}</figure>`;
 }
 function gallery(name, images = group(name), cls = '') {
@@ -163,7 +164,8 @@ const modal = document.getElementById('lightbox-modal');
 const header = document.querySelector('.site-header');
 const footer = document.querySelector('.site-footer');
 // Long navigation labels share the same editable academic titles.
-document.querySelectorAll('[data-route*="/p"]').forEach(link=>{link.textContent=ROUTES.find(([path])=>path===link.dataset.route)[1];});
+document.querySelectorAll('[data-route*="/p"]').forEach(link=>{link.textContent=link.dataset.route===B2[1].path?WEB.titulos.navegacio_part_2:ROUTES.find(([path])=>path===link.dataset.route)[1];});
+document.querySelector('footer a[href="#/bloc-iii"]').textContent=WEB.titulos.portada_bloc_iii;
 const universityLogo=editableImage('universitat_logo');
 if(universityLogo) document.querySelector('.brand-logo').insertAdjacentHTML('afterend',`<span class="university-mark">${picture(universityLogo,universityLogo.alt,true)}</span>`);
 let previousFocus = null;
@@ -218,6 +220,8 @@ function openLightbox(id,opener) {
   if (!item) return;
   previousFocus = opener;
   const picture = document.getElementById('lightbox-img');
+  if(picture.parentElement.classList.contains('rotated-photo'))picture.parentElement.replaceWith(picture);
+  if(item.rotation){const wrapper=document.createElement('span');wrapper.className='rotated-photo';const [w,h]=item.dimensions;wrapper.style.cssText=`aspect-ratio:${h}/${w};--rotation:${item.rotation}deg;--rotated-width:${100*w/h}%`;picture.replaceWith(wrapper);wrapper.append(picture);}
   picture.src = item.src; picture.alt = item.title;
   document.getElementById('lightbox-title').textContent = item.title;
   document.getElementById('lightbox-subtitle').textContent = item.subtitle;

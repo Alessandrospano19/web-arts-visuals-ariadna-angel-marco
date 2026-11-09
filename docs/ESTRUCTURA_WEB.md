@@ -16,6 +16,6 @@ Font principal: `content/PDF_ACTUALITZAT_40P.md` i `source/ESTRUCTURA_ARIADNA_AC
 | `#/conclusions`, `#/reflexio-personal`, `#/per-saber-ne-mes` | CONCLUSIONS GENERALS DE L’ASSIGNATURA, REFLEXIONS PERSONALS, PER SABER-NE MÉS… Pendents reals. |
 | `#/referencies-bibliografiques` | REFERÈNCIES BIBLIOGRÀFIQUES. Dues lectures i dues portades, p. 40. |
 
-La PART 2 conté únicament PROPOSTA 1: VISITA MUSEU MNAC, PROPOSTA 2: DIÀLEG AMB EL JARDÍ i CONCLUSIONS DE LA SORTIDA. No hi ha una tercera proposta. Les activitats individuals de les deu obres es conserven. Les conclusions es llegeixen íntegres sense desplegables.
+La PART 2 conté únicament PROPOSTA 1: VISITA MUSEU MNAC, PROPOSTA 2: DIÀLEG AMB EL JARDÍ i CONCLUSIONS DE LA SORTIDA. No hi ha una tercera proposta. Les activitats individuals de les deu obres es conserven. Les conclusions es conserven íntegres en tres desplegables independents, segons la correcció expressa del 9 de novembre.
 
 Traçabilitat i dubtes a `INFORME_FUENTES_Y_CAMBIOS.md`, `INFORME_IMPLEMENTACIO_NOVEMBRE_2026.md` i `PENDENTS_ARIADNA.md`.

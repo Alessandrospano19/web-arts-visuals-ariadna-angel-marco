@@ -67,7 +67,7 @@ def apply_edits(data):
         item['originalOutput']=defaults.get(ident,item)['imagen']
     for m in data['media']:
         image=images[m['id']]
-        m.update(output=image['imagen'],alt=image.get('alt',''),dimensions=image['dimensions'])
+        m.update(output=image['imagen'],alt=image.get('alt',''),dimensions=image['dimensions'],rotation=image.get('rotation',0))
     for i,art in enumerate(data['artworks']):
         image=images[f'obra_{i+1:02}']; art.update(src=image['imagen'],alt=image.get('alt',''),dimensions=image['dimensions'])
     by_original={m['originalOutput']:m for m in data['media']}

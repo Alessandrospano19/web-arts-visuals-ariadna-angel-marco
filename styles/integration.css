@@ -345,6 +345,26 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
 .original-reflection .academic-quotation { font-style:italic; color:var(--forest-green); font-size:.98em; }
 .full-reading[open] > .prose { padding:1.1rem clamp(.35rem,1.5vw,1.1rem); border-left:1px solid var(--border-strong); }
 .full-reading .prose p + p { margin-top:1.5rem; }
+
+/* Requested corrections, 9 November: scoped to the affected reading/media. */
+.academic-underline { text-decoration:underline; text-decoration-color:var(--olive-green); text-decoration-thickness:1px; text-underline-offset:.23em; }
+.book-motion > .container { text-align:center; }
+.book-motion .chapter-heading { margin-inline:auto; }
+.book-motion .video-gallery { margin-inline:auto; }
+.book-motion .figure-label { justify-content:center; }
+.conclusion-disclosure { width:100%; max-width:none; margin:0; padding:1.4rem clamp(1rem,3vw,2.5rem); }
+.conclusion-disclosure > summary { font-family:var(--font-serif); font-size:clamp(1.25rem,2vw,1.65rem); line-height:1.35; min-height:44px; }
+.conclusion-reading { max-width:76ch; margin:1.8rem auto .6rem; }
+.conclusion-reading figure { max-width:600px; margin:0 0 1.6rem; }
+.conclusion-reading img { max-height:340px; object-fit:contain; }
+.outing-introduction { margin-bottom:2rem; }
+.conclusion-reading .prose p { text-align:justify; hyphens:auto; }
+.chapter-lead { text-align:justify; hyphens:auto; }
+.rotated-photo { display:block; position:relative; width:100%; overflow:hidden; }
+.story-visual .local-photo .rotated-photo img, .lightbox-media .rotated-photo img { position:absolute; left:50%; top:50%; width:var(--rotated-width); height:auto; max-height:none; max-width:none; transform:translate(-50%,-50%) rotate(var(--rotation)); }
+.story-unit:has(.rotated-photo) .story-layout { grid-template-columns:1fr; }
+.story-unit:has(.rotated-photo) .story-visual { grid-template-columns:repeat(2,minmax(0,1fr)); }
+@media(max-width:767px){ .story-unit:has(.rotated-photo) .story-visual { grid-template-columns:1fr; } }
 @media(min-width:860px) {
   .exploration-band { grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); gap:clamp(2rem,4vw,4rem); }
   .home-exploration .exploration-entry { padding-block:3.5rem; }
@@ -363,3 +383,5 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
   .prose p, .original-reflection p { text-align:justify; hyphens:auto; }
   .full-reading > summary { font-size:.87rem; }
 }
+
+.conclusion-themes .conclusion-disclosure > summary { font-size:clamp(1.2rem,2vw,1.65rem); line-height:1.4; }

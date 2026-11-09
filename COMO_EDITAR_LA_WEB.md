@@ -125,3 +125,11 @@ La prueba `scripts/verify_editing.cjs` verifica con navegador cambios de título
 `content/editables/lectura-academica.json` controla los destacados de los párrafos académicos: `conceptos` contiene fragmentos literales por orden de prioridad y `citas_literales` contiene únicamente las citas revisadas, con sus comillas originales. No añadas títulos de obras ni actividades a esta última lista. Las referencias quedan fuera del formato de cita y se conservan.
 
 Este sistema selecciona hasta dos destacados por párrafo (uno en fragmentos breves), respeta palabras completas y evita superponer selecciones. No es obligatorio resaltar todos los párrafos. Los resúmenes editoriales siguen utilizando `destacados.json`, sin cambiar la presentación de la portada. Los Markdown siguen admitiendo negritas explícitas mediante `**...**`.
+
+## Ajustes del 9 de noviembre
+
+Los títulos breves de las tres conclusiones están en `textos-generales.json`, campo `conclusions_apartats`. Las preguntas y respuestas completas siguen procediendo de `content/academic/outing.md`; no hay que duplicarlas ni recortarlas. Cada panel abre independientemente.
+
+`reflexio_final_hort` en `imagenes.json` controla la foto confirmada de Ariadna haciendo frottage; `narrativa.json` la sitúa en la reflexión final. Los pies se editan en `pies-de-foto.json`.
+
+Las fotografías `descripcio_img_5125` y `descripcio_img_5127` tienen `rotation: 90`: el navegador las presenta giradas en la página y en la ampliación, conservando los archivos originales. Los subrayados selectivos se eligen mediante `subrayados` en `lectura-academica.json`, con fragmentos literales.

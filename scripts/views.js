@@ -70,16 +70,19 @@ function gardenPanel() {
   return visitHeading(webText('lart_de_caminar'),webText('proposta_2_dialeg_amb_el_jardi'),'Aturar-se en els detalls: formes, colors, olors i textures que conviden a mirar d’una altra manera.')+
     `<div class="garden-visuals">${collageFigure()}<div class="garden-pair">${group('jardi').filter(m=>!mediaSource(m).endsWith('/1.webp')).map(m=>photoFigure(m)).join('')}</div></div><div class="species-list">${PORTFOLIO.species.map((s,i)=>`<article class="species-entry"><span class="catalog-index">${formatIndex(i+1)}</span><div>${photoFigure(s.image)}<h3 class="catalog-title">${esc(s.name)}</h3><p class="observation-preview">${esc(firstSentence(s.observation))}</p>${fullReading(webText('llegir_lobservacio_completa'),s.observation,'especie-'+(i+1))}</div></article>`).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">${esc(webText('text_el_quadern_de_la_passejada'))}</h3><p class="editorial-summary">${esc(webText('text_la_manera_de_documentar_tambe_forma_part_de_la_creacio_lenquadram'))}</p>${fullReading(webText('proposta_i_objectius'),d.proposal+'\n\n'+d.objectives,'jardi-proposta')}${fullReading(webText('desenvolupament_i_resultats_2'),d.development,'jardi-desenvolupament')}${fullReading(webText('estrategies_metodologiques_i_materials'),d.methodology+'\n\n'+d.materials,'jardi-metodologia')}${fullReading(webText('llegir_la_reflexio_completa'),d.reflection,'reflexio-jardi')}</div>`;
 }
-function outingParts() {
+function outingSections() {
  const text=PORTFOLIO.outing;
  const indexes=[...text.matchAll(/[123]\. Què penso que m'ha aportat aquesta visita/g)].map(m=>m.index);
- if(indexes.length!==3) throw new Error('Expected three outing questions');
- return [text.slice(0,indexes[1]).trim(),text.slice(indexes[1],indexes[2]).trim(),text.slice(indexes[2]).trim()];
+ if(indexes.length!==3)throw new Error('Expected three outing questions');
+ return {introduction:text.slice(0,indexes[0]).trim(),parts:indexes.map((start,i)=>{
+   const section=text.slice(start,indexes[i+1]??text.length).trim(),end=section.indexOf('?')+1;
+   return {question:section.slice(0,end),body:section.slice(end).trim()};
+ })};
 }
 function conclusionsPanel() {
- const parts=outingParts(),photos=group('conclusions');
- return visitHeading(webText('la_natura_lart_i_la_practica_docent'),webText('conclusions_de_la_sortida'),firstSentence(PORTFOLIO.outing))+
- `<div class="conclusion-themes">${parts.map((text,i)=>`<article class="conclusion-theme tone-${['sage','clay','sand'][i]}"><span class="section-number">${formatIndex(i+1)}</span><div><h3>${esc(EDITORIAL.outing[i].title)}</h3>${photoFigure(photos.find(m=>mediaSource(m).endsWith('/'+['img_4655','img_4724','img_4981'][i]+'.webp')),['El contacte directe amb la terra','Una mirada al paisatge des de Montjuïc','L’observació propera d’una flor'][i])}${prose(text,'original-reflection')}</div></article>`).join('')}</div>`;
+ const {introduction,parts}=outingSections(),photos=group('conclusions');
+ return visitHeading(webText('la_natura_lart_i_la_practica_docent'),webText('conclusions_de_la_sortida'),'')+
+ `<div class="outing-introduction">${prose(introduction)}</div><div class="conclusion-themes">${parts.map((part,i)=>`<details class="conclusion-disclosure full-reading tone-${['sage','clay','sand'][i]}" id="conclusio-sortida-${i+1}"><summary><span class="outing-question">${esc(webText('conclusions_apartats')[i])}</span><span class="disclosure-mark" aria-hidden="true">+</span></summary><div class="conclusion-reading">${photoFigure(photos.find(m=>mediaSource(m).endsWith('/'+['img_4655','img_4724','img_4981'][i]+'.webp')),['El contacte directe amb la terra','Una mirada al paisatge des de Montjuïc','L’observació propera d’una flor'][i])}${prose(part.question+'\n\n'+part.body,'original-reflection')}</div></details>`).join('')}</div>`;
 }
 function b2p2() {
   const bodies = [museumPanel(),gardenPanel(),conclusionsPanel()];
@@ -88,11 +91,12 @@ function b2p2() {
 }
 function b2p3() {
  const d=PORTFOLIO.book,steps=WEB.narrativa.llibre,used=new Set(steps.flatMap(step=>step.imagenes));
- const remaining=group('descripcio').filter(m=>m.type==='image'&&!used.has(m.id)&&m.id!=='descripcio_img_5041');
+ const usedPaths=new Set([...used].map(id=>(PORTFOLIO.media.find(m=>m.id===id)||editableImage(id)).output));
+ const remaining=group('descripcio').filter(m=>m.type==='image'&&!usedPaths.has(m.output)&&m.id!=='descripcio_img_5041');
  return page(B2[2].path,
  readingSection(webText('proposta'),webText('que_es_un_jardi_descripcio_visual'),prose(d.proposal)+fullReading(webText('objectius'),d.objectives))+
  `<div class="book-development">${splitStory(d.development,steps).map((step,i)=>storyUnit(step.titulo,step.text,step.imagenes,['sage','','sand','clay','','sage'][i],i)).join('')}</div>`+
- readingSection(webText('natura_viva'),webText('el_llibre_dartista_en_moviment'),videos('descripcio'),'sand')+
+ readingSection(webText('natura_viva'),webText('el_llibre_dartista_en_moviment'),videos('descripcio'),'sand','book-motion')+
  readingSection(webText('el_proces'),webText('estrategies_metodologiques'),prose(d.methodology,'original-reflection'))+
  readingSection(webText('el_taller'),webText('materials'),prose(d.materials,'original-reflection'),'sage')+
  `<section class="section-pad"><div class="container"><details class="document-details"><summary>Altres mirades del procés<span class="disclosure-mark" aria-hidden="true">+</span></summary>${gallery('descripcio',remaining,'remaining-book-gallery')}</details></div></section>`);

@@ -136,8 +136,8 @@ let browser;
     await page.locator(`#especie-${i+1} summary`).click();await clean();await page.locator(`#especie-${i+1} summary`).click();
   }
   for(const [id,text]of [['jardi-proposta',data.garden.proposal+'\n\n'+data.garden.objectives],['jardi-desenvolupament',data.garden.development],['jardi-metodologia',data.garden.methodology+'\n\n'+data.garden.materials],['reflexio-jardi',data.garden.reflection]])assert.equal(await original('#'+id),sourceFlat(text));
-  await page.locator('#tab-conclusions').click();assert.equal(await original('#panel-conclusions'),flat(data.outing));
-  assert.ok((await page.locator('#panel-conclusions .original-reflection').allTextContents()).every(t=>t.length>1000));assert.equal(await page.locator('#panel-conclusions details').count(),0);assert.equal(await page.locator('#panel-conclusions img').count(),3);await clean();
+  await page.locator('#tab-conclusions').click();const outingText=await page.locator('#panel-conclusions').evaluate(el=>el.querySelector('.outing-introduction').textContent+' '+[...el.querySelectorAll('details')].map(d=>[...d.querySelectorAll('.original-reflection p,.original-reflection li')].map(p=>p.textContent).join(' ')).join(' '));assert.equal(flat(outingText),flat(data.outing));
+  assert.ok((await page.locator('#panel-conclusions .original-reflection').allTextContents()).every(t=>t.length>1000));assert.equal(await page.locator('#panel-conclusions details').count(),3);assert.equal(await page.locator('#panel-conclusions img').count(),3);await clean();
   let played=0;
   for(const route of ['bloc-ii/p3-descripcio-del-jardi','bloc-ii/p4-experimentem-amb-tintes-vives']){
     await go(route);
@@ -187,7 +187,7 @@ let browser;
       await go(route);
       if(route===p2){
         for(const id of ['obres','jardi','conclusions']){
-          await page.locator('#tab-'+id).click();await loadVisible();
+          await page.locator('#tab-'+id).click();if(id==='conclusions')await page.locator('#panel-conclusions details').evaluateAll(xs=>xs.forEach(x=>x.open=true));await loadVisible();
           const name=`visita-${id}-${width}.png`;await page.locator('main').screenshot({path:path.join(output,name)});shots.push(name);await geometry('capture '+name);
         }
       }else{
