@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 generated = (ROOT / 'scripts/content.js').read_text(encoding='utf-8')
 effective = json.loads(generated.split('const PORTFOLIO = ', 1)[1].rstrip(';\n'))
 data = json.loads((ROOT/'scripts/source-content.json').read_text(encoding='utf-8'))
-pdf = (ROOT / 'content/PDF_ACTUALITZAT_40P.md').read_text(encoding='utf-8-sig')
+pdf = (ROOT / 'content/PDF_ACTUALITZAT_60P.md').read_text(encoding='utf-8-sig')
 
 
 def flat(text):
@@ -18,6 +18,7 @@ def flat(text):
 # Reconstruct the continuous PDF text independently of the generator.
 body = re.sub(r'\n---\s*\n## Pàgina \d+ del PDF\s*\n', ' ', pdf)
 body = re.sub(r'!\[[^\]]*\]\([^\n]+\)', '', body)
+body = re.sub(r'## Pàgina \d+ del PDF', ' ',body).replace('\u200b','')
 body = flat(body)
 for name in ['intro', 'reading', 'block']:
     assert flat(data[name]['reflection']) in body, f'Changed or missing {name} essay'
@@ -42,7 +43,13 @@ for sp, original in zip(data['species'], re.split(r'\n## ', species_md)[1:], str
     expected = original.split('**Text del document:**', 1)[1].split('\n---')[0]
     assert flat(sp['observation']) == flat(expected), sp['name']
     assert original.split('\n')[0].endswith(sp['name'])
-assert len(data['bibliography']) == 2
+assert len(data['bibliography']) == 6 and len(data['recommended'])==5
+assert len(data['glossary'])==8
+for module in ['cdan','further']:
+    for field,text in data[module].items(): assert flat(text) in body,(module,field)
+for row in data['glossary']: assert flat(row['explanation']) in body,row['concept']
+assert 'p.72' in effective['reading']['reflection']
+assert 'Aquesta proposta m’ha fet adonar' in effective['dyes']
 assert len(data['artworks']) == len(data['species']) == 10
 editorial = json.loads((ROOT / 'content/EDITORIAL.json').read_text(encoding='utf-8'))
 assert 5 <= len(editorial['intro']) <= 7
@@ -81,4 +88,4 @@ for art in effective['artworks']:
 original = subprocess.check_output(['git', 'show', '81ff424:index.html'], cwd=ROOT).decode('utf-8-sig')
 current = (ROOT / 'index.html').read_text(encoding='utf-8-sig')
 assert original.split('<style>')[1].split('</style>')[0].replace('\r\n','\n') == current.split('<style>')[1].split('</style>')[0]
-print(f'Original prose and CSS preserved; {len(paths)} local assets exist; 10 artworks, 10 species, 2 references.')
+print(f'Original prose and CSS preserved; {len(paths)} local assets exist; 10 artworks, 10 species, 6 + 5 references, 8 glossary entries.')

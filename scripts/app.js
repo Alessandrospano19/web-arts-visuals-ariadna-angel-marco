@@ -9,7 +9,7 @@ const ROUTES = [
   "bloc-ii/p1-formes-dapropar-se-a-la-natura",
   "bloc-ii/p2-visita-museu-i-jardi",
   "bloc-ii/p3-descripcio-del-jardi",
-  "bloc-ii/p4-experimentem-amb-tintes-vives",
+  "bloc-ii/p3-bis-taller-de-tintes-naturals",
   "bloc-iii",
   "bloc-iii/p1-llenguatge-del-cos-i-el-teixit",
   "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters",
@@ -20,9 +20,11 @@ const ROUTES = [
   "per-saber-ne-mes",
   "referencies-bibliografiques"
 ].map(path=>{
-  const part=path.match(/\/p(\d)-/);
-  return [path,path==='inici'?'Inici':(part?'PART '+part[1]+'. ':'')+WEB.titulos.academicos[path]];
+  const part=academicPart(path),title=WEB.titulos.academicos[path];
+  return [path,path==='inici'?'Inici':(part?'PART '+part+'. ':'')+title.replace(/^PART [\w]+\. /,'')];
 });
+const ROUTE_ALIASES={'bloc-ii/p4-experimentem-amb-tintes-vives':'bloc-ii/p3-bis-taller-de-tintes-naturals'};
+function academicPart(path){return path.includes('/p3-bis-')?'3_bis':path.match(/\/p(\d)-/)?.[1]||'';}
 function webText(id) { return WEB['textos-generales'][id] ?? id; }
 function mediaSource(media) { return media.originalOutput || media.output; }
 function editableImage(id) { const m=WEB.imagenes[id]; if(!m || !m.output) return null; return m; }
@@ -67,8 +69,8 @@ const esc = v => String(v ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;', '<':'&
 const formatIndex = n => String(n).padStart(2, '0');
 const MEDIA = Object.create(null);
 const group = name => PORTFOLIO.media.filter(m => m.group === name);
-const B2 = ROUTES.filter(([p]) => p.startsWith('bloc-ii/')).map(([path, label]) => ({path, title:label.replace(/^PART \d+\. /,''), sub:''}));
-const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label]) => ({path, title:label.replace(/^PART \d+\. /,''), sub:''}));
+const B2 = ROUTES.filter(([p]) => p.startsWith('bloc-ii/')).map(([path, label]) => ({path, part:academicPart(path),title:label.replace(/^PART [\w]+\. /,''),sub:''}));
+const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label]) => ({path, part:academicPart(path),title:label.replace(/^PART [\w]+\. /,''),sub:''}));
 
 function note() {
   return '<p class="pending-note"><span aria-hidden="true">○</span> Pendent d’incorporar</p>';
@@ -105,7 +107,7 @@ function section(kicker, title, body, alt = false, id = '') {
   return `<section ${id ? `id="${esc(id)}"` : ''} class="section-pad section-anchor ${alt ? 'bg-alt-section' : ''}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;
 }
 function chapterLinks(items) {
-  return `<div class="chapter-list">${items.map((item,i) => `<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(i+1)}.</span><div><span class="micro-kicker">PART ${i+1}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub)}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
+  return `<div class="chapter-list">${items.map((item,i) => `<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(item.part)}.</span><div><span class="micro-kicker">PART ${esc(item.part)}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub)}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
 }
 function picture(media, alt, eager = false) {
   const [w,h] = media.dimensions;
@@ -132,7 +134,7 @@ function gallery(name, images = group(name), cls = '') {
   return `<div class="catalog-grid cols-3 media-gallery ${cls}">${images.filter(m => m.type === 'image').map(m => photoFigure(m,name === 'descripcio' ? mediaTitle(m) : '')).join('')}</div>`;
 }
 function videos(name, ids = null) {
-  return `<div class="catalog-grid video-gallery ${name === 'tintes' ? 'three-videos' : ''}">${group(name).filter(m => m.type === 'video' && (!ids || ids.includes(m.id))).map((m,i) => `<figure><video style="aspect-ratio:${m.dimensions[0]}/${m.dimensions[1]};--video-ratio:${m.dimensions[0]/m.dimensions[1]}" controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Experimentem amb tintes vives' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label">${esc(WEB['pies-de-foto'][m.id] || (name === 'tintes' ? 'Tintes vives' : 'Llibre d’artista')+' · '+formatIndex(i+1))}</figcaption></figure>`).join('')}</div>`;
+  return `<div class="catalog-grid video-gallery ${name === 'tintes' ? 'three-videos' : ''}">${group(name).filter(m => m.type === 'video' && (!ids || ids.includes(m.id))).map((m,i) => `<figure><video style="aspect-ratio:${m.dimensions[0]}/${m.dimensions[1]};--video-ratio:${m.dimensions[0]/m.dimensions[1]}" controls preload="metadata" playsinline poster="${esc(m.poster)}" aria-label="${name === 'tintes' ? 'Taller de tintes naturals' : 'Llibre d’artista'} · vídeo ${i+1}"><source src="${esc(m.output)}" type="video/mp4">El navegador no pot reproduir aquest vídeo. <a href="${esc(m.output)}">Obre el vídeo</a>.</video><figcaption class="figure-label">${esc(WEB['pies-de-foto'][m.id] || (name === 'tintes' ? 'Taller de tintes naturals' : 'Llibre d’artista')+' · '+formatIndex(i+1))}</figcaption></figure>`).join('')}</div>`;
 }
 function readingVisual() {
   return `<div class="reading-visual">${group('bloc-i').map(m=>`<div>${picture(m,mediaTitle(m))}</div>`).join('')}</div>`;
@@ -196,6 +198,7 @@ function renderRoute(focus = false) {
   let path;
   try { path = decodeURIComponent(raw).replace(/^\/+|\/+$/g,'') || 'inici'; }
   catch { path = '__invalid__'; }
+  if(ROUTE_ALIASES[path]){location.replace('#/'+ROUTE_ALIASES[path]);return;}
   Object.keys(MEDIA).forEach(k=>delete MEDIA[k]);
   setMobile(false);
   closeDropdowns();

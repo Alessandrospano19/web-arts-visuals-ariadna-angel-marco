@@ -38,21 +38,22 @@ def pages(first, last):
     return "\n\n".join(parts)
 
 
-raw = read("content/PDF_ACTUALITZAT_40P.md")
+raw = read("content/PDF_ACTUALITZAT_60P.md").replace("\u200b", "")
 PAGE = {int(n): re.sub(r"!\[[^\]]*\]\([^\n]+\)", "", body).strip().removesuffix("---").strip()
         for n, body in re.findall(r"## Pàgina (\d+) del PDF\n(.*?)(?=\n## Pàgina |\Z)", raw, re.S)}
-assert len(PAGE) == 40
+assert len(PAGE) == 60
 academic = "\n".join(PAGE.values())
 academic = re.sub(r"(?m)^-\s*\n", "- ", academic)
 academic = normalize(academic)
+academic = re.sub(r"(?m)^\s+", "", academic)
 intro = academic.split('BLOC I. ART I EDUCACIÓ')[0]
 reading = between(academic,'BLOC I. ART I EDUCACIÓ','BLOC II.')
 block = between(academic,'BLOC II.','Artistes referents')
 museum = between(academic,'CONCLUSIÓ PROPOSTA 1:','PROPOSTA 2:')
 garden = between(academic,'PROPOSTA 2:','CONCLUSIONS DE LA SORTIDA.')
 outing = between(academic,'CONCLUSIONS DE LA SORTIDA.','PART 3. DESCRIPCIÓ DEL JARDÍ')
-book = between(academic,'PART 3. DESCRIPCIÓ DEL JARDÍ','PART 4. EXPERIMENTEM AMB TINTES VIVES')
-dyes = between(academic,'PART 4. EXPERIMENTEM AMB TINTES VIVES','BLOC III.')
+book = between(academic,'PART 3. DESCRIPCIÓ DEL JARDÍ','PART 3_bis. TALLER DE TINTES NATURALS')
+dyes = between(academic,'PART 3_bis. TALLER DE TINTES NATURALS','BLOC III.')
 update = json.loads(read('docs/INVENTARIO_ACTUALIZACION.json'))
 artworks = []
 manifest = json.loads(read("docs/INVENTARI_ASSETS.json"))
@@ -113,7 +114,7 @@ data = dict(
     media=manifest["media_original_zip"],
     collage=next(a for a in manifest["images_from_pdf"] if a["kind"] == "collage"),
     bibliography=[normalize(x).replace("el_sentido_ del_asombro.pdf", "el_sentido_del_asombro.pdf")
-                  for x in PAGE[40].split("●")[1:] if x.strip()],
+                  for x in PAGE[54].split("●")[1:] if x.strip()],
 )
 groups={'bloc-i':'bloc-i','inici':'inici','introduccio':'introduccio','bloc-ii/part-2-mnac':'mnac','bloc-ii/part-2-passejada':'jardi','bloc-ii/part-3-llibre':'descripcio','bloc-ii/part-4-tintes':'tintes','bloc-ii/part-1':'part1','bloc-ii/part-2-conclusions':'conclusions','bloc-ii/part-2-plantes':'plantes'}
 new=[]
@@ -129,6 +130,8 @@ for sp, stem in zip(data['species'],plant_files,strict=True):
 # with the 40-page source. Do not silently overwrite their manual corrections.
 # Preserve manual web edits separately from documentary generation.
 from editable_content import apply_edits
+from document60 import add_document60
+add_document60(data, PAGE, normalize, between)
 data = apply_edits(data)
 
 # A classic deferred script keeps the site usable over HTTP and file://.

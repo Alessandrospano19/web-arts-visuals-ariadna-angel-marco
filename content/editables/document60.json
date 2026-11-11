@@ -1,0 +1,64 @@
+{
+  "cartelas": [
+    "cartelas_01_sole_duc_cartella",
+    "cartelas_02_modest_urgell_cartella",
+    "cartelas_03_joaquim_vayreda_cartella",
+    "cartelas_04_alexandre_de_riquer_cartella",
+    "cartelas_05_frederic_vidal_cartella",
+    "cartelas_06_josep_maria_casals_cartella",
+    "cartelas_07_joan_furriols_cartella",
+    "cartelas_08_nicolau_raurich_cartella",
+    "cartelas_09_francesc_lacoma_cartella",
+    "cartelas_10_joaquim_mir_cartella"
+  ],
+  "cdan_title": "Altres referents: il·lustració botànica",
+  "cdan_poster": "cdan_00_ellas_ilustran_botanica",
+  "cdan_works": [
+    {
+      "title": "Orchidaceae of Mexico and Guatemala",
+      "artist": "Sarah Anne Drake i Augusta Innes Withers",
+      "image": "cdan_01_orchidaceae_drake_withers",
+      "field": "orchidaceae"
+    },
+    {
+      "title": "Paisatges perduts de la Terra",
+      "artist": "Aina Bestard",
+      "image": "cdan_02_paisatges_perduts_aina_bestard",
+      "field": "paisatges"
+    },
+    {
+      "title": "A Curious Herbal",
+      "artist": "Elizabeth Blackwell",
+      "image": "cdan_03_a_curious_herbal_blackwell",
+      "field": null
+    }
+  ],
+  "further": [
+    {
+      "title": "1.Andy Goldsworthy - Ríos y mareas",
+      "field": "goldsworthy",
+      "images": [
+        "per-saber-ne-mes_01_goldsworthy_rowan_leaves",
+        "per-saber-ne-mes_02_goldsworthy_reconstructed_icicles"
+      ]
+    },
+    {
+      "title": "2. Lucía Loren – Art i ecologia",
+      "field": "loren",
+      "images": [
+        "per-saber-ne-mes_03_lucia_loren_matriz_de_agua"
+      ]
+    },
+    {
+      "title": "3. Martin Hill – El cercle de la vida",
+      "field": "hill",
+      "images": [
+        "per-saber-ne-mes_04_martin_hill_sunrise_circle",
+        "per-saber-ne-mes_05_martin_hill_store_circle"
+      ]
+    }
+  ],
+  "cartela_label": "Veure cartel·la",
+  "glossary_title": "Glosari",
+  "recommended_title": "Bibliografia recomanada per l’assignatura"
+}

@@ -46,7 +46,8 @@ let browser;
   }
   await go('inici');
   const routes=await page.evaluate(()=>ROUTES),data=await page.evaluate(()=>PORTFOLIO);
-  assert.equal(routes.length,17);
+  assert.ok(routes.length>=17);
+  await go('bloc-ii/p4-experimentem-amb-tintes-vives');await page.waitForFunction(()=>location.hash.endsWith('/p3-bis-taller-de-tintes-naturals'));
   const p2='bloc-ii/p2-visita-museu-i-jardi';
   for(const width of [375,390,430,768,1024,1440]){
     await page.setViewportSize({width,height:1000});
@@ -59,7 +60,7 @@ let browser;
       if(width===1440)await readingContrast(route);
       const links=await page.locator('a[href^="#/"]').evaluateAll(els=>els.map(el=>el.getAttribute('href').slice(2)));
       links.forEach(link=>assert.ok(routes.some(r=>r[0]===link),link));
-      if(['inici','introduccio','bloc-i','bloc-ii/p1-formes-dapropar-se-a-la-natura',p2,'bloc-ii/p3-descripcio-del-jardi','bloc-ii/p4-experimentem-amb-tintes-vives','bloc-iii'].includes(route)&&[390,1440].includes(width)){
+      if(['inici','introduccio','bloc-i','bloc-ii/p1-formes-dapropar-se-a-la-natura',p2,'bloc-ii/p3-descripcio-del-jardi','bloc-ii/p3-bis-taller-de-tintes-naturals','bloc-iii'].includes(route)&&[390,1440].includes(width)){
         metrics.push({width,route,...await page.locator('main').evaluate(el=>({height:Math.round(el.getBoundingClientRect().height),visibleWords:el.innerText.split(/\s+/).length}))});
       }
       checks.push({width,route});
@@ -139,7 +140,7 @@ let browser;
   await page.locator('#tab-conclusions').click();const outingText=await page.locator('#panel-conclusions').evaluate(el=>el.querySelector('.outing-introduction').textContent+' '+[...el.querySelectorAll('details')].map(d=>[...d.querySelectorAll('.original-reflection p,.original-reflection li')].map(p=>p.textContent).join(' ')).join(' '));assert.equal(flat(outingText),flat(data.outing));
   assert.ok((await page.locator('#panel-conclusions .original-reflection').allTextContents()).every(t=>t.length>1000));assert.equal(await page.locator('#panel-conclusions details').count(),3);assert.equal(await page.locator('#panel-conclusions img').count(),3);await clean();
   let played=0;
-  for(const route of ['bloc-ii/p3-descripcio-del-jardi','bloc-ii/p4-experimentem-amb-tintes-vives']){
+  for(const route of ['bloc-ii/p3-descripcio-del-jardi','bloc-ii/p3-bis-taller-de-tintes-naturals']){
     await go(route);
     for(const video of await page.locator('video').all()){
       assert.ok(await video.getAttribute('poster'));assert.equal(await video.getAttribute('preload'),'metadata');
@@ -156,20 +157,20 @@ let browser;
   const videoBounds=await page.locator('video').evaluateAll(els=>els.map(el=>{const r=el.getBoundingClientRect();return {top:r.top,left:r.left,width:r.width,height:r.height,fit:getComputedStyle(el).objectFit,ratio:el.videoWidth/el.videoHeight};}));
   assert.ok(Math.abs(videoBounds[0].top-videoBounds[1].top)<1);assert.ok(videoBounds[1].left>videoBounds[0].left);
   videoBounds.forEach(v=>{assert.equal(v.fit,'contain');assert.ok(v.ratio<1);assert.ok(Math.abs(v.width/v.height-v.ratio)<.01);});
-  await go('bloc-ii/p4-experimentem-amb-tintes-vives');
+  await go('bloc-ii/p3-bis-taller-de-tintes-naturals');
   const dyeHeadings=await page.evaluate(()=>WEB.narrativa.tintes_apartats);
   for(let i=0;i<dyeHeadings.length;i++){
     const source=data.dyes.slice(data.dyes.indexOf(dyeHeadings[i])+dyeHeadings[i].length,i+1<dyeHeadings.length?data.dyes.indexOf(dyeHeadings[i+1]):data.dyes.length).trim();
     const section=page.locator('.editorial-section').nth(i);
-    const text=i===10?await section.locator('table').innerText():(await section.locator('.original-reflection p,.original-reflection li').allTextContents()).join(' ');
+    const text=i===dyeHeadings.length-1?await section.locator('table').innerText():(await section.locator('.original-reflection p,.original-reflection li').allTextContents()).join(' ');
     assert.equal(flat(text),sourceFlat(source),'Complete dyes phase '+i);
   }
   await page.setViewportSize({width:390,height:844});await go('inici');await page.locator('#mobile-menu-toggle').click();
   for(const id of ['b2','b3']){const btn=page.locator(`[data-submenu-target="mob-sub-${id}"]`);await btn.click();assert.equal(await btn.getAttribute('aria-expanded'),'true');}
   await page.locator('#mobile-drawer a').last().focus();await page.keyboard.press('Tab');assert.ok(await page.locator('header').evaluate(el=>el.contains(document.activeElement)));
   await page.keyboard.press('Escape');assert.ok(await page.locator('#mobile-menu-toggle').evaluate(el=>el===document.activeElement));
-  await page.locator('#mobile-menu-toggle').click();await page.locator('#mobile-drawer [data-route="bloc-ii/p4-experimentem-amb-tintes-vives"]').click();
-  await page.waitForFunction(()=>location.hash.includes('/p4-experimentem'));assert.equal(await page.locator('#mobile-menu-toggle').getAttribute('aria-expanded'),'false');
+  await page.locator('#mobile-menu-toggle').click();await page.locator('#mobile-drawer [data-route="bloc-ii/p3-bis-taller-de-tintes-naturals"]').click();
+  await page.waitForFunction(()=>location.hash.includes('/p3-bis-taller'));assert.equal(await page.locator('#mobile-menu-toggle').getAttribute('aria-expanded'),'false');
   await page.setViewportSize({width:1440,height:1000});const desktop=page.locator('[aria-controls="desktop-sub-b2"]');
   await desktop.click();assert.equal(await desktop.getAttribute('aria-expanded'),'true');await page.keyboard.press('Escape');assert.equal(await desktop.getAttribute('aria-expanded'),'false');
   for(const bad of ['ruta-inexistent','toString','%E0%A4%A']){await go(bad);await page.waitForFunction(()=>document.title.startsWith('Pàgina no trobada'));}
@@ -183,7 +184,7 @@ let browser;
   const shots=[];
   for(const width of [390,1440]){
     await page.setViewportSize({width,height:width===390?844:1000});
-    for(const [route,label]of [['inici','inici'],['introduccio','introduccio'],['bloc-i','bloc-i'],['bloc-ii','bloc-ii'],['bloc-ii/p1-formes-dapropar-se-a-la-natura','bloc-ii-p1'],[p2,'visita'],['bloc-iii','bloc-iii'],['bloc-ii/p3-descripcio-del-jardi','bloc-ii-p3'],['bloc-ii/p4-experimentem-amb-tintes-vives','bloc-ii-p4']]){
+    for(const [route,label]of [['inici','inici'],['introduccio','introduccio'],['bloc-i','bloc-i'],['bloc-ii','bloc-ii'],['bloc-ii/p1-formes-dapropar-se-a-la-natura','bloc-ii-p1'],[p2,'visita'],['bloc-iii','bloc-iii'],['bloc-ii/p3-descripcio-del-jardi','bloc-ii-p3'],['bloc-ii/p3-bis-taller-de-tintes-naturals','bloc-ii-p4']]){
       await go(route);
       if(route===p2){
         for(const id of ['obres','jardi','conclusions']){

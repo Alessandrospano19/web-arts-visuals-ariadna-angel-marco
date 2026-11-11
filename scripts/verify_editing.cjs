@@ -6,7 +6,7 @@ const root=path.resolve(__dirname,'..'),edit=path.join(root,'content/editables')
 const files=['titulos.json','textos-generales.json','lectura-academica.json','imagenes.json','pies-de-foto.json'].map(f=>path.join(edit,f));
 files.push(path.join(root,'content/academic/book-proposal.md'));
 const saved=new Map(files.map(f=>[f,fs.readFileSync(f)]));
-const source=fs.readFileSync(path.join(root,'content/PDF_ACTUALITZAT_40P.md'));
+const source=fs.readFileSync(path.join(root,'content/PDF_ACTUALITZAT_60P.md'));
 function change(file,update){const p=path.join(edit,file);const d=JSON.parse(fs.readFileSync(p,'utf8'));update(d);fs.writeFileSync(p,JSON.stringify(d,null,2)+'\n');}
 function build(){execFileSync('python',['scripts/build_content.py'],{cwd:root,stdio:'pipe'});}
 let browser;
@@ -32,7 +32,7 @@ let browser;
   assert.ok((await page.locator('main').innerText()).includes('Text de prova acadèmica editable.'));
   console.log('Manual title, phrase, green emphasis, photo, caption and academic text survive generation '+generation);
  }
- assert.deepEqual(fs.readFileSync(path.join(root,'content/PDF_ACTUALITZAT_40P.md')),source);
+ assert.deepEqual(fs.readFileSync(path.join(root,'content/PDF_ACTUALITZAT_60P.md')),source);
 }finally{
  if(browser)await browser.close();
  for(const [file,bytes]of saved)fs.writeFileSync(file,bytes);

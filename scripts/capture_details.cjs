@@ -14,7 +14,7 @@ const output=path.resolve(__dirname,'../docs/verification/quarta-iteracio/detail
   await go('bloc-ii/p2-visita-museu-i-jardi');await shot('#obra-1','obra-resum-'+width);
   await page.locator('#obra-reflexio-4 summary').click();await shot('#obra-4','riquer-obert-'+width);
   await go('bloc-ii/p3-descripcio-del-jardi');await shot('.story-unit:nth-child(3)','visor-'+width);await shot('.video-gallery','videos-llibre-'+width);
-  await go('bloc-ii/p4-experimentem-amb-tintes-vives');await shot('.editorial-section:nth-of-type(5)','experimentacio-'+width);
+  await go('bloc-ii/p3-bis-taller-de-tintes-naturals');await shot('.editorial-section:nth-of-type(5)','experimentacio-'+width);
  }
  await page.setViewportSize({width:390,height:844});await go('inici');await page.locator('#mobile-menu-toggle').click();
  await page.screenshot({path:path.join(output,'menu-mobil.png')});

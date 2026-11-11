@@ -21,7 +21,7 @@ def apply_edits(data):
     academic = ROOT/'content/academic'
     academic.mkdir(parents=True,exist_ok=True)
     mapping = {}
-    for module in ['intro','reading','block','museum','garden','book']:
+    for module in ['intro','reading','block','museum','garden','book','cdan','further']:
         for field,text in data[module].items():
             if not isinstance(text,str): continue
             filename=f'{module}-{field}.md'
@@ -53,6 +53,8 @@ def apply_edits(data):
     defaults['portada_retrat']=deepcopy(next(v for k,v in defaults.items() if k.startswith('inici_')))
     defaults['universitat_logo']={'imagen':'','alt':''}
     images=seed('imagenes',defaults)
+    for ident,value in defaults.items():
+        if ident not in images: images[ident]=value
     known={v['imagen']:(v['ancho'],v['alto']) for v in defaults.values() if 'ancho' in v}
     for ident,item in images.items():
         if not item['imagen']: continue
@@ -75,8 +77,18 @@ def apply_edits(data):
     for ident,image in images.items():
         if ident not in defaults and image.get('grupo'):
             data['media'].append(dict(image,group=image['grupo'],type='image'))
+    data['glossary']=seed('glosari',data['glossary'])
+    references=seed('bibliografia',{'utilitzades':data['bibliography'],'recomanades':data['recommended']})
+    data['bibliography']=references['utilitzades'];data['recommended']=references['recomanades']
     web={p.stem:json.loads(p.read_text(encoding='utf-8-sig')) for p in EDIT.glob('*.json')}
     web['imagenes']=images
+    config=web['document60']
+    for name,items,count in [('cartelas',config['cartelas'],10),('CDAN',config['cdan_works'],3),('artistes',config['further'],3),('glosari',data['glossary'],8),('referències',data['bibliography'],6),('bibliografia recomanada',data['recommended'],5)]:
+        if len(items)!=count: raise ValueError(f'Revisa {name}: calen {count} entrades')
+    ids=config['cartelas']+[config['cdan_poster']]+[work['image'] for work in config['cdan_works']]+[ident for artist in config['further'] for ident in artist['images']]
+    if len(ids)!=19 or len(set(ids))!=19: raise ValueError('Calen els 19 recursos documentals sense duplicats')
+    for ident in ids:
+        if ident not in images or not images[ident].get('alt','').strip(): raise ValueError('Recurs documental o alt absent: '+ident)
     story=web['narrativa']
     previous=-1
     for i,step in enumerate(story['llibre']):

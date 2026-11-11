@@ -1,4 +1,4 @@
-# Obres i reflexions — font acadèmica actualitzada de 40 pàgines
+# Obres i reflexions — font acadèmica actualitzada de 60 pàgines
 
 
 ## Verd de coure sobre tela reciclada — Solé Duc
@@ -36,7 +36,7 @@ Aquesta obra em va cridar l’atenció per la manera com l’artista utilitza el
 - **Obra:** La sega
 - **Artista:** Joaquim Vayreda
 - **Tècnica (segons el PDF):** oli sobre tela
-- **Pàgina de la imatge:** 15
+- **Pàgina de la imatge:** 16
 - **Fitxer de la imatge:** `assets/pdf-obres/obra-03-la-sega.webp`
 
 ### Reflexió i proposta educativa
@@ -51,7 +51,7 @@ Aquesta obra em sembla una bona manera d’apropar els infants al coneixement de
 - **Obra:** Composició de 3 obres interrelacionades
 - **Artista:** Alexandre de Riquer
 - **Tècnica (segons el PDF):** Tremp sobre paper
-- **Pàgina de la imatge:** 16
+- **Pàgina de la imatge:** 17
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2192.webp`
 
 ### Reflexió i proposta educativa
@@ -66,7 +66,7 @@ Aquestes obres, quan les vaig veure, em van cridar molt l’atenció, especialme
 - **Obra:** Paravent dels nenúfars
 - **Artista:** Frederic Vidal
 - **Tècnica (segons el PDF):** fusta i vitrall cloisonné
-- **Pàgina de la imatge:** 17
+- **Pàgina de la imatge:** 18
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2165.webp`
 
 ### Reflexió i proposta educativa
@@ -81,7 +81,7 @@ Aquesta obra em va cridar l’atenció per la manera original com l’artista re
 - **Obra:** Paisatge
 - **Artista:** Josep Maria Casals i Ariet
 - **Tècnica (segons el PDF):** Bromoli transportat sobre paper
-- **Pàgina de la imatge:** 17
+- **Pàgina de la imatge:** 19
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4680.webp`
 
 ### Reflexió i proposta educativa
@@ -96,7 +96,7 @@ Aquesta obra representa un entorn natural on destaca sobretot la vegetació i la
 - **Obra:** Sense títol
 - **Artista:** Joan Furriols
 - **Tècnica (segons el PDF):** tela metàl·lica i pigments
-- **Pàgina de la imatge:** 18
+- **Pàgina de la imatge:** 20
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4719.webp`
 
 ### Reflexió i proposta educativa
@@ -111,7 +111,7 @@ Es tracta d’una composició abstracta elaborada amb tela metàl·lica i pigmen
 - **Obra:** Terrers (Montgat)
 - **Artista:** Nicolau Raurich i Petre
 - **Tècnica (segons el PDF):** oli sobre tela
-- **Pàgina de la imatge:** 19
+- **Pàgina de la imatge:** 21
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4687.webp`
 
 ### Reflexió i proposta educativa
@@ -126,7 +126,7 @@ D’aquesta obra, m’ha cridat l’atenció les seves textures i la manera com 
 - **Obra:** Gerro amb flors
 - **Artista:** Francesc Lacoma Fontanet
 - **Tècnica (segons el PDF):** oli sobre tela
-- **Pàgina de la imatge:** 20
+- **Pàgina de la imatge:** 22
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4674.webp`
 
 ### Reflexió i proposta educativa
@@ -141,7 +141,7 @@ He escollit aquesta obra perquè m’ha captivat la manera com l’artista repre
 - **Obra:** El roc de l’estany
 - **Artista:** Joaquim Mir
 - **Tècnica (segons el PDF):** oli sobre tela
-- **Pàgina de la imatge:** 21
+- **Pàgina de la imatge:** 23
 - **Fitxer de la imatge:** `assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4685.webp`
 
 ### Reflexió i proposta educativa

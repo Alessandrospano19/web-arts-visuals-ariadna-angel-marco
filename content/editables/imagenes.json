@@ -133,12 +133,12 @@
     "alto": 5712
   },
   "descripcio_img_5127": {
-    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
+    "imagen": "assets/bloc-ii/descripcio-jardi/img_5127.webp",
     "alt": "",
     "grupo": "descripcio",
-    "ancho": 4284,
-    "alto": 5712,
-    "rotation": 90
+    "ancho": 1800,
+    "alto": 975,
+    "rotation": 0
   },
   "descripcio_img_4791": {
     "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4791.webp",
@@ -169,12 +169,12 @@
     "alto": 4284
   },
   "descripcio_img_5125": {
-    "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
+    "imagen": "assets/bloc-ii/descripcio-jardi/img_5125.webp",
     "alt": "",
     "grupo": "descripcio",
-    "ancho": 4284,
-    "alto": 5712,
-    "rotation": 90
+    "ancho": 1800,
+    "alto": 1017,
+    "rotation": 0
   },
   "plantes_4": {
     "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/4.webp",
@@ -311,7 +311,7 @@
   },
   "descripcio_img_4790": {
     "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4790.webp",
-    "alt": "",
+    "alt": "Fulles amples i arrodonides entre la vegetació de l’hort",
     "grupo": "descripcio",
     "ancho": 4284,
     "alto": 5712
@@ -483,5 +483,119 @@
     "alt": "Ariadna fent frottage amb fulles durant l’activitat a l’hort",
     "ancho": 1200,
     "alto": 1600
+  },
+  "cartelas_01_sole_duc_cartella": {
+    "imagen": "assets/document-60p/cartelas/01_sole_duc_cartella.webp",
+    "alt": "Cartel·la de Solé Duc: Verd de coure sobre tela reciclada",
+    "ancho": 1900,
+    "alto": 1849
+  },
+  "cartelas_02_modest_urgell_cartella": {
+    "imagen": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp",
+    "alt": "Cartel·la de Modest Urgell: El mateix de sempre!",
+    "ancho": 1316,
+    "alto": 1900
+  },
+  "cartelas_03_joaquim_vayreda_cartella": {
+    "imagen": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp",
+    "alt": "Cartel·la de Joaquim Vayreda: La sega",
+    "ancho": 1224,
+    "alto": 1687
+  },
+  "cartelas_04_alexandre_de_riquer_cartella": {
+    "imagen": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp",
+    "alt": "Cartel·la de Alexandre de Riquer: composició de tres obres",
+    "ancho": 1214,
+    "alto": 1900
+  },
+  "cartelas_05_frederic_vidal_cartella": {
+    "imagen": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp",
+    "alt": "Cartel·la de Frederic Vidal: Paravent dels nenúfars",
+    "ancho": 1320,
+    "alto": 1900
+  },
+  "cartelas_06_josep_maria_casals_cartella": {
+    "imagen": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp",
+    "alt": "Cartel·la de Josep Maria Casals i Ariet: Paisatge",
+    "ancho": 1392,
+    "alto": 1900
+  },
+  "cartelas_07_joan_furriols_cartella": {
+    "imagen": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp",
+    "alt": "Cartel·la de Joan Furriols: Sense títol",
+    "ancho": 1611,
+    "alto": 1900
+  },
+  "cartelas_08_nicolau_raurich_cartella": {
+    "imagen": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp",
+    "alt": "Cartel·la de Nicolau Raurich i Petre: Terrers (Montgat)",
+    "ancho": 1303,
+    "alto": 1900
+  },
+  "cartelas_09_francesc_lacoma_cartella": {
+    "imagen": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp",
+    "alt": "Cartel·la de Francesc Lacoma Fontanet: Gerro amb flors",
+    "ancho": 1378,
+    "alto": 1900
+  },
+  "cartelas_10_joaquim_mir_cartella": {
+    "imagen": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp",
+    "alt": "Cartel·la de Joaquim Mir: El roc de l’estany",
+    "ancho": 1180,
+    "alto": 1900
+  },
+  "cdan_00_ellas_ilustran_botanica": {
+    "imagen": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp",
+    "alt": "Cartell de les exposicions Ellas ilustran botànica",
+    "ancho": 810,
+    "alto": 1060
+  },
+  "cdan_01_orchidaceae_drake_withers": {
+    "imagen": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp",
+    "alt": "Orchidaceae of Mexico and Guatemala — Sarah Anne Drake i Augusta Innes Withers",
+    "ancho": 1525,
+    "alto": 990
+  },
+  "cdan_02_paisatges_perduts_aina_bestard": {
+    "imagen": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp",
+    "alt": "Paisatges perduts de la Terra — Aina Bestard",
+    "ancho": 1429,
+    "alto": 1497
+  },
+  "cdan_03_a_curious_herbal_blackwell": {
+    "imagen": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp",
+    "alt": "A Curious Herbal — Elizabeth Blackwell",
+    "ancho": 1256,
+    "alto": 1310
+  },
+  "per-saber-ne-mes_01_goldsworthy_rowan_leaves": {
+    "imagen": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp",
+    "alt": "Rowan Leaves Laid Around a Hole (1987) — Andy Goldsworthy",
+    "ancho": 1024,
+    "alto": 958
+  },
+  "per-saber-ne-mes_02_goldsworthy_reconstructed_icicles": {
+    "imagen": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp",
+    "alt": "Reconstructed Icicles (2010) — Andy Goldsworthy",
+    "ancho": 1112,
+    "alto": 1088
+  },
+  "per-saber-ne-mes_03_lucia_loren_matriz_de_agua": {
+    "imagen": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp",
+    "alt": "Matriz de agua (2018) — Lucía Loren",
+    "ancho": 1300,
+    "alto": 800
+  },
+  "per-saber-ne-mes_04_martin_hill_sunrise_circle": {
+    "imagen": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp",
+    "alt": "Sunrise circle (2011) — Martin Hill i Philippa Jones",
+    "ancho": 721,
+    "alto": 481
+  },
+  "per-saber-ne-mes_05_martin_hill_store_circle": {
+    "imagen": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp",
+    "alt": "Store Circle (1992) — Martin Hill i Philippa Jones",
+    "ancho": 721,
+    "alto": 481
   }
 }

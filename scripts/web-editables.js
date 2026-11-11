@@ -1,5 +1,22 @@
 // Generated. Edit content/editables/*.json instead.
 const WEB = {
+  "bibliografia": {
+    "utilitzades": [
+      "Arte informado. (2026.). Lucia Loren. Recuperat de: https://www.arteinformado.com/guia/f/lucia-loren-2008",
+      "Carson, R. (2012). El sentido del asombro (1-23 pàgines). Recuperat de https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+      "Freire, H. (2010). La escuela es el bosque. Cuadernos de Pedagogía. Nº 407 Monográfico.",
+      "Iwai, K. (2002). La contribución de la educación artística a la vida de los niños. Perspectivas: Revista Trimestral de Educación Comparada, 32(4), 21–38.",
+      "RTVE. (2006). \"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE). Recuperat de: https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+      "Zona Libre Radio Online. (2014). Martin Hill. El círculo de la vida. Recuperat de: https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html"
+    ],
+    "recomanades": [
+      "Álvarez-Valdivia, I. M. i Morón-Velasco, M. (2022). Educar por medio del arte en una escuela multicultural. magis, Revista Internacional de Investigación en Educación, 15, 1-23. https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+      "Eisner, E. (2005). Educar la visión artística. Paidós.",
+      "Freire, H. (2026). Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra. Paidós",
+      "González, F. (2025). Dibujar con la naturaleza: Apuntes sobre educación artística. Cuadernos de pedagogía, (565). ISSN 0210-0630.",
+      "Hoyuelos, A. (2012). Les imatges fotogràfiques com a documentació narrativa. In-fàn-ci-a, 188, 7-14."
+    ]
+  },
   "destacados": {
     "conceptos": [
       "mirada pròpia",
@@ -27,6 +44,104 @@ const WEB = {
       "infants"
     ]
   },
+  "document60": {
+    "cartelas": [
+      "cartelas_01_sole_duc_cartella",
+      "cartelas_02_modest_urgell_cartella",
+      "cartelas_03_joaquim_vayreda_cartella",
+      "cartelas_04_alexandre_de_riquer_cartella",
+      "cartelas_05_frederic_vidal_cartella",
+      "cartelas_06_josep_maria_casals_cartella",
+      "cartelas_07_joan_furriols_cartella",
+      "cartelas_08_nicolau_raurich_cartella",
+      "cartelas_09_francesc_lacoma_cartella",
+      "cartelas_10_joaquim_mir_cartella"
+    ],
+    "cdan_title": "Altres referents: il·lustració botànica",
+    "cdan_poster": "cdan_00_ellas_ilustran_botanica",
+    "cdan_works": [
+      {
+        "title": "Orchidaceae of Mexico and Guatemala",
+        "artist": "Sarah Anne Drake i Augusta Innes Withers",
+        "image": "cdan_01_orchidaceae_drake_withers",
+        "field": "orchidaceae"
+      },
+      {
+        "title": "Paisatges perduts de la Terra",
+        "artist": "Aina Bestard",
+        "image": "cdan_02_paisatges_perduts_aina_bestard",
+        "field": "paisatges"
+      },
+      {
+        "title": "A Curious Herbal",
+        "artist": "Elizabeth Blackwell",
+        "image": "cdan_03_a_curious_herbal_blackwell",
+        "field": null
+      }
+    ],
+    "further": [
+      {
+        "title": "1.Andy Goldsworthy - Ríos y mareas",
+        "field": "goldsworthy",
+        "images": [
+          "per-saber-ne-mes_01_goldsworthy_rowan_leaves",
+          "per-saber-ne-mes_02_goldsworthy_reconstructed_icicles"
+        ]
+      },
+      {
+        "title": "2. Lucía Loren – Art i ecologia",
+        "field": "loren",
+        "images": [
+          "per-saber-ne-mes_03_lucia_loren_matriz_de_agua"
+        ]
+      },
+      {
+        "title": "3. Martin Hill – El cercle de la vida",
+        "field": "hill",
+        "images": [
+          "per-saber-ne-mes_04_martin_hill_sunrise_circle",
+          "per-saber-ne-mes_05_martin_hill_store_circle"
+        ]
+      }
+    ],
+    "cartela_label": "Veure cartel·la",
+    "glossary_title": "Glosari",
+    "recommended_title": "Bibliografia recomanada per l’assignatura"
+  },
+  "glosari": [
+    {
+      "concept": "Pedagogia verda",
+      "explanation": "Enfocament educatiu que situa la natura i el contacte directe amb l'entorn natural com a elements fonamentals de l'aprenentatge. Promou que els infants aprenguin a través de l'observació, l'experimentació, el joc i la descoberta a l'aire lliure, desenvolupant una relació de respecte i connexió amb la natura."
+    },
+    {
+      "concept": "Pigment",
+      "explanation": "Substància que proporciona color a un material. Pot tenir un origen natural, mineral o vegetal."
+    },
+    {
+      "concept": "Frottage",
+      "explanation": "Tècnica artística que consisteix a col·locar un paper sobre una superfície amb relleu i fregar-lo amb un llapis o un altre estri per reproduir-ne les textures."
+    },
+    {
+      "concept": "Superposició",
+      "explanation": "Tècnica que consisteix a col·locar diferents materials o elements els uns sobre els altres per crear noves formes, textures o profunditats."
+    },
+    {
+      "concept": "Abstracció",
+      "explanation": "Forma de representació artística que no busca reproduir la realitat de manera fidel, sinó explorar formes, colors, línies i textures."
+    },
+    {
+      "concept": "Llibre d’artista",
+      "explanation": "Obra artística en format de llibre en què el contingut, les imatges, els materials i l’enquadernació formen part de la creació."
+    },
+    {
+      "concept": "Visor",
+      "explanation": "Instrument o marc que permet delimitar una part de l'espai que volem observar o representar."
+    },
+    {
+      "concept": "Land Art",
+      "explanation": "Corrent artístic que utilitza el paisatge i els elements naturals com a materials i espais de creació artística."
+    }
+  ],
   "imagenes": {
     "part1_finamiralls": {
       "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-1/finamiralls.webp",
@@ -295,17 +410,17 @@ const WEB = {
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-2-conclusions/img_4655.webp"
     },
     "descripcio_img_5127": {
-      "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
+      "imagen": "assets/bloc-ii/descripcio-jardi/img_5127.webp",
       "alt": "",
       "grupo": "descripcio",
-      "ancho": 4284,
-      "alto": 5712,
-      "rotation": 90,
+      "ancho": 1800,
+      "alto": 975,
+      "rotation": 0,
       "dimensions": [
-        4284,
-        5712
+        1800,
+        975
       ],
-      "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5127.webp",
       "id": "descripcio_img_5127",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp"
     },
@@ -366,17 +481,17 @@ const WEB = {
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5100.webp"
     },
     "descripcio_img_5125": {
-      "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
+      "imagen": "assets/bloc-ii/descripcio-jardi/img_5125.webp",
       "alt": "",
       "grupo": "descripcio",
-      "ancho": 4284,
-      "alto": 5712,
-      "rotation": 90,
+      "ancho": 1800,
+      "alto": 1017,
+      "rotation": 0,
       "dimensions": [
-        4284,
-        5712
+        1800,
+        1017
       ],
-      "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5125.webp",
       "id": "descripcio_img_5125",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp"
     },
@@ -648,7 +763,7 @@ const WEB = {
     },
     "descripcio_img_4790": {
       "imagen": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4790.webp",
-      "alt": "",
+      "alt": "Fulles amples i arrodonides entre la vegetació de l’hort",
       "grupo": "descripcio",
       "ancho": 4284,
       "alto": 5712,
@@ -1002,6 +1117,253 @@ const WEB = {
       "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp",
       "id": "reflexio_final_hort",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/2.webp"
+    },
+    "cartelas_01_sole_duc_cartella": {
+      "imagen": "assets/document-60p/cartelas/01_sole_duc_cartella.webp",
+      "alt": "Cartel·la de Solé Duc: Verd de coure sobre tela reciclada",
+      "ancho": 1900,
+      "alto": 1849,
+      "dimensions": [
+        1900,
+        1849
+      ],
+      "output": "assets/document-60p/cartelas/01_sole_duc_cartella.webp",
+      "id": "cartelas_01_sole_duc_cartella",
+      "originalOutput": "assets/document-60p/cartelas/01_sole_duc_cartella.webp"
+    },
+    "cartelas_02_modest_urgell_cartella": {
+      "imagen": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp",
+      "alt": "Cartel·la de Modest Urgell: El mateix de sempre!",
+      "ancho": 1316,
+      "alto": 1900,
+      "dimensions": [
+        1316,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp",
+      "id": "cartelas_02_modest_urgell_cartella",
+      "originalOutput": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp"
+    },
+    "cartelas_03_joaquim_vayreda_cartella": {
+      "imagen": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp",
+      "alt": "Cartel·la de Joaquim Vayreda: La sega",
+      "ancho": 1224,
+      "alto": 1687,
+      "dimensions": [
+        1224,
+        1687
+      ],
+      "output": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp",
+      "id": "cartelas_03_joaquim_vayreda_cartella",
+      "originalOutput": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp"
+    },
+    "cartelas_04_alexandre_de_riquer_cartella": {
+      "imagen": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp",
+      "alt": "Cartel·la de Alexandre de Riquer: composició de tres obres",
+      "ancho": 1214,
+      "alto": 1900,
+      "dimensions": [
+        1214,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp",
+      "id": "cartelas_04_alexandre_de_riquer_cartella",
+      "originalOutput": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp"
+    },
+    "cartelas_05_frederic_vidal_cartella": {
+      "imagen": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp",
+      "alt": "Cartel·la de Frederic Vidal: Paravent dels nenúfars",
+      "ancho": 1320,
+      "alto": 1900,
+      "dimensions": [
+        1320,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp",
+      "id": "cartelas_05_frederic_vidal_cartella",
+      "originalOutput": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp"
+    },
+    "cartelas_06_josep_maria_casals_cartella": {
+      "imagen": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp",
+      "alt": "Cartel·la de Josep Maria Casals i Ariet: Paisatge",
+      "ancho": 1392,
+      "alto": 1900,
+      "dimensions": [
+        1392,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp",
+      "id": "cartelas_06_josep_maria_casals_cartella",
+      "originalOutput": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp"
+    },
+    "cartelas_07_joan_furriols_cartella": {
+      "imagen": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp",
+      "alt": "Cartel·la de Joan Furriols: Sense títol",
+      "ancho": 1611,
+      "alto": 1900,
+      "dimensions": [
+        1611,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp",
+      "id": "cartelas_07_joan_furriols_cartella",
+      "originalOutput": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp"
+    },
+    "cartelas_08_nicolau_raurich_cartella": {
+      "imagen": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp",
+      "alt": "Cartel·la de Nicolau Raurich i Petre: Terrers (Montgat)",
+      "ancho": 1303,
+      "alto": 1900,
+      "dimensions": [
+        1303,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp",
+      "id": "cartelas_08_nicolau_raurich_cartella",
+      "originalOutput": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp"
+    },
+    "cartelas_09_francesc_lacoma_cartella": {
+      "imagen": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp",
+      "alt": "Cartel·la de Francesc Lacoma Fontanet: Gerro amb flors",
+      "ancho": 1378,
+      "alto": 1900,
+      "dimensions": [
+        1378,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp",
+      "id": "cartelas_09_francesc_lacoma_cartella",
+      "originalOutput": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp"
+    },
+    "cartelas_10_joaquim_mir_cartella": {
+      "imagen": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp",
+      "alt": "Cartel·la de Joaquim Mir: El roc de l’estany",
+      "ancho": 1180,
+      "alto": 1900,
+      "dimensions": [
+        1180,
+        1900
+      ],
+      "output": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp",
+      "id": "cartelas_10_joaquim_mir_cartella",
+      "originalOutput": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp"
+    },
+    "cdan_00_ellas_ilustran_botanica": {
+      "imagen": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp",
+      "alt": "Cartell de les exposicions Ellas ilustran botànica",
+      "ancho": 810,
+      "alto": 1060,
+      "dimensions": [
+        810,
+        1060
+      ],
+      "output": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp",
+      "id": "cdan_00_ellas_ilustran_botanica",
+      "originalOutput": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp"
+    },
+    "cdan_01_orchidaceae_drake_withers": {
+      "imagen": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp",
+      "alt": "Orchidaceae of Mexico and Guatemala — Sarah Anne Drake i Augusta Innes Withers",
+      "ancho": 1525,
+      "alto": 990,
+      "dimensions": [
+        1525,
+        990
+      ],
+      "output": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp",
+      "id": "cdan_01_orchidaceae_drake_withers",
+      "originalOutput": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp"
+    },
+    "cdan_02_paisatges_perduts_aina_bestard": {
+      "imagen": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp",
+      "alt": "Paisatges perduts de la Terra — Aina Bestard",
+      "ancho": 1429,
+      "alto": 1497,
+      "dimensions": [
+        1429,
+        1497
+      ],
+      "output": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp",
+      "id": "cdan_02_paisatges_perduts_aina_bestard",
+      "originalOutput": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp"
+    },
+    "cdan_03_a_curious_herbal_blackwell": {
+      "imagen": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp",
+      "alt": "A Curious Herbal — Elizabeth Blackwell",
+      "ancho": 1256,
+      "alto": 1310,
+      "dimensions": [
+        1256,
+        1310
+      ],
+      "output": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp",
+      "id": "cdan_03_a_curious_herbal_blackwell",
+      "originalOutput": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp"
+    },
+    "per-saber-ne-mes_01_goldsworthy_rowan_leaves": {
+      "imagen": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp",
+      "alt": "Rowan Leaves Laid Around a Hole (1987) — Andy Goldsworthy",
+      "ancho": 1024,
+      "alto": 958,
+      "dimensions": [
+        1024,
+        958
+      ],
+      "output": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp",
+      "id": "per-saber-ne-mes_01_goldsworthy_rowan_leaves",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp"
+    },
+    "per-saber-ne-mes_02_goldsworthy_reconstructed_icicles": {
+      "imagen": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp",
+      "alt": "Reconstructed Icicles (2010) — Andy Goldsworthy",
+      "ancho": 1112,
+      "alto": 1088,
+      "dimensions": [
+        1112,
+        1088
+      ],
+      "output": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp",
+      "id": "per-saber-ne-mes_02_goldsworthy_reconstructed_icicles",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp"
+    },
+    "per-saber-ne-mes_03_lucia_loren_matriz_de_agua": {
+      "imagen": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp",
+      "alt": "Matriz de agua (2018) — Lucía Loren",
+      "ancho": 1300,
+      "alto": 800,
+      "dimensions": [
+        1300,
+        800
+      ],
+      "output": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp",
+      "id": "per-saber-ne-mes_03_lucia_loren_matriz_de_agua",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp"
+    },
+    "per-saber-ne-mes_04_martin_hill_sunrise_circle": {
+      "imagen": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp",
+      "alt": "Sunrise circle (2011) — Martin Hill i Philippa Jones",
+      "ancho": 721,
+      "alto": 481,
+      "dimensions": [
+        721,
+        481
+      ],
+      "output": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp",
+      "id": "per-saber-ne-mes_04_martin_hill_sunrise_circle",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp"
+    },
+    "per-saber-ne-mes_05_martin_hill_store_circle": {
+      "imagen": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp",
+      "alt": "Store Circle (1992) — Martin Hill i Philippa Jones",
+      "ancho": 721,
+      "alto": 481,
+      "dimensions": [
+        721,
+        481
+      ],
+      "output": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp",
+      "id": "per-saber-ne-mes_05_martin_hill_store_circle",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp"
     }
   },
   "lectura-academica": {
@@ -1123,7 +1485,13 @@ const WEB = {
     "book.methodology": "book-methodology.md",
     "book.materials": "book-materials.md",
     "outing": "outing.md",
-    "dyes": "dyes.md"
+    "dyes": "dyes.md",
+    "cdan.introduction": "cdan-introduction.md",
+    "cdan.orchidaceae": "cdan-orchidaceae.md",
+    "cdan.paisatges": "cdan-paisatges.md",
+    "further.goldsworthy": "further-goldsworthy.md",
+    "further.loren": "further-loren.md",
+    "further.hill": "further-hill.md"
   },
   "narrativa": {
     "llibre": [
@@ -1215,6 +1583,7 @@ const WEB = {
       "Tinta de remolatxa",
       "Tinta de col llombarda",
       "Comparació dels resultats",
+      "Reflexió:",
       "Estratègies metodològiques:",
       "Materials:"
     ],
@@ -1252,10 +1621,6 @@ const WEB = {
       "etiqueta": "PART 3",
       "subtitulo": "Què és un jardí? Descripció visual"
     },
-    "bloc-ii/p4-experimentem-amb-tintes-vives": {
-      "etiqueta": "PART 4",
-      "subtitulo": "Matèria, color i experimentació."
-    },
     "bloc-iii": {
       "etiqueta": "BLOC III",
       "subtitulo": "La formació en la pràctica de l’art."
@@ -1291,6 +1656,10 @@ const WEB = {
     "referencies-bibliografiques": {
       "etiqueta": "Documentació acadèmica · Fonts",
       "subtitulo": "Lectures que acompanyen el recorregut."
+    },
+    "bloc-ii/p3-bis-taller-de-tintes-naturals": {
+      "etiqueta": "PART 3_bis",
+      "subtitulo": "Taller de tintes naturals"
     }
   },
   "pies-de-foto": {
@@ -1301,7 +1670,7 @@ const WEB = {
     "c1e64692-2a9e-48a7-8751-6184236d6423": "Retrat entre la vegetació",
     "img_4784": "Flors i vegetació il·luminades pel sol",
     "img_4785": "Una mà sosté una flor de color rosa",
-    "img_4790": "Fulles verdes amb nervis visibles",
+    "img_4790": "Fulles amples observades a l’hort de les temptacions",
     "img_4791": "Carbasses allargades",
     "img_4795": "Treball en grup a l’exterior amb elements naturals",
     "img_4798": "Una mà sosté una flor de color taronja",
@@ -1335,7 +1704,8 @@ const WEB = {
     "tintes_img_5193": "Observació de la tinta amb una cullera.",
     "tintes_img_5195": "Experimentació amb substàncies quotidianes.",
     "bloc_ii_detall": "Observació d’una flor durant la passejada.",
-    "reflexio_final_hort": "Ariadna experimentant amb el frottage de fulles a l’hort."
+    "reflexio_final_hort": "Ariadna experimentant amb el frottage de fulles a l’hort.",
+    "descripcio_img_4790": "Fulles amples observades a l’hort de les temptacions"
   },
   "portada": {
     "kicker": "Art, natura i infància · Portafoli d’investigació",
@@ -1439,7 +1809,6 @@ const WEB = {
       "bloc-ii/p1-formes-dapropar-se-a-la-natura": "INTRODUCCIÓ- FORMES D’APROPAR-SE A LA NATURA",
       "bloc-ii/p2-visita-museu-i-jardi": "Visita al MNAC i passejada pels jardins de Montjuïc",
       "bloc-ii/p3-descripcio-del-jardi": "DESCRIPCIÓ DEL JARDÍ",
-      "bloc-ii/p4-experimentem-amb-tintes-vives": "EXPERIMENTEM AMB TINTES VIVES",
       "bloc-iii": "BLOC III. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. MODA, ARTIVISME I PERFORMATIVITAT EN LES ARTS I L’EDUCACIÓ.",
       "bloc-iii/p1-llenguatge-del-cos-i-el-teixit": "LLENGUATGES DEL COS I EL TEIXIT",
       "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters": "EXPOSICIÓ: EL COS VESTIT + MATER MATTERS",
@@ -1448,7 +1817,8 @@ const WEB = {
       "conclusions": "CONCLUSIONS GENERALS DE L’ASSIGNATURA",
       "reflexio-personal": "REFLEXIONS PERSONALS",
       "per-saber-ne-mes": "PER SABER-NE MÉS…",
-      "referencies-bibliografiques": "REFERÈNCIES BIBLIOGRÀFIQUES"
+      "referencies-bibliografiques": "REFERÈNCIES BIBLIOGRÀFIQUES",
+      "bloc-ii/p3-bis-taller-de-tintes-naturals": "PART 3_bis. TALLER DE TINTES NATURALS"
     },
     "portada_bloc_ii": "La formació en la pràctica de l’art. El jardí com agent pedagògic",
     "portada_bloc_iii": "La formació en la pràctica de l’art. Moda, artivisme i performativitat en les arts i l’educació",

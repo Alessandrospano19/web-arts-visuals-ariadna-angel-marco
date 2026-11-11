@@ -27,7 +27,7 @@ const output=path.resolve('docs/verification/quinta-iteracio');fs.mkdirSync(outp
   await page.locator('#reflexio-completa p').filter({has:page.locator('.academic-quotation')}).first().screenshot({path:path.join(output,`cita-${width}.png`)});
   await go('bloc-ii/p2-visita-museu-i-jardi');await page.locator('#obra-reflexio-4 summary').click();
   assert.equal(await page.locator('#obra-reflexio-4 li').count(),3);
-  for(const img of await page.locator('#obra-4 img').all())await img.evaluate(el=>el.decode());
+  for(const img of await page.locator('#obra-4 img:visible').all()){await img.scrollIntoViewIfNeeded();await img.evaluate(el=>el.decode());}
   await page.locator('#obra-4').screenshot({path:path.join(output,`museu-${width}.png`)});
   const marker=await page.locator('#obra-reflexio-4 li').first().evaluate(el=>getComputedStyle(el,'::before').content);assert.equal(marker,'""');
   await go('bloc-ii/p3-descripcio-del-jardi');await page.locator('details').first().locator('summary').click();

@@ -1,0 +1,230 @@
+[
+  {
+    "page": 14,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 38,
+    "description": "Cartel·la de Solé Duc: Verd de coure sobre tela reciclada",
+    "file": "assets/document-60p/cartelas/01_sole_duc_cartella.webp",
+    "dimensions": [
+      1900,
+      1849
+    ]
+  },
+  {
+    "page": 15,
+    "occurrence": 2,
+    "group": "cartelas",
+    "original_xref": 42,
+    "description": "Cartel·la de Modest Urgell: El mateix de sempre!",
+    "file": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp",
+    "dimensions": [
+      1316,
+      1900
+    ]
+  },
+  {
+    "page": 16,
+    "occurrence": 2,
+    "group": "cartelas",
+    "original_xref": 46,
+    "description": "Cartel·la de Joaquim Vayreda: La sega",
+    "file": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp",
+    "dimensions": [
+      1224,
+      1687
+    ]
+  },
+  {
+    "page": 17,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 51,
+    "description": "Cartel·la de Alexandre de Riquer: composició de tres obres",
+    "file": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp",
+    "dimensions": [
+      1214,
+      1900
+    ]
+  },
+  {
+    "page": 18,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 55,
+    "description": "Cartel·la de Frederic Vidal: Paravent dels nenúfars",
+    "file": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp",
+    "dimensions": [
+      1320,
+      1900
+    ]
+  },
+  {
+    "page": 19,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 59,
+    "description": "Cartel·la de Josep Maria Casals i Ariet: Paisatge",
+    "file": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp",
+    "dimensions": [
+      1392,
+      1900
+    ]
+  },
+  {
+    "page": 20,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 63,
+    "description": "Cartel·la de Joan Furriols: Sense títol",
+    "file": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp",
+    "dimensions": [
+      1611,
+      1900
+    ]
+  },
+  {
+    "page": 21,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 67,
+    "description": "Cartel·la de Nicolau Raurich i Petre: Terrers (Montgat)",
+    "file": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp",
+    "dimensions": [
+      1303,
+      1900
+    ]
+  },
+  {
+    "page": 22,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 71,
+    "description": "Cartel·la de Francesc Lacoma Fontanet: Gerro amb flors",
+    "file": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp",
+    "dimensions": [
+      1378,
+      1900
+    ]
+  },
+  {
+    "page": 23,
+    "occurrence": 1,
+    "group": "cartelas",
+    "original_xref": 75,
+    "description": "Cartel·la de Joaquim Mir: El roc de l’estany",
+    "file": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp",
+    "dimensions": [
+      1180,
+      1900
+    ]
+  },
+  {
+    "page": 24,
+    "occurrence": 1,
+    "group": "cdan",
+    "original_xref": 78,
+    "description": "Cartell de les exposicions Ellas ilustran botànica",
+    "file": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp",
+    "dimensions": [
+      810,
+      1060
+    ]
+  },
+  {
+    "page": 25,
+    "occurrence": 1,
+    "group": "cdan",
+    "original_xref": 81,
+    "description": "Orchidaceae of Mexico and Guatemala — Sarah Anne Drake i Augusta Innes Withers",
+    "file": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp",
+    "dimensions": [
+      1525,
+      990
+    ]
+  },
+  {
+    "page": 26,
+    "occurrence": 1,
+    "group": "cdan",
+    "original_xref": 84,
+    "description": "Paisatges perduts de la Terra — Aina Bestard",
+    "file": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp",
+    "dimensions": [
+      1429,
+      1497
+    ]
+  },
+  {
+    "page": 27,
+    "occurrence": 1,
+    "group": "cdan",
+    "original_xref": 87,
+    "description": "A Curious Herbal — Elizabeth Blackwell",
+    "file": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp",
+    "dimensions": [
+      1256,
+      1310
+    ]
+  },
+  {
+    "page": 48,
+    "occurrence": 1,
+    "group": "per-saber-ne-mes",
+    "original_xref": 131,
+    "description": "Rowan Leaves Laid Around a Hole (1987) — Andy Goldsworthy",
+    "file": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp",
+    "dimensions": [
+      1024,
+      958
+    ]
+  },
+  {
+    "page": 48,
+    "occurrence": 2,
+    "group": "per-saber-ne-mes",
+    "original_xref": 132,
+    "description": "Reconstructed Icicles (2010) — Andy Goldsworthy",
+    "file": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp",
+    "dimensions": [
+      1112,
+      1088
+    ]
+  },
+  {
+    "page": 49,
+    "occurrence": 1,
+    "group": "per-saber-ne-mes",
+    "original_xref": 135,
+    "description": "Matriz de agua (2018) — Lucía Loren",
+    "file": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp",
+    "dimensions": [
+      1300,
+      800
+    ]
+  },
+  {
+    "page": 51,
+    "occurrence": 1,
+    "group": "per-saber-ne-mes",
+    "original_xref": 140,
+    "description": "Sunrise circle (2011) — Martin Hill i Philippa Jones",
+    "file": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp",
+    "dimensions": [
+      721,
+      481
+    ]
+  },
+  {
+    "page": 53,
+    "occurrence": 1,
+    "group": "per-saber-ne-mes",
+    "original_xref": 145,
+    "description": "Store Circle (1992) — Martin Hill i Philippa Jones",
+    "file": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp",
+    "dimensions": [
+      721,
+      481
+    ]
+  }
+]

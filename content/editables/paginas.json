@@ -23,10 +23,6 @@
     "etiqueta": "PART 3",
     "subtitulo": "Què és un jardí? Descripció visual"
   },
-  "bloc-ii/p4-experimentem-amb-tintes-vives": {
-    "etiqueta": "PART 4",
-    "subtitulo": "Matèria, color i experimentació."
-  },
   "bloc-iii": {
     "etiqueta": "BLOC III",
     "subtitulo": "La formació en la pràctica de l’art."
@@ -62,5 +58,9 @@
   "referencies-bibliografiques": {
     "etiqueta": "Documentació acadèmica · Fonts",
     "subtitulo": "Lectures que acompanyen el recorregut."
+  },
+  "bloc-ii/p3-bis-taller-de-tintes-naturals": {
+    "etiqueta": "PART 3_bis",
+    "subtitulo": "Taller de tintes naturals"
   }
 }

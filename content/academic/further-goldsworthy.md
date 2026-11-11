@@ -1,0 +1,5 @@
+El documental Ríos y mareas, dirigit per Thomas Riedelsheimer (2001), ens apropa al procés creatiu de l’artista Andy Goldsworthy, que utilitza elements que troba a la natura per construir composicions i escultures en diferents espais naturals.
+
+Una de les qüestions que més m’ha cridat l’atenció és el caràcter efímer de moltes de les seves creacions, ja que algunes es transformen o desapareixen per l’acció del vent, l’aigua o el pas del temps. També m’interessa especialment com l’artista observa les característiques dels materials i les condicions de cada espai abans de crear, entenent que cada element natural ofereix unes possibilitats diferents i que no sempre podem controlar el resultat final.
+
+M’agradaria continuar investigant sobre aquest artista perquè considero que la seva manera de treballar pot oferir aprenentatges molt interessants a educació infantil. Crec que és important que els infants coneguin artistes com Goldsworthy per descobrir que una fulla, una pedra o un tros de gel no són simplement materials per manipular, sinó elements amb unes característiques pròpies que cal observar i comprendre abans de crear.

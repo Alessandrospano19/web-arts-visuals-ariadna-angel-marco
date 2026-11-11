@@ -1,0 +1,2226 @@
+# Transcripció de referència — Estructura de les arts visuals (60 pàgines)
+
+**Font autoritativa:** `source/ESTRUCTURA_ARIADNA_ACTUAL_60P.pdf`.
+
+> Aquesta és una transcripció automàtica per pàgines. La seqüència de taules i columnes pot diferir de la lectura visual del PDF. Les cites i la terminologia s’han de verificar contra l’original. No corregir silenciosament el text d’Ariadna.
+
+
+## Pàgina 1 del PDF
+
+ESTRUCTURA
+
+INTRODUCCIÓ. ART I NATURA A EDUCACIÓ INFANTIL
+     -​ PROPOSTA:  Fer un  text  introductori a  la  vostra web  relacionat amb  la
+      importància de l'art  i la natura a Educació Infantil. Assistir a la conferència  i
+       participar en el debat posterior sobre el tema.
+
+     -​ OBJECTIU:
+              -​  Conèixer   propostes,   estratègies   metodològiques      i   materials   per
+            desenvolupar l'àrea del Llenguatge visual  i plàstic amb els infants de l'etapa
+            d'Educació Infantil.
+     -​  Reflexió sobre la conferència «Un árbol pinta una nube»: arte y naturaleza en
+      Educación Infantil.
+
+Dijous passat 22 d'octubre vaig assistir a la conferència ‘’Un arbre pinta un núvol: art  i
+naturalesa en Educació Infantil’’, impartida per Fernando González Claveira, educador  i artista
+de l'escola El Majuelo, situada a Valladolid. Es tracta d'un centre de segon cicle d'Educació
+Infantil envoltat de naturalesa, on l'art es converteix en una eina per a acompanyar als infants
+en  el descobriment del món   i en  la construcció d'una ètica ambiental. A través d'una
+perspectiva inspirada en la pedagogia verda, la conferència em va permetre reflexionar sobre la
+manera en què entenem l'art, la infància  i la nostra relació amb la naturalesa, així com sobre la
+responsabilitat que tenim com a futures educadores de no limitar la creativitat infantil, sinó de
+crear les condicions necessàries perquè pugui desenvolupar-se lliurement.
+
+Una de les idees que més em va fer pensar és que l'art  i la naturalesa no són dues activitats
+separades, sinó dues maneres de mirar, experimentar  i comprendre el món. Sovint, des d'una
+perspectiva  educativa  tradicional,  tendim  a  organitzar  els  aprenentatges en  activitats
+concretes, amb uns objectius definits  i uns resultats que esperem obtenir. No obstant això,
+l'experiència que es va presentar en El Majuelo em va fer comprendre que l'aprenentatge més
+significatiu pot sorgir precisament quan deixem espai per a l'espontaneïtat, l'exploració  i el
+descobriment. Un arbre no ha de ser únicament un element que observem per a després
+dibuixar-lo; pot convertir-se en una experiència sensorial, emocional i estètica. Podem tocar la
+seva escorça, observar les seves fulles, descobrir els seus colors, sentir el so del vent entre les
+seves branques o simplement detenir-nos a contemplar-lo.
+
+Aquesta manera d'entendre l'educació artística em va portar a qüestionar la tendència a
+buscar resultats iguals per a tots els infants. Durant la conferència es va insistir que, si intentem
+que tots facin el mateix, estem privant-los del valor de la seva pròpia veu. Considero que
+aquesta afirmació és fonamental, especialment en Educació Infantil, una etapa en la qual la
+imaginació, la curiositat  i la necessitat d'experimentar haurien d'ocupar un lloc central. Cada
+
+
+## Pàgina 2 del PDF
+
+infant percep  la  realitat des de  la seva pròpia  sensibilitat   i  té una manera  particular
+d'expressar-la. Per això, quan proposem una activitat artística amb unes instruccions massa
+tancades, un model que han de copiar o un resultat que tots han d'aconseguir, correm el risc
+de substituir la seva mirada per la nostra.
+
+L'objectiu de l'educació artística no hauria de ser aconseguir que tots els infants dibuixin de la
+mateixa manera, sinó oferir-los l'oportunitat de descobrir com volen expressar-se. No existeix
+una única manera de fer-ho bé o malament, perquè el valor d'una creació infantil no resideix
+exclusivament en  la seva semblança amb  la  realitat, sinó també en les decisions, els
+descobriments  i les emocions que hi ha darrere d'ella. Fomentar el pensament divergent
+significa acceptar que una mateixa proposta pot donar lloc a respostes molt diferents  i que
+precisament aquesta diversitat és una riquesa. Si els indiquem constantment quins colors
+utilitzar, quines formes dibuixar o com ha de quedar el resultat final, podem acabar apagant la
+seva veu i limitant un potencial artístic que encara està en ple desenvolupament.
+
+En aquest sentit, em va semblar especialment interessant la reflexió sobre Pino Parini  i el
+concepte de mínim esforç mental. Aquesta idea permet comprendre com, en moltes ocasions,
+els infants aprenen a representar les coses mitjançant imatges esquemàtiques i convencionals,
+el principal objectiu de les quals és que es reconegui ràpidament allò que volen dibuixar. Per a
+aconseguir-ho, se simplifiquen les formes, es repeteixen els mateixos models, s'utilitzen colors
+plans  i uniformes, desapareixen les textures  i es renuncia progressivament al grafisme propi.
+Així, el dibuix deixa de ser una exploració personal per a convertir-se en una representació
+estandarditzada de la realitat.
+
+Aquesta reflexió em va fer pensar en les activitats escolars en les quals es demana als infants
+que acoloreixin sense  sortir-se de la  línia, que no deixin espais en blanc o que  utilitzin
+determinats colors perquè suposadament són els correctes. Encara que aquestes propostes
+puguin semblar inofensives, també transmeten una idea concreta del que significa crear:
+complir unes instruccions, reproduir un model  i evitar l'error. D'aquesta manera, es pot acabar
+construint un model educatiu pobre  i impositiu, basat en l'acceptació passiva de convencions
+gràfiques i en l'estandardització de les produccions infantils.
+
+Crec que  és  necessari  preguntar-nos què  estem  ensenyant  realment quan  corregim
+contínuament les creacions dels infants. Els estem ajudant a desenvolupar la seva capacitat
+artística o els estem ensenyant a desconfiar de les seves pròpies decisions? Si un infant
+dibuixa un núvol d'un color inesperat o representa un arbre d'una forma que no es correspon
+amb les nostres expectatives, potser no necessita que  li expliquem com hauria de fer-ho, sinó
+que observem què està intentant expressar. Educar artísticament també significa aprendre a
+no imposar la nostra mirada sobre la mirada infantil.
+
+Aquesta idea es relaciona amb una altra de les qüestions centrals de la conferència: la
+importància de deixar de concebre la infància des del productivisme. Els infants d'Educació
+
+
+## Pàgina 3 del PDF
+
+Infantil no necessiten estar constantment produint objectes acabats, bonics o recognoscibles.
+Es troben en una etapa en la qual provar, experimentar, equivocar-se  i tornar a intentar-ho
+constitueix una part essencial de l'aprenentatge. A vegades, com a adults, valorem més allò
+que podem mostrar al final d'una activitat que tot el que ha succeït durant el procés. Ens fixem
+en si el dibuix ha quedat bé, si la figura s'entén o si el resultat s'assembla al model, però potser
+deixem de parar esment a les preguntes que ha formulat  l’infant, als materials que ha
+descobert o a les decisions que ha pres.
+
+Per això, considero fonamental posar el focus en el procés  i en el progrés de cada infant, i no
+únicament en el resultat final. Una creació pot semblar senzilla des de fora i, no obstant això,
+contenir una gran quantitat d'aprenentatges. Quan un infant barreja dos colors per a descobrir
+què succeeix, pressiona l'argila per a comprovar com es transforma o frega una fulla sobre un
+paper per a descobrir  la seva  textura, està desenvolupant  la seva percepció,  la seva
+coordinació,  la seva imaginació   i  la seva capacitat per a  establir relacions. L'error, des
+d'aquesta perspectiva, deixa de ser una cosa que cal corregir immediatament  i es converteix
+en una oportunitat per a descobrir possibilitats noves.
+
+La conferència també em va portar a reflexionar sobre el lloc que ocupa l'expressió artística en
+la nostra societat. Vivim envoltats d'imatges que ens indiquen què és bonic, quina resulta
+atractiu  i què mereix ser valorat. No obstant això, moltes vegades aquesta estètica respon a
+criteris d'uniformitat, perfecció  i productivitat que deixen poc espai per a la singularitat. En
+relació amb aquesta qüestió, es va esmentar el pensament de Byung-Chui Han, qui analitza
+com  la bellesa contemporània queda condicionada per una estètica de la competència,
+caracteritzada  pel   llis,  el  suau,  el  lluminós   i una  positivitat excessiva. Des d'aquesta
+perspectiva, allò que presenta irregularitats, imperfeccions o diferències pot quedar relegat.
+
+Enfront d'aquesta visió, em sembla important recuperar una educació artística que permeti
+descobrir la bellesa del que no és perfecte, del que canvia, del que es desgasta  i d'allò que
+normalment passa desapercebut. En aquest punt, la referència al wabi-sabi, entès com una
+sensibilitat estètica que troba bellesa en la imperfecció, la senzillesa  i l'efímer, em va semblar
+especialment significativa. Educar la mirada consisteix, en part, a aprendre a apreciar allò que
+no destaca a primera vista: una fulla seca, una pedra irregular, una branca trencada, una taca
+de fang o les petites variacions de color d'una flor. La bellesa no sempre està en l'extraordinari;
+moltes vegades es troba en l'insignificant, quan aprenem a mirar-ho d'una altra manera.
+
+Aquesta manera de mirar està estretament relacionada amb  el contacte directe amb la
+naturalesa. A través de l'experiència del Majuelo, vaig comprendre que la naturalesa no hauria
+d'utilitzar-se únicament com un recurs didàctic per a treballar determinats continguts, sinó que
+pot convertir-se en un espai educatiu en si mateix. En ella, els infants troben innombrables
+oportunitats per a observar, jugar, investigar, crear i establir relacions amb altres éssers vius. A
+més, l'entorn natural introdueix una dimensió d'incertesa que resulta molt enriquidora: la
+
+
+## Pàgina 4 del PDF
+
+naturalesa no ofereix models fixos que hagin de reproduir-se, sinó una realitat canviant que
+convida a observar i a fer-se preguntes.
+
+En relació amb aquesta idea, em va semblar molt important la reflexió de Heike Freire sobre la
+biofobia, és a dir, el rebuig, la por o la incomoditat que algunes persones poden experimentar
+davant determinats elements naturals. Quan un infant no vol córrer pel camp, no s'atreveix a
+tocar la terra o el fang, sent fàstic davant un cuc o intenta aixafar un insecte, aquestes actituds
+poden convidar-nos a reflexionar sobre el tipus de relació que està construint amb el seu
+entorn. No es tracta d'obligar-ho a tocar allò que  li produeix por ni d'ignorar els seus límits,
+sinó  d'oferir-li experiències respectuoses   i progressives que   li permetin acostar-se a  la
+naturalesa des de la curiositat i la confiança.
+
+Enfront de la distància que pot sorgir entre els éssers humans  i el món natural, Heike Freire
+planteja la importància de conrear un amor profund per tot el visc, en relació amb la idea d'Erik
+Fromm sobre l'amor a la vida. Per a mi, aquesta qüestió té una gran rellevància educativa:
+difícilment podrem cuidar allò que no coneixem, que no valorem o amb el que no sentim cap
+vincle. Per això, considero que l'educació ambiental no ha de limitar-se a transmetre normes
+sobre  el reciclatge o  la cura del planeta, sinó que ha d'ajudar a desenvolupar atenció,
+sensibilitat  i empatia cap als altres éssers vius. Abans de demanar als infants que protegeixin
+la biodiversitat, necessitem oferir-los oportunitats per a admirar-la, gaudir-la  i sentir-se part
+d'ella.
+
+En aquest procés, el joc adquireix un paper essencial. Durant la conferència es va destacar
+que en la naturalesa tot s'experimenta d'una manera particular  i que jugar en ella permet viure
+l'entorn amb tot el cos. Córrer, amagar-se, grimpar, recollir fulles, construir refugis o jugar amb
+fang són experiències que no poden reduir-se a un aprenentatge purament intel·lectual. A
+través del joc, els infants desenvolupen la seva autonomia, posen a prova les seves capacitats,
+descobreixen els seus límits  i aprenen a relacionar-se amb els altres i amb l'espai que habiten.
+La frase «el contrari del joc és la depressió» em va fer pensar en la importància de no convertir
+la infància en una successió constant d'obligacions  i activitats dirigides. El joc lliure no és
+temps perdut ni una pausa entre aprenentatges: és una forma fonamental d'estar en el món,
+d'elaborar experiències i de construir benestar.
+
+L'experiència del Majuelo reflecteix precisament aquesta concepció de la infància. El fet que
+sigui una escola envoltada de naturalesa  i que fins  i tot convisqui amb un gos mostra que
+l'entorn no és un simple decorat, sinó una part activa de la vida quotidiana. Els infants poden
+establir relacions reals amb altres éssers vius  i comprendre, a través de l'experiència, que les
+seves accions tenen conseqüències.  Així, l'educació ambiental deixa de ser un discurs
+abstracte   i es transforma en una vivència concreta. Cuidar  la naturalesa s'aprèn també
+convivint amb ella, observant els seus ritmes, respectant les seves necessitats i descobrint que
+no som els seus propietaris, sinó una part més d'ella.
+
+
+## Pàgina 5 del PDF
+
+Aquesta idea connecta amb la reflexió de Bertrand Russell, qui recorda que, independentment
+del que pensem, som criatures de la Terra: la nostra vida forma part d'ella  i ens nodrim dels
+mateixos recursos que les plantes  i els animals. També em va semblar molt significativa la
+referència a l'ecologia profunda d’Arne Næss, que convida a superar la separació entre l'ésser
+humà  i la resta de la naturalesa. La imatge que per les nostres venes circula la mateixa aigua
+que sura en els núvols expressa d'una manera poètica una realitat fonamental: els elements
+que fan possible la nostra existència formen part de cicles compartits. L'aigua que bevem,
+l'aire que respirem  i els aliments que ens nodreixen ens recorden que la nostra vida depèn
+d'una xarxa de relacions molt més àmplia que nosaltres mateixos.
+
+Des d'aquesta perspectiva, treballar amb els infants el cicle de la matèria orgànica  i el cicle
+vital adquireix un significat que va més enllà d'explicar un procés biològic. Observar com una
+fulla cau, es descompon  i torna a formar part de la terra permet comprendre que la vida es
+transforma contínuament  i que la mort d'un element pot contribuir al naixement d'un altre. La
+naturalesa ens ensenya que res existeix de manera completament aïllada  i que els processos
+de transformació formen part de la vida.
+
+En aquest sentit, em va cridar l'atenció la idea que de la naturalesa neix la vida, perquè ens
+recorda que no estem separats d'allò que estudiem o representem. Nosaltres també som
+naturalesa. Aquesta afirmació pot semblar  senzilla, però té implicacions educatives molt
+importants:  si els infants creixen entenent que l'entorn natural és una cosa externa que
+únicament han d'observar o utilitzar, serà més difícil que desenvolupin un compromís autèntic
+amb la seva protecció. En canvi, si experimenten que formen part d'ell, que depenen d'altres
+éssers vius  i que les seves accions influeixen en l'equilibri de l'entorn, podran construir una
+relació basada en la corresponsabilitat i el respecte.
+
+Una altra de les idees que més em va interessar va ser la importància d'educar a través dels
+sentits  i de l'experiència directa. Dibuixar fulles, observar plantes, tocar diferents superfícies o
+treballar amb elements recollits de l'entorn no són únicament activitats plàstiques: també són
+maneres d'entrar en contacte amb la vida. En relació amb això, la tècnica del frottage em va
+semblar un exemple especialment interessant, perquè permet descobrir les textures dels
+objectes mitjançant el contacte entre el paper  i una superfície. En fregar un llapis sobre una
+fulla col·locada damunt d'una escorça, per exemple, apareix una petjada que fa visible alguna
+cosa que abans potser no havíem observat amb tanta atenció. Aquesta tècnica permet
+treballar  la  relació  entre  tacte   i  vista, però també demostra que  crear no  consisteix
+necessàriament a inventar una imatge des de zero. A vegades, crear significa aprendre a
+descobrir el que ja existeix, parar esment als detalls  i trobar noves maneres d'interpretar la
+realitat. Una cosa semblant succeeix amb els monotips, que permeten experimentar amb les
+taques, les petjades  i els resultats imprevisibles, o amb el collage, que pot treballar-se en
+volum  i superar el rectangle habitual del paper. No cal que totes les produccions artístiques
+tinguin una forma convencional ni que s'ajustin a un suport predeterminat.
+
+
+## Pàgina 6 del PDF
+
+També considero que  l'argila ofereix possibilitats molt riques per a treballar els diferents
+significats de la vida. La seva capacitat per a transformar-se en pressionar-la, pastar-la, unir-la
+o separar-la permet als infants experimentar directament amb la matèria. A diferència d'altres
+materials més  rígids,  l'argila respon  al gest   i conserva les petjades de qui la manipula.
+D'aquesta manera, el procés artístic es converteix en una experiència corporal en la qual
+intervenen el tacte, la força, la imaginació i l'emoció.
+
+En relació amb els materials i els colors, em va semblar fonamental la idea de permetre que els
+infants pintin amb els colors que els agradin, sense imposar-los una correspondència fixa entre
+el color  i l'objecte representat. Durant la conferència es va compartir l'exemple d'una nena que
+va explicar que havia utilitzat «els colors bonics de l'ocell», encara que aquests fossin colors
+que inhabitualment associem amb aquest animal. Aquesta resposta em va fer reflexionar sobre
+com els adults podem interpretar una producció infantil des de criteris massa literals. La nena
+no estava necessàriament equivocada ni desconeixia com era un ocell: estava expressant la
+bellesa que percebia en allò que tenia davant.
+
+L'expressió artística no té per què reproduir la realitat de manera exacta per a ser veritable. Pot
+expressar l'emoció, la fascinació o l'experiència subjectiva que aquesta realitat desperta. Quan
+un infant diu que un color és «vermell com la sang d'un drac», està establint una relació
+imaginativa que pertany a la seva pròpia manera de comprendre el món. Limitar aquesta
+associació perquè no respon a una classificació convencional suposaria perdre una oportunitat
+d'escoltar el seu pensament. Per això, considero important permetre que els infants barregin
+colors, descobreixin tonalitats i experimentin amb llibertat.
+
+Aquesta reflexió es relaciona també amb la importància del sublim, entès com la capacitat
+d'experimentar admiració, sorpresa o sorpresa davant allò que ens supera o que no podem
+explicar per complet. La naturalesa ofereix innombrables oportunitats per a viure aquestes
+experiències: observar un cel immens, contemplar com canvia la llum al capvespre o descobrir
+una petita flor entre les pedres pot despertar preguntes  i emocions difícils d'expressar amb
+paraules. L'exemple de la frase «el sol s'amaga, només les flors il·luminen el cel» em sembla
+especialment poètic perquè mostra com la mirada infantil pot transformar una observació
+quotidiana en una interpretació plena de sensibilitat. No es tracta de corregir aquesta imatge
+per a ajustar-la a una explicació científica, sinó de reconèixer el valor d'aquesta manera de
+percebre i expressar el món, que pot conviure amb altres aprenentatges.
+
+En aquest punt, em sembla essencial recordar que educar la mirada és també educar la
+sensibilitat. Moltes vegades mirem sense veure realment. Passem al costat d'un arbre, una
+planta o un  petit insecte sense detenir-nos a observar-los. Els infants, en canvi, poden
+descobrir aspectes de  la  realitat que els adults hem deixat de percebre perquè estem
+acostumats  a  classificar,  nomenar    i  avançar  ràpidament  d'una  cosa  a  una  altra.
+Acompanyar-los en aquest descobriment implica aprendre a detenir-nos, a observar sense una
+
+
+## Pàgina 7 del PDF
+
+finalitat immediata  i a valorar les preguntes que sorgeixen espontàniament. En la naturalesa,
+posem on posem els ulls, sempre hi ha vida, transformació i possibilitats de descobriment.
+
+Aquesta manera d'entendre l'educació també em va portar a qüestionar la necessitat de
+planificar cada experiència per endavant. En el Majuelo, les propostes neixen de les vivències,
+del que succeeix  i d'allò que desperta l'interès dels infants. Més que seguir una programació
+tancada que determini per endavant cada pas, es tracta d'estar disponibles per a escoltar,
+observar i acompanyar el que emergeix de l'experiència.
+
+Com a futures educadores, necessitem aprendre a observar abans d'intervenir  i a reconèixer
+quan una proposada adulta pot enriquir una experiència i quan pot limitar-la. Si un infant troba
+una fulla que  li crida l'atenció, potser el més educatiu no és indicar-li immediatament quina
+activitat pot fer amb ella, sinó permetre-li observar-la, tocar-la, preguntar-se per què té aquesta
+forma o decidir què vol fer. A partir d'aquest interès poden sorgir experiències artístiques,
+científiques, lingüístiques o emocionals que no havíem previst inicialment. La vida quotidiana
+pot convertir-se en el punt de partida de l'aprenentatge.
+
+En relació amb aquesta idea, la reflexió d'Arno Stern em va semblar especialment significativa:
+pensem que, en posar un pinzell a les mans d'un infant, aprèn a pintar, però en realitat també
+aprèn a ser. Aquesta afirmació amplia profundament el significat de l'educació artística. Pintar
+no consisteix únicament a adquirir una tècnica o produir una imatge; també implica prendre
+decisions, expressar una manera pròpia de sentir, desenvolupar confiança  i descobrir que la
+pròpia veu té valor. Quan respectem les seves creacions sense comparar-les constantment
+amb les dels altres, ajudem a construir una relació més lliure amb l'expressió i amb un mateix.
+
+La imatge que dona títol a la conferència, ‘’Un árbol pinta una nube’’, resumeix per a mi tota
+aquesta reflexió. Ens convida a abandonar la idea que el món ha de representar-se d'una única
+manera  i a comprendre que la realitat està plena de relacions, possibilitats i interpretacions. Un
+arbre pot convertir-se en un núvol quan deixem de buscar únicament l'evident i ens permetem
+imaginar, sentir  i mirar d'una altra forma. Potser, al final, educar consisteixi precisament en
+això: no ensenyar a tots a pintar el mateix arbre, sinó ajudar cada infant a descobrir quin món
+pot pintar des de la seva pròpia mirada.
+
+
+## Pàgina 8 del PDF
+
+BLOC I. ART I EDUCACIÓ
+     -​ PROPOSTA: Lectura del llibre de la Rachel Carson  i de l'article de Heike Freire:
+       Construir un text que respongui a: la importància de l'observació de la realitat, de la
+       creació artística  i d'utilitzar la natura com a espai d'ensenyament  i aprenentatge a
+      educació infantil a partir dels dos textos que us proposo
+     -​  OBJECTIUS
+              -​  Conèixer les idees de les dues autores en relació al contacte amb la natura i
+              l'educació infantil.
+              -​  Muntar un text amb les idees més rellevants de les dues lectures amb
+            argumentacions personals crítiques i coherents i que respongui a la proposta
+           que es demana.
+
+
+La importància de l’observació de la realitat, la creació artística i la natura
+com a espai d’ensenyament i aprenentatge a educació infantil
+
+La lectura de El sentido del asombro, de Rachel Carson,  i La escuela es el bosque, de Heike
+Freire, m’ha fet reflexionar sobre la necessitat de repensar com acompanyem els infants en els
+seus processos d’aprenentatge. Considero que observar la realitat, experimentar amb l’entorn,
+expressar-se artísticament  i tenir contacte directe amb la natura són aspectes fonamentals
+durant l’educació infantil, ja que permeten als infants descobrir el món des de la curiositat, els
+sentits i les pròpies experiències.
+
+Una de les idees que més comparteixo de Rachel Carson és que els infants tenen una
+capacitat natural per sorprendre’s  i interessar-se per allò que els envolta, però que aquesta
+curiositat s’ha de cuidar  i alimentar. L’autora ens convida a recuperar una mirada més atenta
+cap a la realitat  i a no donar per desapercebuts els petits detalls del nostre entorn. Sovint, els
+adults tenim tendència a explicar als infants què estan observant, a donar-los respostes o a
+centrar-nos en  el  fet que aprenguin noms   i conceptes. Tanmateix, penso que és igual
+d’important oferir-los temps  i oportunitats perquè puguin observar, fer-se preguntes, establir
+
+
+## Pàgina 9 del PDF
+
+relacions  i arribar a les seves pròpies conclusions. Per exemple, davant d’una fulla que ha
+caigut d’un arbre, en lloc d’explicar directament per què ha canviat de color, podem convidar
+els infants a observar-ne la forma, les tonalitats, la textura  i les diferències respecte d’altres
+fulles. D’aquesta manera, l’observació es converteix en  el punt de partida per construir
+aprenentatges significatius.
+
+Una  altra idea que m'ha semblat especialment interessant de Carson és la importància
+d'experimentar la natura a través de tots els sentits,  i no únicament de la vista. En les seves
+experiències amb el seu nebot Roger, descriu moments en què escolten el soroll de les
+onades, senten el vent, perceben les olors del mar o observen petits animals  i elements que
+sovint passen desapercebuts. L'autora afirma que ‘’explorar la naturaleza con tu hijo es sobre
+todo una cuestión de estar receptivo a lo que encuentras a tu alrededor’’ (Carson, 2012, p. 16).
+Aquesta idea em fa pensar que, com a futures mestres, hem d'oferir experiències que permetin
+als infants explorar l'entorn de manera global.
+
+Carson també ens convida a fixar-nos en les coses petites, aquelles que sovint els adults
+passem per  alt perquè estem acostumats a mirar l'entorn de manera ràpida  i superficial.
+L'autora mostra com l'ús d'una lupa permet descobrir un món de detalls que a simple vista no
+percebem. Aquesta idea m'ha fet reflexionar sobre la importància d'ensenyar els infants a
+aturar-se  i mirar amb atenció, perquè allò que aparentment sembla insignificant pot despertar
+moltes preguntes  i descobertes. També considero interessant la seva reflexió sobre el fet que
+aprendre  el nom dels elements de la natura no hauria de ser l'objectiu principal. Saber
+identificar una planta o un animal pot ser  útil, però és més important que els infants
+desenvolupin interès per allò que observen i gaudeixin descobrint-ho. En aquest sentit, Carson
+expressa que ‘’no es ni siquiera la mitad de importante conocer como sentir’’ (2012, p. 15).
+També compara les emocions  i les impressions dels sentits amb ‘’la tierra fértil en la cual la
+semilla debe crecer’’ (Carson, 2012, p. 15). Aquesta comparació m'ha fet entendre que, abans
+de transmetre molts coneixements, cal despertar en els infants emocions, curiositat  i estima
+per allò que estan descobrint.
+
+Aquesta manera d’entendre l’aprenentatge també es relaciona amb la proposta de Heike
+Freire, que defensa la importància del contacte directe amb la natura durant la infància. En el
+seu article, l’autora presenta experiències d’escoles que utilitzen el bosc com a espai educatiu
+habitual, on els infants poden jugar, explorar, moure’s  i descobrir sense estar constantment
+dirigits per l’adult. Freire destaca que la natura afavoreix ‘’la intensidad de sus juegos, la
+sensibilidad y creatividad de sus aprendizajes’’ (Freire, 2010, p.72). Aquesta idea em sembla
+especialment rellevant perquè ens fa entendre que l’entorn natural no és simplement un lloc on
+fer activitats puntuals, sinó un espai educatiu amb moltes possibilitats. A més, l’autora recull el
+concepte de ‘’déficit de naturaleza’’ de Richard Louv, que alerta de les conseqüències que pot
+tenir créixer amb poc contacte directe amb el medi natural. Això m’ha fet pensar que, en una
+
+
+## Pàgina 10 del PDF
+
+societat cada vegada més urbanitzada  i tecnològica, és important que les escoles garanteixin
+experiències a l’aire lliure i no limitin els aprenentatges a l’interior de l’aula.
+
+Un altre aspecte que considero fonamental és la relació entre l’observació i la creació artística.
+Observar no hauria de servir únicament per identificar elements o adquirir coneixements, ja
+que també serveix per desenvolupar una mirada pròpia sobre el món i trobar diferents maneres
+d’expressar allò que ens provoca. En aquest sentit, la creació artística permet transformar les
+experiències viscudes en produccions personals, a través de materials, formes, colors, textures
+i moviments. El més important no hauria de ser obtenir un resultat estètic determinat, sinó
+respectar els processos creatius, les interpretacions  i les decisions de cada infant. En aquest
+sentit, Freire destaca les possibilitats de creació que ofereixen els elements naturals: una
+branca, una pedra o un tronc poden adquirir significats diferents segons la imaginació  i el joc
+de cada infant. Per tant, els materials no han de tenir sempre una única funció ni una manera
+correcta d’utilitzar-se.
+
+També m’ha semblat  interessant  la  reflexió de  Freire sobre  el paper de  l’adult. En les
+experiències que descriu, les educadores acompanyen els infants, estableixen alguns límits
+necessaris  i vetllen per la seva seguretat, però no intervenen constantment en les seves
+iniciatives. L’autora defensa que cal permetre que els infants experimentin  i aprenguin a
+gestionar determinats riscos, en lloc d’evitar qualsevol situació que pugui comportar una
+dificultat. Personalment, considero que això requereix un canvi de mirada per part dels
+educadors, perquè sovint, amb la intenció de protegir els infants o controlar l’activitat, acabem
+limitant les seves possibilitats d’exploració i autonomia. La nostra funció hauria de ser preparar
+entorns segurs  i enriquidors, observar què necessiten  i intervenir quan sigui necessari, però
+també saber respectar els seus temps i deixar espai a la iniciativa personal.
+
+Finalment, les dues lectures m’han fet entendre que educar a través de la natura no significa
+únicament ensenyar continguts relacionats amb  el medi ambient, sinó afavorir un vincle
+emocional  i de respecte envers allò que ens envolta. Carson ens transmet que la capacitat de
+meravellar-se és essencial per desenvolupar l’interès  i l’estima per la natura, mentre que Freire
+mostra com  el  contacte  quotidià amb aquesta  pot  afavorir  el desenvolupament  físic,
+emocional, social i creatiu dels infants.
+
+Com a futura mestra d’educació  infantil, m’agradaria tenir present aquesta mirada  i oferir
+propostes que parteixin de l’experiència directa, l’observació  i la lliure experimentació. No
+voldria que la natura fos només un escenari ocasional per fer activitats, sinó que formés part
+de la vida quotidiana de l’escola. Crec que hem de donar als infants l’oportunitat de tocar,
+escoltar, olorar, observar, imaginar, crear  i, sobretot, fer-se preguntes. No es tracta només
+d’ensenyar als infants a conèixer el món, sinó d’acompanyar-los perquè aprenguin a mirar-lo,
+interpretar-lo, expressar-lo i sentir-se part d’ell.
+
+
+## Pàgina 11 del PDF
+
+BLOC II. LA FORMACIÓ EN LA PRÀCTICA DE L’ART. EL JARDÍ COM AGENT PEDAGÒGIC.
+
+PART 1. INTRODUCCIÓ- FORMES D’APROPAR-SE A LA NATURA
+‘’En aquest bloc us proposem una immersió en la matèria des d’una mirada artística,
+sensorial, ecològica  i experimental. A través de diverses propostes, explorarem com la
+matèria es transforma, com parla  i com ens convida a crear fent ús dels elements que ens
+envolten en la nostra quotidianitat’’.
+
+ART, NATURA I EDUCACIÓ: ‘’Educar artísticament és també educar la mirada’’.
+
+En aquesta primera sessió de l’assignatura, vam començar a qüestionar la manera com
+entenem la natura  i la matèria. Sovint, solem percebre-la com a elements que tenim al
+nostre abast, sense ser del tot conscients de tot allò que ens poden arribar a aportar ni de
+la dependència que tenim del món natural.
+
+Aquesta sessió em va fer reflexionar sobre el fet que  nosaltres formem part de la natura i
+que la nostra vida depèn d’ella. Depenem de l’aigua, la terra, l’aire  i la resta d’éssers vius.
+De vegades,  vivim desconnectats  dels processos  naturals que sostenen  la nostra
+experiència. A Relacions. Relació del cos amb elements naturals. El cos cobert de palla
+(1975), de Fina Miralles, el contacte entre el cos humà i la palla em convida a qüestionar la
+separació que acostumem a establir entre la natura  i nosaltres,  i a entendre que el nostre
+cos també forma part d’aquest món natural.
+
+
+## Pàgina 12 del PDF
+
+A través de les propostes artístiques que ens van presentar, vaig començar a descobrir
+que amb materials que semblen senzills, com ara pedres, fulles, palla, poden adquirir un
+nou significat si ens aturem a observar-los, manipular-los o relacionar-los entre si. Un
+exemple que ens van mostrar les mestres  i em va cridar especialment l’atenció va ser el
+d’una pedra, a Stones (2015) de Herman de Vries. Una pedra que habitualment passaríem
+per alt, es pot convertir en el centre d’una composició artística si ens fixem en el seu color,
+forma, textura, etc. La creativitat no depèn de disposar materials elaborats, depèn de la
+nostra capacitat de mirar allò quotidià amb curiositat i descobrir-hi noves possibilitats.
+
+A més, un altre aspecte que em va cridar l’atenció de la sessió va ser que a través de l’art
+podem transformar la nostra relació amb l’entorn. Es tracta d’agafar els objectes del nostre
+entorn  i, a més de mirar-los amb curiositat, comprendre’n el valor  i actuar amb respecte.
+Aquesta mirada és molt  significativa en un context de  crisi  climàtica   i pèrdua de
+biodiversitat, ja que ens recorda que els materials no són recursos infinits ni independents
+del seu origen. Per tant, aprendre a mirar també pot ser una manera d’aprendre a valorar,
+respectar i cuidar el món que ens envolta.
+
+Com a futures mestres d’infantil, considero que totes aquestes idees tenen un gran valor
+pedagògic. Per tant, cal que proposem experiències obertes, sense un model que tots els
+infants hagin de reproduir. Per exemple, en lloc d’oferir-los una manualitat amb un resultat
+predeterminat, els podem oferir pedres, fulles, branques o fang perquè investiguin que
+poden fer amb aquests elements.
+
+
+PART 2. VISITA A MUSEU I JARDÍ
+
+PROPOSTA  1: VISITA MUSEU MNAC: Quan acabem la  visita, us proposem que
+busqueu 10 artistes, que podran ser referents per a les vostres pràctiques educatives a
+educació  infantil, que us hagin interpel·lat per alguna qüestió: temàtica, estil, tècnica,
+materials, composició,... Poseu a la web l'obra de l'artista i la informació de la cartel·la
+que hi ha al centre d'art, poden ser dues fotografies.
+
+A partir de la visita al MNAC i de la visita a l’exposició Color, pigment i origen, de Solé Duc,
+he seleccionat aquestes obres, són la recopilació d’aquelles que més em van cridar
+l’atenció per alguna qüestió.
+
+OBJECTIUS DE LA PROPOSTA:
+     -​  Conèixer un centre d'art que connecta l'art i la natura. Ampliar els referents artístics
+      per a poder utilitzar-los a l'escola.
+
+
+## Pàgina 13 del PDF
+
+-​  Viure la visita al museu com a una experiència artística.
+   -​  Conèixer les activitats educatives d'un centre d'art; en alguns casos el Departament
+     d'Educació del museu.
+   -​  Veure  obres  d'art en  directe:  conèixer  artistes  botàniques    i  il·lustradores   i
+      artistes-dones contemporànies.
+   -​  Conèixer formes de representació visual: materials, suports, estris/eines, tècniques,
+       estils, formats,...
+
+
+
+
+
+Artistes referents                         Reflexió
+
+
+                                       Aquesta és una obra de l’artista Solé Duc,
+                                         presentada en el marc de l’exposició Color,
+                                       pigment    i  origen,  al Museu  Mater de
+                                           Barcelona.
+
+                                    M’ha   cridat  especialment   l’atenció   la
+                                     manera com l’artista treballa el color  i els
+                                               materials. Es tracta d’una obra verda de
+                                        coure sobre  tela reciclada amb pigment
+                                              alquímic.
+
+                                     La  seva  textura rugosa   i  les  tonalitats
+                                         verdes m’han interessat especialment, ja
+                                    que em  transmeten  una  sensació  de
+                                                   naturalitat  i em recorden les formes i colors
+ Obra: Verd de coure sobre tela reciclada                                    que podem trobar en el nostre entorn. Com
+             Artista: Solé Duc.                                      a   futura  mestra   d’educació    infantil,
+    Tècnica: verd de coure sobre tela                                          considero que és un gran  referent per
+        reciclada. Pigment alquímic.                                         proposar  experiències  d’experimentació
+                               amb   materials   naturals,  en  què   els
+                  Cartel·la:
+
+
+## Pàgina 14 del PDF
+
+mateixos infants puguin explorar textures,
+colors,  observar  les  diferències    i  que
+observin  com   es   transformen   en
+manipular-los.    L’art   es    converteix,
+d’aquesta manera, en una oportunitat per
+investigar i experimentar amb els sentits.
+
+A  partir  d’aquesta  obra  proposaria  la
+següent    activitat:   en   primer    lloc,
+l’educador\a prepara l’aula prèviament amb
+diferents  blocs  de  gel  transparents que
+contenen  dins  elements  naturals.  Alguns
+blocs estaran tenyits de  tonalitats verdes,
+elaborades   prèviament  amb   pigments
+naturals segurs. Quan  arribin els infants a
+l’aula, la mestra explicarà que han descobert
+uns materials misteriosos que han quedat
+atrapat  dins  del  gel,  plantejant preguntes
+com ara ‘’com podríem alliberar els elements
+que hi queden atrapats’’ o ‘’podem utilitzar el
+desglaç  per  crear  una  obra  d’art?’’. A
+continuació,   comença    l’experimentació
+artística:  es  col·loquen  els  blocs  sobre
+diferents  superfícies amb  textures:  cartó
+ondulat, paper gruixut, teles naturals, etc. els
+infants poden moure  els  blocs,  fregar-los
+suaument sobre les superfícies   i observar
+com, a mesura que es fonen, deixen anar
+l’aigua  tenyida.  La  mestra també  oferirà
+pipetes  i petits recipients per recollir l’aigua  i
+deixar-la  caure sobre  les  superfícies. No
+podran controlar completament el resultat, ja
+que  l’aigua  s’acamparà,  crearà  camins,
+s’acumularà  en  alguns  espais    i  deixarà
+marques  inesperades.  D’aquesta  manera
+descobriran que  l’art també pot sorgir de
+l’atzar, del moviment  i de la transformació
+dels  materials.  En  acabar,  cada  infant
+escollirà les seves superfícies preferides  i les
+incorporarà a una gran instal·lació col·lectiva.
+
+![Cartel·la de Solé Duc: Verd de coure sobre tela reciclada](../assets/document-60p/cartelas/01_sole_duc_cartella.webp)
+
+
+## Pàgina 15 del PDF
+
+El resultat serà una gran obra abstracta, amb
+                                      parts seques   i humides, relleus  i diferents
+                                          intensitats de vers. Finalment, la mestra els
+                                    convidarà a descobrir a continuar observant
+                                          l’obra al cap dels dies  i veure si els colors
+                                han canviat, si els materials s’han assecat o
+                                                 si les textures són diferents.
+
+
+
+
+                                Aquesta obra em va cridar l’atenció per la
+                              manera com l’artista utilitza els colors  i la
+                                    llum per transmetre emocions  i crear una
+                                  atmosfera determinada. Considero que és
+                              un bon referent per treballar a educació
+                                               infantil, ja que permet apropar els infants a
+                                     l’observació de la natura  i descobrir que
+                                        els colors, les formes  i les textures poden
+                                   expressar sentiments i sensacions.
+
+Obra: El mateix de sempre!       A partir d’aquesta obra es podria proposar
+   Artista: Modest Urgell             als infants una activitat en què creïn el seu
+  Tècnica: oli sobre tela            propi  paisatge,   inspirant-se  en   l’estil
+                                  d’aquest artista. Primer, s’observaria l’obra
+         Cartel·la:                                      i   parlaríem  sobre   ella   (colors  que
+                                 predominen, sensacions que transmet, que
+                                 creuen que representa, etc.) i després cada
+                                         infant  elaboraria  el  seu  paisatge amb
+                                       diferents materials i tècniques.
+
+![Cartel·la de Modest Urgell: El mateix de sempre!](../assets/document-60p/cartelas/02_modest_urgell_cartella.webp)
+
+
+## Pàgina 16 del PDF
+
+Aquesta obra em sembla una bona manera
+                                  d’apropar  els  infants  al coneixement de
+                                       l’entorn  natural.  Aquesta  obra  permet
+                                   descobrir els canvis del paisatge segons
+                                       les estacions de l’any. Considero que és
+                                  important oferir els infants oportunitats per
+                                 observar    i  connectar  amb   la  natura,
+                                   sobretot a través de l’art.
+
+                         A partir d’aquesta obra proposaria que els
+                                      infants  creessin  el  seu  propi camp o
+     Obra: La sega                paisatge natural utilitzant elements naturals
+Artista: Joaquim Vayreda         combinats amb pintura. D’aquesta manera,
+  Tècnica: oli sobre tela              els  infants  experimenten amb  diferents
+                                      textures,   colors      i   formes      i   alhora
+        Cartel·la:                desenvolupen   la   sensibilitat  envers  la
+                                     natura.
+
+
+
+
+
+                               Aquestes obres, quan les vaig veure, em
+                               van cridar molt l’atenció, especialment per
+                                           la bellesa del conjunt  i la manera com les
+                                       tres composicions es complementen entre
+                                           elles. Em va resultar molt difícil escollir-ne
+                           només una, ja que considero que totes tres
+                                 tenen un encant  especial   i que  juntes
+                                 transmeten una harmonia molt bonica.
+
+![Cartel·la de Joaquim Vayreda: La sega](../assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp)
+
+
+## Pàgina 17 del PDF
+
+Les   tres  obres  que  formen  aquesta
+Obra: Composició de 3 obres        composició són:
+      interrelacionades
+ Artista: Alexandre de Riquer             ●​ A la dreta: Figura femenina amb
+ Tènica: Tremp sobre paper              una fiola a la mà.
+                                           ●​ A l’esquerra: Composició amb
+           Cartel·la:                       motius vegetals japonitzats.
+                                           ●​ Al centre: Composició amb una
+                                          nimfa alada davant la sortida del sol.
+
+                        Com a futura mestra d’infantil, m’agrada
+                                   especialment la manera com Alexandre de
+                                   Riquer representa  la natura d’una forma
+                                     imaginativa    i  fantàstica.  Crec  que  és
+                                    important  que  els  infants  no  només
+                                    observin  la natura  tal com és, sinó que
+                              també puguin imaginar-la, transformar-la  i
+                                         donar-li nous significats a través de l’art.
+
+                           A partir de l’obra proposaria una activitat
+                               que es pot titular ‘’Un jardí ple de màgia’’.
+                                       Primer, sortiríem al pati a recollir elements
+                                         naturals. Després cada infant crearia un
+                                  personatge fantàstic inspirat en la natura.
+                             Una altra proposta seria construir un mural
+                                           col·lectiu de grans dimensions simulant un
+                                    entorn natural,  i cada infant podria afegir-hi
+                                          l’ésser  fantàstic que  habités en  aquell
+                                       entorn.
+
+                                 Aquesta obra em va cridar l’atenció per la
+                               manera original com l’artista representa la
+                                     natura a través de diferents materials. Em
+                                sembla molt interessant la presència dels
+                                    nenúfars perquè són elements naturals que
+                                normalment no tenim gaire presents quan
+                             pensem en natura. Els seus colors, formes
+                                                                              i la llum que travessa els vitralls fan que
+                                         l’obra em transmeti calma i harmonia.
+
+                               És  una  obra  molt  interessant,  ja que
+                                 permet que els infants descobreixin que no
+                             només podem  representar  els elements
+Obra: Paravent dels nenúfars         naturals a través de la pintura, sinó que
+
+![Cartel·la de Alexandre de Riquer: composició de tres obres](../assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp)
+
+
+## Pàgina 18 del PDF
+
+Artista: Frederic Vidal          també a través de les transparències  i jocs
+    Tècnica: fusta i vitrall cloisonné      de llum.
+
+                 Cartel·la:              Una proposta que es podria fer a partir
+                                        d’aquesta  obra  seria  crear  un  ‘’vitrall
+                                              natural’’  col·lectiu  a  partir  d’elements
+                                               naturals. En col·locar la creació final davant
+                                                    la finestra, podrien observar com la llum
+                                           travessa  els  materials    i  transforma  els
+                                            colors i les formes.
+
+
+
+
+
+                                      Aquesta obra representa un entorn natural
+                                   on destaca sobretot la vegetació  i la seva
+                                             riquesa. És en blanc  i negre  (fet que va
+                                          captar la meva intenció, ja que se’n veuen
+                                       poques) amb diferents tonalitats de grisos
+                                   que crees contrastos entre les zones de
+                                           llum   i  les d’ombra. La composició em
+                                         transmet una sensació de calma   i em
+                                        convida a observar els petits detalls que
+                                 amaga la natura.
+
+                           Em sembla interessant la tècnica utilitzada,
+                                                    el bromoli transportat sobre paper, ja que
+           Obra: Paisatge              permet descobrir que  l’art també es pot
+    Artista: Josep Maria Casals i Ariet       crear  amb   diferents  procediments     i
+Tècnica: Bromoli transportat sobre paper   materials i no únicament amb pintura.
+
+                                       Considero que pot ser un bon referent pels
+                 Cartel·la:                     infants,  ja que permet  treballar sobretot
+                                            l’observació  i els elements que formen un
+                                            paisatge. A més, pot despertar curiositat
+                                           dels   infants   per   descobrir   diferents
+                                    maneres de representar allò que veuen.
+
+                                    Es  pot  proposar  la  següent  activitat:
+
+![Cartel·la de Frederic Vidal: Paravent dels nenúfars](../assets/document-60p/cartelas/05_frederic_vidal_cartella.webp)
+
+
+## Pàgina 19 del PDF
+
+primer, es demana als infants que observin
+                                   detingudament l’obra. Poden imaginar que
+                                     pot amargar-se entre els arbres, qui pot
+                                           viure allà, quins sons sentirien, o què pot
+                                        succeir quan ningú observa aquest lloc. En
+                                               definitiva, han d’imaginar-se estant dins
+                                         d’aquell  lloc (amb  els  ulls tancats, per
+                                      exemple). Després, s’apaguen les llums de
+                                               l’aula  i utilitzant llanternes  i elements de la
+                                         natura, es projecten sobre un llençol blanc
+                                de  tal manera que  els  infants  puguin
+                                     manipular lliurement els objectes, combinar
+                                 ombres  o  crear  escenaris  imaginaris
+                                            inspirats en l’obra. El producte final seria
+                                             individual, on cada  infant mostrarà a  la
+                                         resta del grup classe una petita història
+                                    sobre el que succeeix en el paisatge  i la
+                                       representarà a partir de les ombres.
+
+                                 Es  tracta  d’una  composició  abstracta
+                                     elaborada amb tela metàl·lica  i pigments.
+                                   Aquesta composició destaca, en diferència
+                                de totes les altres, per les seves formes
+                                              irregulars, els forats  i les diferents textures
+                                 que es creen a través de la superposició
+                                       dels materials. Predominen els tons foscos
+                                                                                  i  grisosos,  que  aporten  a  l’obra  una
+                                     sensació de misteri. Això és el que em va
+                                               fer apropar per observar-la atentament   i
+                                       descobrir-ne tots els seus detalls.       Obra: Sense títol
+       Artista: Joan Furriols
+                                 M’ha   cridat   l’atenció,  també,  per   laTècnica: tela metàl·lica i pigments
+                                                utilització d’un material poc habitual en les
+                                       pràctiques    artístiques.  Em   sembla             Cartel·la:
+                                         interessant que  l’artista  sigui capaç de
+                                        crear una obra a partir d’un material que
+                                  normalment associem a altres usos  i, que
+                                 en  aquest  cas,  es  converteix  en  el
+                                       protagonista de la creació. M’agrada que
+                                    aquesta obra no tingui una interpretació
+                                         única, ja que cadascú pot imaginar-se què
+                                      representen les formes  i els espais que hi
+                                        apareixen.
+
+![Cartel·la de Josep Maria Casals i Ariet: Paisatge](../assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp)
+
+
+## Pàgina 20 del PDF
+
+A  partir de l’obra proposaria  la següent
+                                              activitat:  consisteix  a  crear  un  espai
+                                    d’experimentació    on     els     infants
+                                     descobreixin què passa quan mirem a
+                                       través de diferents materials. Es prepara
+                                una estructura amb malles de plàstic, teles
+                                       transparents, xarxes, cartons amb forats
+                               que permetin veure-hi a través. Al darrere,
+                                  es col·loquen objectes de diferents mides,
+                                      colors i textures.
+
+                                        Els  infants poden moure  els  materials,
+                                    observar els objectes a través dels forats,
+                                       descobrir-los  parcialment    i  modificar  la
+                                   composició. A  continuació, cada  infant
+                                    crea la seva obra enganxant, entrellaçant  i
+                                   superposant materials sobre un marc de
+                                         cartó,  deixant  alguns  espais  buits     i
+                                      cobrint-ne  d’altres. La  idea és que  els
+                                         infants  entenguin que  els  materials no
+                                     serveixen  únicament  per  construir,  sinó
+                               que també poden transformar la manera
+                           com veiem les coses.
+
+                                   D’aquesta obra, m’ha cridat l’atenció les
+                                  seves  textures   i  la manera com  l’artista
+                                                 utilitza    pinzellades    gruixudes    per
+                                      representar  el paisatge. M’han interessat
+                                      sobretot els colors terrosos, les diferents
+                                           tonalitats de marró  i ocre  i el contrast amb
+                                              el blau del cel. M’ha agradat també que,
+                                            tot  i representar un paisatge natural, no es
+                                        distingeixen   tots   els  elements  amb
+                                         claredat, sinó que cadascú pot imaginar
+                               què hi veu.
+   Obra: Terrers (Montgat)
+Artista: Nicolau Raurich i Petre                         Amb aquesta obra, es podrien proposar
+    Tècnica: oli sobre tela                                   moltes propostes diferents. Però aquí deixo
+                                una de referència.
+           Cartel·la:
+                                La proposta consisteix a transformar l’aula
+                                en   un     petit    espai    d’exploració
+                                      arqueològica. A  l’aula  hi  ha  diferents
+                                      safates amb capes de sorra, terra, argila,
+
+![Cartel·la de Joan Furriols: Sense títol](../assets/document-60p/cartelas/07_joan_furriols_cartella.webp)
+
+
+## Pàgina 21 del PDF
+
+pedres, amagant elements naturals (fulles
+                                     seques, branques, etc.). Primer, s’observa
+                                            l’obra  i els infants imaginen què pot haver
+                                 amagat sota  la superfície. Després amb
+                                              pinzells, lupes  i altres eines exploraran les
+                                        safates com si fossin arqueòlegs. A partir
+                                 de les seves troballes, en grup, els infants
+                                    hauran de construir un paisatge en relleu
+                            amb els materials descoberts.
+
+
+
+
+
+                             He  escollit  aquesta  obra  perquè m’ha
+                                          captivat la manera com l’artista representa
+                                                 la diversitat del món vegetal a través d’una
+                                    composició plena de riquesa visual. M’ha
+                                            cridat l’atenció l’abundància de flors  i la
+                                             varietat de colors, formes i dimensions que
+                                     conviuen en un mateix espai. Cada  flor
+                                      representada        presenta       unes
+                                          característiques  pròpies    i,  malgrat  les
+                                          diferències  entre  elles,  totes formen un
+                                       conjunt  harmònic.  Destaca,  també,  el
+                                         contrast entre el fons fosc  i els colors vius
+                                 de  les  flors, que  fa que  aquestes es
+                                         converteixin en les grans protagonistes de
+      Obra: Gerro amb flors                                              l’obra.
+Artista: Francesc Lacoma Fontanet                             A partir de l’obra es pot realitzar la següent
+      Tècnica: oli sobre tela                                                 activitat:  en  primer   lloc,  s’observa  la
+                                              diversitat de flors  i com es diferencien a
+              Cartel·la:                                         través   d’una   conversa   guiada.  A
+                                         continuació, es proposa als infants el repte
+                                 de crear una  flor que no  existeixi a  la
+
+![Cartel·la de Nicolau Raurich i Petre: Terrers (Montgat)](../assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp)
+
+
+## Pàgina 22 del PDF
+
+natura.  Posarem  a  la  seva  disposició
+                               papers   de    diferents    textures        i
+                                   transparències,  acetats de  colors,  teles,
+                               paper  de  seda,  materials  translúcids,
+                                    material   reciclat,   etc.  Poden   retallar,
+                                        estripar,  superposar,  doblegar, combinar
+                                    material per inventar, sense haver de seguir
+                             cap model. Finalment, s’uneixin totes les
+                                 creacions   per   construir   una   gran
+                                        instal·lació  artística  col·lectiva,  un  jardí
+                                   imaginari penjat al sostre o situat en un
+                                 espai de  l’aula. La idea és convidar els
+                                     infants que vagin més enllà de la imitació
+                            de la realitat, que es quedin amb la idea
+                            que  l’art permet imaginar   i crear noves
+                                 formes.
+
+
+
+
+                         He escollit aquesta obra perquè m’ha atret
+                                          la combinació de tonalitats blaves, verdes i
+                                   ocres, que es barregen  i es reflecteixen a
+                                        l’aigua, creant una sensació de moviment  i
+                                     profunditat.   Les   formes   no   estan
+                                representades amb una  precisió exacta,
+                                  sinó que les pinzellades  i les taques de
+                                    color  transmeten   les  sensacions  que
+                               provoca  l’entorn  natural.  Aquesta  obra
+                                convida a observar  la natura des d’una
+                               mirada més subjectiva, ja que representa a
+Obra: El roc de l’estany        més  d’un  paisatge,  l’atmosfera    i  les
+  Artista: Joaquim Mir            sensacions que aquest pot transmetre.
+ Tècnica: oli sobre tela
+                             La proposta consisteix a experimentar amb
+       Cartel·la:                    els reflexos  i les possibilitats expressives
+                            de l’aigua. En primer lloc, s’observa l’obra i
+                              ens fixem concretament en els reflexos de
+                                      l’estany, les tonalitats  i les formes que s’hi
+                                  barregen. Després, a través de diversos
+                                     recipients transparents amb aigua  i gotes
+                            de pintura de diferents colors els infants
+                               experimenten amb pipetes, comptagotes
+                                 per   provocar  moviments      i  observar
+
+![Cartel·la de Francesc Lacoma Fontanet: Gerro amb flors](../assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp)
+
+
+## Pàgina 23 del PDF
+
+atentament com els colors es dispersen, es
+barregen   i es transformen. Seguidament,
+es col·loquen papers especials sobre  la
+superfície d’aigua per captar-ne les formes
+i els efectes de color, creant estampacions
+abstractes. Com a producte final, es crea
+una gran composició col·lectiva amb les
+estampacions     fetes    pels     infants,
+representant d’aquesta manera un estany
+imaginari.
+
+![Cartel·la de Joaquim Mir: El roc de l’estany](../assets/document-60p/cartelas/10_joaquim_mir_cartella.webp)
+
+
+## Pàgina 24 del PDF
+
+Tot  i que no vaig poder assistir presencialment a la sortida al CDAN, les mestres ens van
+proporcionar una carpeta amb imatges de les diferents obres que es van comentar durant
+la  visita  Ellas  ilustran. Pioneras de  la  ilustración  científica   i  Ellas  ilustran botànica.
+Contemporáneas en la ilustración botánica. A més, les meves companyes em van mostrar
+altres obres, me les van fer arribar  i em van explicar alguns dels aspectes més rellevants
+que s’havien comentat durant la visita.
+
+He  volgut  apropar-me a  aquestes  obres des de  la mirada d'una  futura  mestra,
+observant-les amb deteniment  i imaginant les possibilitats educatives que podrien oferir
+dins d'una aula d'educació infantil. Per aquest motiu, he decidit dedicar-los un petit espai
+a la meva web, ja que considero que l'art pot esdevenir una eina molt enriquidora per
+despertar la curiositat, estimular la creativitat  i afavorir l'aprenentatge dels infants. D'entre
+totes les imatges, he seleccionat les que més m'han cridat l'atenció  i amb les quals he
+trobat més possibilitats de treball.
+
+![Cartell de les exposicions Ellas ilustran botànica](../assets/document-60p/cdan/00_ellas_ilustran_botanica.webp)
+
+
+## Pàgina 25 del PDF
+
+Obra: Orchidaceae of Mexico and Guatemala
+                     Artista: Sarah Anne Drake i Augusta Innes Withers
+
+
+El primer conjunt d'imatges m'ha cridat l'atenció per la precisió amb què es representen
+les diferents plantes. No són simplement dibuixos de flors boniques, sinó representacions
+que ens permeten observar-ne parts que habitualment no veiem o a les quals no donem
+importància, com les arrels, els bulbs, les tiges o la disposició de les fulles. M'ha semblat
+interessant que la bellesa de les il·lustracions no es trobi únicament en les flors, sinó també
+en aquelles parts que normalment queden amagades sota terra.
+
+Això m'ha fet pensar en com, sovint, la nostra mirada se centra en allò més visible  i
+atractiu, mentre que deixem en segon pla els processos  i les estructures que fan possible
+la vida. Traslladat a l'educació infantil, considero que aquestes imatges poden ajudar-nos a
+qüestionar una manera força habitual de presentar la natura als infants: mostrar-los una
+flor, dir-ne el nom i identificar-ne el color.
+
+![Orchidaceae of Mexico and Guatemala — Sarah Anne Drake i Augusta Innes Withers](../assets/document-60p/cdan/01_orchidaceae_drake_withers.webp)
+
+
+## Pàgina 26 del PDF
+
+Obra: Paisatges perduts de la Terra
+                                Autora: Aina Bestard
+
+
+Les tres obres m'han interessat per les diferències tan marcades entre elles. La primera
+presenta un espai gairebé surrealista, amb arbres molt alts i repetits que semblen convertir
+el  paisatge en un  escenari  artificial. La segona mostra un  territori  volcànic, amb
+muntanyes, fumaroles  i vegetació baixa, mentre que la tercera ens endinsa en un bosc
+molt dens, on els arbres i les plantes semblen ocupar pràcticament tot l'espai.
+
+El que més m'ha fet pensar és que cap d'aquests paisatges sembla respondre a la imatge
+típica de natura que sovint tenim interioritzada. No són necessàriament paisatges idíl·lics,
+ordenats o fàcilment reconeixibles, sinó que cadascun presenta una organització, unes
+formes  i unes característiques pròpies. Això em porta a qüestionar si, quan parlem de
+natura amb els infants, no acabem transmetent una visió una mica limitada, associant-la
+sobretot a boscos verds, flors  i animals. Aquestes obres m'han fet veure que també hi ha
+bellesa en els territoris volcànics, en els paisatges aparentment desolats o en els entorns
+on la vegetació creix de manera desordenada.
+
+També  m'ha  cridat  l'atenció  la manera com  estan  construïts  aquests  paisatges.
+Especialment en la tercera obra, la repetició dels troncs, la superposició de les formes i la
+varietat de tonalitats verdes generen una sensació de profunditat, com si l'espectador
+
+![Paisatges perduts de la Terra — Aina Bestard](../assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp)
+
+
+## Pàgina 27 del PDF
+
+pogués endinsar-se en el bosc. En canvi, en el paisatge volcànic, els diferents plans  i les
+formes de les muntanyes transmeten una sensació d'amplitud  i d'un territori en constant
+transformació. Aquesta comparació em fa pensar que un paisatge no és una imatge
+estàtica, sinó el resultat de múltiples elements que es relacionen entre si  i que expliquen
+una història sobre aquell territori. En aquest sentit, crec que és important que els infants no
+aprenguin a mirar els paisatges com si fossin simples escenaris de fons, sinó que puguin
+començar a interpretar què els configura  i per què poden ser tan diferents els uns dels
+altres.
+
+
+
+
+
+                                                 ​     Obra: A Curious Herbal
+                                 Autora: Elizabeth Blackwell
+
+![A Curious Herbal — Elizabeth Blackwell](../assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp)
+
+
+## Pàgina 28 del PDF
+
+DESENVOLUPAMENT  I RESULTATS (taules): *A sota de les taules posar una petita
+conclusió de la proposta, que és la següent:
+     -​ CONCLUSIÓ PROPOSTA  1: En  finalitzar aquesta proposta, m’emporto molts
+       aprenentatges. En primer lloc, he après a mirar una mateixa obra artística des de
+       diferents perspectives  i a descobrir que, a partir d'un únic referent, poden sorgir
+      propostes  molt  diverses    i  creatives. També m'he adonat que  els  materials
+       quotidians  i naturals poden oferir moltes més possibilitats artístiques de les que
+      imaginem,  i que experimentar amb ells permet treballar aspectes com les textures,
+       els colors, les transformacions i les sensacions.
+
+     Un altre aprenentatge que considero especialment important és entendre que no
+      sempre cal tenir un resultat final definit abans de començar una activitat. Això ho
+       vinculo amb la importància de donar-los temps  i llibertat per experimentar, sense
+        intervenir constantment ni dirigir totes les seves accions.
+
+       Finalment, com a futura mestra, m'emporto la idea que l'art pot ser una eina molt
+       potent per despertar la curiositat, fomentar la creativitat  i apropar els infants a la
+       natura.  Considero  que hem  d'aprendre  a  donar més  valor  als  processos
+       d'exploració  i descobriment, entenent que cada infant pot viure  i interpretar una
+      mateixa experiència d'una manera diferent.
+
+
+ESTRATÈGIES METODOLÒGIQUES:
+
+     -​  Observació   i contemplació  artística: observació de  les obres del MNAC   i
+       l’exposició  Color, pigment   i origen per identificar-ne els elements visuals, les
+       tècniques, els colors i les textures.
+     -​  Recerca i selecció de referents: cerca i selecció de deu artistes a partir de criteris
+       personals, com la temàtica, l'estil, les tècniques, els materials o la composició de
+       les seves obres.
+     -​  Documentació   i registre  visual:  fotografies de  les obres   i de  les  cartel·les
+       informatives per conservar la informació i poder-la consultar posteriorment.
+     -​  Anàlisi  i reflexió personal: reflexió sobre què m'interpel·la de cada obra  i quins
+      elements considero que poden inspirar futures propostes artístiques a educació
+         infantil.
+
+
+## Pàgina 29 del PDF
+
+-​  Connexió entre referents artístics  i pràctica educativa: interpretació de les
+        possibilitats educatives de  les obres seleccionades, pensant com es podrien
+      adaptar les seves tècniques, materials o processos creatius a l'aula d'infantil.
+     -​  Aprenentatge autònom   i construcció de referents propis: elaboració d'una
+       selecció personal d'artistes que pugui recuperar com a font d'inspiració en la meva
+       futura pràctica docent.
+
+MATERIALS: Per dur a terme aquesta proposta, he utilitzat una càmera fotogràfica per
+documentar les obres seleccionades  i les cartel·les informatives de cada artista. També he
+fet servir una  llibreta per anotar, durant  la  visita, aquells aspectes que m'han cridat
+especialment l'atenció, com ara els colors, les textures, les tècniques o les composicions.
+A més, he fet una pluja d'idees  i reflexions des de la meva mirada com a futura mestra
+d'Educació Infantil, pensant en les possibilitats educatives que em suggeria cada obra i en
+com  podria  traslladar-les a  l'aula. D'aquesta manera, he pogut  recollir  les idees   i
+impressions del moment per no oblidar-les  i utilitzar-les posteriorment en la redacció
+d'aquesta web.
+
+PROPOSTA 2: DIÀLEG AMB EL JARDÍ. Recorregut pels jardins del Parc de Montjuïc a
+través de l'activitat «L'art de caminar. Passejada sonora d'arts en salut pels camins de
+Montjuïc».
+
+Després d'aquesta visita us proposem apropar-vos a 10 espècies vegetals: identificar-les i
+enregistrar-les en vídeo o fotografia, pensant que la manera de documentar influeix en el
+significat de la creació final. El resultat el podeu posar a la vostra web en el format que
+vulgueu: vídeo (màxim 2') i/o sèrie fotogràfica.
+
+
+## Pàgina 30 del PDF
+
+Imatge: 10 espècies vegetals pels jardins del Parc de Montjuïc​
+                                Font: imatges pròpies
+
+
+
+
+OBJECTIUS DE LA PROPOSTA:
+     -​  Desenvolupar  la  capacitat  d'observació    i  identificació  de  l'entorn  natural,
+       reconeixent i documentant diferents espècies vegetals dels jardins de Montjuïc.
+     -​  Explorar les possibilitats educatives de la fotografia  i el vídeo com a eines de
+      documentació, reflexionant sobre com el punt de vista, l’enquadrament  i el format
+     poden transformar la manera d’interpretar allò que observem.
+
+DESENVOLUPAMENT  I RESULTATS: Aquesta prova la vaig realitzar en els jardins del
+parc de Montjuïc, a través de  la passejada sonora  ‘’L’art de caminar’’, una activitat
+organitzada pel MNAC (Museu Nacional d’Art de Catalunya). L’activitat es podia dur a
+terme de manera autònoma, mitjançant la guia i els àudios disponibles a la pàgina web de
+l’activitat corresponent del museu. Això em va permetre desconnectar del ritme quotidià,
+connectar amb mi mateixa  i parar atenció a tot allò que m’envoltava, gaudint de l’entorn
+amb més consciència.
+
+Durant la passejada pels diferents jardins, em vaig adonar de la gran diversitat d’espècies
+vegetals que ens envolten  i de com, sovint, ens passen desapercebudes. A mesura que el
+recorregut avançava, anava descobrint noves espècies i aprenent a observar-les des d’una
+
+
+## Pàgina 31 del PDF
+
+mirada més atenta. Va ser una experiència molt enriquidora perquè em va permetre
+descobrir aspectes de la natura que fins aleshores no m’havia fixat  i que, sens dubte,
+recordaré. Per aquest motiu, em va resultar molt difícil seleccionar només deu espècies
+vegetals,  ja que n’hi havia moltes que em cridaven l’atenció per alguna qüestió en
+particular. Tot  i això, després d’observar-les amb deteniment i identificar-les, aquesta és la
+meva selecció definitiva.
+
+    1.​ Rosa ‘Fortuna’: Aquesta rosa m'ha cridat especialment l'atenció pel seu color
+       vermell intens  i la seva forma, que destaca entre la resta d'elements de la planta.
+     També m'ha agradat molt la seva fragància dolça  i agradable. A més, m'he fixat en
+        el contrast de textures entre la tija, més rugosa  i resistent,  i els pètals, molt més
+       delicats  i suaus. Considero que és una flor que destaca especialment per la força
+       del seu color i la seva presència visual.
+
+    2.​ Blush Noisette: Aquesta flor m'ha captivat per la seva forma  i la disposició dels
+       pètals, que  li donen un aspecte molt particular. També m'ha cridat l'atenció la
+      combinació de colors  i la delicadesa de la flor en contrast amb la resistència de la
+          tija. Pel que fa a l'olfacte, presenta una fragància suau però agradable. És una
+       d'aquelles flors que conviden a aturar-se i observar-ne els petits detalls.
+
+    3.​ Nandina domestica: El que més ha despertat el meu interès d'aquesta planta ha
+       estat la disposició dels seus fruits  i el seu color vermell intens, que contrasta amb
+       les tonalitats verdes de les fulles. També m'he fixat en la seva forma i en la sensació
+      de duresa  i resistència que transmeten els fruits quan els toques. En canvi, pel que
+        fa a l'olfacte, no he percebut cap aroma que em cridés especialment l'atenció.
+
+    4.​ Pittosporum lobiru: Aquesta planta m'ha cridat l'atenció principalment pels seus
+        petits fruits de tonalitats verdoses  i per la forma allargada de les seves fulles. En
+       observar-la més de prop, també m'he fixat en la textura de les fulles, que presenten
+      una superfície una mica rugosa. M'ha semblat interessant  la manera com es
+       distribueixen  els  diferents elements de  la planta   i com  les  fulles creen una
+      composició visual força particular.
+
+    5.​ Viburnum tinus: D'aquesta planta m'han cridat especialment l'atenció els seus
+         fruits, pel color intens  i la manera com es distribueixen entre les branques. També
+      m'he fixat en les seves fulles allargades  i en la seva textura. En comparar-les amb
+       les de  la planta anterior, he pogut observar que són menys resistents  i més
+       delicades al tacte. Aquesta comparació m'ha permès adonar-me de les diferències
+
+
+## Pàgina 32 del PDF
+
+que poden existir entre espècies vegetals que, a primera vista, poden semblar força
+   semblants.
+
+6.​ Rosa ‘Golden Wedding’: Si hagués d'escollir la meva espècie vegetal preferida,
+   sens dubte seria aquesta rosa. El seu color ataronjat em desperta emocions
+   profundes  i intenses, ja que em connecta amb records  i sentiments de nostàlgia
+    relacionats amb la meva infància. Per aquest motiu, és una de les plantes que més
+   m'ha interpel·lat personalment durant el recorregut. També m'ha cridat l'atenció la
+   seva forma, que em recorda la de la Rosa ‘Fortuna’, tot  i que el contrast entre els
+   colors de totes dues fa que transmetin sensacions molt diferents.
+
+7.​ ‘Abelia x  grandiflora: M'ha  cridat especialment  l'atenció  la manera com es
+    distribueixen les flors al llarg de les branques, creant una composició natural molt
+    atractiva. També m'ha agradat el contrast entre el blanc de les flors  i les petites
+   estructures de tonalitats rosades que les acompanyen. Considero que aquesta
+   combinació de colors, juntament amb les diferents formes  i textures, fa que sigui
+   una planta visualment molt interessant.
+
+8.​ ’Senna Corymbosa’: D'aquesta planta m'ha sorprès especialment el color groc
+    intens de les flors i la seva forma, que destaca fàcilment entre la resta de vegetació.
+   També he pogut observar que la tija és força fràgil  i poc resistent, ja que es trenca
+  amb molta facilitat. En canvi, les fulles són allargades i dures al tacte. M'ha semblat
+    interessant  descobrir  com  una  mateixa  planta  pot  presentar  parts amb
+    característiques i textures tan diferents.
+
+9.​ Schefflera arboricola: Aquesta planta m'ha cridat l'atenció pel color verd intens de
+    les seves fulles  i per la seva resistència al tacte. Tot i això, el que més m'ha agradat
+   és la seva disposició, ja que les fulles surten d'un mateix punt  i s'obren cap a
+    diferents direccions, creant una forma que em recorda una flor. Aquesta estructura
+  em sembla especialment bonica i interessant des d'un punt de vista visual.
+
+10.​Eounymus japonicus: El que més m'ha cridat l'atenció d'aquesta planta és el
+   contrast entre les diferents tonalitats verdes  i groguenques de les seves fulles.
+   També m'he fixat en la seva disposició, que, igual que en el cas de la Schefflera
+    arboricola, crea una composició que recorda la forma d'una flor. Pel que fa al tacte,
+    les  fulles  presenten una  textura suau   i són  força  resistents. M'ha  agradat
+   especialment la combinació de colors, ja que aporta lluminositat a la planta i fa que
+   destaqui visualment.
+
+
+## Pàgina 33 del PDF
+
+ESTRATÈGIES METODOLÒGIQUES: En aquesta proposta he  utilitzat una estratègia
+metodològica basada en l’observació directa  i l’aprenentatge vivencial, ja que he pogut
+conèixer les espècies vegetals a partir del contacte directe amb l’entorn natural. He pogut
+anar més enllà d’una observació superficial   i fixar-me en detalls que sovint passen
+desapercebuts. La selecció de les 10 espècies no ha estat aleatòria, sinó que ha respost a
+la curiositat  i interès que m’ha causat cadascuna. Això m’ha permès adonar-me que cada
+persona pot percebre i interpretar un mateix entorn de manera diferent.
+
+MATERIALS: Per dur a terme aquesta proposta, he utilitzat una càmera fotogràfica per
+documentar les espècies vegetals que anava descobrint  i una llibreta per anotar aquelles
+que em cridaven l’atenció i els motius pels quals m’havien despertat interès.
+
+REFLEXIONS I CONCLUSIONS:
+
+En finalitzar aquesta proposta, m'emporto diversos aprenentatges, tant pel que fa a la
+descoberta de l'entorn natural com a la manera d'observar-lo i representar-lo artísticament.
+En primer  lloc, aquesta experiència m'ha permès adonar-me que sovint passem per
+davant de moltes plantes  i flors sense fixar-nos realment en les seves particularitats. En
+canvi, quan ens aturem a observar-les amb més deteniment, descobrim una gran varietat
+de formes, colors, textures, olors i disposicions que poden passar desapercebudes en una
+mirada més superficial. També he après que apropar-nos a la natura a través de diferents
+sentits ens permet establir-hi una relació més propera  i descobrir característiques que no
+hauríem identificat únicament a través de la vista.
+
+D'altra banda, m'ha semblat especialment interessant comprovar que cada espècie m'ha
+despertat  un  interès  diferent. En  alguns  casos, m'he  fixat  principalment en  les
+característiques visuals, com els colors intensos o la disposició de les fulles  i les flors; en
+d'altres, m'han cridat més l'atenció les textures o les sensacions que m'han transmès en
+tocar-les  i olorar-les. També he descobert que la relació amb la natura pot anar més enllà
+de les seves característiques físiques  i connectar amb experiències  i records personals.
+Això m'ha fet reflexionar sobre com un mateix element natural pot generar interpretacions i
+emocions molt diferents segons la persona que l'observa i les seves vivències.
+
+Un dels aprenentatges que considero més importants d'aquesta proposta és entendre que
+la manera de documentar també forma part del procés de creació artística  i influeix en el
+significat del resultat final. No és el mateix fotografiar una planta sencera que apropar-se a
+un detall concret de les seves fulles, destacar-ne la textura o centrar-se únicament en els
+seus fruits. Segons l'enquadrament, la perspectiva, la distància o la llum que escollim,
+
+
+## Pàgina 34 del PDF
+
+podem transmetre sensacions  i interpretacions diferents d'una mateixa espècie. Per tant,
+la fotografia o el vídeo ens permeten construir una mirada pròpia  i decidir quins aspectes
+volem destacar   i comunicar. En aquest sentit, he entès que documentar no significa
+únicament mostrar allò que tenim davant, sinó també interpretar-ho  i donar-li un significat
+personal.
+
+A més, aquesta proposta m'ha ajudat a veure les possibilitats educatives que pot tenir una
+proposta d'aquest tipus a l'etapa d'educació infantil. Considero que és important oferir als
+infants oportunitats per sortir de l'aula, explorar l'entorn proper  i observar la natura sense
+presses, deixant espai perquè siguin ells mateixos qui descobreixin allò que els desperta
+curiositat. També m'agradaria incorporar la fotografia com una eina d'expressió, ja que
+permetria que els infants escollissin què volen mostrar, des de quina perspectiva  i quins
+detalls consideren importants. D'aquesta manera, no només treballaríem l'observació  i la
+descoberta de l'entorn, sinó també la creativitat, l'expressió personal  i la capacitat de
+comunicar allò que senten i perceben.
+
+Finalment, com a futura mestra, m'emporto  la importància d'ensenyar a mirar d'una
+manera més conscient  i curiosa. Crec que, de vegades, donem per fet que els infants ja
+saben observar  el seu entorn, però considero que també hem d'acompanyar-los a
+descobrir els petits detalls que sovint ens passen desapercebuts.
+
+CONCLUSIONS DE LA SORTIDA.
+Què penses que t'ha aportat aquesta visita:
+ ... en relació al teu vincle amb la natura?
+... en relació a la teva pràctica artística?
+... en relació a la teva futura pràctica docent?
+
+Aquesta passejada pels jardins del Parc de Montjuïc  i la visita al MNAC m'han permès
+reflexionar sobre la relació que tenim amb la natura, sobre la meva manera d'entendre  i
+expressar l'art  i sobre com puc traslladar aquests aprenentatges a la meva futura pràctica
+docent.
+
+1. Què penso que m'ha aportat aquesta visita en relació amb el meu vincle amb la
+natura?
+
+Aquestes experiències m'han permès replantejar-me la manera com em relaciono amb la
+natura  i adonar-me que, sovint, la tenim molt més a prop del que pensem, però no sempre
+li dediquem l'atenció que mereix. Vivim envoltats d'elements naturals, però moltes vegades
+passem pel seu costat sense aturar-nos a observar-los realment. La passejada pels jardins
+de  Montjuïc m'ha  ajudat a prendre  consciència d'aquesta  realitat   i a entendre  la
+
+
+## Pàgina 35 del PDF
+
+importància de dedicar temps a mirar, escoltar, tocar  i descobrir tot allò que ens envolta.
+He après que, quan canviem el ritme  i ens permetem observar sense presses, podem
+descobrir una gran diversitat de detalls que habitualment ens passen desapercebuts.
+
+També m'he adonat que establir un vincle amb la natura no consisteix únicament a
+conèixer les diferents espècies vegetals o identificar les seves característiques, sinó que
+implica desenvolupar una relació més sensible, emocional  i personal amb l'entorn. Durant
+el recorregut, algunes plantes em van cridar l'atenció pels seus colors, les seves formes o
+les seves textures, mentre que d'altres em van despertar records  i emocions personals.
+Aquesta experiència m'ha fet entendre que la natura no és només allò que observem
+exteriorment, sinó que també pot convertir-se en un espai de connexió amb nosaltres
+mateixes, amb les nostres vivències i amb les nostres emocions.
+
+D'altra banda, la visita al MNAC  i a l'exposició Color, pigment  i origen m'ha permès
+descobrir que aquesta relació entre art  i natura es pot expressar de moltes maneres
+diferents. A través de les obres seleccionades, he pogut observar com cada artista
+interpreta l'entorn natural des d'una mirada pròpia, utilitzant diferents materials, tècniques,
+colors  i composicions. Això m'ha fet reflexionar sobre el fet que no existeix una única
+manera de representar o entendre la natura. Un mateix paisatge, una mateixa flor o un
+mateix element natural poden transmetre sensacions  i significats molt diferents segons la
+persona que els observa i la seva experiència personal.
+
+Per tant, considero que un dels aprenentatges més importants ha estat entendre que la
+natura ens ofereix una  infinitat de possibilitats de descoberta, però que necessitem
+aprendre a mirar-la amb més consciència  i sensibilitat. M'emporto la importància de
+recuperar aquesta capacitat de sorprendre'ns davant de les petites coses, de deixar-nos
+interpel·lar pel nostre entorn  i d'entendre que la relació amb la natura també es construeix
+a partir de les emocions, els records i les experiències que hi vinculem.
+
+2. Què penso que m'ha aportat aquesta visita en relació amb la meva pràctica
+artística?
+
+Pel que fa a la meva pràctica artística, aquestes visites m'han ajudat a ampliar la meva
+mirada  i a entendre que l'art no ha de consistir necessàriament a reproduir la realitat de
+manera  fidel,  sinó que també pot ser una manera  d'interpretar-la, transformar-la   i
+expressar allò que ens fa sentir. La selecció de les deu obres del museu m'ha permès
+descobrir diferents maneres d'apropar-se a la natura a través de l'art. M'he adonat que
+cada artista parteix d'una mirada individual  i subjectiva,  i que són precisament aquestes
+diferències les que enriqueixen les possibilitats de creació artística.
+
+
+## Pàgina 36 del PDF
+
+En aquest sentit, he après a donar més importància al procés d'observació abans de
+començar a crear. La passejada pels jardins de Montjuïc m'ha permès comprovar que
+observar detingudament un element natural pot convertir-se en un punt de partida molt
+enriquidor per a una creació artística. Fixar-me en la disposició de les fulles, els contrastos
+entre  textures,  les  tonalitats dels colors o les formes dels  fruits m'ha  fet descobrir
+possibilitats visuals que abans no hauria tingut presents. També he entès que no sempre
+cal  partir d'una idea preconcebuda o d'un resultat  final concret, sinó que la pròpia
+observació, la curiositat i la descoberta poden anar orientant el procés creatiu.
+
+Un  altre aspecte que considero especialment  significatiu és haver ampliat  la meva
+concepció dels materials  i de les tècniques artístiques. Les obres observades al museu
+m'han fet descobrir que es poden crear produccions artístiques a partir de materials molt
+diversos i, fins i tot, poc convencionals. Això m'ha ajudat a entendre que qualsevol material
+pot esdevenir un recurs artístic si som capaces d'explorar-ne les possibilitats.
+
+També m'emporto un aprenentatge relacionat amb la importància de la mirada personal  i
+de la subjectivitat en l'art. Durant les dues experiències he pogut comprovar que no totes
+les persones ens fixem en els mateixos elements ni interpretem les imatges de la mateixa
+manera. Allò que a mi em pot cridar l'atenció per un color, una textura o un record
+personal, a una altra persona li pot despertar sensacions completament diferents. Per això,
+considero que l'art ha de ser un espai on cadascú pugui construir el seu propi llenguatge
+visual, experimentar amb llibertat  i expressar-se sense haver de respondre a una única
+interpretació o a un model establert.
+
+Finalment, aquestes experiències m'han  fet entendre que documentar també és una
+manera de crear. A través de la fotografia, per exemple, podem decidir què volem mostrar,
+des de quina perspectiva ho volem fer  i quins detalls volem destacar. Cada decisió
+modifica la manera com percebem  i interpretem allò que tenim davant. Per tant, considero
+que  la meva pràctica  artística es pot enriquir molt  si aprenc a observar amb més
+deteniment, a experimentar amb materials diversos  i a donar més valor a les idees  i
+sensacions que sorgeixen durant el procés creatiu, sense limitar-me a buscar un resultat
+estètic determinat.
+
+3. Què penso que m'ha aportat aquesta visita en relació amb la meva futura
+pràctica docent?
+
+En relació amb la meva futura pràctica docent, aquestes experiències m'han permès
+reflexionar sobre la importància de generar propostes educatives que connectin l'art amb
+la natura   i que ofereixin als infants oportunitats reals d'exploració, experimentació   i
+
+
+## Pàgina 37 del PDF
+
+descoberta. Considero que, com a futures mestres, tenim la responsabilitat de crear espais
+i  situacions  d'aprenentatge que  despertin  la  curiositat  dels  infants   i  els  ajudin a
+desenvolupar una mirada més conscient envers el món que els envolta.
+
+Un dels aprenentatges que considero més importants és entendre que observar també és
+una capacitat que cal acompanyar  i desenvolupar. Sovint donem per fet que els infants
+observen tot allò que tenen al seu voltant, però considero que és important oferir-los
+temps  i oportunitats per aturar-se, mirar amb deteniment  i descobrir petits detalls. Per
+exemple, sortir al pati o a un jardí  i convidar-los a observar les diferents formes de les
+fulles, comparar-ne les textures, descobrir els colors de les flors o sentir els sons de
+l'entorn pot convertir-se en una experiència d'aprenentatge molt significativa.
+
+D'altra banda, la visita al museu m'ha fet adonar de la importància d'apropar els infants a
+diferents referents  artístics des de les primeres edats. Considero que és fonamental
+oferir-los la possibilitat de conèixer artistes, obres, tècniques  i materials diversos, ja que
+això els permet ampliar els seus imaginaris  i descobrir que existeixen moltes maneres de
+crear. A més, he entès que no hem de presentar les obres d'art com a models que els
+infants han de reproduir, sinó com a punts de partida que els convidin a imaginar,
+experimentar i construir les seves pròpies interpretacions.
+
+També considero fonamental oferir als infants diferents llenguatges  i recursos perquè
+puguin expressar allò que observen  i senten. La fotografia, el vídeo, la pintura, el dibuix, el
+modelatge o la creació amb elements naturals poden convertir-se en eines per comunicar
+les seves idees  i construir una mirada pròpia. M'agradaria incorporar especialment la
+fotografia, ja que permet que siguin els mateixos infants qui decideixin què volen mostrar i
+quins  aspectes  de  l'entorn  consideren  importants.  D'aquesta  manera, no només
+treballaríem l'observació, sinó també  la capacitat de prendre decisions, interpretar la
+realitat i expressar-se a través d'un llenguatge visual.
+
+Un altre aspecte que m'ha fet reflexionar és la necessitat de donar més protagonisme al
+procés creatiu que no pas al resultat final. A partir de les obres observades, he pogut
+imaginar moltes propostes basades en l'experimentació amb materials naturals, pigments,
+aigua, textures, transparències  i elements de l'entorn. Aquestes activitats m'han fet veure
+que no sempre és necessari que la mestra tingui previst com ha de quedar una producció
+final. Al contrari, considero que és molt més enriquidor preparar un entorn estimulant, oferir
+materials diversos i permetre que els infants investiguin què poden fer amb ells.
+
+Finalment, aquestes visites m'han fet entendre que educar a través de l'art  i la natura
+també significa ensenyar als infants a sortir de la mirada habitual  i a descobrir altres
+maneres de relacionar-se amb el món. M'agradaria ser una mestra capaç de generar
+
+
+## Pàgina 38 del PDF
+
+experiències que  els  permetin  sorprendre's,  fer-se  preguntes,  explorar  sense  por
+d'equivocar-se  i trobar les seves pròpies maneres d'expressar-se. Considero que no hem
+de limitar la creativitat dels infants a allò que ja coneixem o esperem d'ells, sinó que hem
+de confiar en les seves capacitats   i  oferir-los  llibertat per imaginar   i construir nous
+significats.
+
+
+PART 3. DESCRIPCIÓ DEL JARDÍ
+Què és un jardí? Descripció visual
+PROPOSTA : Fer la representació descriptiva d'un espai-jardí amb tècniques artístiques  i
+materials del llenguatge visual   i  plàstic: dibuix, pintura, estampació, "frottage",  ... Es
+presentarà com a llibre d’artista.
+
+OBJECTIUS DE LA PROPOSTA:
+     -​  Saber descriure un espai natural a partir dels seus elements que el componen  i de
+      tècniques artístiques.
+     -​  Conèixer la tècnica del dibuix i la pintura (estris i materials), d'estampació, "frottage"
+           ... com a mitjans d'expressió i representació.
+     -​  Construir un llibre d'artista amb tècniques d'enquadernació.
+
+DESENVOLUPAMENT I RESULTATS:
+
+Per dur a terme aquesta proposta, vam dedicar diverses sessions a  l’hort de  les
+temptacions a  la facultat de ciències de l’educació de la UAB. Per elaborar aquesta
+proposta artística, vaig partir de la idea de representar visualment què és un jardí  i quins
+elements el caracteritzen. En lloc de fer una representació realista d'aquest espai, vaig
+voler crear una interpretació més  lliure, abstracta   i personal, a través dels diferents
+recursos que ofereix el llenguatge visual  i plàstic. La intenció era transmetre allò que
+podem trobar en un jardí, però també les sensacions que ens pot despertar.
+
+Durant el procés de creació, vaig experimentar amb diferents tècniques artístiques, com el
+dibuix, la pintura, l'estampació  i el frottage. Cadascuna em va permetre obtenir resultats
+diferents  i descobrir noves maneres de representar els elements naturals. Per exemple,
+vaig  utilitzar les taques de pintura  i les estampacions per crear formes irregulars que
+recorden les flors, les fulles i la vegetació. També vaig experimentar amb elements naturals
+com a recursos artístics, aprofitant els pigments  i les tonalitats que desprenen les pròpies
+flors  i plantes, utilitzant terra de l'hort per crear textures  i incorporant l'estampació directa
+de diferents elements vegetals sobre el paper. D'aquesta manera, vaig poder treballar
+directament amb materials extrets de  la natura   i descobrir les diferents possibilitats
+
+
+## Pàgina 39 del PDF
+
+expressives que ofereixen, tant pel que fa als colors com a les formes  i les textures que
+deixen sobre el suport.
+
+També vaig jugar amb les ceres  i els llapis per incorporar línies, detalls  i textures que
+aportessin més  expressivitat a  les composicions. A través del  frottage, vaig poder
+experimentar amb les diferents marques  i relleus que es poden obtenir en fregar el paper
+sobre superfícies amb textures.
+
+Un dels aspectes que vaig  tenir més en compte va ser la utilització del color. Vaig
+combinar tonalitats de verd, groc, taronja, rosa, lila, blau i negre, buscant crear contrastos i
+composicions variades. Els colors més vius em van permetre transmetre la vitalitat  i la
+diversitat que associem als jardins, mentre que les diferents textures i formes irregulars em
+van ajudar a representar la riquesa visual de la natura. No vaig buscar que cada producció
+representés un element concret, sinó que, en conjunt, transmetés la sensació d'estar
+davant d'un espai natural ple de vida.
+
+Un cop realitzades les diferents experimentacions plàstiques, vaig seleccionar les parts
+que més m'interessaven  i les vaig retallar en tires rectangulars amb l’ajuda del visor que
+vaig crear. Posteriorment, les vaig organitzar  i distribuir per donar forma al meu llibre
+d'artista. Vaig buscar una disposició que tingués continuïtat visual, de manera que les
+diferents peces es relacionessin entre elles  i formessin una composició conjunta. També
+vaig incorporar el títol ‘’Natura viva’’, que sintetitza la idea principal de la meva creació i fa
+referència a la diversitat de formes, colors i textures que caracteritzen un jardí.
+
+     -​  Justificació i reflexió del format seleccionat pel meu llibre d’artista: Vaig escollir
+      aquest sistema de retalls en tires  i la composició a doble cara perquè em permetia
+       jugar amb la continuïtat de les diferents creacions  i fer que totes formessin part
+      d'una mateixa obra. En lloc de presentar les experimentacions de manera separada,
+      aquest format em permetia connectar-les visualment  i crear una composició més
+       dinàmica, en què els colors  i les textures es relacionen entre si. També em va
+       interessar la possibilitat de treballar les dues cares del paper, ja que així podia
+       incorporar més produccions sense haver d'ampliar l'estructura del llibre. A més, el
+        fet de poder girar  i manipular les tires ofereix diferents maneres d'observar l'obra  i
+       descobrir-ne nous detalls.
+
+Elaborar aquest llibre d'artista m'ha fet adonar que la natura no és només un tema que
+podem representar, sinó també un material amb el qual podem crear. Mai m'havia plantejat
+que els pigments d'una flor, la textura de la terra o la forma d'una fulla poguessin tenir tant
+de potencial artístic. Com a futura mestra, m'agradaria incorporar aquesta mirada a l'aula i
+apropar els infants a materials que no sempre formen part de les activitats plàstiques
+
+
+## Pàgina 40 del PDF
+
+habituals. També m'emporto una  reflexió sobre  la importància de permetre que els
+materials ens sorprenguin: no controlar-ho tot, sinó donar espai a allò inesperat, que sovint
+és el que acaba enriquint una creació.
+
+M'agradaria que, com a mestra, els infants poguessin viure aquesta mateixa llibertat: que
+no sentissin que han de dibuixar una flor perquè s'assembli a una flor, sinó que poguessin
+descobrir quantes maneres  diferents  hi ha de  representar-la. Crec que una de les
+responsabilitats de l'educació  artística és precisament aquesta: ajudar els infants a
+construir una mirada pròpia, curiosa i sensible envers el món que els envolta.
+
+
+ESTRATÈGIES METODOLÒGIQUES:
+
+    ●​ Experimentació: explorar  i combinar diferents tècniques  i materials artístics per
+       descobrir-ne  les  possibilitats  creatives    i  expressives.  Alhora,  investigar  les
+        possibilitats del llenguatge visual a través del joc amb els colors, les línies, les
+       taques, les formes   i les textures, descobrint com aquests elements es poden
+      combinar per crear composicions i transmetre sensacions.
+    ●​ Observació de la natura: fixar-me en els colors, les formes, les textures i els petits
+       detalls que podem trobar en un jardí.
+    ●​  Lliure expressió: representar  el  jardí de manera subjectiva   i personal, sense
+       necessitat de reproduir fidelment els elements naturals.
+    ●​ Combinació de tècniques: barrejar dibuix, pintura, estampació   i frottage per
+       obtenir resultats visuals diversos.
+    ●​ Composició artística: seleccionar, retallar i organitzar les diferents produccions per
+      donar coherència al llibre d'artista.
+
+MATERIALS:
+
+Per dur a terme aquesta proposta ,com a suport principal, he utilitzat cartolines blanques
+sobre  els quals he  realitzat les diferents composicions artístiques. Pel que fa a les
+tècniques pictòriques, he fet servir aquarel·les de diferents colors, pinzells de diferents
+tipus  i altres estris (majoritàriament elements naturals de l’hort de les temptacions) que
+m'han permès crear taques, barreges cromàtiques i formes irregulars.
+
+També he utilitzat ceres per incorporar línies, dibuixos  i petits detalls a les composicions.
+Per experimentar amb l'estampació i el frottage, he recorregut a materials i superfícies amb
+diferents textures (fulles que em van cridar l’atenció de l’hort), que m'han permès obtenir
+marques i efectes visuals diversos.
+
+
+## Pàgina 41 del PDF
+
+Finalment, per construir el llibre d'artista, he una regla per dur a terme el visor  i unes
+tisores per retallar les diferents produccions seleccionades. També he utilitzat segells amb
+lletres per incorporar el títol  i donar una identitat pròpia a l'obra,  i una màquina de foradar
+paper per fer els forats al meu llibre d’artista i enquadernar-lo posteriorment.
+
+
+PART 3_bis. TALLER DE TINTES NATURALS
+
+Proposta: Elaborarem tintes naturals a partir d’elements botànics com vegetals i espècies.
+Les prepararem  artesanalment   i experimentarem amb  elles sobre  diferents suports.
+Observarem com apareixen els colors, les textures  i les transparències, deixant-nos portar
+pel procés creatiu. Finalment,   reflexionarem plegades sobre tot allò que ens aporta
+treballar amb aquest tipus de materials  i l'impacte positiu que tenen en la nostra manera
+de ser, fer i relacionar-nos.
+
+Objectius:
+Adquirir una comprensió vivencial del procés de transformació d'elements botànics en
+color, explorant les possibilitats expressives dels pigments naturals. Assimilar el valor
+pedagògic del procés creatiu, del joc, del dubte i l'error.
+Desenvolupament i resultats:
+
+La proposta es desenvolupa en diferents fases, des de la preparació dels pigments
+naturals fins a l'experimentació amb les tintes obtingudes.
+
+Primera fase. Preparació de les tintes naturals
+
+En primer lloc, preparem els dos ingredients principals: una remolatxa i una col llombarda.
+Els rentem bé per eliminar possibles restes de brutícia  i, a continuació, els tallem en
+trossos petits. D'aquesta manera, facilitem que els pigments que contenen els vegetals
+s'alliberin més fàcilment durant la cocció.
+
+Seguidament, posem cada ingredient en una olla diferent  i hi afegim aigua fins que quedi
+cobert. Posem les olles al foc  i deixem bullir els ingredients durant aproximadament 15-30
+minuts, a foc mitjà o baix. Durant aquest temps, observem com l'aigua va adquirint
+progressivament el color dels aliments: en el cas de la remolatxa, obtenim un líquid de
+tonalitats vermelloses  i rosades, mentre que la col llombarda tenyeix l'aigua d'un color lila
+o porpra intens.
+
+Durant la cocció, els pigments naturals passen dels vegetals a l'aigua, fet que ens permet
+obtenir dues tintes diferents sense necessitat d'afegir-hi colorants artificials.
+
+
+## Pàgina 42 del PDF
+
+Un cop els ingredients han bullit  i l'aigua ha adquirit un color intens, retirem les olles del
+foc  i deixem refredar una mica el líquid. A continuació, colem la barreja amb un colador per
+separar les restes sòlides dels vegetals. Així obtenim dues tintes líquides: una elaborada
+amb remolatxa  i l'altra amb col llombarda. Finalment, les guardem en recipients diferents
+per poder-les utilitzar durant l'experimentació.
+
+Segona fase. Experimentació amb les tintes
+
+Un cop tenim les tintes preparades, comencem a experimentar amb les seves possibilitats
+artístiques. Per fer-ho, utilitzem diferents recipients  i preparem petites mostres de tinta a
+les quals afegim substàncies quotidianes:
+
+    ●​ Llimona.
+    ●​  Llevat.
+    ●​ Sabó.
+    ●​ Bicarbonat.
+    ●​  Sal.
+    ●​  Vinagre.
+
+Anem incorporant aquestes substàncies a petites quantitats de tinta i observem què passa
+en cada cas. Ens fixem especialment en els canvis de tonalitat, la intensitat del color, les
+textures i les reaccions que es produeixen quan els diferents materials entren en contacte.
+
+Aquesta fase ens permet comprovar que la tinta no sempre manté el mateix aspecte, ja
+que pot transformar-se segons els elements amb què la barregem.
+
+Tercera fase. Aplicació artística sobre el paper
+
+Aquestes  experimentacions amb  les  diferents  combinacions,  s’apliquen sobre una
+cartolina blanca per observar-ne els resultats visuals. Utilitzem les tintes amb diferents
+formes d'aplicació, fent, en el meu cas, tant taques  i superfícies pintades com traços
+ondulats i gestuals.
+
+Preparem dues tires de paper plegades en format leporello, una per a cada tinta. A cada
+apartat hi representem una de les proves realitzades (apuntant amb quina substància s’ha
+experimentat en aquell cas). Això ens permet comparar visualment els resultats de la
+remolatxa  i la col llombarda  i observar com una mateixa substància pot produir efectes
+diferents segons el pigment de partida.
+
+Els resultats de l'experimentació ens permeten observar diferències entre les dues tintes
+naturals.
+
+
+## Pàgina 43 del PDF
+
+Tinta de remolatxa
+
+La tinta elaborada amb remolatxa presenta principalment tonalitats rosades, vermelloses i
+lleugerament marronoses. Quan la combinem amb les diferents substàncies, observem
+variacions en la intensitat  i l'aparença del pigment. En algunes proves, el color es torna
+més pàl·lid i en d'altres adquireix una tonalitat més apagada o una textura diferent.
+
+Tinta de col llombarda
+
+La tinta de col llombarda presenta inicialment una tonalitat blavosa o lila. En experimentar
+amb les diferents substàncies, observem canvis de color més evidents, que donen lloc a
+tonalitats rosades, verdes, groguenques, blavoses  i liles. Això es deu al fet que la col
+llombarda conté antocianines, uns pigments naturals sensibles als canvis de pH. Per
+exemple, en entrar en contacte amb substàncies àcides, com la llimona o el vinagre,
+poden aparèixer tonalitats rosades o vermelloses, mentre que en un medi més bàsic
+poden aparèixer tonalitats blavoses o verdoses.
+
+Comparació dels resultats
+
+En comparar les dues  tintes, podem observar que la col llombarda és especialment
+interessant per experimentar amb els canvis de color provocats per altres substàncies. En
+canvi,  la remolatxa  ofereix una gamma de  tonalitats més centrada en els rosats   i
+vermellosos, amb variacions d'intensitat i textura.
+
+A més dels canvis cromàtics, també observem diferències en l'acabat de les mostres
+sobre el paper: algunes presenten una superfície més uniforme, mentre que d'altres tenen
+petites acumulacions, taques, marques i textures irregulars.
+
+Reflexió: Aquesta proposta m’ha fet adonar que l’elaboració de tintes naturals pot ser un
+recurs molt interessant per incorporar a l’aula d’educació infantil. Com que es preparen a
+partir d’elements botànics  i ingredients quotidians, permeten obtenir tintes no tòxiques  i
+oferir als infants alternatives a les pintures i als colorants comercials.
+
+Com a futura mestra, m’agradaria dur a terme tallers d’aquest tipus perquè els infants
+descobrissin que aliments com la remolatxa o la col llombarda també poden tenir una
+utilitat artística. Considero que és una bona manera d’apropar-los a l’aprofitament dels
+recursos naturals  i a una mirada més sostenible, fent-los veure que no sempre cal comprar
+materials específics per crear, sinó que molts elements que tenim al nostre abast poden
+transformar-se en recursos artístics. Així, una activitat aparentment senzilla pot ajudar-los
+a descobrir noves possibilitats creatives en objectes i materials del seu entorn quotidià.
+
+
+## Pàgina 44 del PDF
+
+Estratègies metodològiques:
+    ●​ Experimentació   i manipulació: manipular  els  aliments,  preparar  les  tintes   i
+      combinar-les amb diferents substàncies per descobrir-ne les possibilitats.
+    ●​ Observació directa: parar atenció als canvis que es produeixen durant la cocció, la
+       barreja dels ingredients i l'aplicació sobre el paper.
+    ●​ Formulació d'hipòtesis: plantejar què pot passar quan afegim una substància a la
+        tinta i comprovar posteriorment si les nostres prediccions es compleixen.
+    ●​ Assaig-error:   provar   diferents  combinacions     i  tècniques  sense  buscar
+      necessàriament un resultat predeterminat.
+    ●​ Exploració sensorial: descobrir les qualitats visuals  i materials de les tintes, com
+       els colors, les textures, la transparència i la intensitat.
+    ●​ Documentació del procés: recollir les diferents proves en un suport plegable que
+      permeti comparar els resultats i tenir constància de l'experimentació.
+
+Materials:
+
+
+ Categoria                                Materials
+
+ Ingredients naturals                       Remolatxa, col llombarda i aigua
+
+ Preparació                           Dues olles, ganivet, fogons i colador
+
+ Experimentació                            Llimona, llevat, sabó, bicarbonat, sal i
+                                             vinagre
+
+ Recipients                               Pots o recipients petits per separar les
+                                                diferents mostres
+
+ Aplicació artística                            Cartolina blanca, pinzells i estris per aplicar
+                                                  les tintes
+
+ Documentació                               Cartolina en fomat leporello i retolador per
+                                                    identificar les proves
+
+
+## Pàgina 45 del PDF
+
+BLOC   III. LA FORMACIÓ EN LA PRÀCTICA DE  L’ART. MODA, ARTIVISME   I
+PERFORMATIVITAT EN LES ARTS I L’EDUCACIÓ.
+
+PART 1. LLENGUATGES DEL COS I EL TEIXIT
+
+PART 2. EXPOSICIÓ: EL COS VESTIT + MATER MATTERS
+
+
+## Pàgina 46 del PDF
+
+PART 3. BIOTEIXITS_DU-DA
+
+PART 4. LA PASSAREL·LA: ESPAI DE CREACIÓ
+
+CONCLUSIONS GENERALS DE L’ASSIGNATURA
+     -​  OBJECTIU: Ressaltar aquells aprenentatges (coneixements) que s'han  realitzat
+       durant l'assignatura.
+
+
+REFLEXIONS PERSONALS
+     -​  Punts forts
+
+     -​  Punts febles
+
+
+
+
+
+PER SABER-NE MÉS…
+
+1.Andy Goldsworthy - Ríos y mareas
+
+
+## Pàgina 47 del PDF
+
+El documental Ríos y mareas,  dirigit per Thomas Riedelsheimer (2001), ens apropa al
+procés creatiu de l’artista Andy Goldsworthy, que utilitza elements que troba a la natura
+per construir composicions i escultures en diferents espais naturals.
+
+Una de les qüestions que més m’ha cridat l’atenció és el caràcter efímer de moltes de les
+seves creacions, ja que algunes es transformen o desapareixen per l’acció del vent, l’aigua
+o  el  pas  del  temps. També  m’interessa  especialment com  l’artista  observa  les
+característiques dels materials i les condicions de cada espai abans de crear, entenent que
+cada element natural ofereix unes possibilitats diferents  i que no sempre podem controlar
+el resultat final.
+
+M’agradaria continuar investigant sobre aquest  artista perquè considero que  la seva
+manera de treballar pot oferir aprenentatges molt interessants a educació infantil. Crec
+que és important que els infants coneguin artistes com Goldsworthy per descobrir
+que una fulla, una pedra o un tros de gel no són simplement materials per manipular,
+sinó elements amb unes característiques pròpies que cal observar  i comprendre
+abans de crear.
+
+
+## Pàgina 48 del PDF
+
+Obra: Rowan Leaves Laid Around a Hole (1987)
+
+           Artista: Andy Goldsworthy
+
+
+
+
+
+      Obra: Reconstructed Icicles (2010)
+
+           Artista: Andy Goldsworthy
+
+![Rowan Leaves Laid Around a Hole (1987) — Andy Goldsworthy](../assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp)
+
+![Reconstructed Icicles (2010) — Andy Goldsworthy](../assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp)
+
+
+## Pàgina 49 del PDF
+
+2. Lucía Loren – Art i ecologia
+
+Lucía Loren és una artista que desenvolupa projectes que relacionen la creació artística
+amb el paisatge, l'ecologia  i la relació entre les persones  i el territori. En les seves
+intervencions utilitza elements del mateix entorn natural i, en alguns projectes, incorpora la
+participació de les persones que hi viuen, de manera que el procés artístic es converteix
+també en una experiència compartida d'intercanvi i aprenentatge (ArteInformado, 2026).
+
+El que més m'interessa de Lucía Loren és que la seva obra em fa pensar en la importància
+que els infants no visquin els espais naturals com a simples llocs de pas, sinó com a
+espais dels quals també són responsables. Crec que és important que coneguin artistes
+com ella perquè els permet descobrir que l'art també pot servir per donar veu a un territori,
+fer visibles les seves necessitats  i implicar les persones en la seva cura. M'agradaria
+investigar com traslladar aquesta idea a l'escola. Així, no només crearien una obra, sinó
+que aprendrien que les seves decisions també poden tenir un impacte en el lloc on viuen.
+
+
+
+
+
+                           Obra: Matriz de agua (2018)
+
+                                     Artista: Lucia Loren
+
+
+
+3. Martin Hill – El cercle de la vida
+
+Martin Hill és un artista que crea composicions  i escultures a partir d'elements naturals.
+Les seves obres destaquen especialment per les formes circulars  i per la relació que
+
+![Matriz de agua (2018) — Lucía Loren](../assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp)
+
+
+## Pàgina 50 del PDF
+
+estableixen amb els processos  i els cicles de la natura. De fet, l'artista explica que les
+seves escultures es creen amb materials del mateix entorn i que, posteriorment, retornen a
+la natura, on esdevenen recursos per a una nova vida (Zona Libre Radio Online, 2014).
+
+Aquesta manera d'entendre la creació artística em convida a qüestionar la idea que per
+crear necessitem disposar de materials elaborats o comprar recursos específics, quan el
+mateix entorn ens ofereix una gran diversitat de possibilitats.
+
+M'agradaria continuar investigant sobre aquest artista perquè les seves composicions em
+semblen  una  bona  font  d'inspiració  per  desenvolupar  activitats  d'observació    i
+experimentació amb infants. M'agradaria, també, que els infants coneguessin Martin Hill
+perquè la seva obra permet introduir una idea que sovint queda fora de les activitats
+artístiques: no tot allò que creem està pensat per durar ni tot allò que trobem a la
+natura ens  pertany. Em sembla  interessant que  descobreixin que una obra pot
+desaparèixer, transformar-se o tornar a formar part del paisatge sense que això signifiqui
+que hagi perdut el seu valor. Crec que és una manera d'apropar-los a una concepció de
+l'art diferent de la que habitualment coneixen  i de fer-los reflexionar sobre la nostra relació
+amb el temps, els materials i la natura.
+
+
+## Pàgina 51 del PDF
+
+Obra: Sunrise circle (2011)
+                             Artista: Martin Hill i Philippa Jones
+
+
+
+
+Glosari
+
+
+ Concepte                                Explicació
+
+ Pedagogia verda                       Enfocament educatiu que situa la natura  i
+                                                       el contacte  directe amb  l'entorn  natural
+                                com   a   elements   fonamentals   de
+                                               l'aprenentatge. Promou que  els  infants
+                                          aprenguin  a   través  de   l'observació,
+                                              l'experimentació, el joc  i la descoberta a
+                                                           l'aire  lliure, desenvolupant una relació de
+                                           respecte i connexió amb la natura.
+
+
+ Pigment                                 Substància que proporciona color a un
+                                                 material. Pot tenir un origen natural, mineral
+                                    o vegetal.
+
+ Frottage                                  Tècnica artística que consisteix a col·locar
+                                     un paper sobre una superfície amb relleu  i
+                                                  fregar-lo amb un llapis o un altre estri per
+
+![Sunrise circle (2011) — Martin Hill i Philippa Jones](../assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp)
+
+
+## Pàgina 52 del PDF
+
+reproduir-ne les textures.
+
+
+Superposició                             Tècnica que consisteix a col·locar diferents
+                                             materials o elements  els uns sobre  els
+                                                  altres per crear noves formes, textures o
+                                               profunditats.
+
+
+Abstracció                           Forma de representació  artística que no
+                                     busca reproduir la realitat de manera fidel,
+                                            sinó  explorar  formes,  colors,   línies    i
+                                                textures.
+
+
+Llibre d’artista                         Obra artística en format de llibre en què el
+                                             contingut,  les  imatges,  els  materials    i
+                                           l’enquadernació formen part de la creació.
+
+
+Visor                                     Instrument o marc que permet delimitar
+                                     una part de l'espai que volem observar o
+                                              representar.
+
+
+Land Art                                  Corrent artístic que utilitza el paisatge  i els
+                                        elements naturals com a materials  i espais
+                                    de creació artística.
+
+
+## Pàgina 53 del PDF
+
+Obra: Store Circle (1992)
+
+Artista: Martin Hill i Philippa Jones
+
+![Store Circle (1992) — Martin Hill i Philippa Jones](../assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp)
+
+
+## Pàgina 54 del PDF
+
+REFERÈNCIES BIBLIOGRÀFIQUES
+
+    ●​ Arte      informado.       (2026.).      Lucia      Loren.     Recuperat      de:
+       https://www.arteinformado.com/guia/f/lucia-loren-2008
+    ●​ Carson,  R.  (2012).  El  sentido  del  asombro  (1-23  pàgines).  Recuperat de
+       https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_
+      del_asombro.pdf
+    ●​  Freire, H. (2010). La escuela es  el bosque. Cuadernos de Pedagogía. Nº 407
+      Monográfico.
+    ●​  Iwai, K. (2002). La contribución de la educación artística a la vida de los niños.
+       Perspectivas: Revista Trimestral de Educación Comparada, 32(4), 21–38.
+    ●​ RTVE. (2006).  "Ríos y Mareas" - Andy Goldsworthy trabajando con El Tiempo
+       (REE).                            Recuperat                               de:
+       https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando
+      -tiempo/317050.shtml
+    ●​ Zona Libre Radio Online. (2014). Martin Hill. El círculo de la vida. Recuperat de:
+       https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html
+
+Bibliografia recomanada per l’assignatura:
+
+    ●​  Álvarez-Valdivia,  I. M.  i Morón-Velasco, M. (2022). Educar por medio del arte en una
+       escuela multicultural. magis, Revista Internacional de Investigación en Educación, 15,
+       1-23. https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731
+    ●​  Eisner, E. (2005). Educar la visión artística. Paidós.
+    ●​  Freire, H. (2026). Educar en verde. Cómo superar el déficit de naturaleza y cultivar el
+      amor a la tierra. Paidós
+    ●​  González,  F.  (2025).  Dibujar con  la  naturaleza: Apuntes  sobre educación  artística.
+      Cuadernos de pedagogía, (565). ISSN 0210-0630.
+    ●​  Hoyuelos,  A.  (2012).  Les  imatges  fotogràfiques com a documentació  narrativa.
+        In-fàn-ci-a, 188, 7-14.
+
+
+## Pàgina 55 del PDF
+
+RÚBRIQUES AVALUACIÓ WEB (QUE AVALUARAN LES MEVES MESTRES?):
+
+
+
+Introducció. Art i natura a Educació Infantil
+
+RÚBRICA D'AVALUACIÓ
+
+
+                                                   No assisteix a
+ El text realitzat    El text realitzat   Es deixa parts    Text que poc té                                                                                      la conferència.
+ relata la           relata la          importants de   a veure amb la
+ importància de   importància de    la conferència.   temàtica que es
+ l'art i la              l'art i la           Assisteix a la    demanava.
+ creativitat a       creativitat a      conferència.
+ Educació        Educació
+ Infantil. Recull     Infantil, però es
+ totes les idees   deixa parts
+ exposades pel   importants de
+ conferenciant     la conferència
+ relacionades     relacionades
+ amb les       amb les
+ possibles        possibles
+ propostes,       propostes,
+ estratègies       estratègies
+ metodològique   metodològique
+ s, materials i el    s, materials i el
+ rol de               rol de
+ l'educador en    l'educador en
+ relació a          relació a
+ l'educació        l'educació
+ artística amb      artística amb
+ els infants         els infants
+ d'educació      d'educació
+ infantil. Afegeix    infantil.
+ cites del          Assisteix a la
+ conferenciant.    conferència
+
+
+## Pàgina 56 del PDF
+
+Assisteix a la
+ conferència.
+
+
+ 4              3              2              1              0
+
+
+
+BLOC 1. ART I EDUCACIÓ
+
+
+
+
+ El  text  ressalta  El text de la web  Es  deixa  idees  El text te poc a No fa el text.
+ les        idees  evidencia   que  rellevants de les  veure  amb   el
+ principals de les  s'han aconseguit  lectures.        que es demana.
+ dues autores. Fa  els     objectius,
+ argumentacions  manca
+ personals        aprofundiment
+ crítiques                i  en            les
+ coherents  amb  temàtiques  que
+ la   lectura,   el  es demanen.
+ temes exposats i
+ la futura pràctica
+ professional.
+ Inclou en el text
+ cites   de    les
+ autores.
+
+
+ 4              3              2              1              0
+
+
+
+PART 3. DESCRIPCIÓ DEL JARDÍ
+
+
+
+
+  El llibre mostra        El llibre       Representa un   La representació    Representa
+  una observació    representa el      espai natural    és molt bàsica i   pocs elements i
+    profunda i       jardí de manera    amb alguns    poc connectada    sense relació
+   sensible del       coherent i        elements      amb l’entorn     clara amb l’espai
+  jardí, amb gran    detallada, amb     identificables i       observat.      natural. L’ús dels
+  riquesa visual,   bona observació     coherents.     Experimenta de      materials i
+       detall i         dels elements     Utilitza algunes   manera limitada    tècniques és
+   interpretació         naturals.         tècniques i               i amb domini      molt bàsic o
+
+
+## Pàgina 57 del PDF
+
+personal de       Combina        materials de        parcial dels      inadequat. No
+ l’espai natural.       diverses      manera bàsica,      materials i        descriu els
+  Explora amb       tècniques i      amb poca       tècniques. Les     materials ni el
+ profunditat una    materials amb        varietat o      explicacions són   procés seguit.
+ gran varietat de     intencionalitat    exploració. Hi ha    poc clares o       Els resultats
+   tècniques i     expressiva i bon   una descripció    incompletes. El   visuals són molt
+  materials. Els    domini. Presenta     bàsica dels            llibre és         pobres o
+   integra amb        estratègies      materials i del    incomplet o poc    inacabats. No
+    creativitat,     metodològiques       procés         estructurat. La    documenta el
+   sensibilitat i          clares i       metodològic. Els   documentació     procés ni els
+     domini      adequades, amb   resultats visuals  és molt limitada i       resultats.
+   expressiu,       justificació dels    mostren poca      no permet
+ evitant formes       materials           varietat o        entendre el
+ estereotipades.     emprats. Els       coherència         procés.
+Descriu i justifica    resultats són        parcial. La        Participació
+  clarament els    coherents amb    documentació     limitada i poca
+  materials, les       la proposta i      és parcial o      implicació en el
+   estratègies     tècnicament ben     incompleta.        procés. La
+metodològiques    resolts. El llibre      Participa de      relació amb els
+   i les decisions     està complet i   manera irregular      objectius
+preses durant el   ordenat, també   o no assisteix a   pedagògics és
+ procés creatiu.     la proposta de      algun dels       poc clara.
+  Els resultats         les tintes.        tallers. S’intueix
+   visuals són      Documenta    una comprensió
+creatius, variats i   correctament el      parcial dels
+ coherents amb     procés i els         objectius
+ la proposta. El     resultats amb     treballats. Falla
+llibre és complet,     imatges i/o       alguna part
+    molt ben      textos adequats.    tècnica de la
+estructurat i amb     Participa de     construcció del
+gran coherència      manera                llibre.
+      visual.      adequada en els
+ Documenta de     tallers i segueix
+  manera molt     la proposta amb
+ acurada tot el      interès. Es fa
+   procés de          evident
+creació del llibre,  l’assoliment dels
+    les tintes i          principals
+l’experimentació,   objectius de la
+   amb una          proposta.
+    excel·lent
+ selecció visual i
+textual. Participa
+
+
+## Pàgina 58 del PDF
+
+activament en
+    totes les
+   sessions i
+    mostra
+    curiositat,
+    iniciativa i
+   implicació
+ constant en el
+    procés.
+S’evidencia una
+  comprensió
+ profunda dels
+    objectius
+  pedagògics:
+ relació amb la
+     natura,
+   observació,
+transformació de
+   la matèria i
+   expressió
+     artística.
+
+
+      4              3              2              1              0
+
+
+
+
+
+DISSENY  Web ben    És una     És una     És una   No supera
+ DE LA    dissenyad  web ben   web ben   web que        els
+  WEB,        a: ben     estructura   estructura   no està     objectius
+ACTITUD   estructura     da i       da i       ben     de cada
+PARTICIP     da i     organitzad  organitzad   estructura      part.
+  ATIVA,    organitzad   a, utilitza     a. Dóna     da ni
+ PER A      a, utilitza    bones    poc valor   organitzad
+ SABER     bones     imatges,      a la      a, és difícil
+  MÉS...,     imatges      que     imatge, no   trobar la
+ BIBLIOG     que      aporten   document  informació
+  RAFIA     aporten    contingut     a els              i utilitza
+             contingut       als     processos   imatges
+                  als       diferents      . Es deixa   estereotip
+
+
+## Pàgina 59 del PDF
+
+diferents    apartats     alguna     ades. És
+ apartats    del web.    part. No hi     deixa
+ del web.   Fa apartat     ha       alguna
+  Textos    amb la     bibliografi   part. No fa
+   ben       bibliografi     a ni            la
+redactats.      a         l'apartat    bibliografi
+ Hi ha un   recomana     per a          a.
+  apartat     da per      saber
+ amb la    l'assignatu    més.
+ bibliografi   ra, i llibres
+    a                  i altres
+recomana  document
+  da per    s utilitzats.
+l'assignatu  No amplia
+ra i llibres i        el
+   altres     contingut
+document  de la web
+s utilitzats.    amb
+   Per a       l'apartat
+  saber       per a
+  més...      saber
+  Afegeix      més...
+  textos,      Actitud
+ material    participati
+  visual i      va a
+audiovisua    classe.
+  l, i altres
+document
+  s que
+enriqueixe
+  n els
+continguts
+   de
+l'assignatu
+ra. Actitud
+participati
+
+
+## Pàgina 60 del PDF
+
+va a
+classe.
+
+
+  4         3         2         1         0

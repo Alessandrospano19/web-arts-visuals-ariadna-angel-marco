@@ -8,7 +8,7 @@ const PORTFOLIO = {
   "reading": {
     "proposal": "Lectura del llibre de la Rachel Carson i de l'article de Heike Freire: Construir un text que respongui a: la importància de l'observació de la realitat, de la creació artística i d'utilitzar la natura com a espai d'ensenyament i aprenentatge a educació infantil a partir dels dos textos que us proposo",
     "objectives": "- Conèixer les idees de les dues autores en relació al contacte amb la natura i l'educació infantil.\n\n- Muntar un text amb les idees més rellevants de les dues lectures amb argumentacions personals crítiques i coherents i que respongui a la proposta que es demana.",
-    "reflection": "La lectura de El sentido del asombro, de Rachel Carson, i La escuela es el bosque, de Heike Freire, m’ha fet reflexionar sobre la necessitat de repensar com acompanyem els infants en els seus processos d’aprenentatge. Considero que observar la realitat, experimentar amb l’entorn, expressar-se artísticament i tenir contacte directe amb la natura són aspectes fonamentals durant l’educació infantil, ja que permeten als infants descobrir el món des de la curiositat, els sentits i les pròpies experiències. Una de les idees que més comparteixo de Rachel Carson és que els infants tenen una capacitat natural per sorprendre’s i interessar-se per allò que els envolta, però que aquesta curiositat s’ha de cuidar i alimentar. L’autora ens convida a recuperar una mirada més atenta cap a la realitat i a no donar per desapercebuts els petits detalls del nostre entorn. Sovint, els adults tenim tendència a explicar als infants què estan observant, a donar-los respostes o a centrar-nos en el fet que aprenguin noms i conceptes. Tanmateix, penso que és igual d’important oferir-los temps i oportunitats perquè puguin observar, fer-se preguntes, establir relacions i arribar a les seves pròpies conclusions. Per exemple, davant d’una fulla que ha caigut d’un arbre, en lloc d’explicar directament per què ha canviat de color, podem convidar els infants a observar-ne la forma, les tonalitats, la textura i les diferències respecte d’altres fulles. D’aquesta manera, l’observació es converteix en el punt de partida per construir aprenentatges significatius. Una altra idea que m'ha semblat especialment interessant de Carson és la importància d'experimentar la natura a través de tots els sentits, i no únicament de la vista. En les seves experiències amb el seu nebot Roger, descriu moments en què escolten el soroll de les onades, senten el vent, perceben les olors del mar o observen petits animals i elements que sovint passen desapercebuts. L'autora afirma que ‘’explorar la naturaleza con tu hijo es sobre todo una cuestión de estar receptivo a lo que encuentras a tu alrededor’’ (Carson, 2012, p. 16). Aquesta idea em fa pensar que, com a futures mestres, hem d'oferir experiències que permetin als infants explorar l'entorn de manera global. Carson també ens convida a fixar-nos en les coses petites, aquelles que sovint els adults passem per alt perquè estem acostumats a mirar l'entorn de manera ràpida i superficial. L'autora mostra com l'ús d'una lupa permet descobrir un món de detalls que a simple vista no percebem. Aquesta idea m'ha fet reflexionar sobre la importància d'ensenyar els infants a aturar-se i mirar amb atenció, perquè allò que aparentment sembla insignificant pot despertar moltes preguntes i descobertes. També considero interessant la seva reflexió sobre el fet que aprendre el nom dels elements de la natura no hauria de ser l'objectiu principal. Saber identificar una planta o un animal pot ser útil, però és més important que els infants desenvolupin interès per allò que observen i gaudeixin descobrint-ho. En aquest sentit, Carson expressa que ‘’no es ni siquiera la mitad de importante conocer como sentir’’ (2012, p. 15). També compara les emocions i les impressions dels sentits amb ‘’la tierra fértil en la cual la semilla debe crecer’’ (Carson, 2012, p. 15). Aquesta comparació m'ha fet entendre que, abans de transmetre molts coneixements, cal despertar en els infants emocions, curiositat i estima per allò que estan descobrint. Aquesta manera d’entendre l’aprenentatge també es relaciona amb la proposta de Heike Freire, que defensa la importància del contacte directe amb la natura durant la infància. En el seu article, l’autora presenta experiències d’escoles que utilitzen el bosc com a espai educatiu habitual, on els infants poden jugar, explorar, moure’s i descobrir sense estar constantment dirigits per l’adult. Freire destaca que la natura afavoreix ‘’la intensidad de sus juegos, la sensibilidad y creatividad de sus aprendizajes’’ (Freire, 2010). Aquesta idea em sembla especialment rellevant perquè ens fa entendre que l’entorn natural no és simplement un lloc on fer activitats puntuals, sinó un espai educatiu amb moltes possibilitats. A més, l’autora recull el concepte de ‘’déficit de naturaleza’’ de Richard Louv, que alerta de les conseqüències que pot tenir créixer amb poc contacte directe amb el medi natural. Això m’ha fet pensar que, en una societat cada vegada més urbanitzada i tecnològica, és important que les escoles garanteixin experiències a l’aire lliure i no limitin els aprenentatges a l’interior de l’aula. Un altre aspecte que considero fonamental és la relació entre l’observació i la creació artística. Observar no hauria de servir únicament per identificar elements o adquirir coneixements, ja que també serveix per desenvolupar una mirada pròpia sobre el món i trobar diferents maneres d’expressar allò que ens provoca. En aquest sentit, la creació artística permet transformar les experiències viscudes en produccions personals, a través de materials, formes, colors, textures i moviments. El més important no hauria de ser obtenir un resultat estètic determinat, sinó respectar els processos creatius, les interpretacions i les decisions de cada infant. En aquest sentit, Freire destaca les possibilitats de creació que ofereixen els elements naturals: una branca, una pedra o un tronc poden adquirir significats diferents segons la imaginació i el joc de cada infant. Per tant, els materials no han de tenir sempre una única funció ni una manera correcta d’utilitzar-se. També m’ha semblat interessant la reflexió de Freire sobre el paper de l’adult. En les experiències que descriu, les educadores acompanyen els infants, estableixen alguns límits necessaris i vetllen per la seva seguretat, però no intervenen constantment en les seves iniciatives. L’autora defensa que cal permetre que els infants experimentin i aprenguin a gestionar determinats riscos, en lloc d’evitar qualsevol situació que pugui comportar una dificultat. Personalment, considero que això requereix un canvi de mirada per part dels educadors, perquè sovint, amb la intenció de protegir els infants o controlar l’activitat, acabem limitant les seves possibilitats d’exploració i autonomia. La nostra funció hauria de ser preparar entorns segurs i enriquidors, observar què necessiten i intervenir quan sigui necessari, però també saber respectar els seus temps i deixar espai a la iniciativa personal. Finalment, les dues lectures m’han fet entendre que educar a través de la natura no significa únicament ensenyar continguts relacionats amb el medi ambient, sinó afavorir un vincle emocional i de respecte envers allò que ens envolta. Carson ens transmet que la capacitat de meravellar-se és essencial per desenvolupar l’interès i l’estima per la natura, mentre que Freire mostra com el contacte quotidià amb aquesta pot afavorir el desenvolupament físic, emocional, social i creatiu dels infants. Com a futura mestra d’educació infantil, m’agradaria tenir present aquesta mirada i oferir propostes que parteixin de l’experiència directa, l’observació i la lliure experimentació. No voldria que la natura fos només un escenari ocasional per fer activitats, sinó que formés part de la vida quotidiana de l’escola. Crec que hem de donar als infants l’oportunitat de tocar, escoltar, olorar, observar, imaginar, crear i, sobretot, fer-se preguntes. No es tracta només d’ensenyar als infants a conèixer el món, sinó d’acompanyar-los perquè aprenguin a mirar-lo, interpretar-lo, expressar-lo i sentir-se part d’ell."
+    "reflection": "La lectura de El sentido del asombro, de Rachel Carson, i La escuela es el bosque, de Heike Freire, m’ha fet reflexionar sobre la necessitat de repensar com acompanyem els infants en els seus processos d’aprenentatge. Considero que observar la realitat, experimentar amb l’entorn, expressar-se artísticament i tenir contacte directe amb la natura són aspectes fonamentals durant l’educació infantil, ja que permeten als infants descobrir el món des de la curiositat, els sentits i les pròpies experiències. Una de les idees que més comparteixo de Rachel Carson és que els infants tenen una capacitat natural per sorprendre’s i interessar-se per allò que els envolta, però que aquesta curiositat s’ha de cuidar i alimentar. L’autora ens convida a recuperar una mirada més atenta cap a la realitat i a no donar per desapercebuts els petits detalls del nostre entorn. Sovint, els adults tenim tendència a explicar als infants què estan observant, a donar-los respostes o a centrar-nos en el fet que aprenguin noms i conceptes. Tanmateix, penso que és igual d’important oferir-los temps i oportunitats perquè puguin observar, fer-se preguntes, establir relacions i arribar a les seves pròpies conclusions. Per exemple, davant d’una fulla que ha caigut d’un arbre, en lloc d’explicar directament per què ha canviat de color, podem convidar els infants a observar-ne la forma, les tonalitats, la textura i les diferències respecte d’altres fulles. D’aquesta manera, l’observació es converteix en el punt de partida per construir aprenentatges significatius. Una altra idea que m'ha semblat especialment interessant de Carson és la importància d'experimentar la natura a través de tots els sentits, i no únicament de la vista. En les seves experiències amb el seu nebot Roger, descriu moments en què escolten el soroll de les onades, senten el vent, perceben les olors del mar o observen petits animals i elements que sovint passen desapercebuts. L'autora afirma que ‘’explorar la naturaleza con tu hijo es sobre todo una cuestión de estar receptivo a lo que encuentras a tu alrededor’’ (Carson, 2012, p. 16). Aquesta idea em fa pensar que, com a futures mestres, hem d'oferir experiències que permetin als infants explorar l'entorn de manera global. Carson també ens convida a fixar-nos en les coses petites, aquelles que sovint els adults passem per alt perquè estem acostumats a mirar l'entorn de manera ràpida i superficial. L'autora mostra com l'ús d'una lupa permet descobrir un món de detalls que a simple vista no percebem. Aquesta idea m'ha fet reflexionar sobre la importància d'ensenyar els infants a aturar-se i mirar amb atenció, perquè allò que aparentment sembla insignificant pot despertar moltes preguntes i descobertes. També considero interessant la seva reflexió sobre el fet que aprendre el nom dels elements de la natura no hauria de ser l'objectiu principal. Saber identificar una planta o un animal pot ser útil, però és més important que els infants desenvolupin interès per allò que observen i gaudeixin descobrint-ho. En aquest sentit, Carson expressa que ‘’no es ni siquiera la mitad de importante conocer como sentir’’ (2012, p. 15). També compara les emocions i les impressions dels sentits amb ‘’la tierra fértil en la cual la semilla debe crecer’’ (Carson, 2012, p. 15). Aquesta comparació m'ha fet entendre que, abans de transmetre molts coneixements, cal despertar en els infants emocions, curiositat i estima per allò que estan descobrint. Aquesta manera d’entendre l’aprenentatge també es relaciona amb la proposta de Heike Freire, que defensa la importància del contacte directe amb la natura durant la infància. En el seu article, l’autora presenta experiències d’escoles que utilitzen el bosc com a espai educatiu habitual, on els infants poden jugar, explorar, moure’s i descobrir sense estar constantment dirigits per l’adult. Freire destaca que la natura afavoreix ‘’la intensidad de sus juegos, la sensibilidad y creatividad de sus aprendizajes’’ (Freire, 2010, p.72). Aquesta idea em sembla especialment rellevant perquè ens fa entendre que l’entorn natural no és simplement un lloc on fer activitats puntuals, sinó un espai educatiu amb moltes possibilitats. A més, l’autora recull el concepte de ‘’déficit de naturaleza’’ de Richard Louv, que alerta de les conseqüències que pot tenir créixer amb poc contacte directe amb el medi natural. Això m’ha fet pensar que, en una societat cada vegada més urbanitzada i tecnològica, és important que les escoles garanteixin experiències a l’aire lliure i no limitin els aprenentatges a l’interior de l’aula. Un altre aspecte que considero fonamental és la relació entre l’observació i la creació artística. Observar no hauria de servir únicament per identificar elements o adquirir coneixements, ja que també serveix per desenvolupar una mirada pròpia sobre el món i trobar diferents maneres d’expressar allò que ens provoca. En aquest sentit, la creació artística permet transformar les experiències viscudes en produccions personals, a través de materials, formes, colors, textures i moviments. El més important no hauria de ser obtenir un resultat estètic determinat, sinó respectar els processos creatius, les interpretacions i les decisions de cada infant. En aquest sentit, Freire destaca les possibilitats de creació que ofereixen els elements naturals: una branca, una pedra o un tronc poden adquirir significats diferents segons la imaginació i el joc de cada infant. Per tant, els materials no han de tenir sempre una única funció ni una manera correcta d’utilitzar-se. També m’ha semblat interessant la reflexió de Freire sobre el paper de l’adult. En les experiències que descriu, les educadores acompanyen els infants, estableixen alguns límits necessaris i vetllen per la seva seguretat, però no intervenen constantment en les seves iniciatives. L’autora defensa que cal permetre que els infants experimentin i aprenguin a gestionar determinats riscos, en lloc d’evitar qualsevol situació que pugui comportar una dificultat. Personalment, considero que això requereix un canvi de mirada per part dels educadors, perquè sovint, amb la intenció de protegir els infants o controlar l’activitat, acabem limitant les seves possibilitats d’exploració i autonomia. La nostra funció hauria de ser preparar entorns segurs i enriquidors, observar què necessiten i intervenir quan sigui necessari, però també saber respectar els seus temps i deixar espai a la iniciativa personal. Finalment, les dues lectures m’han fet entendre que educar a través de la natura no significa únicament ensenyar continguts relacionats amb el medi ambient, sinó afavorir un vincle emocional i de respecte envers allò que ens envolta. Carson ens transmet que la capacitat de meravellar-se és essencial per desenvolupar l’interès i l’estima per la natura, mentre que Freire mostra com el contacte quotidià amb aquesta pot afavorir el desenvolupament físic, emocional, social i creatiu dels infants. Com a futura mestra d’educació infantil, m’agradaria tenir present aquesta mirada i oferir propostes que parteixin de l’experiència directa, l’observació i la lliure experimentació. No voldria que la natura fos només un escenari ocasional per fer activitats, sinó que formés part de la vida quotidiana de l’escola. Crec que hem de donar als infants l’oportunitat de tocar, escoltar, olorar, observar, imaginar, crear i, sobretot, fer-se preguntes. No es tracta només d’ensenyar als infants a conèixer el món, sinó d’acompanyar-los perquè aprenguin a mirar-lo, interpretar-lo, expressar-lo i sentir-se part d’ell."
   },
   "block": {
     "framing": "‘’En aquest bloc us proposem una immersió en la matèria des d’una mirada artística, sensorial, ecològica i experimental. A través de diverses propostes, explorarem com la matèria es transforma, com parla i com ens convida a crear fent ús dels elements que ens envolten en la nostra quotidianitat’’.",
@@ -38,7 +38,7 @@ const PORTFOLIO = {
     "methodology": "● Experimentació: explorar i combinar diferents tècniques i materials artístics per descobrir-ne les possibilitats creatives i expressives. Alhora, investigar les possibilitats del llenguatge visual a través del joc amb els colors, les línies, les taques, les formes i les textures, descobrint com aquests elements es poden combinar per crear composicions i transmetre sensacions.\n\n● Observació de la natura: fixar-me en els colors, les formes, les textures i els petits detalls que podem trobar en un jardí.\n\n● Lliure expressió: representar el jardí de manera subjectiva i personal, sense necessitat de reproduir fidelment els elements naturals.\n\n● Combinació de tècniques: barrejar dibuix, pintura, estampació i frottage per obtenir resultats visuals diversos.\n\n● Composició artística: seleccionar, retallar i organitzar les diferents produccions per donar coherència al llibre d'artista.",
     "materials": "Per dur a terme aquesta proposta ,com a suport principal, he utilitzat cartolines blanques sobre els quals he realitzat les diferents composicions artístiques. Pel que fa a les tècniques pictòriques, he fet servir aquarel·les de diferents colors, pinzells de diferents tipus i altres estris (majoritàriament elements naturals de l’hort de les temptacions) que m'han permès crear taques, barreges cromàtiques i formes irregulars. També he utilitzat ceres per incorporar línies, dibuixos i petits detalls a les composicions. Per experimentar amb l'estampació i el frottage, he recorregut a materials i superfícies amb diferents textures (fulles que em van cridar l’atenció de l’hort), que m'han permès obtenir marques i efectes visuals diversos. Finalment, per construir el llibre d'artista, he una regla per dur a terme el visor i unes tisores per retallar les diferents produccions seleccionades. També he utilitzat segells amb lletres per incorporar el títol i donar una identitat pròpia a l'obra, i una màquina de foradar paper per fer els forats al meu llibre d’artista i enquadernar-lo posteriorment."
   },
-  "dyes": "Proposta: Elaborar tintes naturals a partir de la remolatxa i la col llombarda, experimentant amb diferents substàncies per descobrir com es transformen els colors, les tonalitats i les textures dels pigments obtinguts.\n\nObjectius:\n\n- Elaborar tintes naturals a partir de la remolatxa i la col llombarda, coneixent el procés d'extracció dels pigments i les possibilitats que ofereixen aquests aliments com a materials artístics.\n\n- Experimentar amb diferents substàncies i observar com poden modificar els colors, les tonalitats i les textures de les tintes obtingudes.\n\n- Desenvolupar la capacitat d'observació, la curiositat i l'esperit investigador a través de la manipulació dels materials, la formulació d'hipòtesis i la comprovació dels resultats.\n\nDesenvolupament i resultats: La proposta es desenvolupa en diferents fases, des de la preparació dels pigments naturals fins a l'experimentació amb les tintes obtingudes. Primera fase. Preparació de les tintes naturals En primer lloc, preparem els dos ingredients principals: una remolatxa i una col llombarda. Els rentem bé per eliminar possibles restes de brutícia i, a continuació, els tallem en trossos petits. D'aquesta manera, facilitem que els pigments que contenen els vegetals s'alliberin més fàcilment durant la cocció. Seguidament, posem cada ingredient en una olla diferent i hi afegim aigua fins que quedi cobert. Posem les olles al foc i deixem bullir els ingredients durant aproximadament 15-30 minuts, a foc mitjà o baix. Durant aquest temps, observem com l'aigua va adquirint progressivament el color dels aliments: en el cas de la remolatxa, obtenim un líquid de tonalitats vermelloses i rosades, mentre que la col llombarda tenyeix l'aigua d'un color lila o porpra intens. Durant la cocció, els pigments naturals passen dels vegetals a l'aigua, fet que ens permet obtenir dues tintes diferents sense necessitat d'afegir-hi colorants artificials. Un cop els ingredients han bullit i l'aigua ha adquirit un color intens, retirem les olles del foc i deixem refredar una mica el líquid. A continuació, colem la barreja amb un colador per separar les restes sòlides dels vegetals. Així obtenim dues tintes líquides: una elaborada amb remolatxa i l'altra amb col llombarda. Finalment, les guardem en recipients diferents per poder-les utilitzar durant l'experimentació. Segona fase. Experimentació amb les tintes Un cop tenim les tintes preparades, comencem a experimentar amb les seves possibilitats artístiques. Per fer-ho, utilitzem diferents recipients i preparem petites mostres de tinta a les quals afegim substàncies quotidianes:\n\n● Llimona.\n\n● Llevat.\n\n● Sabó.\n\n● Bicarbonat.\n\n● Sal.\n\n● Vinagre. Anem incorporant aquestes substàncies a petites quantitats de tinta i observem què passa en cada cas. Ens fixem especialment en els canvis de tonalitat, la intensitat del color, les textures i les reaccions que es produeixen quan els diferents materials entren en contacte. Aquesta fase ens permet comprovar que la tinta no sempre manté el mateix aspecte, ja que pot transformar-se segons els elements amb què la barregem. Tercera fase. Aplicació artística sobre el paper Aquestes experimentacions amb les diferents combinacions, s’apliquen sobre una cartolina blanca per observar-ne els resultats visuals. Utilitzem les tintes amb diferents formes d'aplicació, fent, en el meu cas, tant taques i superfícies pintades com traços ondulats i gestuals. Preparem dues tires de paper plegades en format leporello, una per a cada tinta. A cada apartat hi representem una de les proves realitzades (apuntant amb quina substància s’ha experimentat en aquell cas). Això ens permet comparar visualment els resultats de la remolatxa i la col llombarda i observar com una mateixa substància pot produir efectes diferents segons el pigment de partida. Els resultats de l'experimentació ens permeten observar diferències entre les dues tintes naturals. Tinta de remolatxa La tinta elaborada amb remolatxa presenta principalment tonalitats rosades, vermelloses i lleugerament marronoses. Quan la combinem amb les diferents substàncies, observem variacions en la intensitat i l'aparença del pigment. En algunes proves, el color es torna més pàl·lid i en d'altres adquireix una tonalitat més apagada o una textura diferent. Tinta de col llombarda La tinta de col llombarda presenta inicialment una tonalitat blavosa o lila. En experimentar amb les diferents substàncies, observem canvis de color més evidents, que donen lloc a tonalitats rosades, verdes, groguenques, blavoses i liles. Això es deu al fet que la col llombarda conté antocianines, uns pigments naturals sensibles als canvis de pH. Per exemple, en entrar en contacte amb substàncies àcides, com la llimona o el vinagre, poden aparèixer tonalitats rosades o vermelloses, mentre que en un medi més bàsic poden aparèixer tonalitats blavoses o verdoses. Comparació dels resultats En comparar les dues tintes, podem observar que la col llombarda és especialment interessant per experimentar amb els canvis de color provocats per altres substàncies. En canvi, la remolatxa ofereix una gamma de tonalitats més centrada en els rosats i vermellosos, amb variacions d'intensitat i textura. A més dels canvis cromàtics, també observem diferències en l'acabat de les mostres sobre el paper: algunes presenten una superfície més uniforme, mentre que d'altres tenen petites acumulacions, taques, marques i textures irregulars. Estratègies metodològiques:\n\n● Experimentació i manipulació: manipular els aliments, preparar les tintes i combinar-les amb diferents substàncies per descobrir-ne les possibilitats.\n\n● Observació directa: parar atenció als canvis que es produeixen durant la cocció, la barreja dels ingredients i l'aplicació sobre el paper.\n\n● Formulació d'hipòtesis: plantejar què pot passar quan afegim una substància a la tinta i comprovar posteriorment si les nostres prediccions es compleixen.\n\n● Assaig-error: provar diferents combinacions i tècniques sense buscar necessàriament un resultat predeterminat.\n\n● Exploració sensorial: descobrir les qualitats visuals i materials de les tintes, com els colors, les textures, la transparència i la intensitat.\n\n● Documentació del procés: recollir les diferents proves en un suport plegable que permeti comparar els resultats i tenir constància de l'experimentació.\n\nMaterials:\n\nCategoria Materials Ingredients naturals Remolatxa, col llombarda i aigua Preparació Dues olles, ganivet, fogons i colador Experimentació Llimona, llevat, sabó, bicarbonat, sal i vinagre Recipients Pots o recipients petits per separar les diferents mostres Aplicació artística Cartolina blanca, pinzells i estris per aplicar les tintes Documentació Cartolina en fomat leporello i retolador per identificar les proves",
+  "dyes": "Proposta: Elaborarem tintes naturals a partir d’elements botànics com vegetals i espècies. Les prepararem artesanalment i experimentarem amb elles sobre diferents suports. Observarem com apareixen els colors, les textures i les transparències, deixant-nos portar pel procés creatiu. Finalment, reflexionarem plegades sobre tot allò que ens aporta treballar amb aquest tipus de materials i l'impacte positiu que tenen en la nostra manera de ser, fer i relacionar-nos. Objectius: Adquirir una comprensió vivencial del procés de transformació d'elements botànics en color, explorant les possibilitats expressives dels pigments naturals. Assimilar el valor pedagògic del procés creatiu, del joc, del dubte i l'error. Desenvolupament i resultats: La proposta es desenvolupa en diferents fases, des de la preparació dels pigments naturals fins a l'experimentació amb les tintes obtingudes. Primera fase. Preparació de les tintes naturals En primer lloc, preparem els dos ingredients principals: una remolatxa i una col llombarda. Els rentem bé per eliminar possibles restes de brutícia i, a continuació, els tallem en trossos petits. D'aquesta manera, facilitem que els pigments que contenen els vegetals s'alliberin més fàcilment durant la cocció. Seguidament, posem cada ingredient en una olla diferent i hi afegim aigua fins que quedi cobert. Posem les olles al foc i deixem bullir els ingredients durant aproximadament 15-30 minuts, a foc mitjà o baix. Durant aquest temps, observem com l'aigua va adquirint progressivament el color dels aliments: en el cas de la remolatxa, obtenim un líquid de tonalitats vermelloses i rosades, mentre que la col llombarda tenyeix l'aigua d'un color lila o porpra intens. Durant la cocció, els pigments naturals passen dels vegetals a l'aigua, fet que ens permet obtenir dues tintes diferents sense necessitat d'afegir-hi colorants artificials. Un cop els ingredients han bullit i l'aigua ha adquirit un color intens, retirem les olles del foc i deixem refredar una mica el líquid. A continuació, colem la barreja amb un colador per separar les restes sòlides dels vegetals. Així obtenim dues tintes líquides: una elaborada amb remolatxa i l'altra amb col llombarda. Finalment, les guardem en recipients diferents per poder-les utilitzar durant l'experimentació. Segona fase. Experimentació amb les tintes Un cop tenim les tintes preparades, comencem a experimentar amb les seves possibilitats artístiques. Per fer-ho, utilitzem diferents recipients i preparem petites mostres de tinta a les quals afegim substàncies quotidianes:\n\n● Llimona. ● Llevat. ● Sabó. ● Bicarbonat. ● Sal. ● Vinagre. Anem incorporant aquestes substàncies a petites quantitats de tinta i observem què passa en cada cas. Ens fixem especialment en els canvis de tonalitat, la intensitat del color, les textures i les reaccions que es produeixen quan els diferents materials entren en contacte. Aquesta fase ens permet comprovar que la tinta no sempre manté el mateix aspecte, ja que pot transformar-se segons els elements amb què la barregem. Tercera fase. Aplicació artística sobre el paper Aquestes experimentacions amb les diferents combinacions, s’apliquen sobre una cartolina blanca per observar-ne els resultats visuals. Utilitzem les tintes amb diferents formes d'aplicació, fent, en el meu cas, tant taques i superfícies pintades com traços ondulats i gestuals. Preparem dues tires de paper plegades en format leporello, una per a cada tinta. A cada apartat hi representem una de les proves realitzades (apuntant amb quina substància s’ha experimentat en aquell cas). Això ens permet comparar visualment els resultats de la remolatxa i la col llombarda i observar com una mateixa substància pot produir efectes diferents segons el pigment de partida. Els resultats de l'experimentació ens permeten observar diferències entre les dues tintes naturals. Tinta de remolatxa La tinta elaborada amb remolatxa presenta principalment tonalitats rosades, vermelloses i lleugerament marronoses. Quan la combinem amb les diferents substàncies, observem variacions en la intensitat i l'aparença del pigment. En algunes proves, el color es torna més pàl·lid i en d'altres adquireix una tonalitat més apagada o una textura diferent. Tinta de col llombarda La tinta de col llombarda presenta inicialment una tonalitat blavosa o lila. En experimentar amb les diferents substàncies, observem canvis de color més evidents, que donen lloc a tonalitats rosades, verdes, groguenques, blavoses i liles. Això es deu al fet que la col llombarda conté antocianines, uns pigments naturals sensibles als canvis de pH. Per exemple, en entrar en contacte amb substàncies àcides, com la llimona o el vinagre, poden aparèixer tonalitats rosades o vermelloses, mentre que en un medi més bàsic poden aparèixer tonalitats blavoses o verdoses. Comparació dels resultats En comparar les dues tintes, podem observar que la col llombarda és especialment interessant per experimentar amb els canvis de color provocats per altres substàncies. En canvi, la remolatxa ofereix una gamma de tonalitats més centrada en els rosats i vermellosos, amb variacions d'intensitat i textura. A més dels canvis cromàtics, també observem diferències en l'acabat de les mostres sobre el paper: algunes presenten una superfície més uniforme, mentre que d'altres tenen petites acumulacions, taques, marques i textures irregulars. Reflexió: Aquesta proposta m’ha fet adonar que l’elaboració de tintes naturals pot ser un recurs molt interessant per incorporar a l’aula d’educació infantil. Com que es preparen a partir d’elements botànics i ingredients quotidians, permeten obtenir tintes no tòxiques i oferir als infants alternatives a les pintures i als colorants comercials. Com a futura mestra, m’agradaria dur a terme tallers d’aquest tipus perquè els infants descobrissin que aliments com la remolatxa o la col llombarda també poden tenir una utilitat artística. Considero que és una bona manera d’apropar-los a l’aprofitament dels recursos naturals i a una mirada més sostenible, fent-los veure que no sempre cal comprar materials específics per crear, sinó que molts elements que tenim al nostre abast poden transformar-se en recursos artístics. Així, una activitat aparentment senzilla pot ajudar-los a descobrir noves possibilitats creatives en objectes i materials del seu entorn quotidià. Estratègies metodològiques: ● Experimentació i manipulació: manipular els aliments, preparar les tintes i combinar-les amb diferents substàncies per descobrir-ne les possibilitats. ● Observació directa: parar atenció als canvis que es produeixen durant la cocció, la barreja dels ingredients i l'aplicació sobre el paper. ● Formulació d'hipòtesis: plantejar què pot passar quan afegim una substància a la tinta i comprovar posteriorment si les nostres prediccions es compleixen. ● Assaig-error: provar diferents combinacions i tècniques sense buscar necessàriament un resultat predeterminat. ● Exploració sensorial: descobrir les qualitats visuals i materials de les tintes, com els colors, les textures, la transparència i la intensitat. ● Documentació del procés: recollir les diferents proves en un suport plegable que permeti comparar els resultats i tenir constància de l'experimentació. Materials: Categoria Materials Ingredients naturals Remolatxa, col llombarda i aigua Preparació Dues olles, ganivet, fogons i colador Experimentació Llimona, llevat, sabó, bicarbonat, sal i vinagre Recipients Pots o recipients petits per separar les diferents mostres Aplicació artística Cartolina blanca, pinzells i estris per aplicar les tintes Documentació Cartolina en fomat leporello i retolador per identificar les proves",
   "artworks": [
     {
       "title": "Verd de coure sobre tela reciclada",
@@ -70,7 +70,7 @@ const PORTFOLIO = {
       "title": "La sega",
       "artist": "Joaquim Vayreda",
       "technique": "oli sobre tela",
-      "page": 15,
+      "page": 16,
       "src": "assets/pdf-obres/obra-03-la-sega.webp",
       "dimensions": [
         1800,
@@ -83,7 +83,7 @@ const PORTFOLIO = {
       "title": "Composició de 3 obres interrelacionades",
       "artist": "Alexandre de Riquer",
       "technique": "Tremp sobre paper",
-      "page": 16,
+      "page": 17,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2192.webp",
       "dimensions": [
         4032,
@@ -96,7 +96,7 @@ const PORTFOLIO = {
       "title": "Paravent dels nenúfars",
       "artist": "Frederic Vidal",
       "technique": "fusta i vitrall cloisonné",
-      "page": 17,
+      "page": 18,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_2165.webp",
       "dimensions": [
         3024,
@@ -109,7 +109,7 @@ const PORTFOLIO = {
       "title": "Paisatge",
       "artist": "Josep Maria Casals i Ariet",
       "technique": "Bromoli transportat sobre paper",
-      "page": 17,
+      "page": 19,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4680.webp",
       "dimensions": [
         4284,
@@ -122,7 +122,7 @@ const PORTFOLIO = {
       "title": "Sense títol",
       "artist": "Joan Furriols",
       "technique": "tela metàl·lica i pigments",
-      "page": 18,
+      "page": 20,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4719.webp",
       "dimensions": [
         5712,
@@ -135,7 +135,7 @@ const PORTFOLIO = {
       "title": "Terrers (Montgat)",
       "artist": "Nicolau Raurich i Petre",
       "technique": "oli sobre tela",
-      "page": 19,
+      "page": 21,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4687.webp",
       "dimensions": [
         5712,
@@ -148,7 +148,7 @@ const PORTFOLIO = {
       "title": "Gerro amb flors",
       "artist": "Francesc Lacoma Fontanet",
       "technique": "oli sobre tela",
-      "page": 20,
+      "page": 22,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4674.webp",
       "dimensions": [
         4284,
@@ -161,7 +161,7 @@ const PORTFOLIO = {
       "title": "El roc de l’estany",
       "artist": "Joaquim Mir",
       "technique": "oli sobre tela",
-      "page": 21,
+      "page": 23,
       "src": "assets/actualizacion-2026-11-08/bloc-ii/part-2-obres/img_4685.webp",
       "dimensions": [
         5712,
@@ -592,17 +592,17 @@ const PORTFOLIO = {
       "rotation": 0
     },
     {
-      "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5127.webp",
       "group": "descripcio",
       "type": "image",
       "dimensions": [
-        4284,
-        5712
+        1800,
+        975
       ],
       "id": "descripcio_img_5127",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5127.webp",
       "alt": "",
-      "rotation": 90
+      "rotation": 0
     },
     {
       "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4791.webp",
@@ -657,17 +657,17 @@ const PORTFOLIO = {
       "rotation": 0
     },
     {
-      "output": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
+      "output": "assets/bloc-ii/descripcio-jardi/img_5125.webp",
       "group": "descripcio",
       "type": "image",
       "dimensions": [
-        4284,
-        5712
+        1800,
+        1017
       ],
       "id": "descripcio_img_5125",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_5125.webp",
       "alt": "",
-      "rotation": 90
+      "rotation": 0
     },
     {
       "output": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/4.webp",
@@ -926,7 +926,7 @@ const PORTFOLIO = {
       ],
       "id": "descripcio_img_4790",
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-3-llibre/img_4790.webp",
-      "alt": "",
+      "alt": "Fulles amples i arrodonides entre la vegetació de l’hort",
       "rotation": 0
     },
     {
@@ -1076,6 +1076,253 @@ const PORTFOLIO = {
       "originalOutput": "assets/actualizacion-2026-11-08/bloc-ii/part-2-plantes/2.webp",
       "alt": "",
       "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/01_sole_duc_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1900,
+        1849
+      ],
+      "id": "cartelas_01_sole_duc_cartella",
+      "originalOutput": "assets/document-60p/cartelas/01_sole_duc_cartella.webp",
+      "alt": "Cartel·la de Solé Duc: Verd de coure sobre tela reciclada",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1316,
+        1900
+      ],
+      "id": "cartelas_02_modest_urgell_cartella",
+      "originalOutput": "assets/document-60p/cartelas/02_modest_urgell_cartella.webp",
+      "alt": "Cartel·la de Modest Urgell: El mateix de sempre!",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1224,
+        1687
+      ],
+      "id": "cartelas_03_joaquim_vayreda_cartella",
+      "originalOutput": "assets/document-60p/cartelas/03_joaquim_vayreda_cartella.webp",
+      "alt": "Cartel·la de Joaquim Vayreda: La sega",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1214,
+        1900
+      ],
+      "id": "cartelas_04_alexandre_de_riquer_cartella",
+      "originalOutput": "assets/document-60p/cartelas/04_alexandre_de_riquer_cartella.webp",
+      "alt": "Cartel·la de Alexandre de Riquer: composició de tres obres",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1320,
+        1900
+      ],
+      "id": "cartelas_05_frederic_vidal_cartella",
+      "originalOutput": "assets/document-60p/cartelas/05_frederic_vidal_cartella.webp",
+      "alt": "Cartel·la de Frederic Vidal: Paravent dels nenúfars",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1392,
+        1900
+      ],
+      "id": "cartelas_06_josep_maria_casals_cartella",
+      "originalOutput": "assets/document-60p/cartelas/06_josep_maria_casals_cartella.webp",
+      "alt": "Cartel·la de Josep Maria Casals i Ariet: Paisatge",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1611,
+        1900
+      ],
+      "id": "cartelas_07_joan_furriols_cartella",
+      "originalOutput": "assets/document-60p/cartelas/07_joan_furriols_cartella.webp",
+      "alt": "Cartel·la de Joan Furriols: Sense títol",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1303,
+        1900
+      ],
+      "id": "cartelas_08_nicolau_raurich_cartella",
+      "originalOutput": "assets/document-60p/cartelas/08_nicolau_raurich_cartella.webp",
+      "alt": "Cartel·la de Nicolau Raurich i Petre: Terrers (Montgat)",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1378,
+        1900
+      ],
+      "id": "cartelas_09_francesc_lacoma_cartella",
+      "originalOutput": "assets/document-60p/cartelas/09_francesc_lacoma_cartella.webp",
+      "alt": "Cartel·la de Francesc Lacoma Fontanet: Gerro amb flors",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp",
+      "group": "cartelas",
+      "type": "image",
+      "dimensions": [
+        1180,
+        1900
+      ],
+      "id": "cartelas_10_joaquim_mir_cartella",
+      "originalOutput": "assets/document-60p/cartelas/10_joaquim_mir_cartella.webp",
+      "alt": "Cartel·la de Joaquim Mir: El roc de l’estany",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp",
+      "group": "cdan",
+      "type": "image",
+      "dimensions": [
+        810,
+        1060
+      ],
+      "id": "cdan_00_ellas_ilustran_botanica",
+      "originalOutput": "assets/document-60p/cdan/00_ellas_ilustran_botanica.webp",
+      "alt": "Cartell de les exposicions Ellas ilustran botànica",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp",
+      "group": "cdan",
+      "type": "image",
+      "dimensions": [
+        1525,
+        990
+      ],
+      "id": "cdan_01_orchidaceae_drake_withers",
+      "originalOutput": "assets/document-60p/cdan/01_orchidaceae_drake_withers.webp",
+      "alt": "Orchidaceae of Mexico and Guatemala — Sarah Anne Drake i Augusta Innes Withers",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp",
+      "group": "cdan",
+      "type": "image",
+      "dimensions": [
+        1429,
+        1497
+      ],
+      "id": "cdan_02_paisatges_perduts_aina_bestard",
+      "originalOutput": "assets/document-60p/cdan/02_paisatges_perduts_aina_bestard.webp",
+      "alt": "Paisatges perduts de la Terra — Aina Bestard",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp",
+      "group": "cdan",
+      "type": "image",
+      "dimensions": [
+        1256,
+        1310
+      ],
+      "id": "cdan_03_a_curious_herbal_blackwell",
+      "originalOutput": "assets/document-60p/cdan/03_a_curious_herbal_blackwell.webp",
+      "alt": "A Curious Herbal — Elizabeth Blackwell",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp",
+      "group": "per-saber-ne-mes",
+      "type": "image",
+      "dimensions": [
+        1024,
+        958
+      ],
+      "id": "per-saber-ne-mes_01_goldsworthy_rowan_leaves",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/01_goldsworthy_rowan_leaves.webp",
+      "alt": "Rowan Leaves Laid Around a Hole (1987) — Andy Goldsworthy",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp",
+      "group": "per-saber-ne-mes",
+      "type": "image",
+      "dimensions": [
+        1112,
+        1088
+      ],
+      "id": "per-saber-ne-mes_02_goldsworthy_reconstructed_icicles",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/02_goldsworthy_reconstructed_icicles.webp",
+      "alt": "Reconstructed Icicles (2010) — Andy Goldsworthy",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp",
+      "group": "per-saber-ne-mes",
+      "type": "image",
+      "dimensions": [
+        1300,
+        800
+      ],
+      "id": "per-saber-ne-mes_03_lucia_loren_matriz_de_agua",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/03_lucia_loren_matriz_de_agua.webp",
+      "alt": "Matriz de agua (2018) — Lucía Loren",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp",
+      "group": "per-saber-ne-mes",
+      "type": "image",
+      "dimensions": [
+        721,
+        481
+      ],
+      "id": "per-saber-ne-mes_04_martin_hill_sunrise_circle",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/04_martin_hill_sunrise_circle.webp",
+      "alt": "Sunrise circle (2011) — Martin Hill i Philippa Jones",
+      "rotation": 0
+    },
+    {
+      "output": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp",
+      "group": "per-saber-ne-mes",
+      "type": "image",
+      "dimensions": [
+        721,
+        481
+      ],
+      "id": "per-saber-ne-mes_05_martin_hill_store_circle",
+      "originalOutput": "assets/document-60p/per-saber-ne-mes/05_martin_hill_store_circle.webp",
+      "alt": "Store Circle (1992) — Martin Hill i Philippa Jones",
+      "rotation": 0
     }
   ],
   "collage": {
@@ -1094,7 +1341,62 @@ const PORTFOLIO = {
     ]
   },
   "bibliography": [
-    "Heike Freire (2010). La escuela es el bosque. Cuadernos de Pedagogía. Nº 407 Monográfico.",
-    "Rachel Carson (2012). El sentido del asombro (1-23 pàgines). Recuperat de https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf"
+    "Arte informado. (2026.). Lucia Loren. Recuperat de: https://www.arteinformado.com/guia/f/lucia-loren-2008",
+    "Carson, R. (2012). El sentido del asombro (1-23 pàgines). Recuperat de https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+    "Freire, H. (2010). La escuela es el bosque. Cuadernos de Pedagogía. Nº 407 Monográfico.",
+    "Iwai, K. (2002). La contribución de la educación artística a la vida de los niños. Perspectivas: Revista Trimestral de Educación Comparada, 32(4), 21–38.",
+    "RTVE. (2006). \"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE). Recuperat de: https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+    "Zona Libre Radio Online. (2014). Martin Hill. El círculo de la vida. Recuperat de: https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html"
+  ],
+  "cdan": {
+    "introduction": "Tot i que no vaig poder assistir presencialment a la sortida al CDAN, les mestres ens van proporcionar una carpeta amb imatges de les diferents obres que es van comentar durant la visita Ellas ilustran. Pioneras de la ilustración científica i Ellas ilustran botànica. Contemporáneas en la ilustración botánica. A més, les meves companyes em van mostrar altres obres, me les van fer arribar i em van explicar alguns dels aspectes més rellevants que s’havien comentat durant la visita.\n\nHe volgut apropar-me a aquestes obres des de la mirada d'una futura mestra, observant-les amb deteniment i imaginant les possibilitats educatives que podrien oferir dins d'una aula d'educació infantil. Per aquest motiu, he decidit dedicar-los un petit espai a la meva web, ja que considero que l'art pot esdevenir una eina molt enriquidora per despertar la curiositat, estimular la creativitat i afavorir l'aprenentatge dels infants. D'entre totes les imatges, he seleccionat les que més m'han cridat l'atenció i amb les quals he trobat més possibilitats de treball.",
+    "orchidaceae": "El primer conjunt d'imatges m'ha cridat l'atenció per la precisió amb què es representen les diferents plantes. No són simplement dibuixos de flors boniques, sinó representacions que ens permeten observar-ne parts que habitualment no veiem o a les quals no donem importància, com les arrels, els bulbs, les tiges o la disposició de les fulles. M'ha semblat interessant que la bellesa de les il·lustracions no es trobi únicament en les flors, sinó també en aquelles parts que normalment queden amagades sota terra.\n\nAixò m'ha fet pensar en com, sovint, la nostra mirada se centra en allò més visible i atractiu, mentre que deixem en segon pla els processos i les estructures que fan possible la vida. Traslladat a l'educació infantil, considero que aquestes imatges poden ajudar-nos a qüestionar una manera força habitual de presentar la natura als infants: mostrar-los una flor, dir-ne el nom i identificar-ne el color.",
+    "paisatges": "Les tres obres m'han interessat per les diferències tan marcades entre elles. La primera presenta un espai gairebé surrealista, amb arbres molt alts i repetits que semblen convertir el paisatge en un escenari artificial. La segona mostra un territori volcànic, amb muntanyes, fumaroles i vegetació baixa, mentre que la tercera ens endinsa en un bosc molt dens, on els arbres i les plantes semblen ocupar pràcticament tot l'espai.\n\nEl que més m'ha fet pensar és que cap d'aquests paisatges sembla respondre a la imatge típica de natura que sovint tenim interioritzada. No són necessàriament paisatges idíl·lics, ordenats o fàcilment reconeixibles, sinó que cadascun presenta una organització, unes formes i unes característiques pròpies. Això em porta a qüestionar si, quan parlem de natura amb els infants, no acabem transmetent una visió una mica limitada, associant-la sobretot a boscos verds, flors i animals. Aquestes obres m'han fet veure que també hi ha bellesa en els territoris volcànics, en els paisatges aparentment desolats o en els entorns on la vegetació creix de manera desordenada.\n\nTambé m'ha cridat l'atenció la manera com estan construïts aquests paisatges. Especialment en la tercera obra, la repetició dels troncs, la superposició de les formes i la varietat de tonalitats verdes generen una sensació de profunditat, com si l'espectador pogués endinsar-se en el bosc. En canvi, en el paisatge volcànic, els diferents plans i les formes de les muntanyes transmeten una sensació d'amplitud i d'un territori en constant transformació. Aquesta comparació em fa pensar que un paisatge no és una imatge estàtica, sinó el resultat de múltiples elements que es relacionen entre si i que expliquen una història sobre aquell territori. En aquest sentit, crec que és important que els infants no aprenguin a mirar els paisatges com si fossin simples escenaris de fons, sinó que puguin començar a interpretar què els configura i per què poden ser tan diferents els uns dels altres."
+  },
+  "further": {
+    "goldsworthy": "El documental Ríos y mareas, dirigit per Thomas Riedelsheimer (2001), ens apropa al procés creatiu de l’artista Andy Goldsworthy, que utilitza elements que troba a la natura per construir composicions i escultures en diferents espais naturals.\n\nUna de les qüestions que més m’ha cridat l’atenció és el caràcter efímer de moltes de les seves creacions, ja que algunes es transformen o desapareixen per l’acció del vent, l’aigua o el pas del temps. També m’interessa especialment com l’artista observa les característiques dels materials i les condicions de cada espai abans de crear, entenent que cada element natural ofereix unes possibilitats diferents i que no sempre podem controlar el resultat final.\n\nM’agradaria continuar investigant sobre aquest artista perquè considero que la seva manera de treballar pot oferir aprenentatges molt interessants a educació infantil. Crec que és important que els infants coneguin artistes com Goldsworthy per descobrir que una fulla, una pedra o un tros de gel no són simplement materials per manipular, sinó elements amb unes característiques pròpies que cal observar i comprendre abans de crear.",
+    "loren": "Lucía Loren és una artista que desenvolupa projectes que relacionen la creació artística amb el paisatge, l'ecologia i la relació entre les persones i el territori. En les seves intervencions utilitza elements del mateix entorn natural i, en alguns projectes, incorpora la participació de les persones que hi viuen, de manera que el procés artístic es converteix també en una experiència compartida d'intercanvi i aprenentatge (ArteInformado, 2026).\n\nEl que més m'interessa de Lucía Loren és que la seva obra em fa pensar en la importància que els infants no visquin els espais naturals com a simples llocs de pas, sinó com a espais dels quals també són responsables. Crec que és important que coneguin artistes com ella perquè els permet descobrir que l'art també pot servir per donar veu a un territori, fer visibles les seves necessitats i implicar les persones en la seva cura. M'agradaria investigar com traslladar aquesta idea a l'escola. Així, no només crearien una obra, sinó que aprendrien que les seves decisions també poden tenir un impacte en el lloc on viuen.",
+    "hill": "Martin Hill és un artista que crea composicions i escultures a partir d'elements naturals. Les seves obres destaquen especialment per les formes circulars i per la relació que estableixen amb els processos i els cicles de la natura. De fet, l'artista explica que les seves escultures es creen amb materials del mateix entorn i que, posteriorment, retornen a la natura, on esdevenen recursos per a una nova vida (Zona Libre Radio Online, 2014).\n\nAquesta manera d'entendre la creació artística em convida a qüestionar la idea que per crear necessitem disposar de materials elaborats o comprar recursos específics, quan el mateix entorn ens ofereix una gran diversitat de possibilitats.\n\nM'agradaria continuar investigant sobre aquest artista perquè les seves composicions em semblen una bona font d'inspiració per desenvolupar activitats d'observació i experimentació amb infants. M'agradaria, també, que els infants coneguessin Martin Hill perquè la seva obra permet introduir una idea que sovint queda fora de les activitats artístiques: no tot allò que creem està pensat per durar ni tot allò que trobem a la natura ens pertany. Em sembla interessant que descobreixin que una obra pot desaparèixer, transformar-se o tornar a formar part del paisatge sense que això signifiqui que hagi perdut el seu valor. Crec que és una manera d'apropar-los a una concepció de l'art diferent de la que habitualment coneixen i de fer-los reflexionar sobre la nostra relació amb el temps, els materials i la natura."
+  },
+  "glossary": [
+    {
+      "concept": "Pedagogia verda",
+      "explanation": "Enfocament educatiu que situa la natura i el contacte directe amb l'entorn natural com a elements fonamentals de l'aprenentatge. Promou que els infants aprenguin a través de l'observació, l'experimentació, el joc i la descoberta a l'aire lliure, desenvolupant una relació de respecte i connexió amb la natura."
+    },
+    {
+      "concept": "Pigment",
+      "explanation": "Substància que proporciona color a un material. Pot tenir un origen natural, mineral o vegetal."
+    },
+    {
+      "concept": "Frottage",
+      "explanation": "Tècnica artística que consisteix a col·locar un paper sobre una superfície amb relleu i fregar-lo amb un llapis o un altre estri per reproduir-ne les textures."
+    },
+    {
+      "concept": "Superposició",
+      "explanation": "Tècnica que consisteix a col·locar diferents materials o elements els uns sobre els altres per crear noves formes, textures o profunditats."
+    },
+    {
+      "concept": "Abstracció",
+      "explanation": "Forma de representació artística que no busca reproduir la realitat de manera fidel, sinó explorar formes, colors, línies i textures."
+    },
+    {
+      "concept": "Llibre d’artista",
+      "explanation": "Obra artística en format de llibre en què el contingut, les imatges, els materials i l’enquadernació formen part de la creació."
+    },
+    {
+      "concept": "Visor",
+      "explanation": "Instrument o marc que permet delimitar una part de l'espai que volem observar o representar."
+    },
+    {
+      "concept": "Land Art",
+      "explanation": "Corrent artístic que utilitza el paisatge i els elements naturals com a materials i espais de creació artística."
+    }
+  ],
+  "recommended": [
+    "Álvarez-Valdivia, I. M. i Morón-Velasco, M. (2022). Educar por medio del arte en una escuela multicultural. magis, Revista Internacional de Investigación en Educación, 15, 1-23. https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+    "Eisner, E. (2005). Educar la visión artística. Paidós.",
+    "Freire, H. (2026). Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra. Paidós",
+    "González, F. (2025). Dibujar con la naturaleza: Apuntes sobre educación artística. Cuadernos de pedagogía, (565). ISSN 0210-0630.",
+    "Hoyuelos, A. (2012). Les imatges fotogràfiques com a documentació narrativa. In-fàn-ci-a, 188, 7-14."
   ]
 };

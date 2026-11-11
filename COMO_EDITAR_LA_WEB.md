@@ -107,7 +107,7 @@ Esta ruta es ilustrativa: el archivo debe existir. La foto aparecerá en «Altre
 
 Hay dos niveles claros:
 
-1. **Fuente documental:** `content/PDF_ACTUALITZAT_40P.md`, PDF original y documentos estructurados. Se conservan íntegros para comprobar la fidelidad.
+1. **Fuente documental:** `content/PDF_ACTUALITZAT_60P.md`, PDF original y documentos estructurados. Se conservan íntegros para comprobar la fidelidad.
 2. **Edición de la web:** `content/academic/`, `content/editables/` y `content/EDITORIAL.json`. Son los archivos que debes editar para la presentación actual. Prevalecen en cada regeneración y nunca se sobrescriben.
 
 No edites `scripts/content.js`, `scripts/editorial.js`, `scripts/web-editables.js` ni `scripts/source-content.json`: son salidas generadas. Este último conserva la extracción documental para cotejarla con la edición de la web. Si llega un nuevo documento académico, hay que revisar las diferencias con los Markdown editables; no se reemplazan automáticamente y no perderás tus correcciones.
@@ -132,4 +132,16 @@ Los títulos breves de las tres conclusiones están en `textos-generales.json`, 
 
 `reflexio_final_hort` en `imagenes.json` controla la foto confirmada de Ariadna haciendo frottage; `narrativa.json` la sitúa en la reflexión final. Los pies se editan en `pies-de-foto.json`.
 
-Las fotografías `descripcio_img_5125` y `descripcio_img_5127` tienen `rotation: 90`: el navegador las presenta giradas en la página y en la ampliación, conservando los archivos originales. Los subrayados selectivos se eligen mediante `subrayados` en `lectura-academica.json`, con fragmentos literales.
+Las fotografías `descripcio_img_5125` y `descripcio_img_5127` apuntan a los nuevos archivos horizontales de `assets/bloc-ii/descripcio-jardi/`, con `rotation: 0`: se muestran tal como fueron entregadas, también en la ampliación. Los subrayados selectivos se eligen mediante `subrayados` en `lectura-academica.json`, con fragmentos literales.
+
+## Edición definitiva de 60 páginas
+
+La fuente principal es `source/ESTRUCTURA_ARIADNA_ACTUAL_60P.pdf`; la transcripción auxiliar es `content/PDF_ACTUALITZAT_60P.md`. El documento de 40 páginas queda como archivo histórico. El mapa y el manifiesto de los 19 recursos nuevos están en `docs/MAPA_RECURSOS_NOVIEMBRE_60P.md` y `docs/MANIFEST_RECURSOS_60P.json`.
+
+- `content/academic/cdan-*.md`: introducción y dos reflexiones completas. Blackwell solo tiene ficha e imagen documentadas.
+- `content/academic/further-*.md`: reflexiones completas de los tres artistas de «Per saber-ne més…».
+- `content/editables/document60.json`: orden, títulos, autoría y asociación de las diez cartelas, las tres obras CDAN y las cinco imágenes de artistas. Los identificadores remiten a `imagenes.json`; sus pies admiten correcciones en `pies-de-foto.json`.
+- `content/editables/glosari.json`: ocho conceptos y definiciones completas, en orden académico.
+- `content/editables/bibliografia.json`: seis referencias utilizadas y cinco recomendadas, en listas independientes.
+
+La ruta del taller es `#/bloc-ii/p3-bis-taller-de-tintes-naturals`. La antigua ruta `#/bloc-ii/p4-experimentem-amb-tintes-vives` redirige a ella. Su título literal es «PART 3_bis. TALLER DE TINTES NATURALS»; conserva sus encabezados en `narrativa.json`, incluida «Reflexió:». El generador valida contenidos, recursos, textos alternativos y cantidades sin sobrescribir las ediciones existentes.

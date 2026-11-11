@@ -1,0 +1,23 @@
+[
+  {
+    "width": 390,
+    "center": 0,
+    "accordions": true,
+    "keyboard": true,
+    "horizontalImages": true
+  },
+  {
+    "width": 768,
+    "center": 0,
+    "accordions": true,
+    "keyboard": true,
+    "horizontalImages": true
+  },
+  {
+    "width": 1440,
+    "center": 0,
+    "accordions": true,
+    "keyboard": true,
+    "horizontalImages": true
+  }
+]
