@@ -1,0 +1,345 @@
+{
+  "pdfPages": 60,
+  "checks": [
+    {
+      "field": "intro.proposal",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 188
+    },
+    {
+      "field": "intro.objective",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 162
+    },
+    {
+      "field": "intro.reflection",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 21108
+    },
+    {
+      "field": "reading.proposal",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 301
+    },
+    {
+      "field": "reading.objectives",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 264
+    },
+    {
+      "field": "reading.reflection",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 7573
+    },
+    {
+      "field": "block.framing",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 298
+    },
+    {
+      "field": "block.reflection",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 2631
+    },
+    {
+      "field": "museum.proposal",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 365
+    },
+    {
+      "field": "museum.introduction",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 209
+    },
+    {
+      "field": "museum.objectives",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 520
+    },
+    {
+      "field": "museum.conclusion",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1168
+    },
+    {
+      "field": "museum.methodology",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1138
+    },
+    {
+      "field": "museum.materials",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 709
+    },
+    {
+      "field": "garden.proposal",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 490
+    },
+    {
+      "field": "garden.objectives",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 384
+    },
+    {
+      "field": "garden.development",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1238
+    },
+    {
+      "field": "garden.methodology",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 561
+    },
+    {
+      "field": "garden.materials",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 240
+    },
+    {
+      "field": "garden.reflection",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 3352
+    },
+    {
+      "field": "book.proposal",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 203
+    },
+    {
+      "field": "book.objectives",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 311
+    },
+    {
+      "field": "book.development",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 4897
+    },
+    {
+      "field": "book.methodology",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 890
+    },
+    {
+      "field": "book.materials",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1104
+    },
+    {
+      "field": "cdan.introduction",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1051
+    },
+    {
+      "field": "cdan.orchidaceae",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 919
+    },
+    {
+      "field": "cdan.paisatges",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1989
+    },
+    {
+      "field": "further.goldsworthy",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1138
+    },
+    {
+      "field": "further.loren",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1072
+    },
+    {
+      "field": "further.hill",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 1499
+    },
+    {
+      "field": "dyes",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 7675
+    },
+    {
+      "field": "outing",
+      "pdfContainsExactNormalizedText": true,
+      "characters": 9682
+    },
+    {
+      "field": "artworks.1",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.2",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.3",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.4",
+      "pdfContainsExactNormalizedText": false
+    },
+    {
+      "field": "artworks.5",
+      "pdfContainsExactNormalizedText": false
+    },
+    {
+      "field": "artworks.6",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.7",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.8",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.9",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "artworks.10",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.1",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.2",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.3",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.4",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.5",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.6",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.7",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.8",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.9",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "species.10",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Pedagogia verda",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Pigment",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Frottage",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Superposició",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Abstracció",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Llibre d’artista",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Visor",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "glossary.Land Art",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "bibliography.1",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "bibliography.2",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "bibliography.3",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "bibliography.4",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "bibliography.5",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "bibliography.6",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "recommended.1",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "recommended.2",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "recommended.3",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "recommended.4",
+      "pdfContainsExactNormalizedText": true
+    },
+    {
+      "field": "recommended.5",
+      "pdfContainsExactNormalizedText": true
+    }
+  ],
+  "pdfSha256": "bb4a6d3e23e174366f2adf578c20369a23d468e3d97d51a7f0ec28faffc39e21",
+  "visualReview": {
+    "artworks.4": {
+      "status": "COMPROBADO",
+      "pages": [
+        16,
+        17
+      ],
+      "note": "Texto continuo interrumpido por metadatos de la columna izquierda en la extracción PDF. Cotejo visual sin omisión."
+    },
+    "artworks.5": {
+      "status": "COMPROBADO",
+      "pages": [
+        17,
+        18
+      ],
+      "note": "Texto continuo interrumpido por metadatos de la columna izquierda en la extracción PDF. Cotejo visual sin omisión."
+    }
+  }
+}

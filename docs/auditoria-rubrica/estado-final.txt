@@ -1,0 +1,6 @@
+ M styles/integration.css
+?? Prompts/LEEME_AUDITORIA.md
+?? Prompts/docs/MATRIZ_RUBRICA_ORIGINAL.md
+?? Prompts/docs/PROMPT_AUDITORIA_RUBRICA_CODEX.md
+?? Prompts/source/RUBRICA_ORIGINAL_2026.pdf
+?? docs/auditoria-rubrica/
