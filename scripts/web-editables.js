@@ -1,5 +1,22 @@
 // Generated. Edit content/editables/*.json instead.
 const WEB = {
+  "bibliografia-formato": {
+    "utilitzades": [
+      "Lucia Loren.",
+      "El sentido del asombro",
+      "La escuela es el bosque.",
+      "La contribución de la educación artística a la vida de los niños.",
+      "\"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE).",
+      "Martin Hill. El círculo de la vida."
+    ],
+    "recomanades": [
+      "Educar por medio del arte en una escuela multicultural.",
+      "Educar la visión artística.",
+      "Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra.",
+      "Dibujar con la naturaleza: Apuntes sobre educación artística.",
+      "Les imatges fotogràfiques com a documentació narrativa."
+    ]
+  },
   "bibliografia": {
     "utilitzades": [
       "Arte informado. (2026.). Lucia Loren. Recuperat de: https://www.arteinformado.com/guia/f/lucia-loren-2008",
@@ -1368,6 +1385,36 @@ const WEB = {
   },
   "lectura-academica": {
     "conceptos": [
+      "responsabilitat que tenim com a futures educadores",
+      "la seva pròpia veu",
+      "pensament divergent",
+      "oportunitat per a descobrir possibilitats noves",
+      "oferir-li experiències respectuoses i progressives",
+      "atenció, sensibilitat i empatia",
+      "corresponsabilitat i el respecte",
+      "construir aprenentatges significatius",
+      "abans de transmetre molts coneixements",
+      "preparar entorns segurs i enriquidors",
+      "respectar els seus temps",
+      "lliure experimentació",
+      "observació directa i l’aprenentatge vivencial",
+      "mirar-la amb més consciència i sensibilitat",
+      "documentar també és una manera de crear",
+      "donar més protagonisme al procés creatiu",
+      "construir les seves pròpies interpretacions",
+      "interpretació més lliure, abstracta i personal",
+      "continuïtat visual",
+      "la natura no és només un tema que podem representar",
+      "donar espai a allò inesperat",
+      "valor pedagògic del procés creatiu",
+      "aprofitament dels recursos naturals",
+      "mirada més sostenible",
+      "caràcter efímer",
+      "les condicions de cada espai abans de crear",
+      "experiència compartida d'intercanvi i aprenentatge",
+      "responsables",
+      "els processos i els cicles de la natura",
+      "una concepció de l'art diferent",
       "A la dreta:",
       "A l’esquerra:",
       "Al centre:",
@@ -1822,6 +1869,9 @@ const WEB = {
     },
     "portada_bloc_ii": "La formació en la pràctica de l’art. El jardí com agent pedagògic",
     "portada_bloc_iii": "La formació en la pràctica de l’art. Moda, artivisme i performativitat en les arts i l’educació",
-    "navegacio_part_2": "PART 2. VISITA AL MNAC I PASSEJADA PELS JARDINS DE MONTJUÏC"
+    "navegacio_part_2": "PART 2. VISITA AL MNAC I PASSEJADA PELS JARDINS DE MONTJUÏC",
+    "indice_capitulos": {
+      "bloc-ii/p2-visita-museu-i-jardi": "VISITA AL MNAC I PASSEJADA PELS JARDINS DE MONTJUÏC"
+    }
   }
 };

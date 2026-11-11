@@ -143,5 +143,10 @@ La fuente principal es `source/ESTRUCTURA_ARIADNA_ACTUAL_60P.pdf`; la transcripc
 - `content/editables/document60.json`: orden, títulos, autoría y asociación de las diez cartelas, las tres obras CDAN y las cinco imágenes de artistas. Los identificadores remiten a `imagenes.json`; sus pies admiten correcciones en `pies-de-foto.json`.
 - `content/editables/glosari.json`: ocho conceptos y definiciones completas, en orden académico.
 - `content/editables/bibliografia.json`: seis referencias utilizadas y cinco recomendadas, en listas independientes.
+- `content/editables/bibliografia-formato.json`: título literal que se muestra en cursiva en cada una de las once referencias, en el mismo orden. Autor, año, revista/editorial, páginas y URL permanecen en letra normal. El generador valida que cada título exista exactamente una vez en su referencia; no cambies los datos para añadir formato.
+
+Los conceptos pedagógicos destacados se seleccionan en `lectura-academica.json`, también en los resúmenes. Las listas de estrategias utilizan el contexto reutilizable `methodology` del componente `prose`/`fullReading`: su etiqueta completa hasta los dos puntos se destaca automáticamente sin alterar el texto ni afectar a otras listas. El jardín conserva su metodología narrativa, que no tiene etiquetas con dos puntos.
+
+`titulos.json`, campo `indice_capitulos`, permite ajustar exclusivamente un título del índice visual sin cambiar el título académico, los menús ni la ruta de la actividad.
 
 La ruta del taller es `#/bloc-ii/p3-bis-taller-de-tintes-naturals`. La antigua ruta `#/bloc-ii/p4-experimentem-amb-tintes-vives` redirige a ella. Su título literal es «PART 3_bis. TALLER DE TINTES NATURALS»; conserva sus encabezados en `narrativa.json`, incluida «Reflexió:». El generador valida contenidos, recursos, textos alternativos y cantidades sin sobrescribir las ediciones existentes.

@@ -23,6 +23,11 @@ function furtherReading() {
 function glossarySection() {
  return `<section class="section-pad"><div class="container"><details class="document-details glossary-reading" id="glosari"><summary>${esc(WEB.document60.glossary_title)}</summary><table class="materials-table glossary-table" lang="ca"><thead><tr><th scope="col">Concepte</th><th scope="col">Explicació</th></tr></thead><tbody>${PORTFOLIO.glossary.map(row=>`<tr><th scope="row">${esc(row.concept)}</th><td>${esc(row.explanation)}</td></tr>`).join('')}</tbody></table></details></div></section>`;
 }
-function bibliographyList(references) {
- return `<ol class="bibliography">${references.map(ref=>`<li>${esc(ref).replace(/(https:\/\/[^\s<]+)/g,`<a href="$1" target="_blank" rel="noopener noreferrer">$1<span class="sr-only">${esc(webText('text_sobre_en_una_pestanya_nova'))}</span></a>`)}</li>`).join('')}</ol>`;
+function bibliographyList(references, group = 'utilitzades') {
+ const titles=WEB['bibliografia-formato'][group];
+ const links=text=>esc(text).replace(/(https:\/\/[^\s<]+)/g,`<a href="$1" target="_blank" rel="noopener noreferrer">$1<span class="sr-only">${esc(webText('text_sobre_en_una_pestanya_nova'))}</span></a>`);
+ return `<ol class="bibliography">${references.map((ref,i)=>{
+  const title=titles[i],start=ref.indexOf(title);
+  return `<li>${links(ref.slice(0,start))}<em class="bibliography-title">${esc(title)}</em>${links(ref.slice(start+title.length))}</li>`;
+ }).join('')}</ol>`;
 }

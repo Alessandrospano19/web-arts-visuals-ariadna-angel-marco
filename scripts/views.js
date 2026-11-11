@@ -3,8 +3,8 @@
 const ACADEMIC_TITLES = WEB.titulos.academicos;
 
 // Reading layouts use editorial summaries; full source text stays in PORTFOLIO.
-function fullReading(label, text, id = '', cls = '') {
-  return `<details class="document-details full-reading ${cls}" ${id ? `id="${id}"` : ''}><summary>${esc(label)}<span class="disclosure-mark" aria-hidden="true">+</span></summary>${prose(text,'original-reflection')}</details>`;
+function fullReading(label, text, id = '', cls = '', context = '') {
+  return `<details class="document-details full-reading ${cls}" ${id ? `id="${id}"` : ''}><summary>${esc(label)}<span class="disclosure-mark" aria-hidden="true">+</span></summary>${prose(text,'original-reflection',context)}</details>`;
 }
 function readingSection(kicker,title,body,tone = '',cls = '') {
   return `<section class="section-pad editorial-section ${tone ? 'tone-'+tone : ''} ${cls}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;
@@ -57,7 +57,7 @@ function visitHeading(kicker,title,text) {
 function museumPanel() {
   const d = PORTFOLIO.museum;
   return visitHeading(webText('mnac_i_museu_mater'),webText('proposta_1_visita_museu_mnac'),'Color, matèria, paisatge i llum. Deu referents per imaginar possibilitats educatives a partir de l’art.')+
-    `<div class="catalog-grid cols-3 artworks-grid">${PORTFOLIO.artworks.map(artworkCard).join('')}</div>${cdanSection()}<div class="visit-notebook"><h3 class="reading-subtitle">${esc(webText('text_el_quadern_de_visita'))}</h3><p class="editorial-summary">${esc(webText('text_mirar_una_mateixa_obra_des_de_perspectives_diferents_i_descobrir_'))}</p>${fullReading(webText('proposta_i_objectius'),d.introduction+'\n\n'+d.proposal+'\n\n'+d.objectives,'museu-proposta')}${fullReading(webText('estrategies_metodologiques_2'),d.methodology,'museu-metodologia')}${fullReading(webText('materials_2'),d.materials,'museu-materials')}${fullReading(webText('llegir_la_conclusio_de_la_proposta'),d.conclusion,'conclusio-museu')}</div><div class="visit-architecture"><h3 class="reading-subtitle">${esc(webText('text_espais_de_la_visita'))}</h3><div class="museum-gallery">${group('mnac').slice().sort((a,b)=>a.output.localeCompare(b.output)).map((m,i)=>photoFigure(m,['Interior del MNAC','Vista des de Montjuïc','El MNAC al capvespre'][i])).join('')}</div></div>`;
+    `<div class="catalog-grid cols-3 artworks-grid">${PORTFOLIO.artworks.map(artworkCard).join('')}</div>${cdanSection()}<div class="visit-notebook"><h3 class="reading-subtitle">${esc(webText('text_el_quadern_de_visita'))}</h3><p class="editorial-summary">${esc(webText('text_mirar_una_mateixa_obra_des_de_perspectives_diferents_i_descobrir_'))}</p>${fullReading(webText('proposta_i_objectius'),d.introduction+'\n\n'+d.proposal+'\n\n'+d.objectives,'museu-proposta')}${fullReading(webText('estrategies_metodologiques_2'),d.methodology,'museu-metodologia','','methodology')}${fullReading(webText('materials_2'),d.materials,'museu-materials')}${fullReading(webText('llegir_la_conclusio_de_la_proposta'),d.conclusion,'conclusio-museu')}</div><div class="visit-architecture"><h3 class="reading-subtitle">${esc(webText('text_espais_de_la_visita'))}</h3><div class="museum-gallery">${group('mnac').slice().sort((a,b)=>a.output.localeCompare(b.output)).map((m,i)=>photoFigure(m,['Interior del MNAC','Vista des de Montjuïc','El MNAC al capvespre'][i])).join('')}</div></div>`;
 }
 function collageFigure() {
   const c = group('jardi').find(m=>mediaSource(m).endsWith('/1.webp')), id = 'collage-jardi';
@@ -68,7 +68,7 @@ function firstSentence(text) { return text.split(/(?<=[.!?])\s/)[0]; }
 function gardenPanel() {
   const d = PORTFOLIO.garden;
   return visitHeading(webText('lart_de_caminar'),webText('proposta_2_dialeg_amb_el_jardi'),'Aturar-se en els detalls: formes, colors, olors i textures que conviden a mirar d’una altra manera.')+
-    `<div class="garden-visuals">${collageFigure()}<div class="garden-pair">${group('jardi').filter(m=>!mediaSource(m).endsWith('/1.webp')).map(m=>photoFigure(m)).join('')}</div></div><div class="species-list">${PORTFOLIO.species.map((s,i)=>`<article class="species-entry"><span class="catalog-index">${formatIndex(i+1)}</span><div>${photoFigure(s.image)}<h3 class="catalog-title">${esc(s.name)}</h3><p class="observation-preview">${esc(firstSentence(s.observation))}</p>${fullReading(webText('llegir_lobservacio_completa'),s.observation,'especie-'+(i+1))}</div></article>`).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">${esc(webText('text_el_quadern_de_la_passejada'))}</h3><p class="editorial-summary">${esc(webText('text_la_manera_de_documentar_tambe_forma_part_de_la_creacio_lenquadram'))}</p>${fullReading(webText('proposta_i_objectius'),d.proposal+'\n\n'+d.objectives,'jardi-proposta')}${fullReading(webText('desenvolupament_i_resultats_2'),d.development,'jardi-desenvolupament')}${fullReading(webText('estrategies_metodologiques_i_materials'),d.methodology+'\n\n'+d.materials,'jardi-metodologia')}${fullReading(webText('llegir_la_reflexio_completa'),d.reflection,'reflexio-jardi')}</div>`;
+    `<div class="garden-visuals">${collageFigure()}<div class="garden-pair">${group('jardi').filter(m=>!mediaSource(m).endsWith('/1.webp')).map(m=>photoFigure(m)).join('')}</div></div><div class="species-list">${PORTFOLIO.species.map((s,i)=>`<article class="species-entry"><span class="catalog-index">${formatIndex(i+1)}</span><div>${photoFigure(s.image)}<h3 class="catalog-title">${esc(s.name)}</h3><p class="observation-preview">${esc(firstSentence(s.observation))}</p>${fullReading(webText('llegir_lobservacio_completa'),s.observation,'especie-'+(i+1))}</div></article>`).join('')}</div><div class="visit-notebook"><h3 class="reading-subtitle">${esc(webText('text_el_quadern_de_la_passejada'))}</h3><p class="editorial-summary">${esc(webText('text_la_manera_de_documentar_tambe_forma_part_de_la_creacio_lenquadram'))}</p>${fullReading(webText('proposta_i_objectius'),d.proposal+'\n\n'+d.objectives,'jardi-proposta')}${fullReading(webText('desenvolupament_i_resultats_2'),d.development,'jardi-desenvolupament')}${fullReading(webText('estrategies_metodologiques_i_materials'),d.methodology+'\n\n'+d.materials,'jardi-metodologia','','methodology')}${fullReading(webText('llegir_la_reflexio_completa'),d.reflection,'reflexio-jardi')}</div>`;
 }
 function outingSections() {
  const text=PORTFOLIO.outing;
@@ -97,7 +97,7 @@ function b2p3() {
  readingSection(webText('proposta'),webText('que_es_un_jardi_descripcio_visual'),prose(d.proposal)+fullReading(webText('objectius'),d.objectives))+
  `<div class="book-development">${splitStory(d.development,steps).map((step,i)=>storyUnit(step.titulo,step.text,step.imagenes,['sage','','sand','clay','','sage'][i],i)).join('')}</div>`+
  readingSection(webText('natura_viva'),webText('el_llibre_dartista_en_moviment'),videos('descripcio'),'sand','book-motion')+
- readingSection(webText('el_proces'),webText('estrategies_metodologiques'),prose(d.methodology,'original-reflection'))+
+ readingSection(webText('el_proces'),webText('estrategies_metodologiques'),prose(d.methodology,'original-reflection','methodology'))+
  readingSection(webText('el_taller'),webText('materials'),prose(d.materials,'original-reflection'),'sage')+
  `<section class="section-pad"><div class="container"><details class="document-details"><summary>Altres mirades del procés<span class="disclosure-mark" aria-hidden="true">+</span></summary>${gallery('descripcio',remaining,'remaining-book-gallery')}</details></div></section>`);
 }
@@ -107,7 +107,7 @@ function b2p4() {
  return page(B2[3].path,headings.map((h,i)=>{
  const start=text.indexOf(h),end=i+1<headings.length?text.indexOf(headings[i+1]):text.length;
  const body=text.slice(start+h.length,end).trim();
- const content=h==='Materials:'?materialsTable(body):prose(body,'original-reflection');
+ const content=h==='Materials:'?materialsTable(body):prose(body,'original-reflection',h==='Estratègies metodològiques:'?'methodology':'');
  const media=WEB.narrativa.tintes[String(i)]||{imagenes:[],videos:[]};
  return readingSection('Tintes naturals',h.replace(/:$/,''),`<div class="story-layout ${i%2?'visual-first':''}"><div>${content}</div><div class="story-visual">${storyMedia(media.imagenes)}</div></div>`+(media.videos.length?videos('tintes',media.videos):''),['','sage','sand'][i%3]);
  }).join(''));
@@ -134,7 +134,7 @@ function saberMes() {
 function bibliografia() {
  return page('referencies-bibliografiques',
  readingSection(webText('01_lectures'),ACADEMIC_TITLES['referencies-bibliografiques'],readingVisual()+bibliographyList(PORTFOLIO.bibliography))+
- readingSection('Lectures',WEB.document60.recommended_title,bibliographyList(PORTFOLIO.recommended),'sand'));
+ readingSection('Lectures',WEB.document60.recommended_title,bibliographyList(PORTFOLIO.recommended,'recomanades'),'sand'));
 }
 
 function activateVisitTab(id,focus = false) {

@@ -28,27 +28,26 @@ function academicPart(path){return path.includes('/p3-bis-')?'3_bis':path.match(
 function webText(id) { return WEB['textos-generales'][id] ?? id; }
 function mediaSource(media) { return media.originalOutput || media.output; }
 function editableImage(id) { const m=WEB.imagenes[id]; if(!m || !m.output) return null; return m; }
-function renderInline(text, budget = {left:2}) {
- const concepts=WEB.destacados.conceptos;
- const candidates=concepts.map(t=>({text:t,index:text.toLocaleLowerCase('ca').indexOf(t.toLocaleLowerCase('ca'))})).filter(x=>x.index>=0).sort((a,b)=>a.index-b.index).slice(0,budget.left);
- let out='',cursor=0;
- for(const hit of candidates){if(hit.index<cursor)continue;out+=esc(text.slice(cursor,hit.index))+'<strong>'+esc(text.slice(hit.index,hit.index+hit.text.length))+'</strong>';cursor=hit.index+hit.text.length;budget.left--;}
- return (out+esc(text.slice(cursor))).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+function renderInline(text) {
+ return academicInline(text);
 }
 const pathFor = x => '#/' + x;
 // Explicit editorial selections on source text; never transform arbitrary quotes
 // or re-match HTML already emitted by another formatter.
-function academicInline(text) {
+function academicInline(text, methodology = false) {
  const rules=WEB['lectura-academica'], ranges=[];
  const lower=text.toLocaleLowerCase('ca');
  const overlaps=(start,end)=>ranges.some(r=>start<r.end&&end>r.start);
+ // Only methodology lists opt in. Colons elsewhere never imply a strategy label.
+ const label=methodology?text.match(/^[^:\n]+:/)?.[0]:null;
+ if(label)ranges.push({start:0,end:label.length,methodology:true});
  for(const quote of rules.citas_literales){
    const start=text.indexOf(quote);
    if(start>=0&&!overlaps(start,start+quote.length))ranges.push({start,end:start+quote.length,quote:true});
  }
- const limit=text.length<220?1:2;
+ const limit=text.length<220?1:text.length<500?2:3;
  for(const term of [...(rules.subrayados||[]),...rules.conceptos]){
-   if(ranges.length>=limit)break;
+   if(ranges.filter(r=>!r.methodology).length>=limit)break;
    const start=lower.indexOf(term.toLocaleLowerCase('ca')),end=start+term.length;
    if(start<0||overlaps(start,end)||term.length>text.length*.4)continue;
    const letter=char=>char&&char.toLocaleUpperCase('ca')!==char.toLocaleLowerCase('ca');
@@ -60,7 +59,7 @@ function academicInline(text) {
  for(const range of ranges){
    html+=esc(text.slice(cursor,range.start));
    const literal=esc(text.slice(range.start,range.end));
-   html+=range.quote?`<strong class="academic-quotation"><em>${literal}</em></strong>`:`<strong${range.underline?' class="academic-underline"':''}>${literal}</strong>`;
+   html+=range.quote?`<strong class="academic-quotation"><em>${literal}</em></strong>`:`<strong${range.methodology?' class="methodology-term"':range.underline?' class="academic-underline"':''}>${literal}</strong>`;
    cursor=range.end;
  }
  return (html+esc(text.slice(cursor))).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
@@ -75,18 +74,18 @@ const B3 = ROUTES.filter(([p]) => p.startsWith('bloc-iii/')).map(([path, label])
 function note() {
   return '<p class="pending-note"><span aria-hidden="true">○</span> Pendent d’incorporar</p>';
 }
-function prose(text, cls = '') {
+function prose(text, cls = '', context = '') {
   text=text.replace(/●\s*/g,'\n\n● ').replace(/(● [^.\n:]{1,25}\.) (?=[A-ZÀ-Ú])/g,'$1\n\n').replace(/(Com a futura mestra d’infantil|A partir de l’obra proposaria|Les tres obres que formen aquesta composició són:)/g,'\n\n$1');
   const paragraphs = text.split(/\n\s*\n/).flatMap(p => p.length > 1000 ? p.split(/(?<=[.!?]) (?=[A-ZÀ-Ú])/).reduce((a,t)=>{if(a.length && a.at(-1).length<650)a[a.length-1]+=' '+t;else a.push(t);return a;},[]) : [p]);
   const html = [];
   let list = [];
-  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${academicInline(p.slice(2))}</li>`).join('')}</ul>`); list = []; } };
+  const flush = () => { if (list.length) { html.push(`<ul class="plain-list">${list.map(p=>`<li>${academicInline(p.slice(2),context==='methodology')}</li>`).join('')}</ul>`); list = []; } };
   for (const p of paragraphs) {
     if (p.startsWith('- ') || p.startsWith('● ')) list.push(p);
     else { flush(); html.push(`<p>${academicInline(p)}</p>`); }
   }
   flush();
-  return `<div class="prose ${cls}" lang="ca">${html.join('')}</div>`;
+  return `<div class="prose ${cls}${context==='methodology'?' methodology-prose':''}" lang="ca">${html.join('')}</div>`;
 }
 function breadcrumbs(path) {
   const route = ROUTES.find(([p]) => p === path), chunks = [['inici','Inici']];
@@ -107,7 +106,7 @@ function section(kicker, title, body, alt = false, id = '') {
   return `<section ${id ? `id="${esc(id)}"` : ''} class="section-pad section-anchor ${alt ? 'bg-alt-section' : ''}"><div class="container"><span class="chapter-label">${esc(kicker)}</span><h2 class="chapter-heading">${esc(title)}</h2>${body}</div></section>`;
 }
 function chapterLinks(items) {
-  return `<div class="chapter-list">${items.map((item,i) => `<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(item.part)}.</span><div><span class="micro-kicker">PART ${esc(item.part)}</span><h3>${esc(item.title)}</h3><p>${esc(item.sub)}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
+  return `<div class="chapter-list">${items.map((item,i) => `<a href="${pathFor(item.path)}" class="chapter-link"><span class="ch-num">${formatIndex(item.part)}.</span><div><span class="micro-kicker">PART ${esc(item.part)}</span><h3>${esc(WEB.titulos.indice_capitulos?.[item.path]||item.title)}</h3><p>${esc(item.sub)}</p></div><span class="ch-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
 }
 function picture(media, alt, eager = false) {
   const [w,h] = media.dimensions;

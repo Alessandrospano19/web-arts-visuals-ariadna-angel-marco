@@ -83,6 +83,14 @@ def apply_edits(data):
     web={p.stem:json.loads(p.read_text(encoding='utf-8-sig')) for p in EDIT.glob('*.json')}
     web['imagenes']=images
     config=web['document60']
+    # Styling uses exact source slices; bibliographic data itself stays untouched.
+    titles=web['bibliografia-formato']
+    for group in ['utilitzades','recomanades']:
+        if len(titles[group])!=len(references[group]):
+            raise ValueError('Revisa els títols bibliogràfics: '+group)
+        for reference,title in zip(references[group],titles[group],strict=True):
+            if not title or reference.count(title)!=1 or 'https://' in title:
+                raise ValueError('Títol bibliogràfic no literal o ambigu: '+title)
     for name,items,count in [('cartelas',config['cartelas'],10),('CDAN',config['cdan_works'],3),('artistes',config['further'],3),('glosari',data['glossary'],8),('referències',data['bibliography'],6),('bibliografia recomanada',data['recommended'],5)]:
         if len(items)!=count: raise ValueError(f'Revisa {name}: calen {count} entrades')
     ids=config['cartelas']+[config['cdan_poster']]+[work['image'] for work in config['cdan_works']]+[ident for artist in config['further'] for ident in artist['images']]

@@ -1,0 +1,952 @@
+{
+  "widths": [
+    390,
+    1440
+  ],
+  "routes": [
+    {
+      "route": "inici",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 5,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "introduccio",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 37,
+      "highlights": 49,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-i",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 24,
+      "highlights": 33,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 2,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 10,
+      "highlights": 9,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "panel": "obres",
+      "width": 390,
+      "paragraphs": 50,
+      "highlights": 86,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "panel": "jardi",
+      "width": 390,
+      "paragraphs": 25,
+      "highlights": 86,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "panel": "conclusions",
+      "width": 390,
+      "paragraphs": 17,
+      "highlights": 86,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 20,
+      "highlights": 33,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 24,
+      "highlights": 33,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p1-llenguatge-del-cos-i-el-teixit",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p3-bioteixits-du-da",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p4-la-passarella-espai-de-creacio",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "conclusions",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 1,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "reflexio-personal",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "per-saber-ne-mes",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 8,
+      "highlights": 9,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "referencies-bibliografiques",
+      "panel": null,
+      "width": 390,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "inici",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 5,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "introduccio",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 37,
+      "highlights": 49,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-i",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 24,
+      "highlights": 33,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 2,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 10,
+      "highlights": 9,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "panel": "obres",
+      "width": 1440,
+      "paragraphs": 50,
+      "highlights": 86,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "panel": "jardi",
+      "width": 1440,
+      "paragraphs": 25,
+      "highlights": 86,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "panel": "conclusions",
+      "width": 1440,
+      "paragraphs": 17,
+      "highlights": 86,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 20,
+      "highlights": 33,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 24,
+      "highlights": 33,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p1-llenguatge-del-cos-i-el-teixit",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p3-bioteixits-du-da",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "bloc-iii/p4-la-passarella-espai-de-creacio",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "conclusions",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 1,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "reflexio-personal",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "per-saber-ne-mes",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 8,
+      "highlights": 9,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    },
+    {
+      "route": "referencies-bibliografiques",
+      "panel": null,
+      "width": 1440,
+      "paragraphs": 0,
+      "highlights": 0,
+      "overflow": false,
+      "unjustified": [],
+      "wrongHyphens": [],
+      "wronglyJustified": []
+    }
+  ],
+  "bibliography": [
+    {
+      "width": 390,
+      "rows": [
+        {
+          "text": "Arte informado. (2026.). Lucia Loren. Recuperat de: https://www.arteinformado.com/guia/f/lucia-loren-2008",
+          "style": "normal",
+          "title": "Lucia Loren.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://www.arteinformado.com/guia/f/lucia-loren-2008",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Carson, R. (2012). El sentido del asombro (1-23 pàgines). Recuperat de https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+          "style": "normal",
+          "title": "El sentido del asombro",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Freire, H. (2010). La escuela es el bosque. Cuadernos de Pedagogía. Nº 407 Monográfico.",
+          "style": "normal",
+          "title": "La escuela es el bosque.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Iwai, K. (2002). La contribución de la educación artística a la vida de los niños. Perspectivas: Revista Trimestral de Educación Comparada, 32(4), 21–38.",
+          "style": "normal",
+          "title": "La contribución de la educación artística a la vida de los niños.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "RTVE. (2006). \"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE). Recuperat de: https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+          "style": "normal",
+          "title": "\"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE).",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Zona Libre Radio Online. (2014). Martin Hill. El círculo de la vida. Recuperat de: https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html",
+          "style": "normal",
+          "title": "Martin Hill. El círculo de la vida.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Álvarez-Valdivia, I. M. i Morón-Velasco, M. (2022). Educar por medio del arte en una escuela multicultural. magis, Revista Internacional de Investigación en Educación, 15, 1-23. https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+          "style": "normal",
+          "title": "Educar por medio del arte en una escuela multicultural.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Eisner, E. (2005). Educar la visión artística. Paidós.",
+          "style": "normal",
+          "title": "Educar la visión artística.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Freire, H. (2026). Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra. Paidós",
+          "style": "normal",
+          "title": "Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "González, F. (2025). Dibujar con la naturaleza: Apuntes sobre educación artística. Cuadernos de pedagogía, (565). ISSN 0210-0630.",
+          "style": "normal",
+          "title": "Dibujar con la naturaleza: Apuntes sobre educación artística.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Hoyuelos, A. (2012). Les imatges fotogràfiques com a documentació narrativa. In-fàn-ci-a, 188, 7-14.",
+          "style": "normal",
+          "title": "Les imatges fotogràfiques com a documentació narrativa.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "rows": [
+        {
+          "text": "Arte informado. (2026.). Lucia Loren. Recuperat de: https://www.arteinformado.com/guia/f/lucia-loren-2008",
+          "style": "normal",
+          "title": "Lucia Loren.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://www.arteinformado.com/guia/f/lucia-loren-2008",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Carson, R. (2012). El sentido del asombro (1-23 pàgines). Recuperat de https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+          "style": "normal",
+          "title": "El sentido del asombro",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Freire, H. (2010). La escuela es el bosque. Cuadernos de Pedagogía. Nº 407 Monográfico.",
+          "style": "normal",
+          "title": "La escuela es el bosque.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Iwai, K. (2002). La contribución de la educación artística a la vida de los niños. Perspectivas: Revista Trimestral de Educación Comparada, 32(4), 21–38.",
+          "style": "normal",
+          "title": "La contribución de la educación artística a la vida de los niños.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "RTVE. (2006). \"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE). Recuperat de: https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+          "style": "normal",
+          "title": "\"Ríos y Mareas\" - Andy Goldsworthy trabajando con El Tiempo (REE).",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Zona Libre Radio Online. (2014). Martin Hill. El círculo de la vida. Recuperat de: https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html",
+          "style": "normal",
+          "title": "Martin Hill. El círculo de la vida.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Álvarez-Valdivia, I. M. i Morón-Velasco, M. (2022). Educar por medio del arte en una escuela multicultural. magis, Revista Internacional de Investigación en Educación, 15, 1-23. https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+          "style": "normal",
+          "title": "Educar por medio del arte en una escuela multicultural.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [
+            {
+              "url": "https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+              "style": "normal"
+            }
+          ],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Eisner, E. (2005). Educar la visión artística. Paidós.",
+          "style": "normal",
+          "title": "Educar la visión artística.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Freire, H. (2026). Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra. Paidós",
+          "style": "normal",
+          "title": "Educar en verde. Cómo superar el déficit de naturaleza y cultivar el amor a la tierra.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "González, F. (2025). Dibujar con la naturaleza: Apuntes sobre educación artística. Cuadernos de pedagogía, (565). ISSN 0210-0630.",
+          "style": "normal",
+          "title": "Dibujar con la naturaleza: Apuntes sobre educación artística.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        },
+        {
+          "text": "Hoyuelos, A. (2012). Les imatges fotogràfiques com a documentació narrativa. In-fàn-ci-a, 188, 7-14.",
+          "style": "normal",
+          "title": "Les imatges fotogràfiques com a documentació narrativa.",
+          "titleStyle": "italic",
+          "emCount": 1,
+          "links": [],
+          "nestedItalicOutsideTitle": 0
+        }
+      ]
+    }
+  ],
+  "strategies": [
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "width": 390,
+      "labels": [
+        {
+          "prefix": "Observació i contemplació artística:",
+          "bold": "Observació i contemplació artística:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Recerca i selecció de referents:",
+          "bold": "Recerca i selecció de referents:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Documentació i registre visual:",
+          "bold": "Documentació i registre visual:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Anàlisi i reflexió personal:",
+          "bold": "Anàlisi i reflexió personal:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Connexió entre referents artístics i pràctica educativa:",
+          "bold": "Connexió entre referents artístics i pràctica educativa:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Aprenentatge autònom i construcció de referents propis:",
+          "bold": "Aprenentatge autònom i construcció de referents propis:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        }
+      ]
+    },
+    {
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "width": 390,
+      "labels": [
+        {
+          "prefix": "Experimentació:",
+          "bold": "Experimentació:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Observació de la natura:",
+          "bold": "Observació de la natura:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Lliure expressió:",
+          "bold": "Lliure expressió:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Combinació de tècniques:",
+          "bold": "Combinació de tècniques:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Composició artística:",
+          "bold": "Composició artística:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        }
+      ]
+    },
+    {
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "width": 390,
+      "labels": [
+        {
+          "prefix": "Experimentació i manipulació:",
+          "bold": "Experimentació i manipulació:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Observació directa:",
+          "bold": "Observació directa:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Formulació d'hipòtesis:",
+          "bold": "Formulació d'hipòtesis:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Assaig-error:",
+          "bold": "Assaig-error:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Exploració sensorial:",
+          "bold": "Exploració sensorial:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Documentació del procés:",
+          "bold": "Documentació del procés:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        }
+      ]
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "width": 1440,
+      "labels": [
+        {
+          "prefix": "Observació i contemplació artística:",
+          "bold": "Observació i contemplació artística:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Recerca i selecció de referents:",
+          "bold": "Recerca i selecció de referents:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Documentació i registre visual:",
+          "bold": "Documentació i registre visual:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Anàlisi i reflexió personal:",
+          "bold": "Anàlisi i reflexió personal:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Connexió entre referents artístics i pràctica educativa:",
+          "bold": "Connexió entre referents artístics i pràctica educativa:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Aprenentatge autònom i construcció de referents propis:",
+          "bold": "Aprenentatge autònom i construcció de referents propis:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        }
+      ]
+    },
+    {
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "width": 1440,
+      "labels": [
+        {
+          "prefix": "Experimentació:",
+          "bold": "Experimentació:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Observació de la natura:",
+          "bold": "Observació de la natura:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Lliure expressió:",
+          "bold": "Lliure expressió:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Combinació de tècniques:",
+          "bold": "Combinació de tècniques:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Composició artística:",
+          "bold": "Composició artística:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        }
+      ]
+    },
+    {
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "width": 1440,
+      "labels": [
+        {
+          "prefix": "Experimentació i manipulació:",
+          "bold": "Experimentació i manipulació:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Observació directa:",
+          "bold": "Observació directa:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Formulació d'hipòtesis:",
+          "bold": "Formulació d'hipòtesis:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Assaig-error:",
+          "bold": "Assaig-error:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Exploració sensorial:",
+          "bold": "Exploració sensorial:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        },
+        {
+          "prefix": "Documentació del procés:",
+          "bold": "Documentació del procés:",
+          "weight": "700",
+          "color": "rgb(55, 74, 60)"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "captures": [
+    "indice-390.png",
+    "bibliografia-390.png",
+    "museu-estrategies-390.png",
+    "llibre-estrategies-390.png",
+    "tintes-estrategies-390.png",
+    "jardi-metodologia-390.png",
+    "introduccio-lectura-390.png",
+    "destacados-fondo-verde-390.png",
+    "bloc-i-lectura-390.png",
+    "per-saber-ne-mes-lectura-390.png",
+    "indice-1440.png",
+    "bibliografia-1440.png",
+    "museu-estrategies-1440.png",
+    "llibre-estrategies-1440.png",
+    "tintes-estrategies-1440.png",
+    "jardi-metodologia-1440.png",
+    "introduccio-lectura-1440.png",
+    "destacados-fondo-verde-1440.png",
+    "bloc-i-lectura-1440.png",
+    "per-saber-ne-mes-lectura-1440.png"
+  ]
+}

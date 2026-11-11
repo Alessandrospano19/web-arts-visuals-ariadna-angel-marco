@@ -33,7 +33,9 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
 .video-gallery { align-items:start; }
 .video-gallery video { width:100%; max-height:75vh; aspect-ratio:3/4; object-fit:contain; background:var(--bg-alt); }
 .bibliography { max-width:75ch; padding-left:1.4rem; list-style:decimal; }
-.bibliography li { padding-left:.7rem; margin:1.5rem 0; font-style:italic; }
+.bibliography li { padding-left:.7rem; margin:1.5rem 0; font-style:normal; }
+.bibliography-title { font-style:italic; }
+.bibliography a { font-style:normal; }
 .bibliography a { text-decoration:underline; text-underline-offset:3px; overflow-wrap:anywhere; }
 .editorial-placeholder { height:100%; display:flex; flex-direction:column; justify-content:center; padding:2rem; font-family:var(--font-serif); font-size:clamp(2.5rem,5vw,5rem); line-height:1; color:var(--theme-accent); background:var(--bg-alt); }
 .editorial-placeholder em { color:var(--terracotta); }
@@ -410,4 +412,43 @@ summary:focus-visible { outline:2px solid var(--terracotta); outline-offset:4px;
  .glossary-table th,.glossary-table td { padding:1rem .45rem; font-size:.93rem; }
  .glossary-table th:first-child { width:34%; }
  .glossary-table tbody th { overflow-wrap:normal; word-break:normal; hyphens:auto; }
+}
+
+/* Shared academic typography: prose only, never labels, captions or table heads. */
+.prose p, .prose li, .editorial-summary, .idea-row p,
+.chapter-lead, .visit-heading > p, .artwork-preview, .observation-preview,
+.exploration-content > p {
+ text-align:justify;
+ text-align-last:start;
+ hyphens:auto;
+ -webkit-hyphens:auto;
+ hyphenate-limit-chars:6 3 3;
+ overflow-wrap:break-word;
+}
+.methodology-prose .methodology-term {
+ color:var(--forest-green);
+ font-weight:700;
+}
+/* Keep dark-green emphasis legible on the existing forest sections. */
+.tone-forest .prose strong, .tone-forest .editorial-summary strong,
+.tone-forest .reading-quote strong {
+ color:var(--forest-green);
+ background-color:var(--bg-primary);
+ -webkit-box-decoration-break:clone;
+ box-decoration-break:clone;
+}
+[data-page="bloc-ii/p1-formes-dapropar-se-a-la-natura"] .tone-forest .reading-quote strong {
+ background-color:transparent;
+ color:inherit;
+}
+@media(max-width:767px) {
+ .prose p, .prose li, .editorial-summary, .idea-row p,
+ .chapter-lead, .visit-heading > p, .artwork-preview, .observation-preview,
+ .exploration-content > p {
+  text-wrap:pretty;
+  hyphenate-limit-chars:5 2 2;
+ }
+ .full-reading[open] > .prose { padding-inline:.35rem; }
+ .methodology-prose ul.plain-list li { padding-left:1rem; }
+ .methodology-prose .methodology-term { display:block; text-align:start; margin-bottom:.15rem; }
 }

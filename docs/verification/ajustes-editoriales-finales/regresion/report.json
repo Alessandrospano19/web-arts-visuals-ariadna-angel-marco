@@ -1,0 +1,300 @@
+{
+  "routes": 17,
+  "viewports": [
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "routeChecks": 102,
+  "panelChecks": 18,
+  "localAssets": 91,
+  "artworks": 10,
+  "species": 10,
+  "videosPlayed": 5,
+  "fullOriginalText": true,
+  "technicalLabelsRemoved": true,
+  "keyboardAndFocus": true,
+  "developedParts": true,
+  "fileProtocol": true,
+  "readingContrast": [
+    {
+      "route": "inici",
+      "samples": 5,
+      "minimum": 9.383611275583535
+    },
+    {
+      "route": "introduccio",
+      "samples": 20,
+      "minimum": 4.777894132599963
+    },
+    {
+      "route": "bloc-i",
+      "samples": 4,
+      "minimum": 5.066120070411194
+    },
+    {
+      "route": "bloc-ii",
+      "samples": 4,
+      "minimum": 5.066120070411194
+    },
+    {
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "samples": 12,
+      "minimum": 4.777894132599963
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "samples": 21,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi · obres",
+      "samples": 21,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi · jardi",
+      "samples": 3,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "bloc-ii/p2-visita-museu-i-jardi · conclusions",
+      "samples": 2,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "samples": 67,
+      "minimum": 4.777894132599963
+    },
+    {
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "samples": 65,
+      "minimum": 5.066120070411194
+    },
+    {
+      "route": "bloc-iii",
+      "samples": 1,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "bloc-iii/p1-llenguatge-del-cos-i-el-teixit",
+      "samples": 1,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "bloc-iii/p2-exposicio-el-cos-vestit-i-mater-matters",
+      "samples": 1,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "bloc-iii/p3-bioteixits-du-da",
+      "samples": 1,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "bloc-iii/p4-la-passarella-espai-de-creacio",
+      "samples": 1,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "conclusions",
+      "samples": 2,
+      "minimum": 5.066120070411194
+    },
+    {
+      "route": "reflexio-personal",
+      "samples": 1,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "per-saber-ne-mes",
+      "samples": 15,
+      "minimum": 5.066120070411194
+    },
+    {
+      "route": "referencies-bibliografiques",
+      "samples": 2,
+      "minimum": 5.140303271355178
+    },
+    {
+      "route": "artwork 1",
+      "samples": 33,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 2",
+      "samples": 24,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 3",
+      "samples": 25,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 4",
+      "samples": 32,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 5",
+      "samples": 24,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 6",
+      "samples": 25,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 7",
+      "samples": 27,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 8",
+      "samples": 26,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 9",
+      "samples": 26,
+      "minimum": 5.797660273883064
+    },
+    {
+      "route": "artwork 10",
+      "samples": 26,
+      "minimum": 5.797660273883064
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "metrics": [
+    {
+      "width": 390,
+      "route": "inici",
+      "height": 3662,
+      "visibleWords": 234
+    },
+    {
+      "width": 390,
+      "route": "introduccio",
+      "height": 5976,
+      "visibleWords": 647
+    },
+    {
+      "width": 390,
+      "route": "bloc-i",
+      "height": 4632,
+      "visibleWords": 476
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "height": 3771,
+      "visibleWords": 333
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "height": 15033,
+      "visibleWords": 1348
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "height": 11353,
+      "visibleWords": 1330
+    },
+    {
+      "width": 390,
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "height": 11081,
+      "visibleWords": 1258
+    },
+    {
+      "width": 390,
+      "route": "bloc-iii",
+      "height": 1613,
+      "visibleWords": 112
+    },
+    {
+      "width": 1440,
+      "route": "inici",
+      "height": 3131,
+      "visibleWords": 234
+    },
+    {
+      "width": 1440,
+      "route": "introduccio",
+      "height": 5220,
+      "visibleWords": 652
+    },
+    {
+      "width": 1440,
+      "route": "bloc-i",
+      "height": 4124,
+      "visibleWords": 477
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p1-formes-dapropar-se-a-la-natura",
+      "height": 3444,
+      "visibleWords": 334
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p2-visita-museu-i-jardi",
+      "height": 11304,
+      "visibleWords": 1348
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p3-descripcio-del-jardi",
+      "height": 9204,
+      "visibleWords": 1330
+    },
+    {
+      "width": 1440,
+      "route": "bloc-ii/p3-bis-taller-de-tintes-naturals",
+      "height": 9167,
+      "visibleWords": 1258
+    },
+    {
+      "width": 1440,
+      "route": "bloc-iii",
+      "height": 1612,
+      "visibleWords": 112
+    }
+  ],
+  "screenshots": [
+    "inici-390.png",
+    "inici-lectures-390.png",
+    "introduccio-390.png",
+    "bloc-i-390.png",
+    "bloc-ii-390.png",
+    "bloc-ii-p1-390.png",
+    "visita-obres-390.png",
+    "visita-jardi-390.png",
+    "visita-conclusions-390.png",
+    "bloc-iii-390.png",
+    "bloc-ii-p3-390.png",
+    "bloc-ii-p4-390.png",
+    "inici-1440.png",
+    "inici-lectures-1440.png",
+    "introduccio-1440.png",
+    "bloc-i-1440.png",
+    "bloc-ii-1440.png",
+    "bloc-ii-p1-1440.png",
+    "visita-obres-1440.png",
+    "visita-jardi-1440.png",
+    "visita-conclusions-1440.png",
+    "bloc-iii-1440.png",
+    "bloc-ii-p3-1440.png",
+    "bloc-ii-p4-1440.png"
+  ]
+}

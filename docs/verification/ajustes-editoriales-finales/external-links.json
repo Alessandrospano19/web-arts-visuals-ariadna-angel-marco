@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.arteinformado.com/guia/f/lucia-loren-2008",
+    "error": "apiRequestContext.get: connect EACCES 2a00:1d70:c01c::70:94:443\nCall log:\n\u001b[2m  - → GET https://www.arteinformado.com/guia/f/lucia-loren-2008\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+  },
+  {
+    "url": "https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf",
+    "error": "apiRequestContext.get: connect EACCES 104.21.30.172:443\nCall log:\n\u001b[2m  - → GET https://biblioteca.empresainteligente.com/resources/biblioteca/archivos/el_sentido_del_asombro.pdf\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+  },
+  {
+    "url": "https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml",
+    "error": "apiRequestContext.get: connect EACCES 2a04:4e42:45::649:443\nCall log:\n\u001b[2m  - → GET https://www.rtve.es/television/20061225/rios-mareas-andy-goldsworthy-trabajando-tiempo/317050.shtml\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+  },
+  {
+    "url": "https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html",
+    "error": "apiRequestContext.get: connect EACCES 2a00:1450:4003:804::2001:443\nCall log:\n\u001b[2m  - → GET https://zonalibreradio1.blogspot.com/2014/01/martin-hill-el-circulo-de-la-vida.html\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+  },
+  {
+    "url": "https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731",
+    "error": "apiRequestContext.get: connect EACCES 15.235.40.188:443\nCall log:\n\u001b[2m  - → GET https://revistas.javeriana.edu.co/index.php/MAGIS/article/view/32731\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n"
+  }
+]
